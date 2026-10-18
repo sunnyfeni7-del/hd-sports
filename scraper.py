@@ -111,7 +111,6 @@ def extract_drm_key(stream):
     if stream.get('k1') and stream.get('k2'):
         return f"{stream['k1']}:{stream['k2']}"
         
-    # Check if api contains key pair format
     api_val = stream.get('api', '')
     if api_val and ':' in api_val and len(api_val) >= 32:
         return api_val
@@ -140,6 +139,15 @@ def process_channels(raw_streams):
         })
         
     return channels
+
+def get_status_priority(event):
+    """Sort priority: Live (0) -> Upcoming (1) -> Finish/Others (2)"""
+    status = str(event.get("status", "")).strip().lower()
+    if status == "live":
+        return 0
+    elif status == "upcoming":
+        return 1
+    return 2
 
 def run_sync():
     print("📡 Requesting schedule from VortexTV API...")
@@ -172,10 +180,11 @@ def run_sync():
         team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
         logo = event.get('image') or team_a_flag
 
-        # Timing & Schedule
+        # Timing & Status
         raw_start_utc = event_info.get("startTime", "")
         raw_end_utc = event_info.get("endTime", "")
-        status = auto_detect_status(raw_start_utc, raw_end_utc)
+        detected_status = auto_detect_status(raw_start_utc, raw_end_utc)
+        final_status = event_info.get("Status") or detected_status
         
         # Boolean is_hot
         is_hot = str(event_info.get("isHot", "0")).lower() in ("1", "true")
@@ -195,7 +204,7 @@ def run_sync():
             "title": title,
             "sport": event_info.get("eventCat", category),
             "sub_category": event_info.get("eventName", title),
-            "status": event_info.get("Status", status),
+            "status": final_status,
             "is_hot": is_hot,
             "slug": slug,
             "schedule": {
@@ -221,10 +230,22 @@ def run_sync():
         
         consolidated_data.append(match_entry)
 
-    # Save output JSON file directly as a list of events
+    # 🔹 সর্টিং: Live ইভেন্টগুলো সবার উপরে থাকবে, তারপর Upcoming
+    consolidated_data.sort(key=get_status_priority)
+
+    # 🔹 রুট স্ট্রাকচার তৈরি
+    final_output = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "event_count": len(consolidated_data),
+        "events": {
+            "events": consolidated_data
+        }
+    }
+
+    # Save output JSON file
     events_file = os.path.join(base_dir, 'events.json')
     with open(events_file, 'w', encoding='utf-8') as f:
-        json.dump(consolidated_data, f, indent=2, ensure_ascii=False)
+        json.dump(final_output, f, indent=2, ensure_ascii=False)
         
     print(f"\n✅ Sync completed successfully! Total {len(consolidated_data)} events saved to: {events_file}")
 
