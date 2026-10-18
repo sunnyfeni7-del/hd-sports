@@ -1,7 +1,11 @@
 name: Sync Sports Streams
 
 on:
-  # This acts as the "door" that allows to trigger
+  schedule:
+    # প্রতি ১৫ মিনিট পর পর নিজে নিজে অটোমেটিক রান হবে
+    - cron: '*/15 * * * *'
+  
+  # এটি রাখলে আপনি চাইলে যেকোনো সময় ম্যানুয়ালি বাটনে ক্লিক করেও রান করতে পারবেন
   workflow_dispatch: 
 
 permissions:
@@ -12,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -27,6 +31,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add api/
-          # Commit only if changes were detected, otherwise exit cleanly
+          # যদি ফাইলে কোনো পরিবর্তন আসে তবেই Commit করবে, অন্যথায় চুপচাপ বের হয়ে যাবে
           git commit -m "Automated Consolidated Sports Update [skip ci]" || exit 0
           git push
