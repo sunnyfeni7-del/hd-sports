@@ -1,0 +1,32 @@
+name: Sync Sports Streams
+
+on:
+  # This acts as the "door" that allows to trigger
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Fetch and Compile Secure Database
+        run: python scraper.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add api/
+          # Commit only if changes were detected, otherwise exit cleanly
+          git commit -m "Automated Consolidated Sports Update [skip ci]" || exit 0
+          git push
