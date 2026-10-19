@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-19T17:00:45.273908+00:00",
-  "event_count": 40,
+  "last_updated": "2026-10-19T17:50:35.497711+00:00",
+  "event_count": 39,
   "events": {
     "events": [
       {
@@ -170,45 +170,35 @@
         "total_channels": 5
       },
       {
-        "title": "Al-Fayha vs Al-Ahli",
+        "title": "Al-Hilal vs Al-Hazem",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "al-fayha-vs-al-ahli",
+        "slug": "al-hilal-vs-al-hazem",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 19, 2026, 09:05:00 PM",
-          "end_time_bst": "Oct 19, 2026, 11:25:00 PM",
-          "raw_start_utc": "2026/10/19 15:05:00 +0000"
+          "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/19 18:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Al-Fayha",
-            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+            "name": "Al-Hilal",
+            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
           },
           "team_b": {
-            "name": "Al-Ahli",
-            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
+            "name": "Al-Hazem",
+            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/168094/image",
+        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
         "channels": [
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/ZNNNAAAAQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/ZNNNAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.50/hls/6HHHAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/6HHHAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -217,7 +207,47 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 1
+      },
+      {
+        "title": "Al-Shabab vs Al Faisaly",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-shabab-vs-al-faisaly",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/19 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Shabab",
+            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
+          },
+          "team_b": {
+            "name": "Al Faisaly",
+            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34313/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/6HHHAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/6HHHAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Trabzonspor vs Besiktas JK",
@@ -1218,60 +1248,6 @@
         "total_channels": 6
       },
       {
-        "title": "Al-Hilal vs Al-Hazem",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-hilal-vs-al-hazem",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/19 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Hilal",
-            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
-          },
-          "team_b": {
-            "name": "Al-Hazem",
-            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Shabab vs Al Faisaly",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-shabab-vs-al-faisaly",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/19 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Shabab",
-            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
-          },
-          "team_b": {
-            "name": "Al Faisaly",
-            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34313/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Celta Fortuna vs CD Tenerife",
         "sport": "Football",
         "sub_category": "Football",
@@ -1295,8 +1271,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/24336/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Pakistan vs England",
