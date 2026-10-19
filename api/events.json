@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T18:05:40.832470+00:00",
+  "last_updated": "2026-10-19T18:20:44.123892+00:00",
   "event_count": 39,
   "events": {
     "events": [
@@ -268,6 +268,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Celta Fortuna vs CD Tenerife",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "celta-fortuna-vs-cd-tenerife",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 20, 2026, 12:30:00 AM",
+          "end_time_bst": "Oct 20, 2026, 02:50:00 AM",
+          "raw_start_utc": "2026/10/19 18:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Celta Fortuna",
+            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
+          },
+          "team_b": {
+            "name": "CD Tenerife",
+            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/24336/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Trabzonspor vs Besiktas JK",
@@ -1266,46 +1306,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "Celta Fortuna vs CD Tenerife",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "celta-fortuna-vs-cd-tenerife",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 20, 2026, 12:30:00 AM",
-          "end_time_bst": "Oct 20, 2026, 02:50:00 AM",
-          "raw_start_utc": "2026/10/19 18:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Celta Fortuna",
-            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
-          },
-          "team_b": {
-            "name": "CD Tenerife",
-            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24336/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Pakistan vs England",
