@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T18:50:44.342512+00:00",
+  "last_updated": "2026-10-19T19:25:44.135079+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -533,54 +533,6 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8",
             "raw_link": "http://193.47.62.50/hls/6HHHAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Trabzonspor vs Besiktas JK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "trabzonspor-vs-besiktas-jk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 19, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 20, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/19 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          },
-          "team_b": {
-            "name": "Beşiktaş JK",
-            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel19.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/DDDDD.m3u8",
-            "raw_link": "http://193.47.62.59/hls/DDDDD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1905,6 +1857,54 @@
         "logo": "https://img.sofascore.com/api/v1/team/3001/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "Trabzonspor vs Besiktas JK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "trabzonspor-vs-besiktas-jk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 19, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 20, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/19 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Trabzonspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
+          },
+          "team_b": {
+            "name": "Beşiktaş JK",
+            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel19.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/DDDDD.m3u8",
+            "raw_link": "http://193.47.62.59/hls/DDDDD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       }
     ]
   }
