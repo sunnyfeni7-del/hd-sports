@@ -4,7 +4,7 @@ import os
 import ssl
 from datetime import datetime, timezone, timedelta
 
-# SSL certificate bypass (যদি প্রয়োজন হয়)
+# SSL certificate bypass
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
@@ -21,6 +21,26 @@ HEADERS = {
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
 API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
+
+# পরিচিত ডেমো ও ফেক স্ট্রিমিং ইউআরএল প্যাটার্ন
+DEMO_PATTERNS = [
+    'unified-streaming.com',
+    'tears-of-steel',
+    'test-streams.mux.dev',
+    'bitmovin.com',
+    'commondatastorage.googleapis.com',
+    'sample.m3u8'
+]
+
+def is_real_stream(url):
+    """চেক করে লিংকটি আসল নাকি ডেমো/টেস্টিং লিংক।"""
+    if not url or not url.strip():
+        return False
+    url_lower = url.lower()
+    for pattern in DEMO_PATTERNS:
+        if pattern in url_lower:
+            return False
+    return True
 
 def fetch_json(url):
     """Helper to download and parse JSON with 15s timeout."""
@@ -52,19 +72,45 @@ def parse_utc_to_bst(utc_str):
         return dt_bst.strftime("%b %d, %Y, %I:%M:%S %p")
     return ""
 
-def auto_detect_status(start_utc, end_utc):
-    """Checks current time to determine match status."""
+def calculate_event_status(start_utc, end_utc, api_status, has_channels):
+    """
+    লজিক: 
+    ১. ম্যাচ শুরুর ১০ মিনিট আগে থেকে এবং আসল চ্যানেল থাকলে স্ট্যাটাস 'Live' হবে।
+    ২. চ্যানেল না থাকলে শুরু হওয়ার পরেও 'Upcoming' থাকবে।
+    ৩. ম্যাচ শেষ হলে 'Finish' হবে।
+    """
     start = parse_date(start_utc)
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+
+    # API যদি স্পষ্ট করে ম্যাচ শেষ বলে দেয়
+    api_status_str = str(api_status).strip().lower() if api_status else ""
+    if api_status_str in ["finish", "finished", "ended"]:
+        return "Finish"
+
     if not start:
         return "Upcoming"
-    
-    end = parse_date(end_utc) or start
-    now = datetime.now(timezone.utc).replace(tzinfo=None)
-    
-    if start <= now <= end:
-        return "Live"
-    elif now > end:
+
+    end = parse_date(end_utc)
+    # end_time না থাকলে বা start এর সমান/কম হলে ডিফল্ট ৩.৫ ঘণ্টা সময়সীমা ধরা হবে
+    if not end or end <= start:
+        end = start + timedelta(hours=3, minutes=30)
+
+    # ⏰ ম্যাচ শুরুর ১০ মিনিট আগের সময়সীমা
+    early_live_threshold = start - timedelta(minutes=10)
+
+    # ১. সময় শেষ হয়ে গেলে Finish
+    if now > end:
         return "Finish"
+
+    # ২. ম্যাচ শুরুর ১০ মিনিট আগে থেকে শেষ হওয়া পর্যন্ত
+    if now >= early_live_threshold:
+        # আসল চ্যানেল লিংক উপস্থিত থাকলে লাইভ হবে, না থাকলে Upcoming থাকবে
+        return "Live" if has_channels else "Upcoming"
+
+    # ৩. সোর্স API যদি সময়ের আগেই Live করে দেয় এবং চ্যানেল থাকে
+    if api_status_str == "live" and has_channels:
+        return "Live"
+
     return "Upcoming"
 
 def parse_stream_url_and_headers(raw_link):
@@ -112,12 +158,17 @@ def extract_drm_key(stream):
     return None
 
 def process_channels(raw_streams):
+    """ডেমো লিংক ফিল্টার করে শুধুমাত্র রিয়েল চ্যানেল প্রসেস করবে।"""
     channels = []
     for stream in raw_streams:
-        channel_name = stream.get('title', '')
         raw_link = stream.get('link', '')
-        
         clean_url, headers = parse_stream_url_and_headers(raw_link)
+        
+        # ডেমো বা ফেক লিংক থাকলে বাদ দেওয়া হবে
+        if not is_real_stream(clean_url):
+            continue
+
+        channel_name = stream.get('title', '')
         stream_type = detect_stream_type(clean_url, stream.get('type'))
         drm_key = extract_drm_key(stream)
 
@@ -167,19 +218,29 @@ def run_sync():
         team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
         logo = event.get('image') or team_a_flag
 
-        raw_start_utc = event_info.get("startTime", "")
-        raw_end_utc = event_info.get("endTime", "")
-        detected_status = auto_detect_status(raw_start_utc, raw_end_utc)
-        final_status = event_info.get("Status") or detected_status
-        is_hot = str(event_info.get("isHot", "0")).lower() in ("1", "true")
-
         # Fetch individual stream feeds
         stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}")
         raw_stream_urls = []
         if stream_payload and stream_payload.get('status') == 'ok':
             raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
             
+        # চ্যানেল প্রসেসিং (এখানে ডেমো লিংক বাদ যাবে)
         channels = process_channels(raw_stream_urls)
+        has_real_channels = len(channels) > 0
+
+        # টাইম ও স্ট্যাটাস ক্যালকুলেশন (১০ মিনিট আগে লাইভ করার লজিক)
+        raw_start_utc = event_info.get("startTime", "")
+        raw_end_utc = event_info.get("endTime", "")
+        api_raw_status = event_info.get("Status", "")
+
+        final_status = calculate_event_status(
+            start_utc=raw_start_utc,
+            end_utc=raw_end_utc,
+            api_status=api_raw_status,
+            has_channels=has_real_channels
+        )
+
+        is_hot = str(event_info.get("isHot", "0")).lower() in ("1", "true")
 
         match_entry = {
             "title": title,
@@ -204,6 +265,7 @@ def run_sync():
         }
         consolidated_data.append(match_entry)
 
+    # সর্টিং (Live সবার উপরে, এরপর Upcoming)
     consolidated_data.sort(key=get_status_priority)
 
     final_output = {
