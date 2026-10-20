@@ -1,8 +1,67 @@
 {
-  "last_updated": "2026-10-20T22:50:44.805456+00:00",
+  "last_updated": "2026-10-20T23:50:38.575566+00:00",
   "event_count": 38,
   "events": {
     "events": [
+      {
+        "title": "Tampa Bay Rays vs Cleveland Guardians",
+        "sport": "Baseball",
+        "sub_category": "Baseball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "tampa-bay-rays-vs-cleveland-guardians",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 21, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 21, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/10/21 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Tampa Bay Rays",
+            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+          },
+          "team_b": {
+            "name": "Cleveland Guardians",
+            "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3653/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS 1 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "TNT SPORTS 2 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream7.pro/hls/dazhfiach15.m3u8?",
+            "raw_link": "https://edgestream7.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "headers": {
+              "Referer": "https://streamscenter.online/",
+              "Origin": "https://streamscenter.online"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
       {
         "title": "New York Knicks vs Philadelphia 76ers",
         "sport": "Basketball",
@@ -1169,65 +1228,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187755/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Tampa Bay Rays vs Cleveland Guardians",
-        "sport": "Baseball",
-        "sub_category": "Baseball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "tampa-bay-rays-vs-cleveland-guardians",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 21, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 21, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/21 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tampa Bay Rays",
-            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-          },
-          "team_b": {
-            "name": "Cleveland Guardians",
-            "flag": "https://img.sofascore.com/api/v1/team/3650/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3653/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS 1 - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "TNT SPORTS 2 - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/dazhfiach15.m3u8?",
-            "raw_link": "https://edgestream7.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-            "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "San Antonio Spurs vs Oklahoma City Thunder",
