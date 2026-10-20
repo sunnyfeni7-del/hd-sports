@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T14:55:49.038371+00:00",
+  "last_updated": "2026-10-20T15:00:50.048338+00:00",
   "event_count": 40,
   "events": {
     "events": [
@@ -261,6 +261,46 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/O555AAA.m3u8",
             "raw_link": "http://193.47.62.55/hls/O555AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Al-Taawoun vs Al-Qadsiah",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-taawoun-vs-al-qadsiah",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 20, 2026, 09:10:00 PM",
+          "end_time_bst": "Oct 20, 2026, 11:30:00 PM",
+          "raw_start_utc": "2026/10/20 15:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Taawoun",
+            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
+          },
+          "team_b": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56021/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/O555AAAQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/O555AAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1340,46 +1380,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/3001/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Al-Taawoun vs Al-Qadsiah",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-taawoun-vs-al-qadsiah",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 20, 2026, 09:10:00 PM",
-          "end_time_bst": "Oct 20, 2026, 11:30:00 PM",
-          "raw_start_utc": "2026/10/20 15:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Taawoun",
-            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-          },
-          "team_b": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56021/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/O555AAAQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/O555AAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Al-Nassr vs Neom SC",
