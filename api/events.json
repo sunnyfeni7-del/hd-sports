@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T15:00:50.048338+00:00",
+  "last_updated": "2026-10-20T15:05:48.660339+00:00",
   "event_count": 40,
   "events": {
     "events": [
@@ -257,6 +257,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/853574/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/O555AAA.m3u8",
@@ -269,7 +279,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Al-Taawoun vs Al-Qadsiah",
@@ -297,6 +307,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/56021/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/O555AAAQ.m3u8",
@@ -309,7 +329,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
