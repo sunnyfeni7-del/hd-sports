@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T17:50:50.180565+00:00",
+  "last_updated": "2026-10-20T18:00:44.532546+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -273,9 +273,81 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
             "headers": {},
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4599627.m3u8?txSecret=5214b48c58e461ab53c19b649afbde2b&txTime=6AD7BFB0",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4599627.m3u8?txSecret=5214b48c58e461ab53c19b649afbde2b&txTime=6AD7BFB0|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/N666.m3u8",
+            "raw_link": "http://193.47.62.55/hls/N666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
+      },
+      {
+        "title": "Al-Ettifaq vs Al-Ittihad",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-ettifaq-vs-al-ittihad",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 21, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 21, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/20 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ettifaq",
+            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
+          },
+          "team_b": {
+            "name": "Al-Ittihad",
+            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34318/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4599623.m3u8?txSecret=4fd818c95c039ad97f9203e527bac10f&txTime=6AD7BF7D",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4599623.m3u8?txSecret=4fd818c95c039ad97f9203e527bac10f&txTime=6AD7BF7D|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/KTTTQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/KTTTQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1486,33 +1558,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3001/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Ettifaq vs Al-Ittihad",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-ettifaq-vs-al-ittihad",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 21, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 21, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/20 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Ettifaq",
-            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
-          },
-          "team_b": {
-            "name": "Al-Ittihad",
-            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34318/image",
         "channels": [],
         "total_channels": 0
       },
