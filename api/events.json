@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T18:36:44.610991+00:00",
+  "last_updated": "2026-10-20T18:40:55.931870+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -1197,8 +1197,46 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/44/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/sqdahach1ax.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/G444AQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/G444AQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Manchester City vs AEK Athens",
@@ -1234,9 +1272,46 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/24SDAZFcsqnj24.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120306/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120306/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/G444AQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/G444AQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Paris Saint-Germain vs FC Barcelona",
@@ -1272,9 +1347,73 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchc857/cricodi_2010-eng-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchc857/cricodi_2010-eng-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpch8872/cricodi_2010-hin-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpch8872/cricodi_2010-hin-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchb442/cricodi_2010-tam-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchb442/cricodi_2010-tam-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchc77b/cricodi_2010-tel-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchc77b/cricodi_2010-tel-1-ts-hls/std-lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/G444AQQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/G444AQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 6
       },
       {
         "title": "AS Roma vs SK Slovan Bratislava",
@@ -1364,9 +1503,46 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/377qj1h2727.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792549807~acl=/*~id=24102435020246671396275378446783~hmac=4cb1831b2ec4b2ff22bf9c27699ca342d483162ea50b99d8fa8095813eb79515|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=73d3be7275899b1c4464b797001b6019-1792521003209",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "73d3be7275899b1c4464b797001b6019-1792521003209"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/G444AQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/G444AQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Como vs Manchester United",
