@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T11:15:44.189481+00:00",
+  "last_updated": "2026-10-21T11:20:46.179437+00:00",
   "event_count": 39,
   "events": {
     "events": [
@@ -103,6 +103,80 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Afghanistan vs Bangladesh",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "afghanistan-vs-bangladesh",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 21, 2026, 05:30:00 PM",
+          "end_time_bst": "Oct 22, 2026, 02:00:25 AM",
+          "raw_start_utc": "2026/10/21 11:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+            "headers": {},
+            "drm_key": "a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+            "headers": {},
+            "drm_key": "a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8?",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8?|referer=https://tapmad.com/&origin=https://tapmad.com",
+            "headers": {
+              "referer": "https://tapmad.com/",
+              "origin": "https://tapmad.com"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249696_english_hls_d51b02bd8369074_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249696_english_hls_d51b02bd8369074_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
@@ -1078,50 +1152,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/3001/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Afghanistan vs Bangladesh",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-vs-bangladesh",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 21, 2026, 05:30:00 PM",
-          "end_time_bst": "Oct 22, 2026, 02:00:25 AM",
-          "raw_start_utc": "2026/10/21 11:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
-            "headers": {},
-            "drm_key": "a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
-            "headers": {},
-            "drm_key": "a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Sri Lanka vs England",
