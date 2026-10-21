@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T18:45:58.604736+00:00",
+  "last_updated": "2026-10-21T18:55:51.370380+00:00",
   "event_count": 75,
   "events": {
     "events": [
@@ -256,6 +256,579 @@
         "total_channels": 8
       },
       {
+        "title": "Aston Villa vs Viking FK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "aston-villa-vs-viking-fk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Aston Villa",
+            "flag": "https://img.sofascore.com/api/v1/team/40/image"
+          },
+          "team_b": {
+            "name": "Viking FK",
+            "flag": "https://img.sofascore.com/api/v1/team/1164/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/40/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/eJmauBDCIf.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/eJmauBDCIf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fb1b22d8beae6406016537ce87f365bb-1792607888376",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "fb1b22d8beae6406016537ce87f365bb-1792607888376"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-654581_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-654581_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/RGRGRGq.m3u8",
+            "raw_link": "http://193.47.62.41/hls/RGRGRGq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "FC Bayern Munchen vs Arsenal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-bayern-munchen-vs-arsenal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Bayern München",
+            "flag": "https://img.sofascore.com/api/v1/team/2672/image"
+          },
+          "team_b": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/42/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2672/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120307/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120307/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-597728_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-597728_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/RGRGRGqq.m3u8",
+            "raw_link": "http://193.47.62.59/hls/RGRGRGqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Club Brugge KV vs RC Lens",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "club-brugge-kv-vs-rc-lens",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Club Brugge KV",
+            "flag": "https://img.sofascore.com/api/v1/team/2888/image"
+          },
+          "team_b": {
+            "name": "RC Lens",
+            "flag": "https://img.sofascore.com/api/v1/team/1648/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2888/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/377qj1h2727.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2094588/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2094588/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-707243_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-707243_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/XAXAXAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/XAXAXAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Inter vs Shakhtar Donetsk",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "inter-vs-shakhtar-donetsk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Inter",
+            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+          },
+          "team_b": {
+            "name": "Shakhtar Donetsk",
+            "flag": "https://img.sofascore.com/api/v1/team/3313/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/griogoehvn2.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/griogoehvn2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120299/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120299/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-238362_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-238362_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/RGRGRG.m3u8",
+            "raw_link": "http://193.47.62.44/hls/RGRGRG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Real Betis vs Feyenoord",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-betis-vs-feyenoord",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Betis",
+            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+          },
+          "team_b": {
+            "name": "Feyenoord",
+            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
+        "channels": [
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/b0h5fNwDKH.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/b0h5fNwDKH.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2094589/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2094589/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-505931_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-505931_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/XAXAXA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Real Madrid vs RB Leipzig",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-madrid-vs-rb-leipzig",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2829/image"
+          },
+          "team_b": {
+            "name": "RB Leipzig",
+            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2829/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58359/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58359/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/sqdahach1ax.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/hflfkrtib42.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-613431_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-613431_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/RGRGRGqqq.m3u8",
+            "raw_link": "http://193.47.62.50/hls/RGRGRGqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 7
+      },
+      {
+        "title": "Sporting CP vs LASK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sporting-cp-vs-lask",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sporting CP",
+            "flag": "https://img.sofascore.com/api/v1/team/3001/image"
+          },
+          "team_b": {
+            "name": "LASK",
+            "flag": "https://img.sofascore.com/api/v1/team/2058/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3001/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/dza5z8f69.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://pull.qjkngv.com/live/stream-718044_lhd.m3u8",
+            "raw_link": "https://pull.qjkngv.com/live/stream-718044_lhd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/XAXAXAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/XAXAXAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
         "title": "Levante UD vs Athletic Club",
         "sport": "Football",
         "sub_category": "Football",
@@ -324,6 +897,56 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Reading vs Leyton Orient",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "reading-vs-leyton-orient",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/21 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Reading",
+            "flag": "https://img.sofascore.com/api/v1/team/28/image"
+          },
+          "team_b": {
+            "name": "Leyton Orient",
+            "flag": "https://img.sofascore.com/api/v1/team/83/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/28/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/ajjjQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/ajjjQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1083,561 +1706,6 @@
         "total_channels": 5
       },
       {
-        "title": "Aston Villa vs Viking FK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "aston-villa-vs-viking-fk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Aston Villa",
-            "flag": "https://img.sofascore.com/api/v1/team/40/image"
-          },
-          "team_b": {
-            "name": "Viking FK",
-            "flag": "https://img.sofascore.com/api/v1/team/1164/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/40/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/eJmauBDCIf.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/eJmauBDCIf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fb1b22d8beae6406016537ce87f365bb-1792607888376",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "fb1b22d8beae6406016537ce87f365bb-1792607888376"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-654581_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-654581_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/RGRGRGq.m3u8",
-            "raw_link": "http://193.47.62.41/hls/RGRGRGq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "FC Bayern Munchen vs Arsenal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-bayern-munchen-vs-arsenal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Bayern München",
-            "flag": "https://img.sofascore.com/api/v1/team/2672/image"
-          },
-          "team_b": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/42/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2672/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120307/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120307/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-597728_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-597728_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/RGRGRGqq.m3u8",
-            "raw_link": "http://193.47.62.59/hls/RGRGRGqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Club Brugge KV vs RC Lens",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "club-brugge-kv-vs-rc-lens",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Club Brugge KV",
-            "flag": "https://img.sofascore.com/api/v1/team/2888/image"
-          },
-          "team_b": {
-            "name": "RC Lens",
-            "flag": "https://img.sofascore.com/api/v1/team/1648/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2888/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/377qj1h2727.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2094588/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2094588/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-707243_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-707243_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/XAXAXAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/XAXAXAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Inter vs Shakhtar Donetsk",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "inter-vs-shakhtar-donetsk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Inter",
-            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-          },
-          "team_b": {
-            "name": "Shakhtar Donetsk",
-            "flag": "https://img.sofascore.com/api/v1/team/3313/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/griogoehvn2.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/griogoehvn2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120299/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120299/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-238362_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-238362_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/RGRGRG.m3u8",
-            "raw_link": "http://193.47.62.44/hls/RGRGRG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Real Betis vs Feyenoord",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "real-betis-vs-feyenoord",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          },
-          "team_b": {
-            "name": "Feyenoord",
-            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
-        "channels": [
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/b0h5fNwDKH.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/b0h5fNwDKH.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2094589/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2094589/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-505931_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-505931_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/XAXAXA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Real Madrid vs RB Leipzig",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "real-madrid-vs-rb-leipzig",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/2829/image"
-          },
-          "team_b": {
-            "name": "RB Leipzig",
-            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2829/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/sqdahach1ax.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/hflfkrtib42.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/RGRGRGqqq.m3u8",
-            "raw_link": "http://193.47.62.50/hls/RGRGRGqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Sporting CP vs LASK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sporting-cp-vs-lask",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sporting CP",
-            "flag": "https://img.sofascore.com/api/v1/team/3001/image"
-          },
-          "team_b": {
-            "name": "LASK",
-            "flag": "https://img.sofascore.com/api/v1/team/2058/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3001/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/dza5z8f69.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120302/Footlive2110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792640391~acl=/*~id=30617965740680838456460764547651~hmac=b801313efa7a3d693af8d662d81053f90d247da5819bf9fd87c13d3bcb6bb21a|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5aef189d6fcf7db392d0c0ea992556ac-1792607401810",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5aef189d6fcf7db392d0c0ea992556ac-1792607401810"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://pull.qjkngv.com/live/stream-718044_lhd.m3u8",
-            "raw_link": "https://pull.qjkngv.com/live/stream-718044_lhd.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/XAXAXAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/XAXAXAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Sri Lanka vs England",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1864,56 +1932,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Reading vs Leyton Orient",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "reading-vs-leyton-orient",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/21 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Reading",
-            "flag": "https://img.sofascore.com/api/v1/team/28/image"
-          },
-          "team_b": {
-            "name": "Leyton Orient",
-            "flag": "https://img.sofascore.com/api/v1/team/83/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/28/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/ajjjQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/ajjjQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 2
