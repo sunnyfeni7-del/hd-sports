@@ -1,60 +1,8 @@
 {
-  "last_updated": "2026-10-21T03:30:35.289909+00:00",
+  "last_updated": "2026-10-21T05:00:40.952288+00:00",
   "event_count": 30,
   "events": {
     "events": [
-      {
-        "title": "San Antonio Spurs vs Oklahoma City Thunder",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "san-antonio-spurs-vs-oklahoma-city-thunder",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 21, 2026, 07:30:00 AM",
-          "end_time_bst": "Oct 21, 2026, 10:00:00 AM",
-          "raw_start_utc": "2026/10/21 01:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "San Antonio Spurs",
-            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
-          },
-          "team_b": {
-            "name": "Oklahoma City Thunder",
-            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3429/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58351/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58351/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58351?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58351?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/hfsdqtaxvb67.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
@@ -1546,6 +1494,58 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "San Antonio Spurs vs Oklahoma City Thunder",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "san-antonio-spurs-vs-oklahoma-city-thunder",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 21, 2026, 07:30:00 AM",
+          "end_time_bst": "Oct 21, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/10/21 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "San Antonio Spurs",
+            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          },
+          "team_b": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3429/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58351/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58351/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58351?ad=111&Origin=https://gooz.aapmains.net",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58351?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/hfsdqtaxvb67.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       }
     ]
   }
