@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-10-21T21:31:10.755109+00:00",
+  "last_updated": "2026-10-21T21:51:08.358454+00:00",
   "event_count": 75,
   "events": {
     "events": [
+      {
+        "title": "Montevideo City Torque vs Atletico Mineiro",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "montevideo-city-torque-vs-atletico-mineiro",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 04:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 06:20:00 AM",
+          "raw_start_utc": "2026/10/21 22:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Montevideo City Torque",
+            "flag": "https://img.sofascore.com/api/v1/team/174972/image"
+          },
+          "team_b": {
+            "name": "Atlético Mineiro",
+            "flag": "https://img.sofascore.com/api/v1/team/1977/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/174972/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "SportDigital Fussball",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
@@ -942,54 +990,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/34469/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Montevideo City Torque vs Atletico Mineiro",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "montevideo-city-torque-vs-atletico-mineiro",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 04:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 06:20:00 AM",
-          "raw_start_utc": "2026/10/21 22:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Montevideo City Torque",
-            "flag": "https://img.sofascore.com/api/v1/team/174972/image"
-          },
-          "team_b": {
-            "name": "Atlético Mineiro",
-            "flag": "https://img.sofascore.com/api/v1/team/1977/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/174972/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Washington Wizards vs Milwaukee Bucks",
