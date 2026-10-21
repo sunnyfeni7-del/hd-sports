@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T16:35:47.036584+00:00",
+  "last_updated": "2026-10-21T16:40:41.510082+00:00",
   "event_count": 39,
   "events": {
     "events": [
@@ -37,6 +37,24 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/phuhevukj1/out/v1/59dc0639d2c44432bf89984131478749/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/phuhevukj1/out/v1/59dc0639d2c44432bf89984131478749/cenc.mpd",
+            "headers": {},
+            "drm_key": "7af2088d5ae68e1f9448513435b3b6e5:ce9f96e9b00b0c83cf3d06718c2bc962"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58358/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58358/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "CRICFy LIVE",
@@ -88,7 +106,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 7
       },
       {
         "title": "Lille vs Galatasaray",
