@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T16:30:53.254901+00:00",
+  "last_updated": "2026-10-22T16:35:51.730735+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -74,6 +74,507 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "FC Ararat-Armenia vs AZ Alkmaar",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-ararat-armenia-vs-az-alkmaar",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Ararat-Armenia",
+            "flag": "https://img.sofascore.com/api/v1/team/262229/image"
+          },
+          "team_b": {
+            "name": "AZ Alkmaar",
+            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/262229/image",
+        "channels": [
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+            "headers": {},
+            "drm_key": "1585ea4786f5c6e5d4ac6e34619bcd4d:97ca052adba4200e81997a97dee89d73"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/J666AAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/J666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "GNK Dinamo Zagreb vs NEC Nijmegen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "gnk-dinamo-zagreb-vs-nec-nijmegen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "GNK Dinamo Zagreb",
+            "flag": "https://img.sofascore.com/api/v1/team/2032/image"
+          },
+          "team_b": {
+            "name": "NEC Nijmegen",
+            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2032/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/I222.m3u8",
+            "raw_link": "http://193.47.62.55/hls/I222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Ferencvaros TC vs Torreense",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ferencvaros-tc-vs-torreense",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ferencváros TC",
+            "flag": "https://img.sofascore.com/api/v1/team/1925/image"
+          },
+          "team_b": {
+            "name": "Torreense",
+            "flag": "https://img.sofascore.com/api/v1/team/25787/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1925/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/I222A.m3u8",
+            "raw_link": "http://193.47.62.55/hls/I222A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Juventus vs Stade Rennais",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "juventus-vs-stade-rennais",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+          },
+          "team_b": {
+            "name": "Stade Rennais",
+            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2687/image",
+        "channels": [
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ztybd2ijid/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ztybd2ijid/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+            "headers": {},
+            "drm_key": "7f36cafa2955e26aaed1450bc27e921f:f6373ee35de662aaeccf2c36a9d508cc"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58404/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58404/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/sqdahach1ax.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2105080/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2105080/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/J666AAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/J666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
+      },
+      {
+        "title": "Lech Poznan vs Sunderland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "lech-poznan-vs-sunderland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lech Poznań",
+            "flag": "https://img.sofascore.com/api/v1/team/3121/image"
+          },
+          "team_b": {
+            "name": "Sunderland",
+            "flag": "https://img.sofascore.com/api/v1/team/41/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3121/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kagc4duqbp/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kagc4duqbp/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+            "headers": {},
+            "drm_key": "667ca2cae44b4470fe5bb256babd4ae6:61b3cd186cff64be99165aa66ce784b3"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/J666AAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/J666AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
+      },
+      {
+        "title": "OFI Crete vs Bayer 04 Leverkusen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ofi-crete-vs-bayer-04-leverkusen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "OFI Crete",
+            "flag": "https://img.sofascore.com/api/v1/team/3241/image"
+          },
+          "team_b": {
+            "name": "Bayer 04 Leverkusen",
+            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3241/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630630.m3u8?txSecret=91b2200756259fffc8b1feacc306ed86&txTime=6ADA4DB7",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630630.m3u8?txSecret=91b2200756259fffc8b1feacc306ed86&txTime=6ADA4DB7|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120303/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120303/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=11af79ed915017695f75c6b54a67048a-1792686604851",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "11af79ed915017695f75c6b54a67048a-1792686604851"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/J666AAAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/J666AAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Royale Union Saint-Gilloise vs Hapoel Beer Sheva",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "royale-union-saint-gilloise-vs-hapoel-beer-sheva",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Royale Union Saint-Gilloise",
+            "flag": "https://img.sofascore.com/api/v1/team/4860/image"
+          },
+          "team_b": {
+            "name": "Hapoel Be'er Sheva",
+            "flag": "https://img.sofascore.com/api/v1/team/5202/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4860/image",
+        "channels": [
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/glz0sgcgux/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/glz0sgcgux/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
+            "headers": {},
+            "drm_key": "ba077d61bda1a7fb41445b49f523bd18:8ee296d6f387b56fb3830fb706be950c"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630655.m3u8?txSecret=5d3d0dc395f55e852fd25e597fca909c&txTime=6ADA4E1A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630655.m3u8?txSecret=5d3d0dc395f55e852fd25e597fca909c&txTime=6ADA4E1A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2105079/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2105079/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=11af79ed915017695f75c6b54a67048a-1792686604851",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "11af79ed915017695f75c6b54a67048a-1792686604851"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/I222AA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/I222AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "SK Sturm Graz vs Olympique de Marseille",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sk-sturm-graz-vs-olympique-de-marseille",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SK Sturm Graz",
+            "flag": "https://img.sofascore.com/api/v1/team/2051/image"
+          },
+          "team_b": {
+            "name": "Olympique de Marseille",
+            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2051/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/J666AA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/J666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FC Kairat Almaty vs Panathinaikos FC",
@@ -159,6 +660,422 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "FC Nordsjlland vs CSKA Sofia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-nordsjlland-vs-cska-sofia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Nordsjælland",
+            "flag": "https://img.sofascore.com/api/v1/team/1292/image"
+          },
+          "team_b": {
+            "name": "CSKA Sofia",
+            "flag": "https://img.sofascore.com/api/v1/team/3275/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1292/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FK Crvena zvezda vs FC Kbenhavn",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fk-crvena-zvezda-vs-fc-kbenhavn",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Crvena zvezda",
+            "flag": "https://img.sofascore.com/api/v1/team/5149/image"
+          },
+          "team_b": {
+            "name": "FC København",
+            "flag": "https://img.sofascore.com/api/v1/team/1284/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5149/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEAAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FK Kauno Zalgiris vs SK Brann",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fk-kauno-zalgiris-vs-sk-brann",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Kauno Žalgiris",
+            "flag": "https://img.sofascore.com/api/v1/team/80741/image"
+          },
+          "team_b": {
+            "name": "SK Brann",
+            "flag": "https://img.sofascore.com/api/v1/team/1159/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/80741/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Getafe vs FC Lugano",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "getafe-vs-fc-lugano",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Getafe",
+            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+          },
+          "team_b": {
+            "name": "FC Lugano",
+            "flag": "https://img.sofascore.com/api/v1/team/2443/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FC Iberia 1999 vs Mjallby AIF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-iberia-1999-vs-mjallby-aif",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Iberia 1999",
+            "flag": "https://img.sofascore.com/api/v1/team/116312/image"
+          },
+          "team_b": {
+            "name": "Mjällby AIF",
+            "flag": "https://img.sofascore.com/api/v1/team/1783/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/116312/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Inter Club dEscaldes vs Universitatea Craiova",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "inter-club-descaldes-vs-universitatea-craiova",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Inter Club d'Escaldes",
+            "flag": "https://img.sofascore.com/api/v1/team/37946/image"
+          },
+          "team_b": {
+            "name": "Universitatea Craiova",
+            "flag": "https://img.sofascore.com/api/v1/team/116223/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/37946/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEE.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FK Jablonec vs Brighton Hove Albion",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fk-jablonec-vs-brighton-hove-albion",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Jablonec",
+            "flag": "https://img.sofascore.com/api/v1/team/2205/image"
+          },
+          "team_b": {
+            "name": "Brighton & Hove Albion",
+            "flag": "https://img.sofascore.com/api/v1/team/30/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2205/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58405/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58405/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2037139/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2037139/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/J666.m3u8",
+            "raw_link": "http://193.47.62.50/hls/J666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Pafos FC vs Riga FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "pafos-fc-vs-riga-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pafos FC",
+            "flag": "https://img.sofascore.com/api/v1/team/171626/image"
+          },
+          "team_b": {
+            "name": "Riga FC",
+            "flag": "https://img.sofascore.com/api/v1/team/162368/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/171626/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/J666A.m3u8",
+            "raw_link": "http://193.47.62.50/hls/J666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Trabzonspor vs Heart of Midlothian",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "trabzonspor-vs-heart-of-midlothian",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/22 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Trabzonspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
+          },
+          "team_b": {
+            "name": "Heart of Midlothian",
+            "flag": "https://img.sofascore.com/api/v1/team/2353/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/J666AAAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/J666AAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -980,437 +1897,6 @@
         "total_channels": 1
       },
       {
-        "title": "FC Ararat-Armenia vs AZ Alkmaar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-ararat-armenia-vs-az-alkmaar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Ararat-Armenia",
-            "flag": "https://img.sofascore.com/api/v1/team/262229/image"
-          },
-          "team_b": {
-            "name": "AZ Alkmaar",
-            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/262229/image",
-        "channels": [
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
-            "headers": {},
-            "drm_key": "1585ea4786f5c6e5d4ac6e34619bcd4d:97ca052adba4200e81997a97dee89d73"
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/J666AAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/J666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "GNK Dinamo Zagreb vs NEC Nijmegen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "gnk-dinamo-zagreb-vs-nec-nijmegen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "GNK Dinamo Zagreb",
-            "flag": "https://img.sofascore.com/api/v1/team/2032/image"
-          },
-          "team_b": {
-            "name": "NEC Nijmegen",
-            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2032/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/I222.m3u8",
-            "raw_link": "http://193.47.62.55/hls/I222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Ferencvaros TC vs Torreense",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ferencvaros-tc-vs-torreense",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ferencváros TC",
-            "flag": "https://img.sofascore.com/api/v1/team/1925/image"
-          },
-          "team_b": {
-            "name": "Torreense",
-            "flag": "https://img.sofascore.com/api/v1/team/25787/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1925/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/I222A.m3u8",
-            "raw_link": "http://193.47.62.55/hls/I222A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Juventus vs Stade Rennais",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "juventus-vs-stade-rennais",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-          },
-          "team_b": {
-            "name": "Stade Rennais",
-            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2687/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58404/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58404/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/sqdahach1ax.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2105080/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2105080/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/J666AAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/J666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Lech Poznan vs Sunderland",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "lech-poznan-vs-sunderland",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Lech Poznań",
-            "flag": "https://img.sofascore.com/api/v1/team/3121/image"
-          },
-          "team_b": {
-            "name": "Sunderland",
-            "flag": "https://img.sofascore.com/api/v1/team/41/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3121/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/J666AAAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/J666AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "OFI Crete vs Bayer 04 Leverkusen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ofi-crete-vs-bayer-04-leverkusen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "OFI Crete",
-            "flag": "https://img.sofascore.com/api/v1/team/3241/image"
-          },
-          "team_b": {
-            "name": "Bayer 04 Leverkusen",
-            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3241/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/J666AAAAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/J666AAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Royale Union Saint-Gilloise vs Hapoel Beer Sheva",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "royale-union-saint-gilloise-vs-hapoel-beer-sheva",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Royale Union Saint-Gilloise",
-            "flag": "https://img.sofascore.com/api/v1/team/4860/image"
-          },
-          "team_b": {
-            "name": "Hapoel Be'er Sheva",
-            "flag": "https://img.sofascore.com/api/v1/team/5202/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4860/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/I222AA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/I222AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "SK Sturm Graz vs Olympique de Marseille",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sk-sturm-graz-vs-olympique-de-marseille",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SK Sturm Graz",
-            "flag": "https://img.sofascore.com/api/v1/team/2051/image"
-          },
-          "team_b": {
-            "name": "Olympique de Marseille",
-            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2051/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/J666AA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/J666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Bournemouth vs AC Milan",
         "sport": "Football",
         "sub_category": "Football",
@@ -1712,422 +2198,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/4502/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "FC Nordsjlland vs CSKA Sofia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-nordsjlland-vs-cska-sofia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Nordsjælland",
-            "flag": "https://img.sofascore.com/api/v1/team/1292/image"
-          },
-          "team_b": {
-            "name": "CSKA Sofia",
-            "flag": "https://img.sofascore.com/api/v1/team/3275/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1292/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEEAAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEEAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "FK Crvena zvezda vs FC Kbenhavn",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fk-crvena-zvezda-vs-fc-kbenhavn",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Crvena zvezda",
-            "flag": "https://img.sofascore.com/api/v1/team/5149/image"
-          },
-          "team_b": {
-            "name": "FC København",
-            "flag": "https://img.sofascore.com/api/v1/team/1284/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5149/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEEAAAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEEAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "FK Kauno Zalgiris vs SK Brann",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fk-kauno-zalgiris-vs-sk-brann",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Kauno Žalgiris",
-            "flag": "https://img.sofascore.com/api/v1/team/80741/image"
-          },
-          "team_b": {
-            "name": "SK Brann",
-            "flag": "https://img.sofascore.com/api/v1/team/1159/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/80741/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEEAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEEAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Getafe vs FC Lugano",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "getafe-vs-fc-lugano",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Getafe",
-            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
-          },
-          "team_b": {
-            "name": "FC Lugano",
-            "flag": "https://img.sofascore.com/api/v1/team/2443/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEEA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEEA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "FC Iberia 1999 vs Mjallby AIF",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-iberia-1999-vs-mjallby-aif",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Iberia 1999",
-            "flag": "https://img.sofascore.com/api/v1/team/116312/image"
-          },
-          "team_b": {
-            "name": "Mjällby AIF",
-            "flag": "https://img.sofascore.com/api/v1/team/1783/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/116312/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEEAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEEAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Inter Club dEscaldes vs Universitatea Craiova",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "inter-club-descaldes-vs-universitatea-craiova",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Inter Club d'Escaldes",
-            "flag": "https://img.sofascore.com/api/v1/team/37946/image"
-          },
-          "team_b": {
-            "name": "Universitatea Craiova",
-            "flag": "https://img.sofascore.com/api/v1/team/116223/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/37946/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/EEEE.m3u8",
-            "raw_link": "http://193.47.62.55/hls/EEEE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "FK Jablonec vs Brighton Hove Albion",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fk-jablonec-vs-brighton-hove-albion",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Jablonec",
-            "flag": "https://img.sofascore.com/api/v1/team/2205/image"
-          },
-          "team_b": {
-            "name": "Brighton & Hove Albion",
-            "flag": "https://img.sofascore.com/api/v1/team/30/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2205/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          },
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58405/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58405/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2037139/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2037139/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/J666.m3u8",
-            "raw_link": "http://193.47.62.50/hls/J666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Pafos FC vs Riga FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "pafos-fc-vs-riga-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pafos FC",
-            "flag": "https://img.sofascore.com/api/v1/team/171626/image"
-          },
-          "team_b": {
-            "name": "Riga FC",
-            "flag": "https://img.sofascore.com/api/v1/team/162368/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/171626/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/J666A.m3u8",
-            "raw_link": "http://193.47.62.50/hls/J666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Trabzonspor vs Heart of Midlothian",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "trabzonspor-vs-heart-of-midlothian",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 23, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/22 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          },
-          "team_b": {
-            "name": "Heart of Midlothian",
-            "flag": "https://img.sofascore.com/api/v1/team/2353/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-          },
-          {
-            "channel_name": "SonyLiv ",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/J666AAAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/J666AAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "AGF vs KF Egnatia",
