@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T17:20:53.338288+00:00",
+  "last_updated": "2026-10-22T17:30:48.206350+00:00",
   "event_count": 53,
   "events": {
     "events": [
@@ -2700,8 +2700,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3420/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
+            "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Oklahoma City Thunder vs Denver Nuggets",
@@ -2727,8 +2740,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3418/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Chicago Bears vs New England Patriots",
@@ -2754,8 +2780,31 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4391/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/JHDAJBDnjdna30.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Afghanistan vs Zimbabwe",
