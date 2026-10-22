@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T16:45:56.420650+00:00",
-  "event_count": 52,
+  "last_updated": "2026-10-22T16:48:46.881622+00:00",
+  "event_count": 51,
   "events": {
     "events": [
       {
@@ -172,6 +172,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/2032/image",
         "channels": [
           {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nvil2nbdp5/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nvil2nbdp5/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd",
+            "headers": {},
+            "drm_key": "ec66bac06d61d2e8a594349a708ac766:de78c8118134f4f5126c95a45c168e74"
+          },
+          {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live.vivo155.com/live/hd-en-1-4630546.m3u8?txSecret=faa43d3836d19ba2f1ed06366818ecac&txTime=6ADA4DED",
@@ -207,7 +215,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Ferencvaros TC vs Torreense",
@@ -656,91 +664,6 @@
         "total_channels": 3
       },
       {
-        "title": "FC Kairat Almaty vs Panathinaikos FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fc-kairat-almaty-vs-panathinaikos-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:30:00 PM",
-          "end_time_bst": "Oct 22, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/10/22 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Kairat Almaty",
-            "flag": "https://img.sofascore.com/api/v1/team/5172/image"
-          },
-          "team_b": {
-            "name": "Panathinaikos FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3248/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5172/image",
-        "channels": [
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5s56vlvtxj/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5s56vlvtxj/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
-            "headers": {},
-            "drm_key": "a0792c0c9b157d5e6a5239460936ff3b:459887781ab8b34c993cdd8c124fd3f6"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel22.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://xlz.domainkqt.cc/",
-              "Origin": "https://xlz.domainkqt.cc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew.akamaized.net/hls/live/2094588/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
-            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2094588/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=a550536bd3c2b385ea3a99f817d93ebe-1792678203583",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "a550536bd3c2b385ea3a99f817d93ebe-1792678203583"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/280508bb-8145-44c4-b0cc-df22d2c194e0.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/280508bb-8145-44c4-b0cc-df22d2c194e0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BEEE.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BEEE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
         "title": "FC Nordsjlland vs CSKA Sofia",
         "sport": "Football",
         "sub_category": "Football",
@@ -988,6 +911,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/116312/image",
         "channels": [
           {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ld1abcco0n/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ld1abcco0n/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd",
+            "headers": {},
+            "drm_key": "f5199536cdd1731a226272eb0e7fe284:7be83e43bdaa1aad8cae4f5c82bb59fe"
+          },
+          {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8",
@@ -1012,7 +943,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Inter Club dEscaldes vs Universitatea Craiova",
