@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-10-22T21:35:37.137914+00:00",
+  "last_updated": "2026-10-22T22:50:30.586524+00:00",
   "event_count": 18,
   "events": {
     "events": [
+      {
+        "title": "Philadelphia 76ers vs Cleveland Cavaliers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "philadelphia-76ers-vs-cleveland-cavaliers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/22 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Philadelphia 76ers",
+            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
+          },
+          "team_b": {
+            "name": "Cleveland Cavaliers",
+            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3420/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
+            "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
@@ -903,46 +943,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Philadelphia 76ers vs Cleveland Cavaliers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "philadelphia-76ers-vs-cleveland-cavaliers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/22 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Philadelphia 76ers",
-            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
-          },
-          "team_b": {
-            "name": "Cleveland Cavaliers",
-            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3420/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
-            "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Oklahoma City Thunder vs Denver Nuggets",
