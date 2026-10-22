@@ -1,96 +1,8 @@
 {
-  "last_updated": "2026-10-22T02:30:55.061103+00:00",
+  "last_updated": "2026-10-22T03:01:02.064692+00:00",
   "event_count": 75,
   "events": {
     "events": [
-      {
-        "title": "Palmeiras vs Fluminense",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "palmeiras-vs-fluminense",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 22, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/10/22 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Palmeiras",
-            "flag": "https://img.sofascore.com/api/v1/team/1963/image"
-          },
-          "team_b": {
-            "name": "Fluminense",
-            "flag": "https://img.sofascore.com/api/v1/team/1961/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1963/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Houston Rockets vs Dallas Mavericks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "houston-rockets-vs-dallas-mavericks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 22, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/22 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Houston Rockets",
-            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
-          },
-          "team_b": {
-            "name": "Dallas Mavericks",
-            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
       {
         "title": "Los Angeles Lakers vs Golden State Warriors",
         "sport": "Basketball",
@@ -3097,6 +3009,54 @@
         "total_channels": 4
       },
       {
+        "title": "Palmeiras vs Fluminense",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "palmeiras-vs-fluminense",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 06:30:00 AM",
+          "end_time_bst": "Oct 22, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/10/22 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Palmeiras",
+            "flag": "https://img.sofascore.com/api/v1/team/1963/image"
+          },
+          "team_b": {
+            "name": "Fluminense",
+            "flag": "https://img.sofascore.com/api/v1/team/1961/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1963/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "SportDigital Fussball",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "Montevideo City Torque vs Atletico Mineiro",
         "sport": "Football",
         "sub_category": "Football",
@@ -3464,6 +3424,46 @@
             "stream_type": "HLS",
             "url": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8",
             "raw_link": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Houston Rockets vs Dallas Mavericks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "houston-rockets-vs-dallas-mavericks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 06:30:00 AM",
+          "end_time_bst": "Oct 22, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/10/22 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          },
+          "team_b": {
+            "name": "Dallas Mavericks",
+            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://streame.center",
