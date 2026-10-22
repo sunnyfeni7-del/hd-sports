@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T15:00:53.505376+00:00",
-  "event_count": 54,
+  "last_updated": "2026-10-22T16:05:52.270144+00:00",
+  "event_count": 52,
   "events": {
     "events": [
       {
@@ -74,96 +74,6 @@
           }
         ],
         "total_channels": 5
-      },
-      {
-        "title": "Al-Hazem vs Al-Fayha",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-hazem-vs-al-fayha",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 07:40:00 PM",
-          "end_time_bst": "Oct 22, 2026, 10:00:00 PM",
-          "raw_start_utc": "2026/10/22 13:40:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Hazem",
-            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
-          },
-          "team_b": {
-            "name": "Al-Fayha",
-            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168086/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4599633.m3u8?txSecret=d4ee6da4d0be0a8fab365a5007c4b68a&txTime=6ADA2222",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4599633.m3u8?txSecret=d4ee6da4d0be0a8fab365a5007c4b68a&txTime=6ADA2222|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/CIIIAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/CIIIAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Al-Fateh vs Al-Shabab",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-fateh-vs-al-shabab",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:45:00 PM",
-          "end_time_bst": "Oct 22, 2026, 11:05:00 PM",
-          "raw_start_utc": "2026/10/22 14:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Fateh",
-            "flag": "https://img.sofascore.com/api/v1/team/56023/image"
-          },
-          "team_b": {
-            "name": "Al-Shabab",
-            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56023/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/BHBHBHA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/BHBHBHA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "FC Kairat Almaty vs Panathinaikos FC",
@@ -1183,8 +1093,33 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2687/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/sqdahach1ax.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/J666AAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/J666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Lech Poznan vs Sunderland",
