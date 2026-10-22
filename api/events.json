@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T19:05:55.273586+00:00",
+  "last_updated": "2026-10-22T19:10:50.856268+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -627,6 +627,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "FK Borac Banja Luka vs Kuopion Palloseura",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fk-borac-banja-luka-vs-kuopion-palloseura",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Borac Banja Luka",
+            "flag": "https://img.sofascore.com/api/v1/team/5235/image"
+          },
+          "team_b": {
+            "name": "Kuopion Palloseura",
+            "flag": "https://img.sofascore.com/api/v1/team/2244/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5235/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/D111A.m3u8",
+            "raw_link": "http://193.47.62.55/hls/D111A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Sporting Braga vs KAA Gent",
@@ -1650,33 +1690,6 @@
           }
         ],
         "total_channels": 9
-      },
-      {
-        "title": "FK Borac Banja Luka vs Kuopion Palloseura",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fk-borac-banja-luka-vs-kuopion-palloseura",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Borac Banja Luka",
-            "flag": "https://img.sofascore.com/api/v1/team/5235/image"
-          },
-          "team_b": {
-            "name": "Kuopion Palloseura",
-            "flag": "https://img.sofascore.com/api/v1/team/2244/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5235/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Flamengo vs Estudiantes de La Plata",
