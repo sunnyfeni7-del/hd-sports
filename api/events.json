@@ -1,260 +1,8 @@
 {
-  "last_updated": "2026-10-22T03:15:50.799108+00:00",
+  "last_updated": "2026-10-22T05:30:50.285724+00:00",
   "event_count": 54,
   "events": {
     "events": [
-      {
-        "title": "Los Angeles Lakers vs Golden State Warriors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-lakers-vs-golden-state-warriors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/22 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Lakers",
-            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-          },
-          "team_b": {
-            "name": "Golden State Warriors",
-            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58395/load-playlist-multi?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58395/load-playlist-multi?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58395?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58395?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/8f9dbea8-5595-4afc-ae99-fd74531a902b.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/8f9dbea8-5595-4afc-ae99-fd74531a902b.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://admin.formaturamaxi.com.br/nba3.m3u8",
-            "raw_link": "https://admin.formaturamaxi.com.br/nba3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/T777.m3u8",
-            "raw_link": "http://193.47.62.55/hls/T777.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Portland Trail Blazers vs Phoenix Suns",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "portland-trail-blazers-vs-phoenix-suns",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 22, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/22 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          },
-          "team_b": {
-            "name": "Phoenix Suns",
-            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58399/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58399/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58399?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58399?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/yjtzafghvjza74.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/yjtzafghvjza74.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://admin2.formaturamaxi.com.br/nba10.m3u8",
-            "raw_link": "https://admin2.formaturamaxi.com.br/nba10.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/be59dc08-1db5-4796-a521-c92d151d6906.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/be59dc08-1db5-4796-a521-c92d151d6906.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/T777A.m3u8",
-            "raw_link": "http://193.47.62.41/hls/T777A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Los Angeles Clippers vs Sacramento Kings",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-clippers-vs-sacramento-kings",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:30:00 AM",
-          "end_time_bst": "Oct 22, 2026, 11:00:00 AM",
-          "raw_start_utc": "2026/10/22 02:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Clippers",
-            "flag": "https://img.sofascore.com/api/v1/team/3425/image"
-          },
-          "team_b": {
-            "name": "Sacramento Kings",
-            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3425/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58402/load-playlist-multi?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58402/load-playlist-multi?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58402?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58402?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/sqhdghzavbxu75.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/sqhdghzavbxu75.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/f29908ce-c46f-43fb-8ead-087c18a2a3a4.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/f29908ce-c46f-43fb-8ead-087c18a2a3a4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/T777AA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/T777AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
@@ -2154,6 +1902,258 @@
         "logo": "https://img.sofascore.com/api/v1/team/5981/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "Los Angeles Lakers vs Golden State Warriors",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "los-angeles-lakers-vs-golden-state-warriors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 08:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 10:30:00 AM",
+          "raw_start_utc": "2026/10/22 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Los Angeles Lakers",
+            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
+          },
+          "team_b": {
+            "name": "Golden State Warriors",
+            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58395/load-playlist-multi?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58395/load-playlist-multi?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58395?ad=111&Origin=https://gooz.aapmains.net",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58395?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NBA",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/8f9dbea8-5595-4afc-ae99-fd74531a902b.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/8f9dbea8-5595-4afc-ae99-fd74531a902b.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://admin.formaturamaxi.com.br/nba3.m3u8",
+            "raw_link": "https://admin.formaturamaxi.com.br/nba3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/T777.m3u8",
+            "raw_link": "http://193.47.62.55/hls/T777.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Portland Trail Blazers vs Phoenix Suns",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "portland-trail-blazers-vs-phoenix-suns",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 08:00:00 AM",
+          "end_time_bst": "Oct 22, 2026, 10:30:00 AM",
+          "raw_start_utc": "2026/10/22 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Portland Trail Blazers",
+            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+          },
+          "team_b": {
+            "name": "Phoenix Suns",
+            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58399/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58399/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58399?ad=111&Origin=https://gooz.aapmains.net",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58399?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/yjtzafghvjza74.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/yjtzafghvjza74.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NBA ",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/nba10.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/nba10.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/be59dc08-1db5-4796-a521-c92d151d6906.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/be59dc08-1db5-4796-a521-c92d151d6906.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/T777A.m3u8",
+            "raw_link": "http://193.47.62.41/hls/T777A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Los Angeles Clippers vs Sacramento Kings",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Finish",
+        "is_hot": false,
+        "slug": "los-angeles-clippers-vs-sacramento-kings",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 08:30:00 AM",
+          "end_time_bst": "Oct 22, 2026, 11:00:00 AM",
+          "raw_start_utc": "2026/10/22 02:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Los Angeles Clippers",
+            "flag": "https://img.sofascore.com/api/v1/team/3425/image"
+          },
+          "team_b": {
+            "name": "Sacramento Kings",
+            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3425/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58402/load-playlist-multi?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58402/load-playlist-multi?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58402?ad=111&Origin=https://gooz.aapmains.net",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58402?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/sqhdghzavbxu75.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/sqhdghzavbxu75.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NBA ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/f29908ce-c46f-43fb-8ead-087c18a2a3a4.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/f29908ce-c46f-43fb-8ead-087c18a2a3a4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/T777AA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/T777AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       }
     ]
   }
