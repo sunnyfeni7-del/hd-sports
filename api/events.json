@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T14:41:00.643297+00:00",
+  "last_updated": "2026-10-22T14:45:48.883962+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -217,6 +217,46 @@
         "total_channels": 2
       },
       {
+        "title": "Al-Fateh vs Al-Shabab",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-fateh-vs-al-shabab",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 22, 2026, 08:45:00 PM",
+          "end_time_bst": "Oct 22, 2026, 11:05:00 PM",
+          "raw_start_utc": "2026/10/22 14:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Fateh",
+            "flag": "https://img.sofascore.com/api/v1/team/56023/image"
+          },
+          "team_b": {
+            "name": "Al-Shabab",
+            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56023/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/BHBHBHA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/BHBHBHA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "FC Kairat Almaty vs Panathinaikos FC",
         "sport": "Football",
         "sub_category": "Football",
@@ -275,6 +315,18 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/280508bb-8145-44c4-b0cc-df22d2c194e0.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/280508bb-8145-44c4-b0cc-df22d2c194e0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/BEEE.m3u8",
@@ -287,7 +339,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
@@ -978,33 +1030,6 @@
           }
         ],
         "total_channels": 9
-      },
-      {
-        "title": "Al-Fateh vs Al-Shabab",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-fateh-vs-al-shabab",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 22, 2026, 08:45:00 PM",
-          "end_time_bst": "Oct 22, 2026, 11:05:00 PM",
-          "raw_start_utc": "2026/10/22 14:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Fateh",
-            "flag": "https://img.sofascore.com/api/v1/team/56023/image"
-          },
-          "team_b": {
-            "name": "Al-Shabab",
-            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56023/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Al-Ahli vs Al-Khaleej",
