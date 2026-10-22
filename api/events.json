@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T16:05:52.270144+00:00",
+  "last_updated": "2026-10-22T16:10:52.544741+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -1005,11 +1005,15 @@
         "logo": "https://img.sofascore.com/api/v1/team/262229/image",
         "channels": [
           {
-            "channel_name": "",
+            "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "ok",
-            "raw_link": "ok",
-            "headers": {},
+            "url": "http://193.47.62.50/hls/J666AAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/J666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
             "drm_key": null
           }
         ],
@@ -1039,8 +1043,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2032/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/I222.m3u8",
+            "raw_link": "http://193.47.62.55/hls/I222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Ferencvaros TC vs Torreense",
@@ -1594,8 +1611,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/5149/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/EEEEAAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/EEEEAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FK Kauno Zalgiris vs SK Brann",
