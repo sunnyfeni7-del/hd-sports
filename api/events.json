@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T18:50:55.826816+00:00",
-  "event_count": 53,
+  "last_updated": "2026-10-22T18:56:09.817882+00:00",
+  "event_count": 52,
   "events": {
     "events": [
       {
@@ -681,9 +681,22 @@
               "Origin": "https://streame.center"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792715180~acl=/*~id=25029118503491533116734949005709~hmac=ea5462b55c1c775ad01858bfd9bc5f8040cfed41b86dc9133d8cc1aa1b8023da",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120302/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792715180~acl=/*~id=25029118503491533116734949005709~hmac=ea5462b55c1c775ad01858bfd9bc5f8040cfed41b86dc9133d8cc1aa1b8023da|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=cb73708bf8ec8dae5186e528494403c2-1792695001279",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "cb73708bf8ec8dae5186e528494403c2-1792695001279"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Besiktas JK vs Crystal Palace",
@@ -1715,6 +1728,46 @@
         "total_channels": 5
       },
       {
+        "title": "AGF vs KF Egnatia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "agf-vs-kf-egnatia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AGF",
+            "flag": "https://img.sofascore.com/api/v1/team/1291/image"
+          },
+          "team_b": {
+            "name": "KF Egnatia",
+            "flag": "https://img.sofascore.com/api/v1/team/264619/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1291/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel8.m3u8",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel8.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://xlz.domainkqt.cc/",
+              "Origin": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "AFC Ajax vs Atalanta",
         "sport": "Football",
         "sub_category": "Football",
@@ -1754,6 +1807,176 @@
             "stream_type": "HLS",
             "url": "https://live1.quickscoreboardz.com/live/channel18.m3u8",
             "raw_link": "https://live1.quickscoreboardz.com/live/channel18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://xlz.domainkqt.cc/",
+              "Origin": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Sporting Braga vs KAA Gent",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sporting-braga-vs-kaa-gent",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sporting Braga",
+            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
+          },
+          "team_b": {
+            "name": "KAA Gent",
+            "flag": "https://img.sofascore.com/api/v1/team/2903/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2999/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel13.m3u8",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel13.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://xlz.domainkqt.cc/",
+              "Origin": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FC Midtjylland vs Sint-Truidense VV",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-midtjylland-vs-sint-truidense-vv",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Midtjylland",
+            "flag": "https://img.sofascore.com/api/v1/team/1289/image"
+          },
+          "team_b": {
+            "name": "Sint-Truidense VV",
+            "flag": "https://img.sofascore.com/api/v1/team/2895/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1289/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel17.m3u8",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel17.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://xlz.domainkqt.cc/",
+              "Origin": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Lincoln Red Imps vs FC Twente",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "lincoln-red-imps-vs-fc-twente",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lincoln Red Imps",
+            "flag": "https://img.sofascore.com/api/v1/team/126304/image"
+          },
+          "team_b": {
+            "name": "FC Twente",
+            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/126304/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel9.m3u8",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel9.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://xlz.domainkqt.cc/",
+              "Origin": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "AS Monaco vs SC Freiburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "as-monaco-vs-sc-freiburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/22 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AS Monaco",
+            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+          },
+          "team_b": {
+            "name": "SC Freiburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1653/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58407/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58407/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel24.m3u8",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://xlz.domainkqt.cc/",
@@ -2618,33 +2841,6 @@
         "total_channels": 9
       },
       {
-        "title": "AGF vs KF Egnatia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "agf-vs-kf-egnatia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AGF",
-            "flag": "https://img.sofascore.com/api/v1/team/1291/image"
-          },
-          "team_b": {
-            "name": "KF Egnatia",
-            "flag": "https://img.sofascore.com/api/v1/team/264619/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1291/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "FK Borac Banja Luka vs Kuopion Palloseura",
         "sport": "Football",
         "sub_category": "Football",
@@ -2668,141 +2864,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/5235/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sporting Braga vs KAA Gent",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sporting-braga-vs-kaa-gent",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sporting Braga",
-            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
-          },
-          "team_b": {
-            "name": "KAA Gent",
-            "flag": "https://img.sofascore.com/api/v1/team/2903/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2999/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Midtjylland vs Sint-Truidense VV",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-midtjylland-vs-sint-truidense-vv",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Midtjylland",
-            "flag": "https://img.sofascore.com/api/v1/team/1289/image"
-          },
-          "team_b": {
-            "name": "Sint-Truidense VV",
-            "flag": "https://img.sofascore.com/api/v1/team/2895/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1289/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Lincoln Red Imps vs FC Twente",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "lincoln-red-imps-vs-fc-twente",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Lincoln Red Imps",
-            "flag": "https://img.sofascore.com/api/v1/team/126304/image"
-          },
-          "team_b": {
-            "name": "FC Twente",
-            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/126304/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "AS Monaco vs SC Freiburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "as-monaco-vs-sc-freiburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AS Monaco",
-            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
-          },
-          "team_b": {
-            "name": "SC Freiburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1653/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Thun vs HNK Hajduk Split",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-thun-vs-hnk-hajduk-split",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 23, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/22 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Thun",
-            "flag": "https://img.sofascore.com/api/v1/team/2454/image"
-          },
-          "team_b": {
-            "name": "HNK Hajduk Split",
-            "flag": "https://img.sofascore.com/api/v1/team/2036/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2454/image",
         "channels": [],
         "total_channels": 0
       },
