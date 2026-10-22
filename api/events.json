@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T16:25:47.228723+00:00",
+  "last_updated": "2026-10-22T16:30:53.254901+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -1005,6 +1005,27 @@
         "logo": "https://img.sofascore.com/api/v1/team/262229/image",
         "channels": [
           {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+            "headers": {},
+            "drm_key": "1585ea4786f5c6e5d4ac6e34619bcd4d:97ca052adba4200e81997a97dee89d73"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/J666AAA.m3u8",
@@ -1017,7 +1038,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "GNK Dinamo Zagreb vs NEC Nijmegen",
@@ -1135,6 +1156,16 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://edgestream2.pro/hls/sqdahach1ax.m3u8",
@@ -1172,7 +1203,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Lech Poznan vs Sunderland",
@@ -1210,6 +1241,16 @@
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8",
@@ -1218,6 +1259,19 @@
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://streame.center",
               "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
             },
             "drm_key": null
           },
@@ -1234,7 +1288,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "OFI Crete vs Bayer 04 Leverkusen",
@@ -2048,6 +2102,19 @@
             "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
           },
           {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b",
+            "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=5ded1a18866ea723ee09cbfb68346f94-1792685404669",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "5ded1a18866ea723ee09cbfb68346f94-1792685404669"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/J666AAAAAAQ.m3u8",
@@ -2060,7 +2127,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "AGF vs KF Egnatia",
