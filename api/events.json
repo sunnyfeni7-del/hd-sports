@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T16:50:58.214545+00:00",
+  "last_updated": "2026-10-22T16:55:46.045392+00:00",
   "event_count": 51,
   "events": {
     "events": [
@@ -862,6 +862,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/2859/image",
         "channels": [
           {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dq1gexajwh/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dq1gexajwh/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd",
+            "headers": {},
+            "drm_key": "5feaf5bccec31a022d9673ee1137951f:84521c9ed5c884343e8ee559148e1838"
+          },
+          {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8",
@@ -899,7 +907,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "FC Iberia 1999 vs Mjallby AIF",
@@ -987,6 +995,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/37946/image",
         "channels": [
           {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0isdl1rnqo/out/v1/22c3f3c1e99c4c38b8e543d375d80046/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0isdl1rnqo/out/v1/22c3f3c1e99c4c38b8e543d375d80046/cenc.mpd",
+            "headers": {},
+            "drm_key": "5ccb2fa3e92c1077dde479b617770e37:77193ba8029688cbcc949d282445959b"
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/EEEE.m3u8",
@@ -999,7 +1015,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "FK Jablonec vs Brighton Hove Albion",
