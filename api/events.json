@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T13:20:58.332856+00:00",
+  "last_updated": "2026-10-23T13:31:00.430598+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -194,9 +194,31 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
             "headers": {},
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4599631.m3u8?txSecret=96c11d094470272cf5aef3c8b023657a&txTime=6ADB7472",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4599631.m3u8?txSecret=96c11d094470272cf5aef3c8b023657a&txTime=6ADB7472|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/ZKKKAAAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/ZKKKAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
