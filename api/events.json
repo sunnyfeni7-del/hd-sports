@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T00:20:32.793421+00:00",
+  "last_updated": "2026-10-23T01:20:31.153889+00:00",
   "event_count": 18,
   "events": {
     "events": [
@@ -168,6 +168,46 @@
             "stream_type": "HLS",
             "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
             "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Oklahoma City Thunder vs Denver Nuggets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "oklahoma-city-thunder-vs-denver-nuggets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 07:30:00 AM",
+          "end_time_bst": "Oct 23, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/10/23 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          },
+          "team_b": {
+            "name": "Denver Nuggets",
+            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3418/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://streame.center",
@@ -993,46 +1033,6 @@
           }
         ],
         "total_channels": 9
-      },
-      {
-        "title": "Oklahoma City Thunder vs Denver Nuggets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "oklahoma-city-thunder-vs-denver-nuggets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 07:30:00 AM",
-          "end_time_bst": "Oct 23, 2026, 10:00:00 AM",
-          "raw_start_utc": "2026/10/23 01:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Oklahoma City Thunder",
-            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
-          },
-          "team_b": {
-            "name": "Denver Nuggets",
-            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3418/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Afghanistan vs Zimbabwe",
