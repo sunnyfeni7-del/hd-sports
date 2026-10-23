@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T17:21:02.761911+00:00",
+  "last_updated": "2026-10-23T17:31:13.126137+00:00",
   "event_count": 76,
   "events": {
     "events": [
@@ -28,6 +28,26 @@
         },
         "logo": "nulln",
         "channels": [
+          {
+            "channel_name": "SKY Via APPLE TV",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674"
+          },
+          {
+            "channel_name": "APPLE TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd",
+            "raw_link": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e"
+          },
           {
             "channel_name": "FANCODE - AQ",
             "stream_type": "DASH",
@@ -98,7 +118,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 9
       },
       {
         "title": "Afghanistan vs Zimbabwe",
