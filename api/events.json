@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T19:05:59.621406+00:00",
+  "last_updated": "2026-10-23T19:11:03.017365+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -143,6 +143,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "SKY MAIN EVENT",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live.vivo155.com/live/hd-en-1-4558644.m3u8?txSecret=733f57c4a8f118c36c3893c10f73c88b&txTime=6ADBC06F",
@@ -165,6 +173,18 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/c5c30f14-6e47-4f25-9d64-fe1084faeace.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/c5c30f14-6e47-4f25-9d64-fe1084faeace.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/R444AA.m3u8",
@@ -177,7 +197,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 8
       },
       {
         "title": "Torino vs Monza",
