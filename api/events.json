@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T16:50:56.333722+00:00",
+  "last_updated": "2026-10-23T17:15:58.832053+00:00",
   "event_count": 76,
   "events": {
     "events": [
@@ -285,6 +285,56 @@
         "total_channels": 3
       },
       {
+        "title": "Alanyaspor vs Kocaelispor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "alanyaspor-vs-kocaelispor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 24, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/23 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Alanyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
+          },
+          "team_b": {
+            "name": "Kocaelispor",
+            "flag": "https://img.sofascore.com/api/v1/team/3065/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581341.m3u8?txSecret=d4cd5c3a65004080586d36589a6ac096&txTime=6ADBA7AE",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581341.m3u8?txSecret=d4cd5c3a65004080586d36589a6ac096&txTime=6ADBA7AE|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/OOOOAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/OOOOAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -310,16 +360,6 @@
         "logo": "nulln",
         "channels": [
           {
-            "channel_name": "SKY SPORTS  - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "b48b292c66f796d2fea54beb5298e96d:9fcdc4a898ccf47be7e7bbabf91776db"
-          },
-          {
             "channel_name": "FANCODE - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -340,8 +380,8 @@
           {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/57777/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/57777/load-playlist?|Referer=https://gooz.aapmains.net",
+            "url": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
             },
@@ -394,8 +434,8 @@
           {
             "channel_name": "RUSSIA FEED",
             "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/4883ca1f298abb3a17eae58fc0532c89/index.m3u8?s=o6oFOpHt6HBBUneuoZAuog&e=1791709072&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/4883ca1f298abb3a17eae58fc0532c89/index.m3u8?s=o6oFOpHt6HBBUneuoZAuog&e=1791709072&scheme=https|user-agent=Mozilla",
+            "url": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
             "headers": {
               "user-agent": "Mozilla"
             },
@@ -425,7 +465,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 12
+        "total_channels": 11
       },
       {
         "title": "Motogp",
@@ -2539,33 +2579,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/33779/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Alanyaspor vs Kocaelispor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "alanyaspor-vs-kocaelispor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 24, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/23 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Alanyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
-          },
-          "team_b": {
-            "name": "Kocaelispor",
-            "flag": "https://img.sofascore.com/api/v1/team/3065/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
         "channels": [],
         "total_channels": 0
       },
