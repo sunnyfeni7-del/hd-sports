@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T22:30:56.957547+00:00",
+  "last_updated": "2026-10-23T22:50:55.000319+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -124,7 +124,7 @@
         "title": "Motogp",
         "sport": "Motorsport",
         "sub_category": "Motorsport",
-        "status": "Upcoming",
+        "status": "Live",
         "is_hot": false,
         "slug": "motogp",
         "schedule": {
@@ -206,6 +206,244 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Cruzeiro vs Remo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cruzeiro-vs-remo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cruzeiro",
+            "flag": "https://img.sofascore.com/api/v1/team/1954/image"
+          },
+          "team_b": {
+            "name": "Remo",
+            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1954/image",
+        "channels": [
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Boston Celtics vs New York Knicks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "boston-celtics-vs-new-york-knicks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Boston Celtics",
+            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+          },
+          "team_b": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/wfazgsqtrezu66.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Indiana Pacers vs Dallas Mavericks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "indiana-pacers-vs-dallas-mavericks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Indiana Pacers",
+            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
+          },
+          "team_b": {
+            "name": "Dallas Mavericks",
+            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3419/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Orlando Magic vs Minnesota Timberwolves",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "orlando-magic-vs-minnesota-timberwolves",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Orlando Magic",
+            "flag": "https://img.sofascore.com/api/v1/team/3437/image"
+          },
+          "team_b": {
+            "name": "Minnesota Timberwolves",
+            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3437/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/zeafwqvhfe69.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Charlotte Hornets vs Atlanta Hawks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "charlotte-hornets-vs-atlanta-hawks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Charlotte Hornets",
+            "flag": "https://img.sofascore.com/api/v1/team/3430/image"
+          },
+          "team_b": {
+            "name": "Atlanta Hawks",
+            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3430/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Washington Wizards vs Toronto Raptors",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "washington-wizards-vs-toronto-raptors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/23 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Washington Wizards",
+            "flag": "https://img.sofascore.com/api/v1/team/3431/image"
+          },
+          "team_b": {
+            "name": "Toronto Raptors",
+            "flag": "https://img.sofascore.com/api/v1/team/3433/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3431/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Smack Down",
@@ -1447,44 +1685,6 @@
         "total_channels": 0
       },
       {
-        "title": "Cruzeiro vs Remo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cruzeiro-vs-remo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:20:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cruzeiro",
-            "flag": "https://img.sofascore.com/api/v1/team/1954/image"
-          },
-          "team_b": {
-            "name": "Remo",
-            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1954/image",
-        "channels": [
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Cagliari vs Bologna",
         "sport": "Football",
         "sub_category": "Football",
@@ -1915,206 +2115,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2818/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Boston Celtics vs New York Knicks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "boston-celtics-vs-new-york-knicks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Boston Celtics",
-            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
-          },
-          "team_b": {
-            "name": "New York Knicks",
-            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/wfazgsqtrezu66.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Indiana Pacers vs Dallas Mavericks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "indiana-pacers-vs-dallas-mavericks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Indiana Pacers",
-            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
-          },
-          "team_b": {
-            "name": "Dallas Mavericks",
-            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3419/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Orlando Magic vs Minnesota Timberwolves",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "orlando-magic-vs-minnesota-timberwolves",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Orlando Magic",
-            "flag": "https://img.sofascore.com/api/v1/team/3437/image"
-          },
-          "team_b": {
-            "name": "Minnesota Timberwolves",
-            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3437/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/zeafwqvhfe69.m3u8",
-            "raw_link": "https://edgestream6.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Charlotte Hornets vs Atlanta Hawks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "charlotte-hornets-vs-atlanta-hawks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Charlotte Hornets",
-            "flag": "https://img.sofascore.com/api/v1/team/3430/image"
-          },
-          "team_b": {
-            "name": "Atlanta Hawks",
-            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3430/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Washington Wizards vs Toronto Raptors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "washington-wizards-vs-toronto-raptors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/23 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Washington Wizards",
-            "flag": "https://img.sofascore.com/api/v1/team/3431/image"
-          },
-          "team_b": {
-            "name": "Toronto Raptors",
-            "flag": "https://img.sofascore.com/api/v1/team/3433/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3431/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "San Antonio Spurs vs Houston Rockets",
