@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T11:20:55.225683+00:00",
+  "last_updated": "2026-10-23T11:36:08.844990+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -93,28 +93,36 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qabepxpmhh/out/v1/341ef8839e3a4f2f9a631a9d8feb6917/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qabepxpmhh/out/v1/341ef8839e3a4f2f9a631a9d8feb6917/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
             "headers": {},
-            "drm_key": "de4f7619ad148729aeb3fa269c66ac69:39f15c262064e93e317aefeb4d458cf0"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
           },
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qabepxpmhh/out/v1/341ef8839e3a4f2f9a631a9d8feb6917/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qabepxpmhh/out/v1/341ef8839e3a4f2f9a631a9d8feb6917/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
             "headers": {},
-            "drm_key": "de4f7619ad148729aeb3fa269c66ac69:39f15c262064e93e317aefeb4d458cf0"
+            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
+            "headers": {
+              "referer": "https://www.tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+            "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+            "headers": {},
+            "drm_key": null
           },
           {
             "channel_name": "T SPORTS HD",
@@ -136,7 +144,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
