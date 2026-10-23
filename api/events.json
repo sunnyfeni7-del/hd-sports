@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T15:41:11.067409+00:00",
+  "last_updated": "2026-10-23T16:23:15.988025+00:00",
   "event_count": 76,
   "events": {
     "events": [
@@ -151,6 +151,82 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Darmstadt 98 vs FC St. Pauli",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "darmstadt-98-vs-fc-st-pauli",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/23 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Darmstadt 98",
+            "flag": "https://img.sofascore.com/api/v1/team/2576/image"
+          },
+          "team_b": {
+            "name": "FC St. Pauli",
+            "flag": "https://img.sofascore.com/api/v1/team/2526/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2576/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "VfL Bochum 1848 vs VfL Wolfsburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "vfl-bochum-1848-vs-vfl-wolfsburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 23, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/23 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "VfL Bochum 1848",
+            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
+          },
+          "team_b": {
+            "name": "VfL Wolfsburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2524/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2542/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2328,82 +2404,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/5/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Darmstadt 98 vs FC St. Pauli",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "darmstadt-98-vs-fc-st-pauli",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/23 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Darmstadt 98",
-            "flag": "https://img.sofascore.com/api/v1/team/2576/image"
-          },
-          "team_b": {
-            "name": "FC St. Pauli",
-            "flag": "https://img.sofascore.com/api/v1/team/2526/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2576/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "VfL Bochum 1848 vs VfL Wolfsburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "vfl-bochum-1848-vs-vfl-wolfsburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 23, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/23 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "VfL Bochum 1848",
-            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
-          },
-          "team_b": {
-            "name": "VfL Wolfsburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2524/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2542/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Go Ahead Eagles vs SC Telstar",
