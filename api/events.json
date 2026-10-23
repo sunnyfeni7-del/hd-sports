@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T23:30:59.947207+00:00",
+  "last_updated": "2026-10-23T23:51:00.167816+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -444,6 +444,104 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Miami Heat vs Detroit Pistons",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "miami-heat-vs-detroit-pistons",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/24 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Miami Heat",
+            "flag": "https://img.sofascore.com/api/v1/team/3435/image"
+          },
+          "team_b": {
+            "name": "Detroit Pistons",
+            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3435/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Milwaukee Brewers vs Tampa Bay Rays",
+        "sport": "Baseball",
+        "sub_category": "Baseball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "milwaukee-brewers-vs-tampa-bay-rays",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/10/24 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Milwaukee Brewers",
+            "flag": "https://img.sofascore.com/api/v1/team/3630/image"
+          },
+          "team_b": {
+            "name": "Tampa Bay Rays",
+            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3630/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "FOX DEPORTES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "headers": {},
+            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Smack Down",
@@ -2315,104 +2413,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Miami Heat vs Detroit Pistons",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "miami-heat-vs-detroit-pistons",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/24 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Miami Heat",
-            "flag": "https://img.sofascore.com/api/v1/team/3435/image"
-          },
-          "team_b": {
-            "name": "Detroit Pistons",
-            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3435/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Milwaukee Brewers vs Tampa Bay Rays",
-        "sport": "Baseball",
-        "sub_category": "Baseball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milwaukee-brewers-vs-tampa-bay-rays",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/24 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milwaukee Brewers",
-            "flag": "https://img.sofascore.com/api/v1/team/3630/image"
-          },
-          "team_b": {
-            "name": "Tampa Bay Rays",
-            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3630/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "headers": {},
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "VfB Stuttgart vs Borussia Mgladbach",
