@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T19:11:03.017365+00:00",
+  "last_updated": "2026-10-23T19:51:06.755647+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -700,6 +700,46 @@
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
               "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Milwaukee Bucks vs Chicago Bulls",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "milwaukee-bucks-vs-chicago-bulls",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 02:00:00 AM",
+          "end_time_bst": "Oct 24, 2026, 04:30:00 AM",
+          "raw_start_utc": "2026/10/23 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Milwaukee Bucks",
+            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
+          },
+          "team_b": {
+            "name": "Chicago Bulls",
+            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/mlkijfezag65.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
             },
             "drm_key": null
           }
@@ -2618,46 +2658,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2818/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Milwaukee Bucks vs Chicago Bulls",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milwaukee-bucks-vs-chicago-bulls",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 04:30:00 AM",
-          "raw_start_utc": "2026/10/23 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milwaukee Bucks",
-            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
-          },
-          "team_b": {
-            "name": "Chicago Bulls",
-            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/mlkijfezag65.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Boston Celtics vs New York Knicks",
