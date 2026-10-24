@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T16:20:52.951902+00:00",
+  "last_updated": "2026-10-24T16:37:48.415944+00:00",
   "event_count": 72,
   "events": {
     "events": [
@@ -169,12 +169,22 @@
         "logo": "https://img.sofascore.com/api/v1/team/2673/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "USA SPORTS HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58510/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/58510/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566331.m3u8?txSecret=415d00caacaf639f04750053a30a9877&txTime=6ADCF17D",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566331.m3u8?txSecret=415d00caacaf639f04750053a30a9877&txTime=6ADCF17D|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
             },
             "drm_key": null
           },
@@ -191,7 +201,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Chelsea vs Tottenham Hotspur",
@@ -219,6 +229,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/38/image",
         "channels": [
           {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/tmuyow2v4n/out/v1/42dd830cfc8140aea984c2c01166fd1c/0cc6e394-71a6-4e53-ad42-64d38a14a3fa-cenc.mpd?aws_sessionId=41d23a1f-5302-4eb0-ac50-a5fa48ce041a",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/tmuyow2v4n/out/v1/42dd830cfc8140aea984c2c01166fd1c/0cc6e394-71a6-4e53-ad42-64d38a14a3fa-cenc.mpd?aws_sessionId=41d23a1f-5302-4eb0-ac50-a5fa48ce041a",
+            "headers": {},
+            "drm_key": "c73b2bb9fe9610c566c68de50b57ad7f:2f486dbafd801fafe67c5b148263b4db"
+          },
+          {
             "channel_name": "SKY SPORTS - AQ",
             "stream_type": "HLS",
             "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=LS7CQgVo3LGHyQW5yphz-g&e=2092722172&scheme=https",
@@ -229,12 +247,22 @@
             "drm_key": null
           },
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "PEACOCK TV HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58509/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/58509/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558637.m3u8?txSecret=817cb961616940e06806482555b59814&txTime=6ADCF158",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558637.m3u8?txSecret=817cb961616940e06806482555b59814&txTime=6ADCF158|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
             },
             "drm_key": null
           },
@@ -251,7 +279,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "SSC Napoli vs AS Roma",
@@ -351,116 +379,6 @@
         "total_channels": 7
       },
       {
-        "title": "Valencia vs Villarreal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "valencia-vs-villarreal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Valencia",
-            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
-          },
-          "team_b": {
-            "name": "Villarreal",
-            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2828/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/IPPPA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/IPPPA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Al-Kholood vs Al-Ettifaq",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-kholood-vs-al-ettifaq",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 09:05:00 PM",
-          "end_time_bst": "Oct 24, 2026, 11:25:00 PM",
-          "raw_start_utc": "2026/10/24 15:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Kholood",
-            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
-          },
-          "team_b": {
-            "name": "Al-Ettifaq",
-            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/269199/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/btbtbtqqqqqqq.m3u8",
-            "raw_link": "http://193.47.62.55/hls/btbtbtqqqqqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "FC Utrecht vs PEC Zwolle",
         "sport": "Football",
         "sub_category": "Football",
@@ -490,6 +408,46 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/SSSSQQ.m3u8",
             "raw_link": "http://193.47.62.55/hls/SSSSQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Willem II Tilburg vs SC Cambuur",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "willem-ii-tilburg-vs-sc-cambuur",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:45:00 PM",
+          "end_time_bst": "Oct 25, 2026, 01:05:00 AM",
+          "raw_start_utc": "2026/10/24 16:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Willem II Tilburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
+          },
+          "team_b": {
+            "name": "SC Cambuur",
+            "flag": "https://img.sofascore.com/api/v1/team/2970/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2961/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/IPPPAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IPPPAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -898,38 +856,8 @@
           }
         },
         "logo": "null",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WWE LIVE - AQ",
-            "stream_type": "HLS",
-            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SD SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
-            "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-            "headers": {
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "WWE Raw",
@@ -1442,62 +1370,8 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "headers": {},
-            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "headers": {},
-            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
-            "headers": {
-              "referer": "https://www.tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "Pakistan vs Sri Lanka",
@@ -2101,6 +1975,33 @@
         "total_channels": 3
       },
       {
+        "title": "Valencia vs Villarreal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "valencia-vs-villarreal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Valencia",
+            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
+          },
+          "team_b": {
+            "name": "Villarreal",
+            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2828/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
         "sport": "Baseball",
         "sub_category": "Baseball",
@@ -2411,6 +2312,33 @@
         "total_channels": 2
       },
       {
+        "title": "Al-Kholood vs Al-Ettifaq",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "al-kholood-vs-al-ettifaq",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 09:05:00 PM",
+          "end_time_bst": "Oct 24, 2026, 11:25:00 PM",
+          "raw_start_utc": "2026/10/24 15:05:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Kholood",
+            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+          },
+          "team_b": {
+            "name": "Al-Ettifaq",
+            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/269199/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
         "title": "Al-Riyadh vs Al-Taawoun",
         "sport": "Football",
         "sub_category": "Football",
@@ -2498,46 +2426,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Willem II Tilburg vs SC Cambuur",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "willem-ii-tilburg-vs-sc-cambuur",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 25, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/24 16:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Willem II Tilburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
-          },
-          "team_b": {
-            "name": "SC Cambuur",
-            "flag": "https://img.sofascore.com/api/v1/team/2970/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2961/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/IPPPAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/IPPPAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 1
