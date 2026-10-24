@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T15:51:09.050049+00:00",
+  "last_updated": "2026-10-24T16:00:59.286185+00:00",
   "event_count": 85,
   "events": {
     "events": [
@@ -392,9 +392,31 @@
               "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4549055.m3u8?txSecret=1ed04debc35b237d6c978de13ec2d72c&txTime=6ADCE920",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549055.m3u8?txSecret=1ed04debc35b237d6c978de13ec2d72c&txTime=6ADCE920|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/ajjjaaaqqqaaaaq.m3u8",
+            "raw_link": "http://193.47.62.55/hls/ajjjaaaqqqaaaaq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 8
       },
       {
         "title": "Real Racing Club vs Espanyol",
@@ -1064,6 +1086,56 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/A888AAAQQQQ.m3u8",
             "raw_link": "http://193.47.62.55/hls/A888AAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Samsunspor vs Amed Sportif Faaliyetler",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "samsunspor-vs-amed-sportif-faaliyetler",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/24 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Samsunspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
+          },
+          "team_b": {
+            "name": "Amed Sportif Faaliyetler",
+            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581349.m3u8?txSecret=9da7d30af89fecea530d47bd1dc03c9f&txTime=6ADCE8AE",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581349.m3u8?txSecret=9da7d30af89fecea530d47bd1dc03c9f&txTime=6ADCE8AE|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/H4444QQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/H4444QQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -3236,33 +3308,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2858/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Samsunspor vs Amed Sportif Faaliyetler",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "samsunspor-vs-amed-sportif-faaliyetler",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/24 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Samsunspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
-          },
-          "team_b": {
-            "name": "Amed Sportif Faaliyetler",
-            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
         "channels": [],
         "total_channels": 0
       },
