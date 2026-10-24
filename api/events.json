@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T16:51:06.027719+00:00",
+  "last_updated": "2026-10-24T17:05:53.042973+00:00",
   "event_count": 70,
   "events": {
     "events": [
@@ -585,6 +585,46 @@
         "total_channels": 1
       },
       {
+        "title": "FC Alverca vs FC Arouca",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-alverca-vs-fc-arouca",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 25, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/24 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Alverca",
+            "flag": "https://img.sofascore.com/api/v1/team/190328/image"
+          },
+          "team_b": {
+            "name": "FC Arouca",
+            "flag": "https://img.sofascore.com/api/v1/team/25777/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/190328/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/duuuuQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/duuuuQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Girona FC vs Celta Fortuna",
         "sport": "Football",
         "sub_category": "Football",
@@ -740,24 +780,14 @@
         "logo": "nulln",
         "channels": [
           {
-            "channel_name": "SKY Via APPLE TV",
+            "channel_name": "TSN SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674"
-          },
-          {
-            "channel_name": "APPLE TV - AQ",
-            "stream_type": "DASH",
-            "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd",
-            "raw_link": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e"
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
           },
           {
             "channel_name": "FANCODE - AQ",
@@ -829,7 +859,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 9
+        "total_channels": 8
       },
       {
         "title": "Motogp",
@@ -2570,33 +2600,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2966/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Alverca vs FC Arouca",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-alverca-vs-fc-arouca",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 25, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/24 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Alverca",
-            "flag": "https://img.sofascore.com/api/v1/team/190328/image"
-          },
-          "team_b": {
-            "name": "FC Arouca",
-            "flag": "https://img.sofascore.com/api/v1/team/25777/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/190328/image",
         "channels": [],
         "total_channels": 0
       },
