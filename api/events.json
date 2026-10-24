@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T17:50:57.432295+00:00",
+  "last_updated": "2026-10-24T17:55:55.582090+00:00",
   "event_count": 69,
   "events": {
     "events": [
@@ -28,6 +28,16 @@
         },
         "logo": "nulln",
         "channels": [
+          {
+            "channel_name": "APPLE TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2zd0dtse6o/out/v1/a34ee04b03b54f0092d3c03cd0707fba/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2zd0dtse6o/out/v1/a34ee04b03b54f0092d3c03cd0707fba/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "3f797fa057aa1ded64bf54daeefc529f:63bdd4bfef64901a6d9b138e59129e67"
+          },
           {
             "channel_name": "FANCODE - AQ",
             "stream_type": "DASH",
@@ -98,7 +108,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 8
       },
       {
         "title": "UFC LIVE",
