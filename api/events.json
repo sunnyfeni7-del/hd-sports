@@ -1,8 +1,158 @@
 {
-  "last_updated": "2026-10-24T13:21:04.498945+00:00",
+  "last_updated": "2026-10-24T13:26:06.646207+00:00",
   "event_count": 99,
   "events": {
     "events": [
+      {
+        "title": "FC Augsburg vs 1. FC Union Berlin",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-augsburg-vs-1-fc-union-berlin",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/10/24 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Augsburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2600/image"
+          },
+          "team_b": {
+            "name": "1. FC Union Berlin",
+            "flag": "https://img.sofascore.com/api/v1/team/2547/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2600/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566343.m3u8?txSecret=ab3af627f4ab1ee2dc12e6ed71dd99a4&txTime=6ADCC60A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566343.m3u8?txSecret=ab3af627f4ab1ee2dc12e6ed71dd99a4&txTime=6ADCC60A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/QOOO.m3u8",
+            "raw_link": "http://193.47.62.55/hls/QOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "1. FC Koln vs FC Schalke 04",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "1-fc-koln-vs-fc-schalke-04",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/10/24 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "1. FC Köln",
+            "flag": "https://img.sofascore.com/api/v1/team/2671/image"
+          },
+          "team_b": {
+            "name": "FC Schalke 04",
+            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2671/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566349.m3u8?txSecret=130508055d822bd9ec351dfe46622500&txTime=6ADCC5F6",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566349.m3u8?txSecret=130508055d822bd9ec351dfe46622500&txTime=6ADCC5F6|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/QOOOQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/QOOOQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "1. FSV Mainz 05 vs SV Werder Bremen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "1-fsv-mainz-05-vs-sv-werder-bremen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/10/24 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "1. FSV Mainz 05",
+            "flag": "https://img.sofascore.com/api/v1/team/2556/image"
+          },
+          "team_b": {
+            "name": "SV Werder Bremen",
+            "flag": "https://img.sofascore.com/api/v1/team/2534/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2556/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566346.m3u8?txSecret=14796f9ec654cc52ec7f7947571db1d9&txTime=6ADCC5B3",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566346.m3u8?txSecret=14796f9ec654cc52ec7f7947571db1d9&txTime=6ADCC5B3|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/QOOOQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/QOOOQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "Aston Villa vs Manchester City",
         "sport": "Football",
@@ -1575,87 +1725,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2817/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Augsburg vs 1. FC Union Berlin",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-augsburg-vs-1-fc-union-berlin",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/10/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Augsburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2600/image"
-          },
-          "team_b": {
-            "name": "1. FC Union Berlin",
-            "flag": "https://img.sofascore.com/api/v1/team/2547/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2600/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "1. FC Koln vs FC Schalke 04",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "1-fc-koln-vs-fc-schalke-04",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/10/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "1. FC Köln",
-            "flag": "https://img.sofascore.com/api/v1/team/2671/image"
-          },
-          "team_b": {
-            "name": "FC Schalke 04",
-            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2671/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "1. FSV Mainz 05 vs SV Werder Bremen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "1-fsv-mainz-05-vs-sv-werder-bremen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/10/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "1. FSV Mainz 05",
-            "flag": "https://img.sofascore.com/api/v1/team/2556/image"
-          },
-          "team_b": {
-            "name": "SV Werder Bremen",
-            "flag": "https://img.sofascore.com/api/v1/team/2534/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2556/image",
         "channels": [],
         "total_channels": 0
       },
