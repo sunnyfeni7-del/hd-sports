@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T16:16:08.233083+00:00",
-  "event_count": 74,
+  "last_updated": "2026-10-24T16:20:52.951902+00:00",
+  "event_count": 72,
   "events": {
     "events": [
       {
@@ -144,6 +144,116 @@
         "total_channels": 12
       },
       {
+        "title": "Borussia Dortmund vs Eintracht Frankfurt",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "borussia-dortmund-vs-eintracht-frankfurt",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Borussia Dortmund",
+            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
+          },
+          "team_b": {
+            "name": "Eintracht Frankfurt",
+            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2673/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58510/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58510/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/IPPPAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IPPPAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Chelsea vs Tottenham Hotspur",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "chelsea-vs-tottenham-hotspur",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chelsea",
+            "flag": "https://img.sofascore.com/api/v1/team/38/image"
+          },
+          "team_b": {
+            "name": "Tottenham Hotspur",
+            "flag": "https://img.sofascore.com/api/v1/team/33/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/38/image",
+        "channels": [
+          {
+            "channel_name": "SKY SPORTS - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=LS7CQgVo3LGHyQW5yphz-g&e=2092722172&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=LS7CQgVo3LGHyQW5yphz-g&e=2092722172&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58509/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58509/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/tytyty.m3u8",
+            "raw_link": "http://193.47.62.50/hls/tytyty.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "SSC Napoli vs AS Roma",
         "sport": "Football",
         "sub_category": "Football",
@@ -241,65 +351,65 @@
         "total_channels": 7
       },
       {
-        "title": "Real Racing Club vs Espanyol",
+        "title": "Valencia vs Villarreal",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "real-racing-club-vs-espanyol",
+        "slug": "valencia-vs-villarreal",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 08:15:00 PM",
-          "end_time_bst": "Oct 24, 2026, 10:35:00 PM",
-          "raw_start_utc": "2026/10/24 14:15:00 +0000"
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Real Racing Club",
-            "flag": "https://img.sofascore.com/api/v1/team/2835/image"
+            "name": "Valencia",
+            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
           },
           "team_b": {
-            "name": "Espanyol",
-            "flag": "https://img.sofascore.com/api/v1/team/2814/image"
+            "name": "Villarreal",
+            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2835/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2828/image",
         "channels": [
           {
-            "channel_name": "FANCODE - AQ",
+            "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
           },
           {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4565474.m3u8?txSecret=09abf87caced7f0d4257708804859882&txTime=6ADCD4BA",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4565474.m3u8?txSecret=09abf87caced7f0d4257708804859882&txTime=6ADCD4BA",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/35f5107c-325e-4b98-a967-4ab09173c397.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/35f5107c-325e-4b98-a967-4ab09173c397.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": null
+            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
           },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/h444QQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/h444QQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.55/hls/IPPPA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IPPPA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -431,45 +541,35 @@
         "total_channels": 1
       },
       {
-        "title": "Leganes vs Mallorca",
+        "title": "Girona FC vs Celta Fortuna",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "leganes-vs-mallorca",
+        "slug": "girona-fc-vs-celta-fortuna",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 08:15:00 PM",
-          "end_time_bst": "Oct 24, 2026, 10:35:00 PM",
-          "raw_start_utc": "2026/10/24 14:15:00 +0000"
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Leganés",
-            "flag": "https://img.sofascore.com/api/v1/team/2845/image"
+            "name": "Girona FC",
+            "flag": "https://img.sofascore.com/api/v1/team/24264/image"
           },
           "team_b": {
-            "name": "Mallorca",
-            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
+            "name": "Celta Fortuna",
+            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2845/image",
+        "logo": "https://img.sofascore.com/api/v1/team/24264/image",
         "channels": [
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4567331.m3u8?txSecret=7f35a2d9244f2fbf7516aacf05dcc991&txTime=6ADCD464",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4567331.m3u8?txSecret=7f35a2d9244f2fbf7516aacf05dcc991&txTime=6ADCD464|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/A888AAAQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/A888AAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.55/hls/LTTTAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/LTTTAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -478,7 +578,47 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 1
+      },
+      {
+        "title": "UD Las Palmas vs Real Sociedad B",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ud-las-palmas-vs-real-sociedad-b",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/10/24 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "UD Las Palmas",
+            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+          },
+          "team_b": {
+            "name": "Real Sociedad B",
+            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/LTTTAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/LTTTAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Samsunspor vs Amed Sportif Faaliyetler",
@@ -1441,33 +1581,6 @@
         "total_channels": 0
       },
       {
-        "title": "Borussia Dortmund vs Eintracht Frankfurt",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "borussia-dortmund-vs-eintracht-frankfurt",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Borussia Dortmund",
-            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
-          },
-          "team_b": {
-            "name": "Eintracht Frankfurt",
-            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2673/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "TSG Hoffenheim vs Bayer 04 Leverkusen",
         "sport": "Football",
         "sub_category": "Football",
@@ -1655,56 +1768,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/41/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Chelsea vs Tottenham Hotspur",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "chelsea-vs-tottenham-hotspur",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Chelsea",
-            "flag": "https://img.sofascore.com/api/v1/team/38/image"
-          },
-          "team_b": {
-            "name": "Tottenham Hotspur",
-            "flag": "https://img.sofascore.com/api/v1/team/33/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/38/image",
-        "channels": [
-          {
-            "channel_name": "SKY SPORTS - AQ",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=LS7CQgVo3LGHyQW5yphz-g&e=2092722172&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=LS7CQgVo3LGHyQW5yphz-g&e=2092722172&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/tytyty.m3u8",
-            "raw_link": "http://193.47.62.50/hls/tytyty.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Lazio vs Parma",
@@ -2036,76 +2099,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Valencia vs Villarreal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "valencia-vs-villarreal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Valencia",
-            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
-          },
-          "team_b": {
-            "name": "Villarreal",
-            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2828/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/IPPPA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/IPPPA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
       },
       {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -2650,86 +2643,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Girona FC vs Celta Fortuna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "girona-fc-vs-celta-fortuna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Girona FC",
-            "flag": "https://img.sofascore.com/api/v1/team/24264/image"
-          },
-          "team_b": {
-            "name": "Celta Fortuna",
-            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24264/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/LTTTAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/LTTTAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "UD Las Palmas vs Real Sociedad B",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ud-las-palmas-vs-real-sociedad-b",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/10/24 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          },
-          "team_b": {
-            "name": "Real Sociedad B",
-            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/LTTTAAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/LTTTAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Almeria vs Real Oviedo",
