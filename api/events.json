@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T13:26:06.646207+00:00",
+  "last_updated": "2026-10-24T13:31:14.631654+00:00",
   "event_count": 99,
   "events": {
     "events": [
@@ -143,6 +143,106 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/QOOOQQ.m3u8",
             "raw_link": "http://193.47.62.55/hls/QOOOQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "SC Paderborn 07 vs Hamburger SV",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-paderborn-07-vs-hamburger-sv",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/10/24 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Paderborn 07",
+            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
+          },
+          "team_b": {
+            "name": "Hamburger SV",
+            "flag": "https://img.sofascore.com/api/v1/team/2676/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566351.m3u8?txSecret=02b4225dccd5639920a0ba83380b4d97&txTime=6ADCC62B",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566351.m3u8?txSecret=02b4225dccd5639920a0ba83380b4d97&txTime=6ADCC62B|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/QOOOQQA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/QOOOQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "RB Leipzig vs SV 07 Elversberg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "rb-leipzig-vs-sv-07-elversberg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/10/24 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "RB Leipzig",
+            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
+          },
+          "team_b": {
+            "name": "SV 07 Elversberg",
+            "flag": "https://img.sofascore.com/api/v1/team/2598/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/36360/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4566334.m3u8?txSecret=68a674e040bea5efc436e1860cf677d4&txTime=6ADCC61B",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4566334.m3u8?txSecret=68a674e040bea5efc436e1860cf677d4&txTime=6ADCC61B|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/QOOOQQAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/QOOOQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1725,60 +1825,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2817/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Paderborn 07 vs Hamburger SV",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-paderborn-07-vs-hamburger-sv",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/10/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Paderborn 07",
-            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
-          },
-          "team_b": {
-            "name": "Hamburger SV",
-            "flag": "https://img.sofascore.com/api/v1/team/2676/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "RB Leipzig vs SV 07 Elversberg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "rb-leipzig-vs-sv-07-elversberg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/10/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "RB Leipzig",
-            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
-          },
-          "team_b": {
-            "name": "SV 07 Elversberg",
-            "flag": "https://img.sofascore.com/api/v1/team/2598/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/36360/image",
         "channels": [],
         "total_channels": 0
       },
