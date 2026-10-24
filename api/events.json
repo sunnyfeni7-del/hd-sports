@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T10:16:06.059355+00:00",
+  "last_updated": "2026-10-24T10:21:10.585515+00:00",
   "event_count": 103,
   "events": {
     "events": [
@@ -126,6 +126,64 @@
           }
         ],
         "total_channels": 12
+      },
+      {
+        "title": "Eyupspor vs Kasmpasa",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "eyupspor-vs-kasmpasa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 04:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 06:50:00 PM",
+          "raw_start_utc": "2026/10/24 10:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Eyüpspor",
+            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
+          },
+          "team_b": {
+            "name": "Kasımpaşa",
+            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -3327,64 +3385,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2858/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Eyupspor vs Kasmpasa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "eyupspor-vs-kasmpasa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 04:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/10/24 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
-          },
-          "team_b": {
-            "name": "Kasımpaşa",
-            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Gaziantep FK vs Erzurumspor FK",
