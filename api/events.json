@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T12:26:13.338934+00:00",
-  "event_count": 103,
+  "last_updated": "2026-10-24T12:44:58.144415+00:00",
+  "event_count": 102,
   "events": {
     "events": [
       {
@@ -100,86 +100,6 @@
           }
         ],
         "total_channels": 7
-      },
-      {
-        "title": "Rayo Vallecano vs Elche",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "rayo-vallecano-vs-elche",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 06:00:00 PM",
-          "end_time_bst": "Oct 24, 2026, 08:20:00 PM",
-          "raw_start_utc": "2026/10/24 12:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Rayo Vallecano",
-            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
-          },
-          "team_b": {
-            "name": "Elche",
-            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2818/image",
-        "channels": [
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "LaLiga TV HD",
-            "stream_type": "HLS",
-            "url": "https://hls.meth-streams-hd.cfd/live/espn-401882830/index.m3u8",
-            "raw_link": "https://hls.meth-streams-hd.cfd/live/espn-401882830/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4565475.m3u8?txSecret=c90c423dd5027010b2e74a64377842f5&txTime=6ADCB2DE",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4565475.m3u8?txSecret=c90c423dd5027010b2e74a64377842f5&txTime=6ADCB2DE|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/335f1477-8de0-4c44-b14f-b2f7a9199389.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/335f1477-8de0-4c44-b14f-b2f7a9199389.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/A888AAAQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/A888AAAQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
       },
       {
         "title": "Charlton Athletic vs Norwich City",
@@ -581,64 +501,6 @@
         "total_channels": 1
       },
       {
-        "title": "Eyupspor vs Kasmpasa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "eyupspor-vs-kasmpasa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 04:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/10/24 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
-          },
-          "team_b": {
-            "name": "Kasımpaşa",
-            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5|Referer=https://player.online878.com/",
-            "headers": {
-              "Referer": "https://player.online878.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -923,49 +785,8 @@
           }
         },
         "logo": "null",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy HD",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?",
-            "raw_link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-            "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SD SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/K999QQ.m3u8?",
-            "raw_link": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-            "headers": {
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "UFC LIVE",
@@ -2111,17 +1932,8 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2719/image",
-        "channels": [
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 1
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "Como vs Sassuolo",
@@ -2155,9 +1967,21 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
             "headers": {},
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/T000AAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/T000AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "SSC Napoli vs AS Roma",
@@ -2672,6 +2496,33 @@
         "total_channels": 2
       },
       {
+        "title": "Rayo Vallecano vs Elche",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "rayo-vallecano-vs-elche",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 06:00:00 PM",
+          "end_time_bst": "Oct 24, 2026, 08:20:00 PM",
+          "raw_start_utc": "2026/10/24 12:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Rayo Vallecano",
+            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+          },
+          "team_b": {
+            "name": "Elche",
+            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2818/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
         "sport": "Baseball",
         "sub_category": "Baseball",
@@ -2829,19 +2680,8 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/1962/image",
-        "channels": [
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-          }
-        ],
-        "total_channels": 1
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "Palmeiras vs Red Bull Bragantino",
@@ -3680,8 +3520,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/5138/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/DPPPQQQAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/DPPPQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Samsunspor vs Amed Sportif Faaliyetler",
