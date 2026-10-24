@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T11:21:14.103028+00:00",
+  "last_updated": "2026-10-24T11:26:14.825209+00:00",
   "event_count": 103,
   "events": {
     "events": [
@@ -39,14 +39,12 @@
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
           },
           {
-            "channel_name": "NBC SPORTS - AQ",
+            "channel_name": "FUBO SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/dgpgbewozb/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/a4890a21-ab74-4418-b921-07825cac4745-cenc.mpd?aws_sessionId=59e6dafc-1abe-4f6c-bf76-ae4377146ed2",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/dgpgbewozb/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/a4890a21-ab74-4418-b921-07825cac4745-cenc.mpd?aws_sessionId=59e6dafc-1abe-4f6c-bf76-ae4377146ed2",
+            "headers": {},
+            "drm_key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
           },
           {
             "channel_name": "USA NETWORK HD",
@@ -67,6 +65,16 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558632.m3u8?txSecret=6dd59cdc9f5ce8c7624378e24da4dd47&txTime=6ADCA980",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558632.m3u8?txSecret=6dd59cdc9f5ce8c7624378e24da4dd47&txTime=6ADCA980|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/GG555.m3u8",
@@ -79,7 +87,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Charlton Athletic vs Norwich City",
@@ -128,6 +136,16 @@
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563637.m3u8?txSecret=33a21785000fa4185ab42213ddb46faf&txTime=6ADCA939",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563637.m3u8?txSecret=33a21785000fa4185ab42213ddb46faf&txTime=6ADCA939|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/YYYYYAAAQQ.m3u8",
@@ -140,7 +158,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Portsmouth vs Millwall",
@@ -168,6 +186,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/2/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563639.m3u8?txSecret=ea52647242b88e842eeaa34d0217a19b&txTime=6ADCA921",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563639.m3u8?txSecret=ea52647242b88e842eeaa34d0217a19b&txTime=6ADCA921|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/YYYYYAAAQQQ.m3u8",
@@ -180,7 +208,57 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
+      },
+      {
+        "title": "Sheffield United vs Derby County",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sheffield-united-vs-derby-county",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 07:50:00 PM",
+          "raw_start_utc": "2026/10/24 11:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sheffield United",
+            "flag": "https://img.sofascore.com/api/v1/team/15/image"
+          },
+          "team_b": {
+            "name": "Derby County",
+            "flag": "https://img.sofascore.com/api/v1/team/27/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/15/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563641.m3u8?txSecret=44fc057bde1280205d768ce2f4cc0178&txTime=6ADCA8FD",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563641.m3u8?txSecret=44fc057bde1280205d768ce2f4cc0178&txTime=6ADCA8FD|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/YYYYYAAAQQQG.m3u8",
+            "raw_link": "http://193.47.62.50/hls/YYYYYAAAQQQG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "1. FC Heidenheim vs Energie Cottbus",
@@ -2916,33 +2994,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/46/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sheffield United vs Derby County",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sheffield-united-vs-derby-county",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 07:50:00 PM",
-          "raw_start_utc": "2026/10/24 11:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sheffield United",
-            "flag": "https://img.sofascore.com/api/v1/team/15/image"
-          },
-          "team_b": {
-            "name": "Derby County",
-            "flag": "https://img.sofascore.com/api/v1/team/27/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/15/image",
         "channels": [],
         "total_channels": 0
       },
