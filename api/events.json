@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T19:01:09.240370+00:00",
-  "event_count": 74,
+  "last_updated": "2026-10-24T19:06:04.546912+00:00",
+  "event_count": 73,
   "events": {
     "events": [
       {
@@ -540,46 +540,6 @@
         "total_channels": 1
       },
       {
-        "title": "FC Alverca vs FC Arouca",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fc-alverca-vs-fc-arouca",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 25, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/24 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Alverca",
-            "flag": "https://img.sofascore.com/api/v1/team/190328/image"
-          },
-          "team_b": {
-            "name": "FC Arouca",
-            "flag": "https://img.sofascore.com/api/v1/team/25777/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/190328/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/duuuuQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/duuuuQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Almeria vs Real Oviedo",
         "sport": "Football",
         "sub_category": "Football",
@@ -665,13 +625,14 @@
             "drm_key": null
           },
           {
-            "channel_name": "beIN USA HD",
+            "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/dza5z8f69.m3u8?",
-            "raw_link": "https://edgestream6.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "url": "https://www.rtmpcdn.com/live/04dd1b82-8ec4-4cab-830a-938f5e9970aa.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/04dd1b82-8ec4-4cab-830a-938f5e9970aa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           },
