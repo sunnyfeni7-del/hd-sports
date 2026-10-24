@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T03:45:44.954508+00:00",
+  "last_updated": "2026-10-24T03:50:44.074285+00:00",
   "event_count": 53,
   "events": {
     "events": [
@@ -196,19 +196,67 @@
         "logo": "https://img.sofascore.com/api/v1/team/3427/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58479/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58479/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58479?ad=111&Origin=https://gooz.aapmains.net",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58479?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD QUALITY",
             "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "url": "https://edgestream6.pro/hls/sqhdghzavbxu75.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/sqhdghzavbxu75.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://streame.center",
               "Origin": "https://streame.center"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NBA ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/3b59d986-a7e7-417c-9871-eab0a1cb9120.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/3b59d986-a7e7-417c-9871-eab0a1cb9120.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/nba11.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/nba11.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/ZAZAZAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/ZAZAZAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 5
       },
       {
         "title": "Golden State Warriors vs Memphis Grizzlies",
@@ -337,6 +385,180 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Formula 1",
+        "sport": "Motorsport",
+        "sub_category": "Motorsports",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "formula-1",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 11:30:07 PM",
+          "end_time_bst": "Oct 25, 2026, 04:00:12 AM",
+          "raw_start_utc": "2026/10/24 17:30:07 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Formula 1",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
+          },
+          "team_b": {
+            "name": "Formula 1",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
+          }
+        },
+        "logo": "nulln",
+        "channels": [
+          {
+            "channel_name": "SKY Via APPLE TV",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674"
+          },
+          {
+            "channel_name": "APPLE TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd",
+            "raw_link": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+            "headers": {},
+            "drm_key": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SKY MAIN EVENT",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "RUSSIA FEED",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?",
+            "raw_link": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "headers": {
+              "Referer": "https://streamscenter.online/",
+              "Origin": "https://streamscenter.online"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/ATTT.m3u8",
+            "raw_link": "http://193.47.62.41/hls/ATTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 9
+      },
+      {
+        "title": "Smack Down",
+        "sport": "Boxing",
+        "sub_category": "WWE",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "smackdown",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 06:00:45 AM",
+          "end_time_bst": "Oct 31, 2026, 09:01:49 AM",
+          "raw_start_utc": "2026/10/31 00:00:45 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SmackDown",
+            "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+          },
+          "team_b": {
+            "name": "SmackDown",
+            "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+          }
+        },
+        "logo": "null",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WWE LIVE - AQ",
+            "stream_type": "HLS",
+            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SD SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
+            "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+            "headers": {
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "WWE Raw",
@@ -1953,191 +2175,17 @@
         "total_channels": 0
       },
       {
-        "title": "Formula 1",
-        "sport": "Motorsport",
-        "sub_category": "Motorsports",
-        "status": "Finish",
-        "is_hot": false,
-        "slug": "formula-1",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 03:00:43 AM",
-          "end_time_bst": "Oct 24, 2026, 06:00:04 AM",
-          "raw_start_utc": "2026/10/23 21:00:43 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Formula 1",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
-          },
-          "team_b": {
-            "name": "Formula 1",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
-          }
-        },
-        "logo": "nulln",
-        "channels": [
-          {
-            "channel_name": "SKY Via APPLE TV",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674"
-          },
-          {
-            "channel_name": "APPLE TV - AQ",
-            "stream_type": "DASH",
-            "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd",
-            "raw_link": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-            "headers": {},
-            "drm_key": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SKY MAIN EVENT",
-            "stream_type": "HLS",
-            "url": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-            "raw_link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "RUSSIA FEED",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?",
-            "raw_link": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-            "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/ATTT.m3u8",
-            "raw_link": "http://193.47.62.41/hls/ATTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 9
-      },
-      {
-        "title": "Smack Down",
-        "sport": "Boxing",
-        "sub_category": "WWE",
-        "status": "Finish",
-        "is_hot": false,
-        "slug": "smackdown",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 06:00:57 AM",
-          "end_time_bst": "Oct 24, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/24 00:00:57 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SmackDown",
-            "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
-          },
-          "team_b": {
-            "name": "SmackDown",
-            "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
-          }
-        },
-        "logo": "null",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WWE LIVE - AQ",
-            "stream_type": "HLS",
-            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SD SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
-            "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-            "headers": {
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
         "sport": "Baseball",
         "sub_category": "Baseball",
-        "status": "Finish",
+        "status": "Upcoming",
         "is_hot": false,
         "slug": "milwaukee-brewers-vs-tampa-bay-rays",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 24, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/24 00:00:00 +0000"
+          "start_time_bst": "Oct 25, 2026, 06:00:06 AM",
+          "end_time_bst": "Oct 25, 2026, 09:00:10 AM",
+          "raw_start_utc": "2026/10/25 00:00:06 +0000"
         },
         "teams": {
           "team_a": {
