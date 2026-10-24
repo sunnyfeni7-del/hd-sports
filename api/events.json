@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T14:56:15.781436+00:00",
-  "event_count": 93,
+  "last_updated": "2026-10-24T15:07:42.781612+00:00",
+  "event_count": 90,
   "events": {
     "events": [
       {
@@ -622,138 +622,6 @@
         "total_channels": 6
       },
       {
-        "title": "Cagliari vs Bologna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cagliari-vs-bologna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:00:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/10/24 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cagliari",
-            "flag": "https://img.sofascore.com/api/v1/team/2719/image"
-          },
-          "team_b": {
-            "name": "Bologna",
-            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2719/image",
-        "channels": [
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58486/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58486/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/38825fa3-23ba-4810-ba22-9487ceed422b.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/38825fa3-23ba-4810-ba22-9487ceed422b.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/T000AAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/T000AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Como vs Sassuolo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "como-vs-sassuolo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:00:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/10/24 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Como",
-            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
-          },
-          "team_b": {
-            "name": "Sassuolo",
-            "flag": "https://img.sofascore.com/api/v1/team/2793/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2704/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58485/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58485/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/242320fe-b970-4f82-9e14-2ca63cc11f54.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/242320fe-b970-4f82-9e14-2ca63cc11f54.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/T000AAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/T000AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Real Racing Club vs Espanyol",
         "sport": "Football",
         "sub_category": "Football",
@@ -855,6 +723,46 @@
             "raw_link": "https://live.vivo155.com/live/sd-1-4599638.m3u8?txSecret=2470237681a737b7d66769df19d23723&txTime=6ADCC9A2|Referer=https://player.online878.com/",
             "headers": {
               "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Al-Kholood vs Al-Ettifaq",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-kholood-vs-al-ettifaq",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 09:05:00 PM",
+          "end_time_bst": "Oct 24, 2026, 11:25:00 PM",
+          "raw_start_utc": "2026/10/24 15:05:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Kholood",
+            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+          },
+          "team_b": {
+            "name": "Al-Ettifaq",
+            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/269199/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/btbtbtqqqqqqq.m3u8",
+            "raw_link": "http://193.47.62.55/hls/btbtbtqqqqqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
@@ -1390,46 +1298,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Gaziantep FK vs Erzurumspor FK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "gaziantep-fk-vs-erzurumspor-fk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 07:00:00 PM",
-          "end_time_bst": "Oct 24, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/10/24 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Gaziantep FK",
-            "flag": "https://img.sofascore.com/api/v1/team/5138/image"
-          },
-          "team_b": {
-            "name": "Erzurumspor FK",
-            "flag": "https://img.sofascore.com/api/v1/team/55603/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5138/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/DPPPQQQAAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/DPPPQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -3368,33 +3236,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Al-Kholood vs Al-Ettifaq",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-kholood-vs-al-ettifaq",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 09:05:00 PM",
-          "end_time_bst": "Oct 24, 2026, 11:25:00 PM",
-          "raw_start_utc": "2026/10/24 15:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Kholood",
-            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
-          },
-          "team_b": {
-            "name": "Al-Ettifaq",
-            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/269199/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Al-Riyadh vs Al-Taawoun",
