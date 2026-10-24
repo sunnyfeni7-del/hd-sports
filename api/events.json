@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T14:36:17.468192+00:00",
+  "last_updated": "2026-10-24T14:56:15.781436+00:00",
   "event_count": 93,
   "events": {
     "events": [
@@ -65,18 +65,18 @@
           {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
           },
           {
             "channel_name": "UFC LIVE - AQ",
             "stream_type": "HLS",
-            "url": "https://cobaltdream.s3.us-east-1.amazonaws.com/ufc.m3u8",
-            "raw_link": "https://cobaltdream.s3.us-east-1.amazonaws.com/ufc.m3u8",
+            "url": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
+            "raw_link": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
             "headers": {},
             "drm_key": null
           },
@@ -113,12 +113,12 @@
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.192/hls/FEEEEQ.m3u8?",
-            "raw_link": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+            "url": "http://193.47.62.44/hls/h555.m3u8",
+            "raw_link": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc/"
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           },
@@ -1260,6 +1260,86 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "FC Utrecht vs PEC Zwolle",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-utrecht-vs-pec-zwolle",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/24 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Utrecht",
+            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+          },
+          "team_b": {
+            "name": "PEC Zwolle",
+            "flag": "https://img.sofascore.com/api/v1/team/2971/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2948/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/SSSSQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/SSSSQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "CF Estrela Amadora vs Casa Pia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cf-estrela-amadora-vs-casa-pia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 24, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/24 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CF Estrela Amadora",
+            "flag": "https://img.sofascore.com/api/v1/team/3035/image"
+          },
+          "team_b": {
+            "name": "Casa Pia",
+            "flag": "https://img.sofascore.com/api/v1/team/36365/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3035/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/SSSS.m3u8",
+            "raw_link": "http://193.47.62.55/hls/SSSS.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Leganes vs Mallorca",
@@ -3409,33 +3489,6 @@
         "total_channels": 1
       },
       {
-        "title": "FC Utrecht vs PEC Zwolle",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-utrecht-vs-pec-zwolle",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 08:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/10/24 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Utrecht",
-            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-          },
-          "team_b": {
-            "name": "PEC Zwolle",
-            "flag": "https://img.sofascore.com/api/v1/team/2971/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2948/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Willem II Tilburg vs SC Cambuur",
         "sport": "Football",
         "sub_category": "Football",
@@ -3486,33 +3539,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2966/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CF Estrela Amadora vs Casa Pia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cf-estrela-amadora-vs-casa-pia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 08:30:00 PM",
-          "end_time_bst": "Oct 24, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/10/24 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CF Estrela Amadora",
-            "flag": "https://img.sofascore.com/api/v1/team/3035/image"
-          },
-          "team_b": {
-            "name": "Casa Pia",
-            "flag": "https://img.sofascore.com/api/v1/team/36365/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3035/image",
         "channels": [],
         "total_channels": 0
       },
