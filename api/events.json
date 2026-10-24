@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T14:21:21.073920+00:00",
+  "last_updated": "2026-10-24T14:26:05.817540+00:00",
   "event_count": 93,
   "events": {
     "events": [
@@ -779,19 +779,9 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
           }
         ],
-        "total_channels": 2
+        "total_channels": 1
       },
       {
         "title": "Neom SC vs Abha",
@@ -1230,6 +1220,44 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Leganes vs Mallorca",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "leganes-vs-mallorca",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 24, 2026, 08:15:00 PM",
+          "end_time_bst": "Oct 24, 2026, 10:35:00 PM",
+          "raw_start_utc": "2026/10/24 14:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Leganés",
+            "flag": "https://img.sofascore.com/api/v1/team/2845/image"
+          },
+          "team_b": {
+            "name": "Mallorca",
+            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2845/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4567331.m3u8?txSecret=7f35a2d9244f2fbf7516aacf05dcc991&txTime=6ADCD464",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4567331.m3u8?txSecret=7f35a2d9244f2fbf7516aacf05dcc991&txTime=6ADCD464|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Gaziantep FK vs Erzurumspor FK",
@@ -3510,33 +3538,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Leganes vs Mallorca",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "leganes-vs-mallorca",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 08:15:00 PM",
-          "end_time_bst": "Oct 24, 2026, 10:35:00 PM",
-          "raw_start_utc": "2026/10/24 14:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Leganés",
-            "flag": "https://img.sofascore.com/api/v1/team/2845/image"
-          },
-          "team_b": {
-            "name": "Mallorca",
-            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2845/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Girona FC vs Celta Fortuna",
