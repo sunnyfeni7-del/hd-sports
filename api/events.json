@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T17:55:55.582090+00:00",
+  "last_updated": "2026-10-24T18:00:55.168930+00:00",
   "event_count": 69,
   "events": {
     "events": [
@@ -67,18 +67,18 @@
             "drm_key": null
           },
           {
-            "channel_name": "SKY MAIN EVENT",
+            "channel_name": "SKY SPORTS F1",
             "stream_type": "HLS",
-            "url": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-            "raw_link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "url": "https://temp.formaturamaxi.com.br/f1.m3u8",
+            "raw_link": "https://temp.formaturamaxi.com.br/f1.m3u8",
             "headers": {},
             "drm_key": null
           },
           {
             "channel_name": "RUSSIA FEED",
             "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
+            "url": "https://bl.rutube.ru/livestream/38c36d6eac1343ec696f07ed45daee78/index.m3u8?s=6sS4IjzpSEi8VU5ba1iZlw&e=1792948800&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/38c36d6eac1343ec696f07ed45daee78/index.m3u8?s=6sS4IjzpSEi8VU5ba1iZlw&e=1792948800&scheme=https|user-agent=Mozilla",
             "headers": {
               "user-agent": "Mozilla"
             },
@@ -610,6 +610,46 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Al-Riyadh vs Al-Taawoun",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-riyadh-vs-al-taawoun",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 25, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/24 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Riyadh",
+            "flag": "https://img.sofascore.com/api/v1/team/168088/image"
+          },
+          "team_b": {
+            "name": "Al-Taawoun",
+            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/168088/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/dooooAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/dooooAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Willem II Tilburg vs SC Cambuur",
@@ -2443,33 +2483,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Al-Riyadh vs Al-Taawoun",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-riyadh-vs-al-taawoun",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 25, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/24 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Riyadh",
-            "flag": "https://img.sofascore.com/api/v1/team/168088/image"
-          },
-          "team_b": {
-            "name": "Al-Taawoun",
-            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168088/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "New York Red Bulls vs Inter Miami CF",
