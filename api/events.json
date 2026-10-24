@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T18:41:04.208575+00:00",
-  "event_count": 75,
+  "last_updated": "2026-10-24T18:51:10.976209+00:00",
+  "event_count": 74,
   "events": {
     "events": [
       {
@@ -305,7 +305,7 @@
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
           },
           {
-            "channel_name": "PARAMOUNT+ HD",
+            "channel_name": "DAZN SPORTS HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58521/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/58521/load-playlist-multi?|Referer=https://gooz.aapmains.net",
@@ -338,6 +338,76 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Atletico Madrid vs Deportivo de A Coruna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "atletico-madrid-vs-deportivo-de-a-coruna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/24 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atlético Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
+          },
+          "team_b": {
+            "name": "Deportivo de A Coruña",
+            "flag": "https://img.sofascore.com/api/v1/team/2832/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2836/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/hhhfQQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/hhhfQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Al-Riyadh vs Al-Taawoun",
@@ -430,35 +500,35 @@
         "total_channels": 2
       },
       {
-        "title": "Willem II Tilburg vs SC Cambuur",
+        "title": "ADO Den Haag vs SC Heerenveen",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "willem-ii-tilburg-vs-sc-cambuur",
+        "slug": "ado-den-haag-vs-sc-heerenveen",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 24, 2026, 10:45:00 PM",
-          "end_time_bst": "Oct 25, 2026, 01:05:00 AM",
-          "raw_start_utc": "2026/10/24 16:45:00 +0000"
+          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/24 19:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Willem II Tilburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
+            "name": "ADO Den Haag",
+            "flag": "https://img.sofascore.com/api/v1/team/2966/image"
           },
           "team_b": {
-            "name": "SC Cambuur",
-            "flag": "https://img.sofascore.com/api/v1/team/2970/image"
+            "name": "SC Heerenveen",
+            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2961/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2966/image",
         "channels": [
           {
-            "channel_name": "LOW SERVER",
+            "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/IPPPAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/IPPPAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.55/hls/hhhfQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/hhhfQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -510,6 +580,46 @@
         "total_channels": 1
       },
       {
+        "title": "Almeria vs Real Oviedo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "almeria-vs-real-oviedo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
+          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/24 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Almería",
+            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
+          },
+          "team_b": {
+            "name": "Real Oviedo",
+            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2858/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/hhhfQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/hhhfQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "RC Lens vs Paris FC",
         "sport": "Football",
         "sub_category": "Football",
@@ -535,15 +645,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/1648/image",
         "channels": [
           {
-            "channel_name": "beIN USA HD",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/dza5z8f69.m3u8?",
-            "raw_link": "https://edgestream6.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": null
+            "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
           },
           {
             "channel_name": "CRICFy LIVE",
@@ -552,6 +661,17 @@
             "raw_link": "https://live.vivo155.com/live/hd-en-1-4550908.m3u8?txSecret=33146e501f6d6dc2c98a3b6c634ec211&txTime=6ADD0F9F|Referer=https://player.online878.com/",
             "headers": {
               "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "beIN USA HD",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/dza5z8f69.m3u8?",
+            "raw_link": "https://edgestream6.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "headers": {
+              "Referer": "https://streamscenter.online/",
+              "Origin": "https://streamscenter.online"
             },
             "drm_key": null
           },
@@ -568,7 +688,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Motogp",
@@ -1769,76 +1889,6 @@
         "total_channels": 0
       },
       {
-        "title": "Atletico Madrid vs Deportivo de A Coruna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "atletico-madrid-vs-deportivo-de-a-coruna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/24 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlético Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
-          },
-          "team_b": {
-            "name": "Deportivo de A Coruña",
-            "flag": "https://img.sofascore.com/api/v1/team/2832/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2836/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/hhhfQQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/hhhfQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
         "sport": "Baseball",
         "sub_category": "Baseball",
@@ -2199,46 +2249,6 @@
         "total_channels": 2
       },
       {
-        "title": "ADO Den Haag vs SC Heerenveen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ado-den-haag-vs-sc-heerenveen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/24 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "ADO Den Haag",
-            "flag": "https://img.sofascore.com/api/v1/team/2966/image"
-          },
-          "team_b": {
-            "name": "SC Heerenveen",
-            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2966/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/hhhfQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/hhhfQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Gil Vicente vs FC Porto",
         "sport": "Football",
         "sub_category": "Football",
@@ -2285,46 +2295,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Almeria vs Real Oviedo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "almeria-vs-real-oviedo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 25, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/24 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Almería",
-            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
-          },
-          "team_b": {
-            "name": "Real Oviedo",
-            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2858/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/hhhfQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/hhhfQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "AS Monaco vs Lille",
