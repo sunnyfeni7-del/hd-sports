@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T14:31:14.049367+00:00",
+  "last_updated": "2026-10-24T14:36:17.468192+00:00",
   "event_count": 93,
   "events": {
     "events": [
@@ -31,10 +31,10 @@
           {
             "channel_name": "PARAMOUNT+ - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ssir8jews6/out/v1/61c2bac238b7422782a5e038863c1966/a121bf0f-3b8d-40e2-a72f-b1b4df13891c-cenc.mpd?aws_sessionId=74d64c22-5ad3-4cff-b1c0-95f042ee92b3",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ssir8jews6/out/v1/61c2bac238b7422782a5e038863c1966/a121bf0f-3b8d-40e2-a72f-b1b4df13891c-cenc.mpd?aws_sessionId=74d64c22-5ad3-4cff-b1c0-95f042ee92b3",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kvqcmbokg5/out/v1/5865ca941ea54f8fb0b7788ece2d900e/779e27f5-e6ef-4be3-93de-36b27e09150a-cenc.mpd?aws_sessionId=1032a615-ba58-47ed-ba01-6386b5f745ed",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kvqcmbokg5/out/v1/5865ca941ea54f8fb0b7788ece2d900e/779e27f5-e6ef-4be3-93de-36b27e09150a-cenc.mpd?aws_sessionId=1032a615-ba58-47ed-ba01-6386b5f745ed",
             "headers": {},
-            "drm_key": "294eb6d02ad018f4aaddd9e35b5dda37:3c557570e9b1e9e6e39dad3b78bcb012"
+            "drm_key": "aa2700fe56b101d95ef4288da8b19d20:29458d3d82629babb08de5f713d99f75"
           },
           {
             "channel_name": "PARAMOUNT+ ES",
@@ -43,6 +43,14 @@
             "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/tmfbljkrvo/out/v1/97ea6cd5f85242caadd34261558d639f/5a670ddd-cd2e-4e08-88a3-f07773ed6a5a-cenc.mpd?aws_sessionId=14bf9f84-2ab0-4f93-9c42-a0a28cdde7fc",
             "headers": {},
             "drm_key": "d9ea85885bc96d53961b9b07f1d86efb:d38968ef18f914602bffb6c74d7bbd3d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ POR",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ssir8jews6/out/v1/61c2bac238b7422782a5e038863c1966/a121bf0f-3b8d-40e2-a72f-b1b4df13891c-cenc.mpd?aws_sessionId=74d64c22-5ad3-4cff-b1c0-95f042ee92b3",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ssir8jews6/out/v1/61c2bac238b7422782a5e038863c1966/a121bf0f-3b8d-40e2-a72f-b1b4df13891c-cenc.mpd?aws_sessionId=74d64c22-5ad3-4cff-b1c0-95f042ee92b3",
+            "headers": {},
+            "drm_key": "294eb6d02ad018f4aaddd9e35b5dda37:3c557570e9b1e9e6e39dad3b78bcb012"
           },
           {
             "channel_name": "PARAMOUNT+ HD",
@@ -133,7 +141,7 @@
             "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
           }
         ],
-        "total_channels": 11
+        "total_channels": 12
       },
       {
         "title": "FC Augsburg vs 1. FC Union Berlin",
@@ -789,6 +797,18 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/35f5107c-325e-4b98-a967-4ab09173c397.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/35f5107c-325e-4b98-a967-4ab09173c397.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/h444QQQQ.m3u8",
@@ -801,7 +821,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Neom SC vs Abha",
