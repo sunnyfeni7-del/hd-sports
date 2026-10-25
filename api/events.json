@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T12:50:54.574417+00:00",
+  "last_updated": "2026-10-25T13:01:07.874463+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -277,6 +277,16 @@
             "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
           },
           {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
             "channel_name": "D SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
@@ -311,7 +321,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Eintracht Braunschweig vs Hannover 96",
@@ -529,7 +539,17 @@
         "logo": "https://img.sofascore.com/api/v1/team/24335/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4567333.m3u8?txSecret=551bfbd0551e8a98ce0f636f16bbf0f7&txTime=6ADE106A",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4567333.m3u8?txSecret=551bfbd0551e8a98ce0f636f16bbf0f7&txTime=6ADE106A|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/HHHH6AA.m3u8",
             "raw_link": "http://193.47.62.50/hls/HHHH6AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -541,7 +561,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Konyaspor vs Genclerbirligi",
@@ -569,7 +589,17 @@
         "logo": "https://img.sofascore.com/api/v1/team/3085/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581347.m3u8?txSecret=26cb89169a6004ea5f54d60c7a8e8115&txTime=6ADE10D3",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581347.m3u8?txSecret=26cb89169a6004ea5f54d60c7a8e8115&txTime=6ADE10D3|Referer=https://player.online878.com/",
+            "headers": {
+              "Referer": "https://player.online878.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/U666AAAAQQQ.m3u8",
             "raw_link": "http://193.47.62.50/hls/U666AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -581,7 +611,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
