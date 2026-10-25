@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T08:11:07.250403+00:00",
+  "last_updated": "2026-10-25T08:16:07.479142+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -29,6 +29,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
         "channels": [
           {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/etttcyodrm/out/v1/2e476a75a79741c0bc7c9586e59a5f0e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/etttcyodrm/out/v1/2e476a75a79741c0bc7c9586e59a5f0e/cenc.mpd",
+            "headers": {},
+            "drm_key": "53ac5670511d1300366b35b85eb6eadc:e255086091e4638f16985ca3ddd56e2b"
+          },
+          {
             "channel_name": "SKY CRICKET - AQ",
             "stream_type": "HLS",
             "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -37,6 +45,14 @@
               "user-agent": "Mozilla"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/etttcyodrm/out/v1/2e476a75a79741c0bc7c9586e59a5f0e/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/etttcyodrm/out/v1/2e476a75a79741c0bc7c9586e59a5f0e/cenc.mpd",
+            "headers": {},
+            "drm_key": "53ac5670511d1300366b35b85eb6eadc:e255086091e4638f16985ca3ddd56e2b"
           },
           {
             "channel_name": "TAPMAD - AQ",
@@ -49,18 +65,18 @@
             "drm_key": null
           },
           {
-            "channel_name": "FOX CRICKET HD",
-            "stream_type": "HLS",
-            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
             "channel_name": "PTV SPORTS HD",
             "stream_type": "HLS",
             "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
             "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FOX CRICKET HD",
+            "stream_type": "HLS",
+            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
             "headers": {},
             "drm_key": null
           },
@@ -91,7 +107,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 9
       },
       {
         "title": "Formula 1",
