@@ -16,17 +16,18 @@ base_dir = 'api'
 os.makedirs(base_dir, exist_ok=True)
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en-US,en;q=0.9',
     'Origin': 'https://vortextv.modsdone.com',
-    'Referer': 'https://vortextv.modsdone.com/'
+    'Referer': 'https://vortextv.modsdone.com/',
+    'Connection': 'close'
 }
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
 API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
 
-# পরিচিত ডেমো ও ফেক স্ট্রিমিং ইউআরএল প্যাটার্ন
+# ডেমো ও ফেক স্ট্রিমিং ইউআরএল প্যাটার্ন
 DEMO_PATTERNS = [
     'unified-streaming.com',
     'tears-of-steel',
@@ -47,20 +48,18 @@ def is_real_stream(url):
     return True
 
 def fetch_json(url, timeout=8):
-    """JSON ডাউনলোড হেল্পার (আলাদা টাইমআউট সুবিধা সহ)।"""
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
             return json.loads(response.read().decode('utf-8'))
-    except Exception as e:
-        # শুধুমাত্র মূল এপিআই ছাড়া ভেতরের মিসিং স্ট্রিম ইরর লগ ছোট রাখবে
+    except Exception:
         return None
 
-def fetch_main_events_with_retry(retries=3, timeout=20):
+def fetch_main_events_with_retry(retries=3, timeout=25):
     """মূল শিডিউল এপিআই যাতে স্লো হলেও ৩ বার চেষ্টা করে ডাটা আনে।"""
     for attempt in range(1, retries + 1):
-        print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
         try:
+            print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
                 data = json.loads(response.read().decode('utf-8'))
@@ -73,10 +72,14 @@ def fetch_main_events_with_retry(retries=3, timeout=20):
     return None
 
 def parse_date(date_str):
+    """সব ধরণের ডেট ফরম্যাট (T, Z সহ) সঠিকভাবে পার্স করবে"""
     if not date_str:
         return None
-    clean = date_str.split('+')[0].strip()
-    for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+    # ISO ফরম্যাট (T, Z) এবং মাইক্রোসেকেন্ড রিমুভ করে ক্লিন করা
+    clean = str(date_str).split('+')[0].replace('T', ' ').replace('Z', '').strip()
+    clean = clean.split('.')[0].strip()
+    
+    for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M", "%Y-%m-%d %H:%M"):
         try:
             return datetime.strptime(clean, fmt)
         except ValueError:
@@ -90,7 +93,13 @@ def parse_utc_to_bst(utc_str):
         return dt_bst.strftime("%b %d, %Y, %I:%M:%S %p")
     return ""
 
-def calculate_event_status(start_utc, end_utc, api_status, has_channels):
+def calculate_event_status(start_utc, end_utc, api_status):
+    """
+    লজিক: 
+    ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে 'Ended' হবে।
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে সরাসরি 'Live' হবে।
+    ৩. অন্যথায় 'Upcoming' থাকবে।
+    """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
     # ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে
@@ -106,9 +115,9 @@ def calculate_event_status(start_utc, end_utc, api_status, has_channels):
     # ⏰ ম্যাচ শুরুর ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে অথবা সোর্স API লাইভ দেখালে
+    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে সরাসরি Live হবে
     if now >= early_live_threshold or api_status_str == "live":
-        return "Live" if has_channels else "Upcoming"
+        return "Live"
 
     return "Upcoming"
 
@@ -189,24 +198,24 @@ def process_single_match(event):
     team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
     logo = event.get('image') or team_a_flag
 
-    # দ্রুত স্ট্রিম লিংক ফেচ করা (টাইমআউট ৮ সেকেন্ড)
+    # দ্রুত স্ট্রিম লিংক ফেচ করা
     stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=8)
     raw_stream_urls = []
     if stream_payload and stream_payload.get('status') == 'ok':
         raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
 
     channels = process_channels(raw_stream_urls)
-    has_real_channels = len(channels) > 0
 
-    raw_start_utc = event_info.get("startTime", "")
-    raw_end_utc = event_info.get("endTime", "")
-    api_raw_status = event_info.get("Status") or event.get("status", "")
+    # যেকোনো স্থান থেকে startTime ও Status পড়া
+    raw_start_utc = event_info.get("startTime") or event.get("startTime") or ""
+    raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
+    api_raw_status = event_info.get("Status") or event.get("Status") or event.get("status") or ""
 
+    # ✅ ১৫ মিনিট আগে নিশ্চিতভাবে Live স্ট্যাটাস ক্যালকুলেট করা
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
-        api_status=api_raw_status,
-        has_channels=has_real_channels
+        api_status=api_raw_status
     )
 
     return {
@@ -232,8 +241,7 @@ def process_single_match(event):
     }
 
 def run_sync():
-    # মূল এপিআই রিকোয়েস্টে ২০ সেকেন্ড টাইমআউট এবং ৩ বার ট্রাই করবে
-    payload = fetch_main_events_with_retry(retries=3, timeout=20)
+    payload = fetch_main_events_with_retry(retries=3, timeout=25)
     
     if not payload or payload.get('status') != 'ok':
         print("❌ API unresponsive or offline after 3 attempts. Sync cancelled.")
