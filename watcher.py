@@ -10,11 +10,12 @@ from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 
-# রেন্ডার কনসোলে ইনস্ট্যান্ট লগ দেখানোর জন্য
+# রেন্ডার কনসোলে ইনস্ট্যান্ট লগ দেখানোর জন্য বাফারিং বন্ধ রাখা
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(line_buffering=True)
 
 def log(msg):
+    """রেন্ডার কনসোলে সময়সহ সাথে সাথে লগ প্রিন্ট করবে"""
     timestamp = datetime.now().strftime("%I:%M:%S %p")
     print(f"[{timestamp}] {msg}", flush=True)
 
@@ -23,13 +24,14 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
+# কনফিগারেশন (Render Environment Variables থেকে নিবে)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
 
-# 🚀 VortexTV-এর জন্য ১০০% সঠিক হেডার (টাইমআউট রোধে Connection: close অত্যন্ত জরুরি)
+# 🚀 সোর্স API-এর ব্রাউজার হেডার (কানেকশন হ্যাং বন্ধে Connection: close আবশ্যক)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
@@ -51,10 +53,10 @@ def parse_date(date_str):
     return None
 
 def fetch_events_with_retry(retries=3, timeout=25):
-    """৩ বার তাৎক্ষণিক চেষ্টা করবে যাতে সার্ভার স্লো হলেও ডাটা মিস না হয়"""
+    """৩ বার তাৎক্ষণিক চেষ্টা করবে যাতে সার্ভার স্লো থাকলেও টাইমআউট না হয়"""
     for attempt in range(1, retries + 1):
         try:
-            log(f"📡 সোর্স API থেকে ডাটা আনা হচ্ছে (চেষ্টা: {attempt}/{retries})...")
+            log(f"📡 সোর্স API চেক করা হচ্ছে (চেষ্টা: {attempt}/{retries})...")
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
                 content = res.read()
@@ -66,12 +68,13 @@ def fetch_events_with_retry(retries=3, timeout=25):
                 if data and data.get('status') == 'ok':
                     return data
         except Exception as e:
-            log(f"  ⚠️ চেষ্টা {attempt} ব্যর্থ: {e}")
+            log(f"  ⚠️ চেষ্টা {attempt} ব্যর্থ ({e})")
             if attempt < retries:
-                time.sleep(3) # ৩ সেকেন্ড বিরতি দিয়ে আবার চেষ্টা করবে
+                time.sleep(3)
     return None
 
 def trigger_github_action(reason):
+    """GitHub Action চালু করার জন্য ডিসপ্যাচ রিকোয়েস্ট পাঠাবে"""
     if not GITHUB_TOKEN:
         log("❌ GITHUB_TOKEN পাওয়া যায়নি! Action ট্রিগার বাতিল।")
         return
@@ -98,6 +101,7 @@ def trigger_github_action(reason):
         log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
+    """ইভেন্টগুলোর বর্তমান অবস্থা ট্র্যাক করে"""
     data = fetch_events_with_retry(retries=3, timeout=25)
     if not data:
         return None, {}
@@ -115,7 +119,7 @@ def get_current_event_states():
         info = ev.get('eventInfo', {})
         api_status = str(info.get('Status') or ev.get('status') or '').strip().lower()
 
-        # ১. সোর্স API যদি ended/finish বলে দেয়
+        # ১. সোর্স API যদি ended/finish ঘোষণা করে
         if api_status in ["finish", "finished", "ended", "completed", "closed"]:
             status = "Ended"
         else:
@@ -132,6 +136,7 @@ def get_current_event_states():
     return state_map, summary_counts
 
 def detect_changes(previous_state, current_state):
+    """আগের অবস্থার সাথে নতুন অবস্থার পার্থক্য খোঁজে"""
     if previous_state is None:
         return "Initial Startup Sync"
 
@@ -156,13 +161,28 @@ def detect_changes(previous_state, current_state):
 
     return None
 
+# 🛠️ cron-job.org এবং Render-এর জন্য পারফেক্ট হেলথ সার্ভার
 class HealthServer(BaseHTTPRequestHandler):
-    def do_GET(self):
+    def _send_headers(self):
+        body = b"Watcher is actively monitoring API!"
         self.send_response(200)
+        self.send_header('Content-Type', 'text/plain; charset=utf-8')
+        self.send_header('Content-Length', str(len(body)))
+        self.send_header('Connection', 'close')
         self.end_headers()
-        self.wfile.write(b"Watcher is actively monitoring API!")
+        return body
+
+    def do_GET(self):
+        """GET রিকোয়েস্ট সফলভাবে হ্যান্ডেল করবে"""
+        body = self._send_headers()
+        self.wfile.write(body)
+
+    def do_HEAD(self):
+        """cron-job.org-এর HEAD রিকোয়েস্ট সফলভাবে (200 OK) হ্যান্ডেল করবে"""
+        self._send_headers()
+
     def log_message(self, format, *args):
-        pass
+        pass  # কনসোল লগ পরিচ্ছন্ন রাখবে
 
 def run_health_server():
     port = int(os.environ.get("PORT", 10000))
@@ -200,5 +220,7 @@ def watcher_loop():
         time.sleep(300)
 
 if __name__ == '__main__':
+    # হেলথ সার্ভার ব্যাকগ্রাউন্ড থ্রেডে চালু
     threading.Thread(target=run_health_server, daemon=True).start()
+    # মূল ওয়াচার লুপ চালু
     watcher_loop()
