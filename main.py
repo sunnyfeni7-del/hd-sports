@@ -1,14 +1,10 @@
 import urllib.request
-import urllib.error
 import json
 import os
 import ssl
-import time
-import gzip
-from io import BytesIO
 from datetime import datetime, timezone, timedelta
-from concurrent.futures import ThreadPoolExecutor
 
+# SSL certificate bypass
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
@@ -16,7 +12,7 @@ ctx.verify_mode = ssl.CERT_NONE
 base_dir = 'api'
 os.makedirs(base_dir, exist_ok=True)
 
-# মূল প্রমাণিত হেডার (সার্ভার ব্লক রোধে)
+# আপনার মূল প্রমাণিত হেডার (কোনো পরিবর্তন ছাড়া)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json',
@@ -27,6 +23,7 @@ HEADERS = {
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
 API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
 
+# পরিচিত ডেমো ও ফেক স্ট্রিমিং ইউআরএল প্যাটার্ন
 DEMO_PATTERNS = [
     'unified-streaming.com',
     'tears-of-steel',
@@ -37,6 +34,7 @@ DEMO_PATTERNS = [
 ]
 
 def is_real_stream(url):
+    """চেক করে লিংকটি আসল নাকি ডেমো/টেস্টিং লিংক।"""
     if not url or not url.strip():
         return False
     url_lower = url.lower()
@@ -45,32 +43,18 @@ def is_real_stream(url):
             return False
     return True
 
-def fetch_json(url, timeout=12):
-    """GZIP ডিকোড এবং নিরাপদ ডাটা ফেচিং"""
+def fetch_json(url):
+    """আপনার মূল সাধারণ ও নিরাপদ ফেচ ফাংশন"""
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
-            content = response.read()
-            if response.info().get('Content-Encoding') == 'gzip' or content.startswith(b'\x1f\x8b'):
-                content = gzip.GzipFile(fileobj=BytesIO(content)).read()
-            return json.loads(content.decode('utf-8', errors='ignore'))
-    except urllib.error.HTTPError as e:
-        print(f"  ⚠️ HTTP Error {e.code} for {url}")
-        return None
+        with urllib.request.urlopen(req, context=ctx, timeout=15) as response:
+            return json.loads(response.read().decode('utf-8'))
     except Exception as e:
+        print(f"  ⚠️ Error requesting {url}: {str(e)}")
         return None
-
-def fetch_main_events_with_retry(retries=3, timeout=20):
-    for attempt in range(1, retries + 1):
-        print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
-        data = fetch_json(API_EVENTS, timeout=timeout)
-        if data and data.get('status') == 'ok':
-            return data
-        print(f"  ⚠️ Attempt {attempt} failed, waiting 3 seconds...")
-        time.sleep(3)
-    return None
 
 def parse_date(date_str):
+    """Helper to parse datetime from multiple formats."""
     if not date_str:
         return None
     clean = str(date_str).split('+')[0].replace('T', ' ').replace('Z', '').strip()
@@ -83,6 +67,7 @@ def parse_date(date_str):
     return None
 
 def parse_utc_to_bst(utc_str):
+    """Converts raw UTC string to BST formatted string."""
     dt_utc = parse_date(utc_str)
     if dt_utc:
         dt_bst = dt_utc + timedelta(hours=6)
@@ -90,8 +75,15 @@ def parse_utc_to_bst(utc_str):
     return ""
 
 def calculate_event_status(start_utc, end_utc, api_status, has_channels):
+    """
+    লজিক: 
+    ১. মেইন সোর্স এপিআই-তে ended/finish হলে স্ট্যাটাস 'Ended' হবে।
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে এবং আসল চ্যানেল থাকলে স্ট্যাটাস 'Live' হবে।
+    ৩. চ্যানেল না থাকলে ১৫ মিনিট পার হলেও 'Upcoming' থাকবে।
+    """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
+    # ১. API যদি স্পষ্ট করে ম্যাচ শেষ বলে দেয়
     if api_status_str in ["finish", "finished", "ended", "completed", "closed"]:
         return "Ended"
 
@@ -100,16 +92,22 @@ def calculate_event_status(start_utc, end_utc, api_status, has_channels):
         return "Upcoming"
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
+
+    # ⏰ ম্যাচ শুরুর ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
+    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে অথবা সোর্স API লাইভ ঘোষণা করলে
     if now >= early_live_threshold or api_status_str == "live":
+        # 🎯 আসল চ্যানেল লিংক উপস্থিত থাকলে লাইভ হবে, না থাকলে Upcoming থাকবে
         return "Live" if has_channels else "Upcoming"
 
     return "Upcoming"
 
 def parse_stream_url_and_headers(raw_link):
+    """Extracts clean URL and Headers from pipe-separated URLs."""
     if not raw_link:
         return "", {}
+        
     if '|' in raw_link:
         parts = raw_link.split('|', 1)
         clean_url = parts[0].strip()
@@ -120,6 +118,7 @@ def parse_stream_url_and_headers(raw_link):
                 k, v = param.split('=', 1)
                 headers[k.strip()] = v.strip()
         return clean_url, headers
+        
     return raw_link.strip(), {}
 
 def detect_stream_type(url, raw_type=None):
@@ -138,30 +137,41 @@ def extract_drm_key(stream):
     for key in ['drm_key', 'drmKey', 'key', 'clearKey']:
         if stream.get(key):
             return stream[key]
+            
     if stream.get('k1') and stream.get('k2'):
         return f"{stream['k1']}:{stream['k2']}"
+        
     api_val = stream.get('api', '')
     if api_val and ':' in api_val and len(api_val) >= 32:
         return api_val
+        
     return None
 
 def process_channels(raw_streams):
+    """ডেমো লিংক ফিল্টার করে শুধুমাত্র রিয়েল চ্যানেল প্রসেস করবে।"""
     channels = []
     if not raw_streams:
         return channels
+
     for stream in raw_streams:
         raw_link = stream.get('link', '')
         clean_url, headers = parse_stream_url_and_headers(raw_link)
+        
+        # ডেমো বা ফেক লিংক থাকলে বাদ দেওয়া হবে
         if not is_real_stream(clean_url):
             continue
 
+        channel_name = stream.get('title', '')
+        stream_type = detect_stream_type(clean_url, stream.get('type'))
+        drm_key = extract_drm_key(stream)
+
         channels.append({
-            "channel_name": stream.get('title', ''),
-            "stream_type": detect_stream_type(clean_url, stream.get('type')),
+            "channel_name": channel_name,
+            "stream_type": stream_type,
             "url": clean_url,
             "raw_link": raw_link,
             "headers": headers,
-            "drm_key": extract_drm_key(stream)
+            "drm_key": drm_key
         })
     return channels
 
@@ -173,79 +183,83 @@ def get_status_priority(event):
         return 1
     return 2
 
-def process_single_match(event):
-    title = event.get('title', '')
-    slug = event.get('slug', '')
-    category = event.get('category', 'Live Events')
-    event_info = event.get('eventInfo', {})
-
-    team_a_name = event_info.get("teamA") or (title.split(' vs ')[0] if ' vs ' in title else title)
-    team_b_name = event_info.get("teamB") or (title.split(' vs ')[1] if ' vs ' in title else "")
-    team_a_flag = event_info.get("teamAFlag") or event.get('image', '')
-    team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
-    logo = event.get('image') or team_a_flag
-
-    # সার্ভার সুরক্ষিত রাখতে হালকা বিরতি
-    time.sleep(0.1)
-
-    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=10)
-    raw_stream_urls = []
-    if stream_payload and stream_payload.get('status') == 'ok':
-        raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
-
-    channels = process_channels(raw_stream_urls)
-    has_real_channels = len(channels) > 0
-
-    raw_start_utc = event_info.get("startTime") or event.get("startTime") or ""
-    raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
-    api_raw_status = event_info.get("Status") or event.get("Status") or event.get("status") or ""
-
-    final_status = calculate_event_status(
-        start_utc=raw_start_utc,
-        end_utc=raw_end_utc,
-        api_status=api_raw_status,
-        has_channels=has_real_channels
-    )
-
-    return {
-        "title": title,
-        "sport": event_info.get("eventCat", category),
-        "sub_category": event_info.get("eventName", title),
-        "status": final_status,
-        "is_hot": str(event_info.get("isHot", "0")).lower() in ("1", "true"),
-        "slug": slug,
-        "schedule": {
-            "timezone": "BST (UTC+6)",
-            "start_time_bst": parse_utc_to_bst(raw_start_utc),
-            "end_time_bst": parse_utc_to_bst(raw_end_utc),
-            "raw_start_utc": raw_start_utc
-        },
-        "teams": {
-            "team_a": {"name": team_a_name, "flag": team_a_flag},
-            "team_b": {"name": team_b_name, "flag": team_b_flag}
-        },
-        "logo": logo,
-        "channels": channels,
-        "total_channels": len(channels)
-    }
-
 def run_sync():
-    payload = fetch_main_events_with_retry(retries=3, timeout=20)
+    print("📡 Requesting schedule from VortexTV API...")
+    payload = fetch_json(API_EVENTS)
+    
     if not payload or payload.get('status') != 'ok':
-        print("❌ API unresponsive. Preserving existing database cache!")
+        print("❌ API unresponsive or offline. Sync cancelled.")
         return
 
     match_list = payload.get('data', [])
     if not match_list:
-        print("⚠️ API returned 0 matches.")
+        print("⚠️ API returned 0 active matches. Freezing previous database cache!")
         return
 
-    print(f"🎉 Connection Successful! Found {len(match_list)} events. Processing gently...")
+    print(f"🎉 Connection Successful! Found {len(match_list)} events. Fetching feeds...")
 
-    # 🛡️ সার্ভার সুরক্ষিত রাখতে একসাথে মাত্র ৩টি রিকোয়েস্ট যাবে
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        consolidated_data = list(executor.map(process_single_match, match_list))
+    consolidated_data = []
+    for event in match_list:
+        title = event.get('title', '')
+        slug = event.get('slug', '')
+        category = event.get('category', 'Live Events')
+        event_info = event.get('eventInfo', {})
 
+        team_a_name = event_info.get("teamA") or (title.split(' vs ')[0] if ' vs ' in title else title)
+        team_b_name = event_info.get("teamB") or (title.split(' vs ')[1] if ' vs ' in title else "")
+        team_a_flag = event_info.get("teamAFlag") or event.get('image', '')
+        team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
+        logo = event.get('image') or team_a_flag
+
+        # Fetch individual stream feeds
+        stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}")
+        raw_stream_urls = []
+        if stream_payload and stream_payload.get('status') == 'ok':
+            raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
+            
+        # চ্যানেল প্রসেসিং (এখানে ডেমো লিংক বাদ যাবে)
+        channels = process_channels(raw_stream_urls)
+        has_real_channels = len(channels) > 0
+
+        # টাইম ও স্ট্যাটাস ক্যালকুলেশন
+        raw_start_utc = event_info.get("startTime") or event.get("startTime") or ""
+        raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
+        api_raw_status = event_info.get("Status") or event.get("status") or ""
+
+        # ✅ ১৫ মিনিট আগে লাইভ হওয়া এবং চ্যানেল না থাকলে Upcoming রাখার লজিক
+        final_status = calculate_event_status(
+            start_utc=raw_start_utc,
+            end_utc=raw_end_utc,
+            api_status=api_raw_status,
+            has_channels=has_real_channels
+        )
+
+        is_hot = str(event_info.get("isHot", "0")).lower() in ("1", "true")
+
+        match_entry = {
+            "title": title,
+            "sport": event_info.get("eventCat", category),
+            "sub_category": event_info.get("eventName", title),
+            "status": final_status,
+            "is_hot": is_hot,
+            "slug": slug,
+            "schedule": {
+                "timezone": "BST (UTC+6)",
+                "start_time_bst": parse_utc_to_bst(raw_start_utc),
+                "end_time_bst": parse_utc_to_bst(raw_end_utc),
+                "raw_start_utc": raw_start_utc
+            },
+            "teams": {
+                "team_a": {"name": team_a_name, "flag": team_a_flag},
+                "team_b": {"name": team_b_name, "flag": team_b_flag}
+            },
+            "logo": logo,
+            "channels": channels,
+            "total_channels": len(channels)
+        }
+        consolidated_data.append(match_entry)
+
+    # সর্টিং (Live সবার উপরে, এরপর Upcoming, শেষে Ended)
     consolidated_data.sort(key=get_status_priority)
 
     final_output = {
@@ -260,7 +274,7 @@ def run_sync():
     with open(events_file, 'w', encoding='utf-8') as f:
         json.dump(final_output, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ Sync completed successfully! Total {len(consolidated_data)} matches saved.")
+    print(f"\n✅ Sync completed! Total {len(consolidated_data)} events saved to: {events_file}")
 
 if __name__ == '__main__':
     run_sync()
