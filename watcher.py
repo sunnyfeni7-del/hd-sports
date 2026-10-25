@@ -26,25 +26,13 @@ REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
-API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-    'Accept': 'application/json, text/plain, */*',
-    'Accept-Language': 'en-US,en;q=0.9',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json',
     'Origin': 'https://vortextv.modsdone.com',
-    'Referer': 'https://vortextv.modsdone.com/',
-    'Connection': 'close'
+    'Referer': 'https://vortextv.modsdone.com/'
 }
-
-DEMO_PATTERNS = [
-    'unified-streaming.com',
-    'tears-of-steel',
-    'test-streams.mux.dev',
-    'bitmovin.com',
-    'commondatastorage.googleapis.com',
-    'sample.m3u8'
-]
 
 def parse_date(date_str):
     if not date_str:
@@ -58,46 +46,25 @@ def parse_date(date_str):
             continue
     return None
 
-def fetch_events_with_retry(retries=3, timeout=25):
+def fetch_events_with_retry(retries=3, timeout=20):
     for attempt in range(1, retries + 1):
         try:
-            log(f"📡 সোর্স API চেক করা হচ্ছে (চেষ্টা: {attempt}/{retries})...")
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
                 content = res.read()
-                if res.info().get('Content-Encoding') == 'gzip':
+                if res.info().get('Content-Encoding') == 'gzip' or content.startswith(b'\x1f\x8b'):
                     content = gzip.GzipFile(fileobj=BytesIO(content)).read()
-                data = json.loads(content.decode('utf-8'))
+                data = json.loads(content.decode('utf-8', errors='ignore'))
                 if data and data.get('status') == 'ok':
                     return data
-        except Exception as e:
-            log(f"  ⚠️ চেষ্টা {attempt} ব্যর্থ ({e})")
+        except Exception:
             if attempt < retries:
                 time.sleep(3)
     return None
 
-def has_real_stream_channels(slug):
-    """চেক করে ম্যাচটিতে কোনো সক্রিয় রিয়েল স্ট্রিম লিংক যোগ করা হয়েছে কি না"""
-    try:
-        req = urllib.request.Request(f"{API_STREAMS_BASE}{slug}", headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=6) as res:
-            content = res.read()
-            if res.info().get('Content-Encoding') == 'gzip':
-                content = gzip.GzipFile(fileobj=BytesIO(content)).read()
-            payload = json.loads(content.decode('utf-8'))
-            if payload and payload.get('status') == 'ok':
-                streams = payload.get('data', {}).get('streamUrls', [])
-                for s in streams:
-                    raw_link = s.get('link', '').split('|')[0].strip().lower()
-                    if raw_link and not any(pat in raw_link for pat in DEMO_PATTERNS):
-                        return True
-    except Exception:
-        pass
-    return False
-
 def trigger_github_action(reason):
     if not GITHUB_TOKEN:
-        log("❌ GITHUB_TOKEN পাওয়া যায়নি! Action ট্রিগার বাতিল।")
+        log("❌ GITHUB_TOKEN নেই! অ্যাকশন বাতিল।")
         return
 
     url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/dispatches"
@@ -122,7 +89,7 @@ def trigger_github_action(reason):
         log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
-    data = fetch_events_with_retry(retries=3, timeout=25)
+    data = fetch_events_with_retry(retries=3, timeout=20)
     if not data:
         return None, {}
 
@@ -139,18 +106,12 @@ def get_current_event_states():
         info = ev.get('eventInfo', {})
         api_status = str(info.get('Status') or ev.get('status') or '').strip().lower()
 
-        # ১. সোর্স API যদি ended/finish ঘোষণা করে
         if api_status in ["finish", "finished", "ended", "completed", "closed"]:
             status = "Ended"
         else:
             start = parse_date(info.get('startTime'))
-            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা API লাইভ দেখালে
             if start and (now >= (start - timedelta(minutes=15)) or api_status == "live"):
-                # 🎯 স্ট্রিম লিংক যোগ করা থাকলে তবেই Live হবে
-                if has_real_stream_channels(slug):
-                    status = "Live"
-                else:
-                    status = "Upcoming"
+                status = "Live"
             else:
                 status = "Upcoming"
 
@@ -160,8 +121,9 @@ def get_current_event_states():
     return state_map, summary_counts
 
 def detect_changes(previous_state, current_state):
+    # 🛡️ প্রথমবার বুট হওয়ার সময় অযথা গিটহাবে রান পাঠাবে না!
     if previous_state is None:
-        return "Initial Startup Sync"
+        return None
 
     prev_slugs = set(previous_state.keys())
     curr_slugs = set(current_state.keys())
@@ -186,7 +148,7 @@ def detect_changes(previous_state, current_state):
 
 class HealthServer(BaseHTTPRequestHandler):
     def _send_headers(self):
-        body = b"Watcher is actively monitoring API!"
+        body = b"Watcher is running healthy!"
         self.send_response(200)
         self.send_header('Content-Type', 'text/plain; charset=utf-8')
         self.send_header('Content-Length', str(len(body)))
@@ -207,7 +169,6 @@ class HealthServer(BaseHTTPRequestHandler):
 def run_health_server():
     port = int(os.environ.get("PORT", 10000))
     server = HTTPServer(("0.0.0.0", port), HealthServer)
-    log(f"🌐 Health server listening on port {port}")
     server.serve_forever()
 
 def watcher_loop():
@@ -222,21 +183,23 @@ def watcher_loop():
                 total_events = len(current_state)
                 log(f"📊 চেক সম্পন্ন: মোট {total_events} টি ইভেন্ট পাওয়া গেছে | Live: {counts['Live']}, Upcoming: {counts['Upcoming']}, Ended: {counts['Ended']}")
 
-                change_reason = detect_changes(previous_state, current_state)
-                
-                if change_reason:
-                    log(f"🔔 পরিবর্তন ধরা পড়েছে! ➔ {change_reason}")
-                    trigger_github_action(change_reason)
+                if previous_state is None:
                     previous_state = current_state
+                    log("📌 প্রাথমিক স্টেট রেকর্ড সম্পন্ন। পরিবর্তন হলে তবেই GitHub অ্যাকশন চলবে।")
                 else:
-                    log("💤 আগের তালিকার সাথে কোনো পরিবর্তন নেই। GitHub রিকোয়েস্ট পাঠানো হয়নি।")
+                    change_reason = detect_changes(previous_state, current_state)
+                    if change_reason:
+                        log(f"🔔 পরিবর্তন ধরা পড়েছে! ➔ {change_reason}")
+                        trigger_github_action(change_reason)
+                        previous_state = current_state
+                    else:
+                        log("💤 কোনো পরিবর্তন নেই। GitHub রিকোয়েস্ট পাঠানো হয়নি।")
             else:
-                log("⚠️ সোর্স এপিআই থেকে ডাটা পাওয়া যায়নি। ৫ মিনিট পর আবার চেষ্টা করা হবে...")
+                log("⚠️ সোর্স এপিআই সাময়িক অফলাইন। ৫ মিনিট পর আবার চেষ্টা করা হবে...")
 
         except Exception as e:
-            log(f"❌ Watcher Loop Error: {e}")
+            log(f"❌ Watcher Error: {e}")
 
-        log("⏳ পরবর্তী চেকের জন্য ৫ মিনিট (৩০০ সেকেন্ড) অপেক্ষা করা হচ্ছে...\n")
         time.sleep(300)
 
 if __name__ == '__main__':
