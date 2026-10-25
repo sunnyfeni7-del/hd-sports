@@ -75,7 +75,6 @@ def parse_date(date_str):
     """সব ধরণের ডেট ফরম্যাট (T, Z সহ) সঠিকভাবে পার্স করবে"""
     if not date_str:
         return None
-    # ISO ফরম্যাট (T, Z) এবং মাইক্রোসেকেন্ড রিমুভ করে ক্লিন করা
     clean = str(date_str).split('+')[0].replace('T', ' ').replace('Z', '').strip()
     clean = clean.split('.')[0].strip()
     
@@ -93,12 +92,12 @@ def parse_utc_to_bst(utc_str):
         return dt_bst.strftime("%b %d, %Y, %I:%M:%S %p")
     return ""
 
-def calculate_event_status(start_utc, end_utc, api_status):
+def calculate_event_status(start_utc, end_utc, api_status, has_channels=False):
     """
     লজিক: 
     ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে 'Ended' হবে।
-    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে সরাসরি 'Live' হবে।
-    ৩. অন্যথায় 'Upcoming' থাকবে।
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে শুধুমাত্র চ্যানেল লিংক থাকলে 'Live' হবে।
+    ৩. চ্যানেল লিংক যুক্ত না থাকলে ১৫ মিনিট পার হলেও 'Upcoming' থাকবে।
     """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
@@ -115,9 +114,10 @@ def calculate_event_status(start_utc, end_utc, api_status):
     # ⏰ ম্যাচ শুরুর ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে সরাসরি Live হবে
+    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে বা API লাইভ দেখালে:
+    # 🎯 শুধুমাত্র চ্যানেল ইউআরএল অ্যাড করা থাকলে Live হবে, না থাকলে Upcoming থাকবে
     if now >= early_live_threshold or api_status_str == "live":
-        return "Live"
+        return "Live" if has_channels else "Upcoming"
 
     return "Upcoming"
 
@@ -205,17 +205,21 @@ def process_single_match(event):
         raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
 
     channels = process_channels(raw_stream_urls)
+    
+    # 🎯 চেক করবে কার্যকর কোনো চ্যানেল লিংক আছে কি না
+    has_real_channels = len(channels) > 0
 
     # যেকোনো স্থান থেকে startTime ও Status পড়া
     raw_start_utc = event_info.get("startTime") or event.get("startTime") or ""
     raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
     api_raw_status = event_info.get("Status") or event.get("Status") or event.get("status") or ""
 
-    # ✅ ১৫ মিনিট আগে নিশ্চিতভাবে Live স্ট্যাটাস ক্যালকুলেট করা
+    # ✅ চ্যানেল ইউআরএল থাকলে তবেই Live হবে, অন্যথায় Upcoming থাকবে
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
-        api_status=api_raw_status
+        api_status=api_raw_status,
+        has_channels=has_real_channels
     )
 
     return {
