@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T22:47:29.541272+00:00",
+  "last_updated": "2026-10-25T23:17:39.489163+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -1594,6 +1594,46 @@
         "total_channels": 1
       },
       {
+        "title": "Philadelphia 76ers vs Detroit Pistons",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "philadelphia-76ers-vs-detroit-pistons",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 26, 2026, 05:30:00 AM",
+          "end_time_bst": "Oct 26, 2026, 08:00:00 AM",
+          "raw_start_utc": "2026/10/25 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Philadelphia 76ers",
+            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
+          },
+          "team_b": {
+            "name": "Detroit Pistons",
+            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3420/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Motogp",
         "sport": "Motorsport",
         "sub_category": "Motorsport",
@@ -2514,46 +2554,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/5981/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Philadelphia 76ers vs Detroit Pistons",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "philadelphia-76ers-vs-detroit-pistons",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 05:30:00 AM",
-          "end_time_bst": "Oct 26, 2026, 08:00:00 AM",
-          "raw_start_utc": "2026/10/25 23:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Philadelphia 76ers",
-            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
-          },
-          "team_b": {
-            "name": "Detroit Pistons",
-            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3420/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Sacramento Kings vs Memphis Grizzlies",
