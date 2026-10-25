@@ -4,20 +4,21 @@ import os
 import sys
 import ssl
 import time
+import gzip
+from io import BytesIO
 from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 
-# পাইথনের বাফারিং বন্ধ করে ইনস্ট্যান্ট লগ আউটপুট করার জন্য
+# রেন্ডার কনসোলে ইনস্ট্যান্ট লগ দেখানোর জন্য
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(line_buffering=True)
 
 def log(msg):
-    """রেন্ডার কনসোলে সাথে সাথে লগ প্রিন্ট করার ফাংশন"""
     timestamp = datetime.now().strftime("%I:%M:%S %p")
     print(f"[{timestamp}] {msg}", flush=True)
 
-# SSL কনটেক্সট
+# SSL ভেরিফিকেশন বাইপাস
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
@@ -27,9 +28,15 @@ REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
+
+# 🚀 VortexTV-এর জন্য ১০০% সঠিক হেডার (টাইমআউট রোধে Connection: close অত্যন্ত জরুরি)
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Accept': 'application/json, text/plain, */*'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Origin': 'https://vortextv.modsdone.com',
+    'Referer': 'https://vortextv.modsdone.com/',
+    'Connection': 'close'
 }
 
 def parse_date(date_str):
@@ -43,14 +50,26 @@ def parse_date(date_str):
             continue
     return None
 
-def fetch_json(url, timeout=20):
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
-            return json.loads(res.read().decode('utf-8'))
-    except Exception as e:
-        log(f"⚠️ API Fetch Error: {e}")
-        return None
+def fetch_events_with_retry(retries=3, timeout=25):
+    """৩ বার তাৎক্ষণিক চেষ্টা করবে যাতে সার্ভার স্লো হলেও ডাটা মিস না হয়"""
+    for attempt in range(1, retries + 1):
+        try:
+            log(f"📡 সোর্স API থেকে ডাটা আনা হচ্ছে (চেষ্টা: {attempt}/{retries})...")
+            req = urllib.request.Request(API_EVENTS, headers=HEADERS)
+            with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
+                content = res.read()
+                # সার্ভার যদি কমপ্রেসড (gzip) ডাটা পাঠায়
+                if res.info().get('Content-Encoding') == 'gzip':
+                    content = gzip.GzipFile(fileobj=BytesIO(content)).read()
+                
+                data = json.loads(content.decode('utf-8'))
+                if data and data.get('status') == 'ok':
+                    return data
+        except Exception as e:
+            log(f"  ⚠️ চেষ্টা {attempt} ব্যর্থ: {e}")
+            if attempt < retries:
+                time.sleep(3) # ৩ সেকেন্ড বিরতি দিয়ে আবার চেষ্টা করবে
+    return None
 
 def trigger_github_action(reason):
     if not GITHUB_TOKEN:
@@ -79,8 +98,8 @@ def trigger_github_action(reason):
         log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
-    data = fetch_json(API_EVENTS)
-    if not data or data.get('status') != 'ok':
+    data = fetch_events_with_retry(retries=3, timeout=25)
+    if not data:
         return None, {}
 
     events = data.get('data', [])
@@ -137,7 +156,6 @@ def detect_changes(previous_state, current_state):
 
     return None
 
-# রেন্ডারের পোর্ট হেলথ সার্ভার
 class HealthServer(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -153,7 +171,7 @@ def run_health_server():
     server.serve_forever()
 
 def watcher_loop():
-    log("👀 Watcher service started! Checking every 5 minutes...")
+    log("👀 Watcher service started! Monitoring API every 5 minutes...")
     previous_state = None
 
     while True:
@@ -182,7 +200,5 @@ def watcher_loop():
         time.sleep(300)
 
 if __name__ == '__main__':
-    # হেলথ সার্ভার চালু
     threading.Thread(target=run_health_server, daemon=True).start()
-    # মূল চেকিং লুপ চালু
     watcher_loop()
