@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T16:40:24.519303+00:00",
+  "last_updated": "2026-10-25T16:45:29.702502+00:00",
   "event_count": 58,
   "events": {
     "events": [
@@ -303,6 +303,83 @@
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
               "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Lecce vs Juventus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "lecce-vs-juventus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lecce",
+            "flag": "https://img.sofascore.com/api/v1/team/2689/image"
+          },
+          "team_b": {
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2689/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "headers": {},
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+            "headers": {
+              "Origin": "https://amazon.com",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58642/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58642/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
             },
             "drm_key": null
           }
@@ -780,6 +857,261 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Atlanta Falcons vs San Francisco 49ers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "atlanta-falcons-vs-san-francisco-49ers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atlanta Falcons",
+            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
+          },
+          "team_b": {
+            "name": "San Francisco 49ers",
+            "flag": "https://img.sofascore.com/api/v1/team/4389/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58649/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58649/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58616/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58616/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/jkhazabcka36.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/jkhazabcka36.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Baltimore Ravens vs Cincinnati Bengals",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "baltimore-ravens-vs-cincinnati-bengals",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Baltimore Ravens",
+            "flag": "https://img.sofascore.com/api/v1/team/4413/image"
+          },
+          "team_b": {
+            "name": "Cincinnati Bengals",
+            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4413/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58651/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58651/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58632/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58632/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/sfjnzabacah31.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/sfjnzabacah31.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Houston Texans vs New York Giants",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "houston-texans-vs-new-york-giants",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Houston Texans",
+            "flag": "https://img.sofascore.com/api/v1/team/4324/image"
+          },
+          "team_b": {
+            "name": "New York Giants",
+            "flag": "https://img.sofascore.com/api/v1/team/4426/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4324/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "New York Jets vs Miami Dolphins",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-york-jets-vs-miami-dolphins",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New York Jets",
+            "flag": "https://img.sofascore.com/api/v1/team/4427/image"
+          },
+          "team_b": {
+            "name": "Miami Dolphins",
+            "flag": "https://img.sofascore.com/api/v1/team/4287/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4427/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Minnesota Vikings vs Indianapolis Colts",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "minnesota-vikings-vs-indianapolis-colts",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Minnesota Vikings",
+            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
+          },
+          "team_b": {
+            "name": "Indianapolis Colts",
+            "flag": "https://img.sofascore.com/api/v1/team/4421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4423/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Tennessee Titans vs Cleveland Browns",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "tennessee-titans-vs-cleveland-browns",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Tennessee Titans",
+            "flag": "https://img.sofascore.com/api/v1/team/4431/image"
+          },
+          "team_b": {
+            "name": "Cleveland Browns",
+            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4431/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Carolina Panthers vs Tampa Bay Buccaneers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "carolina-panthers-vs-tampa-bay-buccaneers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
+          "raw_start_utc": "2026/10/25 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Carolina Panthers",
+            "flag": "https://img.sofascore.com/api/v1/team/4415/image"
+          },
+          "team_b": {
+            "name": "Tampa Bay Buccaneers",
+            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4415/image",
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "Sparta Rotterdam vs AFC Ajax",
@@ -1835,73 +2167,6 @@
         "total_channels": 5
       },
       {
-        "title": "Lecce vs Juventus",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "lecce-vs-juventus",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Lecce",
-            "flag": "https://img.sofascore.com/api/v1/team/2689/image"
-          },
-          "team_b": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2689/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-            "headers": {
-              "Origin": "https://amazon.com",
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8",
-            "raw_link": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Udinese vs AC Milan",
         "sport": "Football",
         "sub_category": "Football",
@@ -2124,195 +2389,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/1644/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Atlanta Falcons vs San Francisco 49ers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "atlanta-falcons-vs-san-francisco-49ers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlanta Falcons",
-            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
-          },
-          "team_b": {
-            "name": "San Francisco 49ers",
-            "flag": "https://img.sofascore.com/api/v1/team/4389/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Baltimore Ravens vs Cincinnati Bengals",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "baltimore-ravens-vs-cincinnati-bengals",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Baltimore Ravens",
-            "flag": "https://img.sofascore.com/api/v1/team/4413/image"
-          },
-          "team_b": {
-            "name": "Cincinnati Bengals",
-            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4413/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Houston Texans vs New York Giants",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "houston-texans-vs-new-york-giants",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Houston Texans",
-            "flag": "https://img.sofascore.com/api/v1/team/4324/image"
-          },
-          "team_b": {
-            "name": "New York Giants",
-            "flag": "https://img.sofascore.com/api/v1/team/4426/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4324/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "New York Jets vs Miami Dolphins",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-york-jets-vs-miami-dolphins",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New York Jets",
-            "flag": "https://img.sofascore.com/api/v1/team/4427/image"
-          },
-          "team_b": {
-            "name": "Miami Dolphins",
-            "flag": "https://img.sofascore.com/api/v1/team/4287/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4427/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Minnesota Vikings vs Indianapolis Colts",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "minnesota-vikings-vs-indianapolis-colts",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Minnesota Vikings",
-            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
-          },
-          "team_b": {
-            "name": "Indianapolis Colts",
-            "flag": "https://img.sofascore.com/api/v1/team/4421/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4423/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Tennessee Titans vs Cleveland Browns",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "tennessee-titans-vs-cleveland-browns",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tennessee Titans",
-            "flag": "https://img.sofascore.com/api/v1/team/4431/image"
-          },
-          "team_b": {
-            "name": "Cleveland Browns",
-            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4431/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Carolina Panthers vs Tampa Bay Buccaneers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "carolina-panthers-vs-tampa-bay-buccaneers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 26, 2026, 02:00:00 AM",
-          "raw_start_utc": "2026/10/25 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Carolina Panthers",
-            "flag": "https://img.sofascore.com/api/v1/team/4415/image"
-          },
-          "team_b": {
-            "name": "Tampa Bay Buccaneers",
-            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4415/image",
         "channels": [],
         "total_channels": 0
       },
