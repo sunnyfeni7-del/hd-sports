@@ -1,20 +1,15 @@
-name: Auto Sync Events
+name: Auto Sync Sports Events
 
 on:
   repository_dispatch:
-    types: [sync_event]
-  workflow_dispatch:
-
-# 🛑 একই সাথে একাধিক অ্যাকশন রান হয়ে যাতে কনফ্লিক্ট না হয়
-concurrency:
-  group: sync-events
-  cancel-in-progress: false
+    types: [source_data_changed]
+  workflow_dispatch: # চাইলে আপনি নিজে ম্যানুয়ালিও রান করতে পারবেন
 
 permissions:
   contents: write
 
 jobs:
-  run-scraper:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -25,16 +20,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Scraper Script
-        run: python scraper.py
+      - name: Run Sync Script
+        run: python main.py
 
-      - name: Commit and Push Updated Data
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add api/events.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Auto-update events.json [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update sports schedule & channels [skip ci]" && git push)
