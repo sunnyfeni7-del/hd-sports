@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T11:16:07.267936+00:00",
+  "last_updated": "2026-10-25T11:21:09.229415+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -160,6 +160,72 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Inter vs Fiorentina",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "inter-vs-fiorentina",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 05:30:00 PM",
+          "end_time_bst": "Oct 25, 2026, 07:50:00 PM",
+          "raw_start_utc": "2026/10/25 11:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Inter",
+            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+          },
+          "team_b": {
+            "name": "Fiorentina",
+            "flag": "https://img.sofascore.com/api/v1/team/2693/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "headers": {},
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/Q444QQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/Q444QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Fortuna Sittard vs Excelsior",
@@ -1252,72 +1318,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/41/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Inter vs Fiorentina",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "inter-vs-fiorentina",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 05:30:00 PM",
-          "end_time_bst": "Oct 25, 2026, 07:50:00 PM",
-          "raw_start_utc": "2026/10/25 11:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Inter",
-            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-          },
-          "team_b": {
-            "name": "Fiorentina",
-            "flag": "https://img.sofascore.com/api/v1/team/2693/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/Q444QQ.m3u8",
-            "raw_link": "http://193.47.62.50/hls/Q444QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
       },
       {
         "title": "Atalanta vs Frosinone",
