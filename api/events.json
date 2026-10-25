@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T16:45:29.702502+00:00",
+  "last_updated": "2026-10-25T17:15:38.570732+00:00",
   "event_count": 58,
   "events": {
     "events": [
@@ -382,6 +382,80 @@
               "Origin": "https://embedcenter.st"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Real Sociedad vs Levante UD",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-sociedad-vs-levante-ud",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 26, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/25 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Sociedad",
+            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
+          },
+          "team_b": {
+            "name": "Levante UD",
+            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2824/image",
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "headers": {},
+            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+          },
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+            "headers": {},
+            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
           }
         ],
         "total_channels": 5
@@ -884,6 +958,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/4393/image",
         "channels": [
           {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/r6vila1kol/out/v1/6bf1583a886449ab95c0d3b922760bea/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/r6vila1kol/out/v1/6bf1583a886449ab95c0d3b922760bea/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0721b44692ac935d9dfb41715716c17e:e6f9a49bfec8914b1e4185d42fe49147"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58649/load-playlist?",
@@ -916,7 +1000,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Baltimore Ravens vs Cincinnati Bengals",
@@ -943,6 +1027,16 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/4413/image",
         "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/daayevrbks/out/v1/a505a2b7673a4cb9aa257fa1b1466793/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/daayevrbks/out/v1/a505a2b7673a4cb9aa257fa1b1466793/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d39b960664539469ba32c9d5dc844a61:1d5177533377753d033789a82e3f8e67"
+          },
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
@@ -976,7 +1070,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Houston Texans vs New York Giants",
@@ -1002,8 +1096,51 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4324/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/a3awvyfndh/out/v1/eedbd030752548e1b2150d23d724a3c5/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/a3awvyfndh/out/v1/eedbd030752548e1b2150d23d724a3c5/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "e1bd19b3a80ca9ace9062e29f5df133e:2baa0e9f83a0b2bde153fd6505435922"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58648/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58648/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58638/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58638/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/jnknjfzbk35.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/jnknjfzbk35.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "New York Jets vs Miami Dolphins",
@@ -1029,8 +1166,51 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4427/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0vsahaahs6/out/v1/89917146692b410b9acff115a573eb7b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0vsahaahs6/out/v1/89917146692b410b9acff115a573eb7b/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "6aede447f358f2180e6c71a7e216e198:81be98f38244d35ef4c5a59e5b18b7ba"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58652/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58652/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58635/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58635/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/uheyztezgj34.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/uheyztezgj34.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Minnesota Vikings vs Indianapolis Colts",
@@ -1056,8 +1236,51 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4423/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/maert9vvni/out/v1/7194876e21de45978bdb8c6273e2b16a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/maert9vvni/out/v1/7194876e21de45978bdb8c6273e2b16a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "e9dd335aff6bc73cbffb629f1f549c86:32b4ecfd51db879a8f4bc39ab762331f"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58650/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58650/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58618/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58618/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/oipozuezeji33.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/oipozuezeji33.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Tennessee Titans vs Cleveland Browns",
@@ -1083,8 +1306,51 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4431/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/oxer6skmta/out/v1/37e5cd455ff243c58ba15fa0e32685d3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/oxer6skmta/out/v1/37e5cd455ff243c58ba15fa0e32685d3/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "942bb0d6859eda3f9a625e46a2a23e60:4a70385e9f8107c5fd18ed458aeacf06"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58645/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58645/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58643/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58643/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/qsdnajbq32.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/qsdnajbq32.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Carolina Panthers vs Tampa Bay Buccaneers",
@@ -1110,8 +1376,51 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4415/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/qfofirrprj/out/v1/87c898d8544d4fca9ba16a50e8eb2b18/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/qfofirrprj/out/v1/87c898d8544d4fca9ba16a50e8eb2b18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9ded91984655eb80458c6262852ee7c9:72349dcc96388ed2125031de6c57daab"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58647/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58647/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58633/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58633/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/yetehznecs37.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/yetehznecs37.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Sparta Rotterdam vs AFC Ajax",
@@ -1244,6 +1553,33 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "CD Castellon vs Sporting Gijon",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-castellon-vs-sporting-gijon",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 26, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/25 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Castellón",
+            "flag": "https://img.sofascore.com/api/v1/team/5067/image"
+          },
+          "team_b": {
+            "name": "Sporting Gijón",
+            "flag": "https://img.sofascore.com/api/v1/team/2852/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5067/image",
+        "channels": [],
+        "total_channels": 0
       },
       {
         "title": "Goztepe vs Corum FK",
@@ -2244,70 +2580,6 @@
         "total_channels": 5
       },
       {
-        "title": "Real Sociedad vs Levante UD",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "real-sociedad-vs-levante-ud",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 26, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/25 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Sociedad",
-            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
-          },
-          "team_b": {
-            "name": "Levante UD",
-            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2824/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "headers": {},
-            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
-            "headers": {},
-            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Milwaukee Brewers vs Tampa Bay Rays",
         "sport": "Baseball",
         "sub_category": "Baseball",
@@ -2710,33 +2982,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "CD Castellon vs Sporting Gijon",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-castellon-vs-sporting-gijon",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 26, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/25 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Castellón",
-            "flag": "https://img.sofascore.com/api/v1/team/5067/image"
-          },
-          "team_b": {
-            "name": "Sporting Gijón",
-            "flag": "https://img.sofascore.com/api/v1/team/2852/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5067/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Utah Jazz vs Los Angeles Lakers",
