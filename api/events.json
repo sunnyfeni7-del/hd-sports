@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T07:50:55.732147+00:00",
+  "last_updated": "2026-10-25T08:05:54.888573+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -29,14 +29,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
         "channels": [
           {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
-            "headers": {},
-            "drm_key": "69a735880c9bd9c4b32e5bbda6e7d31f:5c80ac6538d99e2fd05fceee6c549138"
-          },
-          {
             "channel_name": "SKY CRICKET - AQ",
             "stream_type": "HLS",
             "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -47,31 +39,51 @@
             "drm_key": null
           },
           {
-            "channel_name": "WILLOW - ALT",
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/afwmxgd4dp/out/v1/40ec86a6a3cd409a93bab83897ab5aa8/cenc.mpd",
             "headers": {},
             "drm_key": "69a735880c9bd9c4b32e5bbda6e7d31f:5c80ac6538d99e2fd05fceee6c549138"
           },
           {
-            "channel_name": "TAPMAD - AQ",
+            "channel_name": "FOX CRICKET HD",
             "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
-            "headers": {},
+            "url": "https://motherofdragons.bondsplive.online/441307/logosp.webp?&e=.m3u8",
+            "raw_link": "https://motherofdragons.bondsplive.online/441307/logosp.webp?&e=.m3u8|referer=https://youjizz.com/",
+            "headers": {
+              "referer": "https://youjizz.com/"
+            },
             "drm_key": null
           },
           {
             "channel_name": "PTV SPORTS HD",
             "stream_type": "HLS",
-            "url": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
-            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
+            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
             "headers": {},
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
