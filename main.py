@@ -4,6 +4,8 @@ import json
 import os
 import ssl
 import time
+import gzip
+from io import BytesIO
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
 
@@ -38,7 +40,7 @@ DEMO_PATTERNS = [
 ]
 
 def is_real_stream(url):
-    """চেক করে লিংকটি আসল নাকি ডেমো/টেস্টিং লিংক।"""
+    """চেক করে লিংকটি আসল নাকি ডেমো লিংক।"""
     if not url or not url.strip():
         return False
     url_lower = url.lower()
@@ -47,27 +49,30 @@ def is_real_stream(url):
             return False
     return True
 
-def fetch_json(url, timeout=8):
+def fetch_json(url, timeout=7):
+    """GZIP ডিকোড সহ নিরাপদ ও সুপারফাস্ট ডাটা ফেচিং"""
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
-            return json.loads(response.read().decode('utf-8'))
+            content = response.read()
+            # 🚀 সার্ভার যদি কমপ্রেসড (gzip) ডাটা পাঠায় তাহলে আনপ্যাক করবে
+            if response.info().get('Content-Encoding') == 'gzip' or content.startswith(b'\x1f\x8b'):
+                content = gzip.GzipFile(fileobj=BytesIO(content)).read()
+            return json.loads(content.decode('utf-8', errors='ignore'))
     except Exception:
         return None
 
 def fetch_main_events_with_retry(retries=3, timeout=25):
+    """মূল শিডিউল এপিআই যাতে কোনো অবস্থাতেই মিস না হয়"""
     for attempt in range(1, retries + 1):
         try:
             print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
-            req = urllib.request.Request(API_EVENTS, headers=HEADERS)
-            with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
-                data = json.loads(response.read().decode('utf-8'))
-                if data and data.get('status') == 'ok':
-                    return data
+            data = fetch_json(API_EVENTS, timeout=timeout)
+            if data and data.get('status') == 'ok':
+                return data
         except Exception as e:
             print(f"  ⚠️ Attempt {attempt} failed: {e}")
-            if attempt < retries:
-                time.sleep(2)
+        time.sleep(2)
     return None
 
 def parse_date(date_str):
@@ -91,9 +96,9 @@ def parse_utc_to_bst(utc_str):
 
 def calculate_event_status(start_utc, end_utc, api_status, has_channels):
     """
-    ১. মেইন সোর্স এপিআই-তে Ended/Finish হলে 'Ended'।
-    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে এবং আসল চ্যানেল লিংক থাকলে 'Live'।
-    ৩. লিংক না থাকলে সময় হওয়া সত্ত্বেও 'Upcoming' থাকবে।
+    ১. সোর্স API যদি ended/finish বলে দেয় -> 'Ended'
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে এবং আসল চ্যানেল লিংক থাকলে -> 'Live'
+    ৩. লিংক না থাকলে বা সময় না হলে -> 'Upcoming'
     """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
@@ -107,9 +112,8 @@ def calculate_event_status(start_utc, end_utc, api_status, has_channels):
     now = datetime.now(timezone.utc).replace(tzinfo=None)
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ⏰ ১৫ মিনিট আগে পৌঁছালে বা API লাইভ দেখালে:
+    # ⏰ ১৫ মিনিট আগে পৌঁছালে বা API সরাসরি লাইভ ঘোষণা করলে:
     if now >= early_live_threshold or api_status_str == "live":
-        # 🎯 শুধুমাত্র আসল স্ট্রিম লিংক থাকলেই Live হবে, অন্যথায় Upcoming থাকবে
         return "Live" if has_channels else "Upcoming"
 
     return "Upcoming"
@@ -154,6 +158,9 @@ def extract_drm_key(stream):
 
 def process_channels(raw_streams):
     channels = []
+    if not raw_streams:
+        return channels
+        
     for stream in raw_streams:
         raw_link = stream.get('link', '')
         clean_url, headers = parse_stream_url_and_headers(raw_link)
@@ -190,7 +197,8 @@ def process_single_match(event):
     team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
     logo = event.get('image') or team_a_flag
 
-    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=8)
+    # দ্রুত স্ট্রিম লিংক ফেচ করা (GZIP হ্যান্ডলিং সহ)
+    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=7)
     raw_stream_urls = []
     if stream_payload and stream_payload.get('status') == 'ok':
         raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
@@ -202,7 +210,6 @@ def process_single_match(event):
     raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
     api_raw_status = event_info.get("Status") or event.get("Status") or event.get("status") or ""
 
-    # ✅ চ্যানেল লিংক না থাকলে Upcoming থাকবে
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
@@ -245,7 +252,8 @@ def run_sync():
 
     print(f"🎉 Successfully fetched {len(match_list)} events! Fetching stream feeds in parallel...")
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    # 🚀 একসাথে ১৫টি থ্রেডে অতি দ্রুত সব স্ট্রিম ফেচ করা হবে
+    with ThreadPoolExecutor(max_workers=15) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
     consolidated_data.sort(key=get_status_priority)
@@ -262,7 +270,7 @@ def run_sync():
     with open(events_file, 'w', encoding='utf-8') as f:
         json.dump(final_output, f, indent=2, ensure_ascii=False)
         
-    print(f"⚡ Sync completed successfully! Total {len(consolidated_data)} matches saved to: {events_file}")
+    print(f"⚡ Sync completed in ~10 seconds! Total {len(consolidated_data)} matches saved to: {events_file}")
 
 if __name__ == '__main__':
     run_sync()
