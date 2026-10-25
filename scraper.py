@@ -2,58 +2,28 @@ import urllib.request
 import json
 import os
 import ssl
+import time
 from datetime import datetime, timezone, timedelta
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import threading
 
-# SSL certificate bypass
+# SSL কনটেক্সট
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-base_dir = 'api'
-os.makedirs(base_dir, exist_ok=True)
-
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/json',
-    'Origin': 'https://vortextv.modsdone.com',
-    'Referer': 'https://vortextv.modsdone.com/'
-}
+# কনফিগারেশন (Render Environment Variables থেকে নিবে)
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
+REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
-API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
-
-# পরিচিত ডেমো ও ফেক স্ট্রিমিং ইউআরএল প্যাটার্ন
-DEMO_PATTERNS = [
-    'unified-streaming.com',
-    'tears-of-steel',
-    'test-streams.mux.dev',
-    'bitmovin.com',
-    'commondatastorage.googleapis.com',
-    'sample.m3u8'
-]
-
-def is_real_stream(url):
-    """চেক করে লিংকটি আসল নাকি ডেমো/টেস্টিং লিংক।"""
-    if not url or not url.strip():
-        return False
-    url_lower = url.lower()
-    for pattern in DEMO_PATTERNS:
-        if pattern in url_lower:
-            return False
-    return True
-
-def fetch_json(url):
-    """Helper to download and parse JSON with 15s timeout."""
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=15) as response:
-            return json.loads(response.read().decode('utf-8'))
-    except Exception as e:
-        print(f"  ⚠️ Error requesting {url}: {str(e)}")
-        return None
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+    'Accept': 'application/json'
+}
 
 def parse_date(date_str):
-    """Helper to parse datetime from multiple formats."""
     if not date_str:
         return None
     clean = date_str.split('+')[0].strip()
@@ -64,223 +34,144 @@ def parse_date(date_str):
             continue
     return None
 
-def parse_utc_to_bst(utc_str):
-    """Converts raw UTC string to BST formatted string."""
-    dt_utc = parse_date(utc_str)
-    if dt_utc:
-        dt_bst = dt_utc + timedelta(hours=6)
-        return dt_bst.strftime("%b %d, %Y, %I:%M:%S %p")
-    return ""
+def fetch_json(url):
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, context=ctx, timeout=15) as res:
+            return json.loads(res.read().decode('utf-8'))
+    except Exception as e:
+        print(f"⚠️ API Fetch Error: {e}")
+        return None
 
-def calculate_event_status(start_utc, end_utc, api_status, has_channels):
-    """
-    লজিক: 
-    ১. ম্যাচ শুরুর ১০ মিনিট আগে থেকে এবং আসল চ্যানেল থাকলে স্ট্যাটাস 'Live' হবে।
-    ২. চ্যানেল না থাকলে শুরু হওয়ার পরেও 'Upcoming' থাকবে।
-    ৩. ম্যাচ শেষ হলে 'Finish' হবে।
-    """
-    start = parse_date(start_utc)
+def trigger_github_action(reason):
+    """GitHub Action ট্রিগার করার জন্য repository_dispatch রিকোয়েস্ট পাঠায়।"""
+    if not GITHUB_TOKEN:
+        print("❌ Error: GITHUB_TOKEN সেট করা নেই! রিকোয়েস্ট পাঠানো যাচ্ছে না।")
+        return
+
+    url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/dispatches"
+    payload = json.dumps({
+        "event_type": "source_data_changed",
+        "client_payload": {"reason": reason}
+    }).encode('utf-8')
+
+    req = urllib.request.Request(url, data=payload, headers={
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "Render-Watcher"
+    }, method="POST")
+
+    try:
+        with urllib.request.urlopen(req, timeout=15) as res:
+            if res.status in [200, 204]:
+                print(f"🚀 [GitHub Action Triggered] কারণ: {reason}")
+            else:
+                print(f"⚠️ Dispatch failed with HTTP status: {res.status}")
+    except Exception as e:
+        print(f"❌ Failed to trigger GitHub Action: {e}")
+
+def get_current_event_states():
+    """API থেকে ইভেন্ট তালিকা এনে তাদের বর্তমান স্ট্যাটাস ম্যাপ তৈরি করে।"""
+    data = fetch_json(API_EVENTS)
+    if not data or data.get('status') != 'ok':
+        return None
+
+    events = data.get('data', [])
+    state_map = {}
     now = datetime.now(timezone.utc).replace(tzinfo=None)
 
-    # API যদি স্পষ্ট করে ম্যাচ শেষ বলে দেয়
-    api_status_str = str(api_status).strip().lower() if api_status else ""
-    if api_status_str in ["finish", "finished", "ended"]:
-        return "Finish"
-
-    if not start:
-        return "Upcoming"
-
-    end = parse_date(end_utc)
-    # end_time না থাকলে বা start এর সমান/কম হলে ডিফল্ট ৩.৫ ঘণ্টা সময়সীমা ধরা হবে
-    if not end or end <= start:
-        end = start + timedelta(hours=3, minutes=30)
-
-    # ⏰ ম্যাচ শুরুর ১০ মিনিট আগের সময়সীমা
-    early_live_threshold = start - timedelta(minutes=10)
-
-    # ১. সময় শেষ হয়ে গেলে Finish
-    if now > end:
-        return "Finish"
-
-    # ২. ম্যাচ শুরুর ১০ মিনিট আগে থেকে শেষ হওয়া পর্যন্ত
-    if now >= early_live_threshold:
-        # আসল চ্যানেল লিংক উপস্থিত থাকলে লাইভ হবে, না থাকলে Upcoming থাকবে
-        return "Live" if has_channels else "Upcoming"
-
-    # ৩. সোর্স API যদি সময়ের আগেই Live করে দেয় এবং চ্যানেল থাকে
-    if api_status_str == "live" and has_channels:
-        return "Live"
-
-    return "Upcoming"
-
-def parse_stream_url_and_headers(raw_link):
-    """Extracts clean URL and Headers from pipe-separated URLs."""
-    if not raw_link:
-        return "", {}
-        
-    if '|' in raw_link:
-        parts = raw_link.split('|', 1)
-        clean_url = parts[0].strip()
-        headers_str = parts[1].strip()
-        headers = {}
-        for param in headers_str.split('&'):
-            if '=' in param:
-                k, v = param.split('=', 1)
-                headers[k.strip()] = v.strip()
-        return clean_url, headers
-        
-    return raw_link.strip(), {}
-
-def detect_stream_type(url, raw_type=None):
-    url_lower = url.lower()
-    if '.mpd' in url_lower:
-        return "DASH"
-    if '.m3u8' in url_lower:
-        return "HLS"
-    if '.mp4' in url_lower:
-        return "MP4"
-    if str(raw_type) == "1":
-        return "DASH"
-    return "HLS"
-
-def extract_drm_key(stream):
-    for key in ['drm_key', 'drmKey', 'key', 'clearKey']:
-        if stream.get(key):
-            return stream[key]
-            
-    if stream.get('k1') and stream.get('k2'):
-        return f"{stream['k1']}:{stream['k2']}"
-        
-    api_val = stream.get('api', '')
-    if api_val and ':' in api_val and len(api_val) >= 32:
-        return api_val
-        
-    return None
-
-def process_channels(raw_streams):
-    """ডেমো লিংক ফিল্টার করে শুধুমাত্র রিয়েল চ্যানেল প্রসেস করবে।"""
-    channels = []
-    for stream in raw_streams:
-        raw_link = stream.get('link', '')
-        clean_url, headers = parse_stream_url_and_headers(raw_link)
-        
-        # ডেমো বা ফেক লিংক থাকলে বাদ দেওয়া হবে
-        if not is_real_stream(clean_url):
+    for ev in events:
+        slug = ev.get('slug')
+        if not slug:
             continue
 
-        channel_name = stream.get('title', '')
-        stream_type = detect_stream_type(clean_url, stream.get('type'))
-        drm_key = extract_drm_key(stream)
+        info = ev.get('eventInfo', {})
+        api_status = str(info.get('Status') or ev.get('status') or '').strip().lower()
 
-        channels.append({
-            "channel_name": channel_name,
-            "stream_type": stream_type,
-            "url": clean_url,
-            "raw_link": raw_link,
-            "headers": headers,
-            "drm_key": drm_key
-        })
-    return channels
+        # ১. সোর্স API যদি ended/finish বলে দেয়
+        if api_status in ["finish", "finished", "ended", "completed", "closed"]:
+            status = "Ended"
+        else:
+            start = parse_date(info.get('startTime'))
+            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা API লাইভ দেখালে
+            if start and (now >= (start - timedelta(minutes=15)) or api_status == "live"):
+                status = "Live"
+            else:
+                status = "Upcoming"
 
-def get_status_priority(event):
-    status = str(event.get("status", "")).strip().lower()
-    if status == "live":
-        return 0
-    elif status == "upcoming":
-        return 1
-    return 2
+        state_map[slug] = status
 
-def run_sync():
-    print("📡 Requesting schedule from VortexTV API...")
-    payload = fetch_json(API_EVENTS)
-    
-    if not payload or payload.get('status') != 'ok':
-        print("❌ API unresponsive or offline. Sync cancelled.")
-        return
+    return state_map
 
-    match_list = payload.get('data', [])
-    if not match_list:
-        print("⚠️ API returned 0 active matches. Freezing previous database cache!")
-        return
+def detect_changes(previous_state, current_state):
+    """আগের স্টেট এবং নতুন স্টেটের মধ্যে পার্থক্য শনাক্ত করে।"""
+    if previous_state is None:
+        return "Initial Startup Sync"
 
-    print(f"🎉 Connection Successful! Found {len(match_list)} events. Fetching feeds...")
+    prev_slugs = set(previous_state.keys())
+    curr_slugs = set(current_state.keys())
 
-    consolidated_data = []
-    for event in match_list:
-        title = event.get('title', '')
-        slug = event.get('slug', '')
-        category = event.get('category', 'Live Events')
-        event_info = event.get('eventInfo', {})
+    # ইভেন্ট যোগ হয়েছে কি না
+    added = curr_slugs - prev_slugs
+    if added:
+        return f"New event(s) added: {len(added)}"
 
-        team_a_name = event_info.get("teamA") or (title.split(' vs ')[0] if ' vs ' in title else title)
-        team_b_name = event_info.get("teamB") or (title.split(' vs ')[1] if ' vs ' in title else "")
-        team_a_flag = event_info.get("teamAFlag") or event.get('image', '')
-        team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
-        logo = event.get('image') or team_a_flag
+    # ইভেন্ট মুছে ফেলা হয়েছে কি না
+    removed = prev_slugs - curr_slugs
+    if removed:
+        return f"Event(s) removed: {len(removed)}"
 
-        # Fetch individual stream feeds
-        stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}")
-        raw_stream_urls = []
-        if stream_payload and stream_payload.get('status') == 'ok':
-            raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
-            
-        # চ্যানেল প্রসেসিং (এখানে ডেমো লিংক বাদ যাবে)
-        channels = process_channels(raw_stream_urls)
-        has_real_channels = len(channels) > 0
+    # কোনো ম্যাচের স্ট্যাটাস (Upcoming -> Live বা Live -> Ended) পরিবর্তন হয়েছে কি না
+    status_changed = []
+    for slug in curr_slugs:
+        if current_state[slug] != previous_state.get(slug):
+            status_changed.append(f"{slug}: {previous_state.get(slug)} -> {current_state[slug]}")
 
-        # টাইম ও স্ট্যাটাস ক্যালকুলেশন (১০ মিনিট আগে লাইভ করার লজিক)
-        raw_start_utc = event_info.get("startTime", "")
-        raw_end_utc = event_info.get("endTime", "")
-        api_raw_status = event_info.get("Status", "")
+    if status_changed:
+        return f"Status transition: {', '.join(status_changed)}"
 
-        final_status = calculate_event_status(
-            start_utc=raw_start_utc,
-            end_utc=raw_end_utc,
-            api_status=api_raw_status,
-            has_channels=has_real_channels
-        )
+    return None
 
-        is_hot = str(event_info.get("isHot", "0")).lower() in ("1", "true")
+# Render Free Web Service-এর জন্য হেলথ সার্ভার
+class HealthServer(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Watcher is actively monitoring API!")
+    def log_message(self, format, *args):
+        pass
 
-        match_entry = {
-            "title": title,
-            "sport": event_info.get("eventCat", category),
-            "sub_category": event_info.get("eventName", title),
-            "status": final_status,
-            "is_hot": is_hot,
-            "slug": slug,
-            "schedule": {
-                "timezone": "BST (UTC+6)",
-                "start_time_bst": parse_utc_to_bst(raw_start_utc),
-                "end_time_bst": parse_utc_to_bst(raw_end_utc),
-                "raw_start_utc": raw_start_utc
-            },
-            "teams": {
-                "team_a": {"name": team_a_name, "flag": team_a_flag},
-                "team_b": {"name": team_b_name, "flag": team_b_flag}
-            },
-            "logo": logo,
-            "channels": channels,
-            "total_channels": len(channels)
-        }
-        consolidated_data.append(match_entry)
+def run_health_server():
+    port = int(os.environ.get("PORT", 8080))
+    server = HTTPServer(("0.0.0.0", port), HealthServer)
+    print(f"🌐 Health server running on port {port}")
+    server.serve_forever()
 
-    # সর্টিং (Live সবার উপরে, এরপর Upcoming)
-    consolidated_data.sort(key=get_status_priority)
+def watcher_loop():
+    print("👀 Watcher service started! Monitoring every 5 minutes...")
+    previous_state = None
 
-    final_output = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "event_count": len(consolidated_data),
-        "events": {
-            "events": consolidated_data
-        }
-    }
+    while True:
+        try:
+            current_state = get_current_event_states()
+            if current_state is not None:
+                change_reason = detect_changes(previous_state, current_state)
+                if change_reason:
+                    print(f"🔔 পরিবর্তন ধরা পড়েছে! -> {change_reason}")
+                    trigger_github_action(change_reason)
+                    previous_state = current_state
+                else:
+                    print(f"[{datetime.now().strftime('%H:%M:%S')}] কোনো পরিবর্তন নেই। স্লিপিং...")
+            else:
+                print("⚠️ API রেসপন্স দেয়নি, পরবর্তী চেকের জন্য অপেক্ষা করছি...")
+        except Exception as e:
+            print(f"❌ Watcher Error: {e}")
 
-    events_file = os.path.join(base_dir, 'events.json')
-    with open(events_file, 'w', encoding='utf-8') as f:
-        json.dump(final_output, f, indent=2, ensure_ascii=False)
-        
-    print(f"\n✅ Sync completed! Total {len(consolidated_data)} events saved to: {events_file}")
+        # ৫ মিনিট (৩০০ সেকেন্ড) অপেক্ষা
+        time.sleep(300)
 
 if __name__ == '__main__':
-    run_sync()
+    # হেলথ সার্ভার আলাদা থ্রেডে চালু
+    threading.Thread(target=run_health_server, daemon=True).start()
+    # মূল ওয়াচার লুপ চালু
+    watcher_loop()
