@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T01:31:02.278473+00:00",
+  "last_updated": "2026-10-25T01:50:55.488527+00:00",
   "event_count": 66,
   "events": {
     "events": [
@@ -337,6 +337,46 @@
             "stream_type": "HLS",
             "url": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8",
             "raw_link": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://streame.center",
+              "Origin": "https://streame.center"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Phoenix Suns vs Golden State Warriors",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "phoenix-suns-vs-golden-state-warriors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 08:00:00 AM",
+          "end_time_bst": "Oct 25, 2026, 10:30:00 AM",
+          "raw_start_utc": "2026/10/25 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Phoenix Suns",
+            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
+          },
+          "team_b": {
+            "name": "Golden State Warriors",
+            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3416/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://streame.center",
@@ -1733,46 +1773,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/1644/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Phoenix Suns vs Golden State Warriors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "phoenix-suns-vs-golden-state-warriors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 25, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/25 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Phoenix Suns",
-            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
-          },
-          "team_b": {
-            "name": "Golden State Warriors",
-            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3416/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "New Orleans Saints vs Pittsburgh Steelers",
