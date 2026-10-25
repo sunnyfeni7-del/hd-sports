@@ -56,7 +56,6 @@ def fetch_json(url, timeout=8):
         return None
 
 def fetch_main_events_with_retry(retries=3, timeout=25):
-    """মূল শিডিউল এপিআই যাতে স্লো হলেও ৩ বার চেষ্টা করে ডাটা আনে।"""
     for attempt in range(1, retries + 1):
         try:
             print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
@@ -72,13 +71,10 @@ def fetch_main_events_with_retry(retries=3, timeout=25):
     return None
 
 def parse_date(date_str):
-    """সব ধরণের ডেট ফরম্যাট (T, Z সহ) সঠিকভাবে পার্স করবে"""
     if not date_str:
         return None
-    # ISO ফরম্যাট (T, Z) এবং মাইক্রোসেকেন্ড রিমুভ করে ক্লিন করা
     clean = str(date_str).split('+')[0].replace('T', ' ').replace('Z', '').strip()
     clean = clean.split('.')[0].strip()
-    
     for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M", "%Y-%m-%d %H:%M"):
         try:
             return datetime.strptime(clean, fmt)
@@ -93,16 +89,14 @@ def parse_utc_to_bst(utc_str):
         return dt_bst.strftime("%b %d, %Y, %I:%M:%S %p")
     return ""
 
-def calculate_event_status(start_utc, end_utc, api_status):
+def calculate_event_status(start_utc, end_utc, api_status, has_channels):
     """
-    লজিক: 
-    ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে 'Ended' হবে।
-    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে সরাসরি 'Live' হবে।
-    ৩. অন্যথায় 'Upcoming' থাকবে।
+    ১. মেইন সোর্স এপিআই-তে Ended/Finish হলে 'Ended'।
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে এবং আসল চ্যানেল লিংক থাকলে 'Live'।
+    ৩. লিংক না থাকলে সময় হওয়া সত্ত্বেও 'Upcoming' থাকবে।
     """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
-    # ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে
     if api_status_str in ["finish", "finished", "ended", "completed", "closed"]:
         return "Ended"
 
@@ -111,13 +105,12 @@ def calculate_event_status(start_utc, end_utc, api_status):
         return "Upcoming"
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
-
-    # ⏰ ম্যাচ শুরুর ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে সরাসরি Live হবে
+    # ⏰ ১৫ মিনিট আগে পৌঁছালে বা API লাইভ দেখালে:
     if now >= early_live_threshold or api_status_str == "live":
-        return "Live"
+        # 🎯 শুধুমাত্র আসল স্ট্রিম লিংক থাকলেই Live হবে, অন্যথায় Upcoming থাকবে
+        return "Live" if has_channels else "Upcoming"
 
     return "Upcoming"
 
@@ -186,7 +179,6 @@ def get_status_priority(event):
     return 2
 
 def process_single_match(event):
-    """প্রতিটি ম্যাচের স্ট্রিম আলাদাভাবে ৮ সেকেন্ডের মধ্যে আনে।"""
     title = event.get('title', '')
     slug = event.get('slug', '')
     category = event.get('category', 'Live Events')
@@ -198,24 +190,24 @@ def process_single_match(event):
     team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
     logo = event.get('image') or team_a_flag
 
-    # দ্রুত স্ট্রিম লিংক ফেচ করা
     stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=8)
     raw_stream_urls = []
     if stream_payload and stream_payload.get('status') == 'ok':
         raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
 
     channels = process_channels(raw_stream_urls)
+    has_real_channels = len(channels) > 0
 
-    # যেকোনো স্থান থেকে startTime ও Status পড়া
     raw_start_utc = event_info.get("startTime") or event.get("startTime") or ""
     raw_end_utc = event_info.get("endTime") or event.get("endTime") or ""
     api_raw_status = event_info.get("Status") or event.get("Status") or event.get("status") or ""
 
-    # ✅ ১৫ মিনিট আগে নিশ্চিতভাবে Live স্ট্যাটাস ক্যালকুলেট করা
+    # ✅ চ্যানেল লিংক না থাকলে Upcoming থাকবে
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
-        api_status=api_raw_status
+        api_status=api_raw_status,
+        has_channels=has_real_channels
     )
 
     return {
@@ -242,7 +234,6 @@ def process_single_match(event):
 
 def run_sync():
     payload = fetch_main_events_with_retry(retries=3, timeout=25)
-    
     if not payload or payload.get('status') != 'ok':
         print("❌ API unresponsive or offline after 3 attempts. Sync cancelled.")
         return
@@ -254,7 +245,6 @@ def run_sync():
 
     print(f"🎉 Successfully fetched {len(match_list)} events! Fetching stream feeds in parallel...")
 
-    # প্যারালালে দ্রুত সব স্ট্রিম ফেচ করা
     with ThreadPoolExecutor(max_workers=10) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
