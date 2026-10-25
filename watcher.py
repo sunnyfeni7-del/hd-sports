@@ -1,26 +1,35 @@
 import urllib.request
 import json
 import os
+import sys
 import ssl
 import time
 from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 
+# পাইথনের বাফারিং বন্ধ করে ইনস্ট্যান্ট লগ আউটপুট করার জন্য
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(line_buffering=True)
+
+def log(msg):
+    """রেন্ডার কনসোলে সাথে সাথে লগ প্রিন্ট করার ফাংশন"""
+    timestamp = datetime.now().strftime("%I:%M:%S %p")
+    print(f"[{timestamp}] {msg}", flush=True)
+
 # SSL কনটেক্সট
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# কনফিগারেশন (Render Environment Variables থেকে নিবে)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 
 API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-    'Accept': 'application/json'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*'
 }
 
 def parse_date(date_str):
@@ -34,19 +43,18 @@ def parse_date(date_str):
             continue
     return None
 
-def fetch_json(url):
+def fetch_json(url, timeout=20):
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=15) as res:
+        with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
             return json.loads(res.read().decode('utf-8'))
     except Exception as e:
-        print(f"⚠️ API Fetch Error: {e}")
+        log(f"⚠️ API Fetch Error: {e}")
         return None
 
 def trigger_github_action(reason):
-    """GitHub Action ট্রিগার করার জন্য repository_dispatch রিকোয়েস্ট পাঠায়।"""
     if not GITHUB_TOKEN:
-        print("❌ Error: GITHUB_TOKEN সেট করা নেই! রিকোয়েস্ট পাঠানো যাচ্ছে না।")
+        log("❌ GITHUB_TOKEN পাওয়া যায়নি! Action ট্রিগার বাতিল।")
         return
 
     url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/dispatches"
@@ -64,20 +72,20 @@ def trigger_github_action(reason):
     try:
         with urllib.request.urlopen(req, timeout=15) as res:
             if res.status in [200, 204]:
-                print(f"🚀 [GitHub Action Triggered] কারণ: {reason}")
+                log(f"🚀 [GitHub Action Triggered] কারণ: {reason}")
             else:
-                print(f"⚠️ Dispatch failed with HTTP status: {res.status}")
+                log(f"⚠️ Dispatch failed: HTTP {res.status}")
     except Exception as e:
-        print(f"❌ Failed to trigger GitHub Action: {e}")
+        log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
-    """API থেকে ইভেন্ট তালিকা এনে তাদের বর্তমান স্ট্যাটাস ম্যাপ তৈরি করে।"""
     data = fetch_json(API_EVENTS)
     if not data or data.get('status') != 'ok':
-        return None
+        return None, {}
 
     events = data.get('data', [])
     state_map = {}
+    summary_counts = {"Live": 0, "Upcoming": 0, "Ended": 0}
     now = datetime.now(timezone.utc).replace(tzinfo=None)
 
     for ev in events:
@@ -93,46 +101,43 @@ def get_current_event_states():
             status = "Ended"
         else:
             start = parse_date(info.get('startTime'))
-            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা API লাইভ দেখালে
+            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে
             if start and (now >= (start - timedelta(minutes=15)) or api_status == "live"):
                 status = "Live"
             else:
                 status = "Upcoming"
 
         state_map[slug] = status
+        summary_counts[status] = summary_counts.get(status, 0) + 1
 
-    return state_map
+    return state_map, summary_counts
 
 def detect_changes(previous_state, current_state):
-    """আগের স্টেট এবং নতুন স্টেটের মধ্যে পার্থক্য শনাক্ত করে।"""
     if previous_state is None:
         return "Initial Startup Sync"
 
     prev_slugs = set(previous_state.keys())
     curr_slugs = set(current_state.keys())
 
-    # ইভেন্ট যোগ হয়েছে কি না
     added = curr_slugs - prev_slugs
     if added:
-        return f"New event(s) added: {len(added)}"
+        return f"New event(s) added (+{len(added)})"
 
-    # ইভেন্ট মুছে ফেলা হয়েছে কি না
     removed = prev_slugs - curr_slugs
     if removed:
-        return f"Event(s) removed: {len(removed)}"
+        return f"Event(s) removed (-{len(removed)})"
 
-    # কোনো ম্যাচের স্ট্যাটাস (Upcoming -> Live বা Live -> Ended) পরিবর্তন হয়েছে কি না
     status_changed = []
     for slug in curr_slugs:
         if current_state[slug] != previous_state.get(slug):
-            status_changed.append(f"{slug}: {previous_state.get(slug)} -> {current_state[slug]}")
+            status_changed.append(f"{slug} ({previous_state.get(slug)} ➔ {current_state[slug]})")
 
     if status_changed:
-        return f"Status transition: {', '.join(status_changed)}"
+        return f"Status updated: {', '.join(status_changed)}"
 
     return None
 
-# Render Free Web Service-এর জন্য হেলথ সার্ভার
+# রেন্ডারের পোর্ট হেলথ সার্ভার
 class HealthServer(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -142,36 +147,42 @@ class HealthServer(BaseHTTPRequestHandler):
         pass
 
 def run_health_server():
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 10000))
     server = HTTPServer(("0.0.0.0", port), HealthServer)
-    print(f"🌐 Health server running on port {port}")
+    log(f"🌐 Health server listening on port {port}")
     server.serve_forever()
 
 def watcher_loop():
-    print("👀 Watcher service started! Monitoring every 5 minutes...")
+    log("👀 Watcher service started! Checking every 5 minutes...")
     previous_state = None
 
     while True:
         try:
-            current_state = get_current_event_states()
+            current_state, counts = get_current_event_states()
+            
             if current_state is not None:
+                total_events = len(current_state)
+                log(f"📊 চেক সম্পন্ন: মোট {total_events} টি ইভেন্ট পাওয়া গেছে | Live: {counts['Live']}, Upcoming: {counts['Upcoming']}, Ended: {counts['Ended']}")
+
                 change_reason = detect_changes(previous_state, current_state)
+                
                 if change_reason:
-                    print(f"🔔 পরিবর্তন ধরা পড়েছে! -> {change_reason}")
+                    log(f"🔔 পরিবর্তন ধরা পড়েছে! ➔ {change_reason}")
                     trigger_github_action(change_reason)
                     previous_state = current_state
                 else:
-                    print(f"[{datetime.now().strftime('%H:%M:%S')}] কোনো পরিবর্তন নেই। স্লিপিং...")
+                    log("💤 আগের তালিকার সাথে কোনো পরিবর্তন নেই। GitHub রিকোয়েস্ট পাঠানো হয়নি।")
             else:
-                print("⚠️ API রেসপন্স দেয়নি, পরবর্তী চেকের জন্য অপেক্ষা করছি...")
-        except Exception as e:
-            print(f"❌ Watcher Error: {e}")
+                log("⚠️ সোর্স এপিআই থেকে ডাটা পাওয়া যায়নি। ৫ মিনিট পর আবার চেষ্টা করা হবে...")
 
-        # ৫ মিনিট (৩০০ সেকেন্ড) অপেক্ষা
+        except Exception as e:
+            log(f"❌ Watcher Loop Error: {e}")
+
+        log("⏳ পরবর্তী চেকের জন্য ৫ মিনিট (৩০০ সেকেন্ড) অপেক্ষা করা হচ্ছে...\n")
         time.sleep(300)
 
 if __name__ == '__main__':
-    # হেলথ সার্ভার আলাদা থ্রেডে চালু
+    # হেলথ সার্ভার চালু
     threading.Thread(target=run_health_server, daemon=True).start()
-    # মূল ওয়াচার লুপ চালু
+    # মূল চেকিং লুপ চালু
     watcher_loop()
