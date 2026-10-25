@@ -1,7 +1,9 @@
 import urllib.request
+import urllib.error
 import json
 import os
 import ssl
+import time
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
 
@@ -14,8 +16,9 @@ base_dir = 'api'
 os.makedirs(base_dir, exist_ok=True)
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/json',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9',
     'Origin': 'https://vortextv.modsdone.com',
     'Referer': 'https://vortextv.modsdone.com/'
 }
@@ -43,14 +46,31 @@ def is_real_stream(url):
             return False
     return True
 
-def fetch_json(url):
-    """টাইমআউট ৮ সেকেন্ড করা হয়েছে যাতে স্ক্রিপ্ট আটকে না থাকে।"""
+def fetch_json(url, timeout=8):
+    """JSON ডাউনলোড হেল্পার (আলাদা টাইমআউট সুবিধা সহ)।"""
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx, timeout=8) as response:
+        with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
             return json.loads(response.read().decode('utf-8'))
-    except Exception:
+    except Exception as e:
+        # শুধুমাত্র মূল এপিআই ছাড়া ভেতরের মিসিং স্ট্রিম ইরর লগ ছোট রাখবে
         return None
+
+def fetch_main_events_with_retry(retries=3, timeout=20):
+    """মূল শিডিউল এপিআই যাতে স্লো হলেও ৩ বার চেষ্টা করে ডাটা আনে।"""
+    for attempt in range(1, retries + 1):
+        print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
+        try:
+            req = urllib.request.Request(API_EVENTS, headers=HEADERS)
+            with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
+                data = json.loads(response.read().decode('utf-8'))
+                if data and data.get('status') == 'ok':
+                    return data
+        except Exception as e:
+            print(f"  ⚠️ Attempt {attempt} failed: {e}")
+            if attempt < retries:
+                time.sleep(2)
+    return None
 
 def parse_date(date_str):
     if not date_str:
@@ -157,7 +177,7 @@ def get_status_priority(event):
     return 2
 
 def process_single_match(event):
-    """একটি একক ম্যাচের চ্যানেল তথ্য দ্রুত ফেচ ও প্রসেস করে।"""
+    """প্রতিটি ম্যাচের স্ট্রিম আলাদাভাবে ৮ সেকেন্ডের মধ্যে আনে।"""
     title = event.get('title', '')
     slug = event.get('slug', '')
     category = event.get('category', 'Live Events')
@@ -169,8 +189,8 @@ def process_single_match(event):
     team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
     logo = event.get('image') or team_a_flag
 
-    # দ্রুত স্ট্রিম লিংক ফেচ করা
-    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}")
+    # দ্রুত স্ট্রিম লিংক ফেচ করা (টাইমআউট ৮ সেকেন্ড)
+    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=8)
     raw_stream_urls = []
     if stream_payload and stream_payload.get('status') == 'ok':
         raw_stream_urls = stream_payload.get('data', {}).get('streamUrls', [])
@@ -212,11 +232,11 @@ def process_single_match(event):
     }
 
 def run_sync():
-    print("📡 Requesting schedule from VortexTV API...")
-    payload = fetch_json(API_EVENTS)
+    # মূল এপিআই রিকোয়েস্টে ২০ সেকেন্ড টাইমআউট এবং ৩ বার ট্রাই করবে
+    payload = fetch_main_events_with_retry(retries=3, timeout=20)
     
     if not payload or payload.get('status') != 'ok':
-        print("❌ API unresponsive or offline. Sync cancelled.")
+        print("❌ API unresponsive or offline after 3 attempts. Sync cancelled.")
         return
 
     match_list = payload.get('data', [])
@@ -224,13 +244,12 @@ def run_sync():
         print("⚠️ API returned 0 active matches.")
         return
 
-    print(f"🎉 Found {len(match_list)} events. Fetching feeds in parallel...")
+    print(f"🎉 Successfully fetched {len(match_list)} events! Fetching stream feeds in parallel...")
 
-    # 🚀 একসাথে ১২টি থ্রেডে প্যারালালে দ্রুত ফেচ হবে
-    with ThreadPoolExecutor(max_workers=12) as executor:
+    # প্যারালালে দ্রুত সব স্ট্রিম ফেচ করা
+    with ThreadPoolExecutor(max_workers=10) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
-    # সর্টিং (Live সবার উপরে, এরপর Upcoming, শেষে Ended)
     consolidated_data.sort(key=get_status_priority)
 
     final_output = {
@@ -245,7 +264,7 @@ def run_sync():
     with open(events_file, 'w', encoding='utf-8') as f:
         json.dump(final_output, f, indent=2, ensure_ascii=False)
         
-    print(f"⚡ Sync completed in record time! Total {len(consolidated_data)} matches saved to: {events_file}")
+    print(f"⚡ Sync completed successfully! Total {len(consolidated_data)} matches saved to: {events_file}")
 
 if __name__ == '__main__':
     run_sync()
