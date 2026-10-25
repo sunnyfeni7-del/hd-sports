@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T08:21:01.852980+00:00",
+  "last_updated": "2026-10-25T11:05:58.347326+00:00",
   "event_count": 77,
   "events": {
     "events": [
@@ -39,12 +39,12 @@
           {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
           },
           {
             "channel_name": "WILLOW - ALT",
@@ -160,6 +160,46 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Fortuna Sittard vs Excelsior",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fortuna-sittard-vs-excelsior",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 25, 2026, 05:15:00 PM",
+          "end_time_bst": "Oct 25, 2026, 07:35:00 PM",
+          "raw_start_utc": "2026/10/25 11:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fortuna Sittard",
+            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
+          },
+          "team_b": {
+            "name": "Excelsior",
+            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2957/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/D222AAAQQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/D222AAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2490,33 +2530,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2950/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Fortuna Sittard vs Excelsior",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fortuna-sittard-vs-excelsior",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 25, 2026, 05:15:00 PM",
-          "end_time_bst": "Oct 25, 2026, 07:35:00 PM",
-          "raw_start_utc": "2026/10/25 11:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fortuna Sittard",
-            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-          },
-          "team_b": {
-            "name": "Excelsior",
-            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2957/image",
         "channels": [],
         "total_channels": 0
       },
