@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T16:32:17.513346+00:00",
+  "last_updated": "2026-10-26T17:47:38.902439+00:00",
   "event_count": 40,
   "events": {
     "events": [
@@ -228,6 +228,44 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Ballon dor Show",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ballon-dor-show",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
+          "end_time_bst": "Oct 27, 2026, 03:00:09 AM",
+          "raw_start_utc": "2026/10/26 18:00:33 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ballon d'Or",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10"
+          },
+          "team_b": {
+            "name": "Ballon d'Or",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
+        "channels": [
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1228,8 +1266,8 @@
           {
             "channel_name": "HD QUALITY",
             "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/dazhfiach15.m3u8",
-            "raw_link": "https://edgestream7.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "https://embedcenter.st",
@@ -1302,8 +1340,41 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4428/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 5 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Coritiba vs Gremio",
@@ -1708,44 +1779,6 @@
         "total_channels": 2
       },
       {
-        "title": "Ballon dor Show",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ballon-dor-show",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
-          "end_time_bst": "Oct 27, 2026, 03:00:09 AM",
-          "raw_start_utc": "2026/10/26 18:00:33 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ballon d'Or",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10"
-          },
-          "team_b": {
-            "name": "Ballon d'Or",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
-        "channels": [
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Cleveland Cavaliers vs Minnesota Timberwolves",
         "sport": "Basketball",
         "sub_category": "Basketball",
@@ -1809,8 +1842,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3430/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/mlkijfezag65.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Boston Celtics vs Chicago Bulls",
@@ -1836,8 +1882,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Miami Heat vs Dallas Mavericks",
@@ -1863,8 +1922,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3435/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Oklahoma City Thunder vs Phoenix Suns",
@@ -1890,8 +1962,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3418/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8",
+            "raw_link": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Milwaukee Bucks vs Indiana Pacers",
@@ -1917,8 +2002,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3410/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/zeafwqvhfe69.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Houston Rockets vs Atlanta Hawks",
@@ -1944,8 +2042,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3412/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Denver Nuggets vs Golden State Warriors",
@@ -1971,8 +2082,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3417/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Utah Jazz vs Memphis Grizzlies",
@@ -1998,8 +2122,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3434/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8",
+            "raw_link": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "NPL Nepal Premier League",
