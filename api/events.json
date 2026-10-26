@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T00:07:56.208617+00:00",
+  "last_updated": "2026-10-26T00:48:09.453034+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -1694,6 +1694,46 @@
         "total_channels": 1
       },
       {
+        "title": "Sacramento Kings vs Memphis Grizzlies",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sacramento-kings-vs-memphis-grizzlies",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 26, 2026, 07:00:00 AM",
+          "end_time_bst": "Oct 26, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/10/26 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sacramento Kings",
+            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+          },
+          "team_b": {
+            "name": "Memphis Grizzlies",
+            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3413/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Motogp",
         "sport": "Motorsport",
         "sub_category": "Motorsport",
@@ -2554,46 +2594,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/5981/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Sacramento Kings vs Memphis Grizzlies",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sacramento-kings-vs-memphis-grizzlies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 07:00:00 AM",
-          "end_time_bst": "Oct 26, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/10/26 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sacramento Kings",
-            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
-          },
-          "team_b": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3413/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Sevilla vs Osasuna",
