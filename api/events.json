@@ -1,8 +1,158 @@
 {
-  "last_updated": "2026-10-26T18:02:41.748211+00:00",
-  "event_count": 37,
+  "last_updated": "2026-10-26T18:17:44.814689+00:00",
+  "event_count": 36,
   "events": {
     "events": [
+      {
+        "title": "Galatasaray vs Fenerbahce",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "galatasaray-vs-fenerbahce",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 12:30:00 AM",
+          "end_time_bst": "Oct 27, 2026, 02:50:00 AM",
+          "raw_start_utc": "2026/10/26 18:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Galatasaray",
+            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
+          },
+          "team_b": {
+            "name": "Fenerbahçe",
+            "flag": "https://img.sofascore.com/api/v1/team/3052/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3061/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/FNNN.m3u8",
+            "raw_link": "http://193.47.62.59/hls/FNNN.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Al-Qadsiah vs Al-Sadd",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-qadsiah-vs-al-sadd",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 12:15:00 AM",
+          "end_time_bst": "Oct 27, 2026, 02:35:00 AM",
+          "raw_start_utc": "2026/10/26 18:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          },
+          "team_b": {
+            "name": "Al-Sadd",
+            "flag": "https://img.sofascore.com/api/v1/team/39733/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621449.m3u8?txSecret=921dc1b3873d4ff8b7475760983f660b&txTime=6ADFAC6E",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621449.m3u8?txSecret=921dc1b3873d4ff8b7475760983f660b&txTime=6ADFAC6E|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/GGGG.m3u8",
+            "raw_link": "http://193.47.62.44/hls/GGGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Al-Quwa Al-Jawiya vs Pakhtakor Tashkent",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-quwa-al-jawiya-vs-pakhtakor-tashkent",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 12:15:00 AM",
+          "end_time_bst": "Oct 27, 2026, 02:35:00 AM",
+          "raw_start_utc": "2026/10/26 18:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Quwa Al-Jawiya",
+            "flag": "https://img.sofascore.com/api/v1/team/213877/image"
+          },
+          "team_b": {
+            "name": "Pakhtakor Tashkent",
+            "flag": "https://img.sofascore.com/api/v1/team/34310/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213877/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621476.m3u8?txSecret=0fff4ce619c428d33c8980a6d3ddcc2e&txTime=6ADFAC8B",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621476.m3u8?txSecret=0fff4ce619c428d33c8980a6d3ddcc2e&txTime=6ADFAC8B|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/GGGGA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/GGGGA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "Ballon dor Show",
         "sport": "Football",
@@ -39,6 +189,30 @@
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
           },
           {
+            "channel_name": "Ballon d'Or - ENG",
+            "stream_type": "HLS",
+            "url": "https://tedesco.formaturamaxi.com.br/balon.m3u8",
+            "raw_link": "https://tedesco.formaturamaxi.com.br/balon.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "Ballon d'Or - ES",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/dazn.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/dazn.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "Ballon d'Or - FR",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/equipe.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/equipe.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/AFFF.m3u8",
@@ -51,7 +225,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
@@ -1098,9 +1272,45 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/dza5z8f69.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/griogoehvn2.m3u8",
+            "raw_link": "https://edgestream1.pro/hls/griogoehvn2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/D444FQQQQQA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/D444FQQQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Philadelphia Eagles vs Dallas Cowboys",
@@ -1312,128 +1522,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Galatasaray vs Fenerbahce",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "galatasaray-vs-fenerbahce",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 12:30:00 AM",
-          "end_time_bst": "Oct 27, 2026, 02:50:00 AM",
-          "raw_start_utc": "2026/10/26 18:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Galatasaray",
-            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
           },
-          "team_b": {
-            "name": "Fenerbahçe",
-            "flag": "https://img.sofascore.com/api/v1/team/3052/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3061/image",
-        "channels": [
           {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/377qj1h2727.m3u8",
+            "raw_link": "https://edgestream6.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
             "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
             },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+            "drm_key": null
           }
         ],
-        "total_channels": 1
-      },
-      {
-        "title": "Al-Nassr vs Al Wasl",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-nassr-vs-al-wasl",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 27, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/26 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Nassr",
-            "flag": "https://img.sofascore.com/api/v1/team/23400/image"
-          },
-          "team_b": {
-            "name": "Al Wasl",
-            "flag": "https://img.sofascore.com/api/v1/team/47674/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Qadsiah vs Al-Sadd",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-qadsiah-vs-al-sadd",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 27, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/26 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
-          },
-          "team_b": {
-            "name": "Al-Sadd",
-            "flag": "https://img.sofascore.com/api/v1/team/39733/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Quwa Al-Jawiya vs Pakhtakor Tashkent",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-quwa-al-jawiya-vs-pakhtakor-tashkent",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 27, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/26 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Quwa Al-Jawiya",
-            "flag": "https://img.sofascore.com/api/v1/team/213877/image"
-          },
-          "team_b": {
-            "name": "Pakhtakor Tashkent",
-            "flag": "https://img.sofascore.com/api/v1/team/34310/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213877/image",
-        "channels": [],
-        "total_channels": 0
+        "total_channels": 5
       },
       {
         "title": "Sassuolo vs Lazio",
@@ -1573,9 +1676,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/GGGGAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/GGGGAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Cleveland Cavaliers vs Minnesota Timberwolves",
