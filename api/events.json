@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-26T15:52:07.232668+00:00",
-  "event_count": 40,
+  "last_updated": "2026-10-26T16:27:22.694420+00:00",
+  "event_count": 41,
   "events": {
     "events": [
       {
@@ -29,6 +29,38 @@
         "logo": "https://img.sofascore.com/api/v1/team/3064/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581348.m3u8?txSecret=bb92fe0d7db515f41a77059c8b67087d&txTime=6ADF8E6F",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581348.m3u8?txSecret=bb92fe0d7db515f41a77059c8b67087d&txTime=6ADF8E6F|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/231f695c-d91a-4c51-8532-9bf6d3fcf719.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/231f695c-d91a-4c51-8532-9bf6d3fcf719.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/FAFAFAAA.m3u8",
@@ -41,7 +73,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Al-Ahli vs Al-Gharafa",
@@ -69,6 +101,38 @@
         "logo": "https://img.sofascore.com/api/v1/team/34469/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621472.m3u8?txSecret=1ba1d17f4e77db17a018901dfdbb966a&txTime=6ADF8DEB",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621472.m3u8?txSecret=1ba1d17f4e77db17a018901dfdbb966a&txTime=6ADF8DEB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/40d74524-ca1a-4b81-8638-19d9b6bc512b.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/40d74524-ca1a-4b81-8638-19d9b6bc512b.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/DADADAA.m3u8",
@@ -81,7 +145,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Al-Ain vs Tractor FC",
@@ -109,6 +173,48 @@
         "logo": "https://img.sofascore.com/api/v1/team/37082/image",
         "channels": [
           {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621418.m3u8?txSecret=74d0ba3ee6ea7a62f199952b667d3af1&txTime=6ADF8E17",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621418.m3u8?txSecret=74d0ba3ee6ea7a62f199952b667d3af1&txTime=6ADF8E17|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/a962ae9a-317d-4952-9d9e-d05e405a4a90.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/a962ae9a-317d-4952-9d9e-d05e405a4a90.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/DADADAAA.m3u8",
@@ -121,7 +227,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
@@ -1935,6 +2041,33 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "VfL Bochum 1848 vs 1. FSV Mainz 05",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "vfl-bochum-1848-vs-1-fsv-mainz-05",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 28, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/27 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "VfL Bochum 1848",
+            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
+          },
+          "team_b": {
+            "name": "1. FSV Mainz 05",
+            "flag": "https://img.sofascore.com/api/v1/team/2556/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2542/image",
+        "channels": [],
+        "total_channels": 0
       }
     ]
   }
