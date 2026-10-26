@@ -1,58 +1,38 @@
 {
-  "last_updated": "2026-10-26T15:47:06.918721+00:00",
-  "event_count": 41,
+  "last_updated": "2026-10-26T15:52:07.232668+00:00",
+  "event_count": 40,
   "events": {
     "events": [
       {
-        "title": "Neftchi Fergana vs Al-Ittihad",
+        "title": "Caykur Rizespor vs Trabzonspor",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "neftchi-fergana-vs-al-ittihad",
+        "slug": "caykur-rizespor-vs-trabzonspor",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 07:45:00 PM",
-          "end_time_bst": "Oct 26, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/10/26 13:45:00 +0000"
+          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/26 16:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Neftchi Fergana",
-            "flag": "https://img.sofascore.com/api/v1/team/36256/image"
+            "name": "Çaykur Rizespor",
+            "flag": "https://img.sofascore.com/api/v1/team/3064/image"
           },
           "team_b": {
-            "name": "Al-Ittihad",
-            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
+            "name": "Trabzonspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/36256/image",
+        "logo": "https://img.sofascore.com/api/v1/team/3064/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621454.m3u8?txSecret=591f2e78929b074bce9c37efac5d7c3d&txTime=6ADF6A4C",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621454.m3u8?txSecret=591f2e78929b074bce9c37efac5d7c3d&txTime=6ADF6A4C|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/EJJJAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/EJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.59/hls/FAFAFAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/FAFAFAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -61,7 +41,87 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 1
+      },
+      {
+        "title": "Al-Ahli vs Al-Gharafa",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-ahli-vs-al-gharafa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/26 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ahli",
+            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
+          },
+          "team_b": {
+            "name": "Al-Gharafa",
+            "flag": "https://img.sofascore.com/api/v1/team/34312/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34469/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/DADADAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/DADADAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Al-Ain vs Tractor FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-ain-vs-tractor-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/26 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ain",
+            "flag": "https://img.sofascore.com/api/v1/team/37082/image"
+          },
+          "team_b": {
+            "name": "Tractor FC",
+            "flag": "https://img.sofascore.com/api/v1/team/53715/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/37082/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/DADADAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/DADADAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1294,33 +1354,6 @@
         "total_channels": 4
       },
       {
-        "title": "Caykur Rizespor vs Trabzonspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "caykur-rizespor-vs-trabzonspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/26 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Çaykur Rizespor",
-            "flag": "https://img.sofascore.com/api/v1/team/3064/image"
-          },
-          "team_b": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3064/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Galatasaray vs Fenerbahce",
         "sport": "Football",
         "sub_category": "Football",
@@ -1357,60 +1390,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Al-Ahli vs Al-Gharafa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-ahli-vs-al-gharafa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/26 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Ahli",
-            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
-          },
-          "team_b": {
-            "name": "Al-Gharafa",
-            "flag": "https://img.sofascore.com/api/v1/team/34312/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34469/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Ain vs Tractor FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-ain-vs-tractor-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/26 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Ain",
-            "flag": "https://img.sofascore.com/api/v1/team/37082/image"
-          },
-          "team_b": {
-            "name": "Tractor FC",
-            "flag": "https://img.sofascore.com/api/v1/team/53715/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/37082/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Al-Nassr vs Al Wasl",
@@ -1631,9 +1610,9 @@
         "slug": "ballon-dor-show",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 11:00:06 PM",
+          "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
           "end_time_bst": "Oct 27, 2026, 03:00:09 AM",
-          "raw_start_utc": "2026/10/26 17:00:06 +0000"
+          "raw_start_utc": "2026/10/26 18:00:33 +0000"
         },
         "teams": {
           "team_a": {
