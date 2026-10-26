@@ -1,72 +1,67 @@
 {
-  "last_updated": "2026-10-26T13:31:35.843730+00:00",
+  "last_updated": "2026-10-26T15:06:55.954450+00:00",
   "event_count": 41,
   "events": {
     "events": [
       {
-        "title": "NPL Nepal Premier League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
+        "title": "Neftchi Fergana vs Al-Ittihad",
+        "sport": "Football",
+        "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "npl-nepal-premier-league",
+        "slug": "neftchi-fergana-vs-al-ittihad",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 05:15:26 PM",
-          "end_time_bst": "Oct 26, 2026, 10:00:34 PM",
-          "raw_start_utc": "2026/10/26 11:15:26 +0000"
+          "start_time_bst": "Oct 26, 2026, 07:45:00 PM",
+          "end_time_bst": "Oct 26, 2026, 10:05:00 PM",
+          "raw_start_utc": "2026/10/26 13:45:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+            "name": "Neftchi Fergana",
+            "flag": "https://img.sofascore.com/api/v1/team/36256/image"
           },
           "team_b": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+            "name": "Al-Ittihad",
+            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
           }
         },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "logo": "https://img.sofascore.com/api/v1/team/36256/image",
         "channels": [
           {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "FANCODE HD",
-            "stream_type": "DASH",
-            "url": "https://abjqoehaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-            "raw_link": "https://abjqoehaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-            "headers": {},
-            "drm_key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
-          },
-          {
-            "channel_name": "STAR SPORTS HD",
+            "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
-            "raw_link": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
-            "headers": {},
+            "url": "https://live.vivo155.com/live/hd-en-1-4621454.m3u8?txSecret=591f2e78929b074bce9c37efac5d7c3d&txTime=6ADF6A4C",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621454.m3u8?txSecret=591f2e78929b074bce9c37efac5d7c3d&txTime=6ADF6A4C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
             "drm_key": null
           },
           {
-            "channel_name": "FANCODE - IN",
+            "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/EJJJAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/EJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1364,33 +1359,6 @@
         "total_channels": 1
       },
       {
-        "title": "Neftchi Fergana vs Al-Ittihad",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "neftchi-fergana-vs-al-ittihad",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 26, 2026, 07:45:00 PM",
-          "end_time_bst": "Oct 26, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/10/26 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Neftchi Fergana",
-            "flag": "https://img.sofascore.com/api/v1/team/36256/image"
-          },
-          "team_b": {
-            "name": "Al-Ittihad",
-            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/36256/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Al-Ahli vs Al-Gharafa",
         "sport": "Football",
         "sub_category": "Football",
@@ -1923,6 +1891,71 @@
         "logo": "https://img.sofascore.com/api/v1/team/3434/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "NPL Nepal Premier League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "npl-nepal-premier-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 12:45:19 PM",
+          "end_time_bst": "Oct 27, 2026, 09:00:23 PM",
+          "raw_start_utc": "2026/10/27 06:45:19 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          },
+          "team_b": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "channels": [
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "FANCODE HD",
+            "stream_type": "DASH",
+            "url": "https://abjqoehaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+            "raw_link": "https://abjqoehaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
+          },
+          {
+            "channel_name": "STAR SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
+            "raw_link": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       }
     ]
   }
