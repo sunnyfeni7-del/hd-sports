@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T13:31:21.670740+00:00",
+  "last_updated": "2026-10-27T14:16:35.794305+00:00",
   "event_count": 51,
   "events": {
     "events": [
@@ -93,6 +93,87 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 08:30:29 PM",
+          "end_time_bst": "Oct 28, 2026, 01:00:34 AM",
+          "raw_start_utc": "2026/10/27 14:30:29 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "headers": {},
+            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
+            "headers": {},
+            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
+            "headers": {
+              "referer": "https://www.tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+            "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "NPL Nepal Premier League",
@@ -1003,87 +1084,6 @@
           }
         ],
         "total_channels": 10
-      },
-      {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 08:30:29 PM",
-          "end_time_bst": "Oct 28, 2026, 01:00:34 AM",
-          "raw_start_utc": "2026/10/27 14:30:29 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "headers": {},
-            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "headers": {},
-            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
-            "headers": {
-              "referer": "https://www.tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
       },
       {
         "title": "Pakistan vs Sri Lanka",
