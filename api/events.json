@@ -1,73 +1,8 @@
 {
-  "last_updated": "2026-10-27T18:07:39.264583+00:00",
+  "last_updated": "2026-10-27T18:27:44.411755+00:00",
   "event_count": 46,
   "events": {
     "events": [
-      {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 08:30:29 PM",
-          "end_time_bst": "Oct 28, 2026, 01:00:34 AM",
-          "raw_start_utc": "2026/10/27 14:30:29 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "headers": {},
-            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "headers": {},
-            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
-            "headers": {
-              "referer": "https://www.tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
       {
         "title": "Sassuolo vs Lazio",
         "sport": "Football",
@@ -268,6 +203,24 @@
         "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4658618.m3u8?txSecret=18e0979317653ffe3707a7b2e1ed0f94&txTime=6AE0FB12",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4658618.m3u8?txSecret=18e0979317653ffe3707a7b2e1ed0f94&txTime=6AE0FB12|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/01996b1f-9cd2-4c3d-81b6-fef6374d1040.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/01996b1f-9cd2-4c3d-81b6-fef6374d1040.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/DADADAAA.m3u8",
@@ -280,7 +233,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Sestao River vs Espanyol",
@@ -308,13 +261,31 @@
         "logo": "https://img.sofascore.com/api/v1/team/24364/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4658616.m3u8?txSecret=af3c800710b8a93172783721ec44a64c&txTime=6AE0FBC2",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4658616.m3u8?txSecret=af3c800710b8a93172783721ec44a64c&txTime=6AE0FBC2|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
             "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/1529e7a1-c0a2-4a32-8726-2bd3faf50584.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/1529e7a1-c0a2-4a32-8726-2bd3faf50584.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -330,7 +301,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Al Shamal SC vs Al-Hilal",
@@ -358,13 +329,31 @@
         "logo": "https://img.sofascore.com/api/v1/team/170366/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621466.m3u8?txSecret=4953221d9dc60bccd98c1ad5032ff924&txTime=6AE0FC13",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621466.m3u8?txSecret=4953221d9dc60bccd98c1ad5032ff924&txTime=6AE0FC13|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
             "raw_link": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/f904a407-5eb3-4211-8b6f-a0952bdea257.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/f904a407-5eb3-4211-8b6f-a0952bdea257.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -380,7 +369,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "VfL Bochum 1848 vs 1. FSV Mainz 05",
@@ -1475,6 +1464,71 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 08:30:54 PM",
+          "end_time_bst": "Oct 30, 2026, 12:30:59 AM",
+          "raw_start_utc": "2026/10/29 14:30:54 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "headers": {},
+            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "headers": {},
+            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
+            "headers": {
+              "referer": "https://www.tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Pakistan vs Sri Lanka",
