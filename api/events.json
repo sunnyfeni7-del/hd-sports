@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-27T14:16:35.794305+00:00",
-  "event_count": 51,
+  "last_updated": "2026-10-27T14:21:35.457162+00:00",
+  "event_count": 49,
   "events": {
     "events": [
       {
@@ -128,14 +128,6 @@
             "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
           },
           {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd",
-            "headers": {},
-            "drm_key": "dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-          },
-          {
             "channel_name": "TAPMAD - AQ",
             "stream_type": "HLS",
             "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
@@ -143,22 +135,6 @@
             "headers": {
               "referer": "https://www.tapmad.com/"
             },
-            "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "headers": {},
             "drm_key": null
           },
           {
@@ -173,7 +149,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 3
       },
       {
         "title": "NPL Nepal Premier League",
@@ -269,106 +245,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "beijing-guoan-vs-jeonbuk-hyundai-motors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/27 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Beijing Guoan",
-            "flag": "https://img.sofascore.com/api/v1/team/3376/image"
-          },
-          "team_b": {
-            "name": "Jeonbuk Hyundai Motors",
-            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3376/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/JYYY.m3u8",
-            "raw_link": "http://193.47.62.50/hls/JYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Ratchaburi vs Kashiwa Reysol",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ratchaburi-vs-kashiwa-reysol",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/27 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ratchaburi",
-            "flag": "https://img.sofascore.com/api/v1/team/85743/image"
-          },
-          "team_b": {
-            "name": "Kashiwa Reysol",
-            "flag": "https://img.sofascore.com/api/v1/team/3140/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/85743/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/JYYYA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/JYYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Formula 1",
