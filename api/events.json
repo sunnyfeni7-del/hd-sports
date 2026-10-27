@@ -1,196 +1,8 @@
 {
-  "last_updated": "2026-10-27T03:30:14.268047+00:00",
-  "event_count": 54,
+  "last_updated": "2026-10-27T04:45:37.365609+00:00",
+  "event_count": 55,
   "events": {
     "events": [
-      {
-        "title": "Philadelphia Eagles vs Dallas Cowboys",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "philadelphia-eagles-vs-dallas-cowboys",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:15:00 AM",
-          "end_time_bst": "Oct 27, 2026, 09:15:00 AM",
-          "raw_start_utc": "2026/10/27 00:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Philadelphia Eagles",
-            "flag": "https://img.sofascore.com/api/v1/team/4428/image"
-          },
-          "team_b": {
-            "name": "Dallas Cowboys",
-            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4428/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          {
-            "channel_name": "TSN SPORTS 5 - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8",
-            "raw_link": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Denver Nuggets vs Golden State Warriors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "denver-nuggets-vs-golden-state-warriors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 27, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/27 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Denver Nuggets",
-            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
-          },
-          "team_b": {
-            "name": "Golden State Warriors",
-            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3417/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58736/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58736/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58736?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58736?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?st=6fj9I817qMyxYxRE-LTR8wXewotCwtI2ygRHMof1a4k&e=1793075414",
-            "raw_link": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?st=6fj9I817qMyxYxRE-LTR8wXewotCwtI2ygRHMof1a4k&e=1793075414|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/TTTTAAAAQQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/TTTTAAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Utah Jazz vs Memphis Grizzlies",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "utah-jazz-vs-memphis-grizzlies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 07:00:00 AM",
-          "end_time_bst": "Oct 27, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/10/27 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Utah Jazz",
-            "flag": "https://img.sofascore.com/api/v1/team/3434/image"
-          },
-          "team_b": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3434/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58730/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58730/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58730?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58730?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?st=MY4z9PDm9XYfz7zIS9UxDHufgU98roy1XvAT6mf9nzo&e=1793071807",
-            "raw_link": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?st=MY4z9PDm9XYfz7zIS9UxDHufgU98roy1XvAT6mf9nzo&e=1793071807|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/TTTTAAAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/TTTTAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
@@ -2263,6 +2075,114 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/12/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Boston Celtics vs Brooklyn Nets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "boston-celtics-vs-brooklyn-nets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 05:30:00 AM",
+          "end_time_bst": "Oct 28, 2026, 08:00:00 AM",
+          "raw_start_utc": "2026/10/27 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Boston Celtics",
+            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+          },
+          "team_b": {
+            "name": "Brooklyn Nets",
+            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "San Antonio Spurs vs Sacramento Kings",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "san-antonio-spurs-vs-sacramento-kings",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 28, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/28 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "San Antonio Spurs",
+            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          },
+          "team_b": {
+            "name": "Sacramento Kings",
+            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3429/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "New York Knicks vs Detroit Pistons",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "new-york-knicks-vs-detroit-pistons",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 28, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/28 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          },
+          "team_b": {
+            "name": "Detroit Pistons",
+            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3421/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Los Angeles Lakers vs Portland Trail Blazers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "los-angeles-lakers-vs-portland-trail-blazers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 09:00:00 AM",
+          "end_time_bst": "Oct 28, 2026, 11:30:00 AM",
+          "raw_start_utc": "2026/10/28 03:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Los Angeles Lakers",
+            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
+          },
+          "team_b": {
+            "name": "Portland Trail Blazers",
+            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
         "channels": [],
         "total_channels": 0
       }
