@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T19:48:11.982601+00:00",
+  "last_updated": "2026-10-27T23:19:18.858552+00:00",
   "event_count": 91,
   "events": {
     "events": [
@@ -1015,6 +1015,45 @@
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
               "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Boston Celtics vs Brooklyn Nets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "boston-celtics-vs-brooklyn-nets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 05:30:00 AM",
+          "end_time_bst": "Oct 28, 2026, 08:00:00 AM",
+          "raw_start_utc": "2026/10/27 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Boston Celtics",
+            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+          },
+          "team_b": {
+            "name": "Brooklyn Nets",
+            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?",
+            "raw_link": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
             },
             "drm_key": null
           }
@@ -2110,45 +2149,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Boston Celtics vs Brooklyn Nets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "boston-celtics-vs-brooklyn-nets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 05:30:00 AM",
-          "end_time_bst": "Oct 28, 2026, 08:00:00 AM",
-          "raw_start_utc": "2026/10/27 23:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Boston Celtics",
-            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
-          },
-          "team_b": {
-            "name": "Brooklyn Nets",
-            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?",
-            "raw_link": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "San Antonio Spurs vs Sacramento Kings",
