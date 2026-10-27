@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T18:32:47.770756+00:00",
+  "last_updated": "2026-10-27T18:47:53.174292+00:00",
   "event_count": 46,
   "events": {
     "events": [
@@ -302,6 +302,44 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "UD Castellonense vs Almeria",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ud-castellonense-vs-almeria",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 12:45:00 AM",
+          "end_time_bst": "Oct 28, 2026, 03:05:00 AM",
+          "raw_start_utc": "2026/10/27 18:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "UD Castellonense",
+            "flag": "https://img.sofascore.com/api/v1/team/353599/image"
+          },
+          "team_b": {
+            "name": "Almería",
+            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/353599/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Al Shamal SC vs Al-Hilal",
@@ -1748,33 +1786,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "UD Castellonense vs Almeria",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ud-castellonense-vs-almeria",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 12:45:00 AM",
-          "end_time_bst": "Oct 28, 2026, 03:05:00 AM",
-          "raw_start_utc": "2026/10/27 18:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UD Castellonense",
-            "flag": "https://img.sofascore.com/api/v1/team/353599/image"
-          },
-          "team_b": {
-            "name": "Almería",
-            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/353599/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "RSD Alcala vs UD Las Palmas",
