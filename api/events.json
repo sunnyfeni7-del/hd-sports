@@ -1,99 +1,8 @@
 {
-  "last_updated": "2026-10-27T15:47:02.138380+00:00",
+  "last_updated": "2026-10-27T16:32:16.584269+00:00",
   "event_count": 48,
   "events": {
     "events": [
-      {
-        "title": "South Africa vs Australia",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "south-africa-vs-australiaa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 02:30:54 PM",
-          "end_time_bst": "Oct 27, 2026, 11:55:48 PM",
-          "raw_start_utc": "2026/10/27 08:30:54 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "South Africa",
-            "flag": "https://img.sofascore.com/api/v1/team/187747/image"
-          },
-          "team_b": {
-            "name": "Australia",
-            "flag": "https://img.sofascore.com/api/v1/team/187746/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187747/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-            "headers": {},
-            "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "SKY CRICKET - AQ",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-            "headers": {},
-            "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
-          },
-          {
-            "channel_name": "FOX CRICKET HD",
-            "stream_type": "HLS",
-            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-            "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 7
-      },
       {
         "title": "Afghanistan vs Zimbabwe",
         "sport": "Cricket",
@@ -158,6 +67,137 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Al Seeb SC vs East Bengal FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-seeb-sc-vs-east-bengal-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 28, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/27 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al Seeb SC",
+            "flag": "https://img.sofascore.com/api/v1/team/71044/image"
+          },
+          "team_b": {
+            "name": "East Bengal FC",
+            "flag": "https://img.sofascore.com/api/v1/team/40655/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/71044/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621345.m3u8?txSecret=d5fd989a0df451d22039b860839b6347&txTime=6AE0DD03",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621345.m3u8?txSecret=d5fd989a0df451d22039b860839b6347&txTime=6AE0DD03|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xoilac.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/rararaAAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/rararaAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4248991_english_hls_3a5344c32478816_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4248991_english_hls_3a5344c32478816_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Shabab Al-Ahli Dubai vs Esteghlal FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "shabab-al-ahli-dubai-vs-esteghlal-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 10:00:00 PM",
+          "end_time_bst": "Oct 28, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/10/27 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Shabab Al-Ahli Dubai",
+            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
+          },
+          "team_b": {
+            "name": "Esteghlal FC",
+            "flag": "https://img.sofascore.com/api/v1/team/34316/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/264111/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621427.m3u8?txSecret=100490eefc9c7c4903281d1f84d805fd&txTime=6AE0DD27",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621427.m3u8?txSecret=100490eefc9c7c4903281d1f84d805fd&txTime=6AE0DD27|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xoilac.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/rararaAAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/rararaAAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -627,6 +667,97 @@
           }
         ],
         "total_channels": 12
+      },
+      {
+        "title": "South Africa vs Australia",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "south-africa-vs-australiaa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 02:30:58 PM",
+          "end_time_bst": "Oct 28, 2026, 11:00:02 PM",
+          "raw_start_utc": "2026/10/28 08:30:58 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "South Africa",
+            "flag": "https://img.sofascore.com/api/v1/team/187747/image"
+          },
+          "team_b": {
+            "name": "Australia",
+            "flag": "https://img.sofascore.com/api/v1/team/187746/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187747/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
+            "headers": {},
+            "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "SKY CRICKET - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
+            "headers": {},
+            "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
+          },
+          {
+            "channel_name": "FOX CRICKET HD",
+            "stream_type": "HLS",
+            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+            "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 7
       },
       {
         "title": "India Women vs Zimbabwe Women",
@@ -1122,33 +1253,6 @@
         "total_channels": 3
       },
       {
-        "title": "Al Seeb SC vs East Bengal FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-seeb-sc-vs-east-bengal-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 28, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/27 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Seeb SC",
-            "flag": "https://img.sofascore.com/api/v1/team/71044/image"
-          },
-          "team_b": {
-            "name": "East Bengal FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40655/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/71044/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Al-Shorta vs Al-Hussein Irbid",
         "sport": "Football",
         "sub_category": "Football",
@@ -1415,8 +1519,29 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2702/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Torino vs Como",
@@ -1442,33 +1567,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2696/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Shabab Al-Ahli Dubai vs Esteghlal FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "shabab-al-ahli-dubai-vs-esteghlal-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 10:00:00 PM",
-          "end_time_bst": "Oct 28, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/27 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Shabab Al-Ahli Dubai",
-            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
-          },
-          "team_b": {
-            "name": "Esteghlal FC",
-            "flag": "https://img.sofascore.com/api/v1/team/34316/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/264111/image",
         "channels": [],
         "total_channels": 0
       },
@@ -1631,8 +1729,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2673/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Borussia Mgladbach vs Karlsruher SC",
@@ -1739,8 +1848,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/23959/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Bradford City vs Peterborough United",
@@ -1766,8 +1886,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/22/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Leicester City vs Wigan Athletic",
