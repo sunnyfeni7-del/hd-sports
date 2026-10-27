@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T17:47:35.884986+00:00",
+  "last_updated": "2026-10-27T18:02:39.007216+00:00",
   "event_count": 48,
   "events": {
     "events": [
@@ -262,6 +262,46 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "UD Pinatar vs Elche",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ud-pinatar-vs-elche",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 28, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/27 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "UD Pinatar",
+            "flag": "https://img.sofascore.com/api/v1/team/1260147/image"
+          },
+          "team_b": {
+            "name": "Elche",
+            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/DADADAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/DADADAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Sestao River vs Espanyol",
@@ -1620,12 +1660,11 @@
           {
             "channel_name": "HD QUALITY",
             "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "url": "https://edgestream1.pro/hls/dazhfiach15.m3u8?",
+            "raw_link": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
             "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
+              "Referer": "https://streamscenter.online/",
+              "Origin": "https://streamscenter.online"
             },
             "drm_key": null
           }
@@ -1711,33 +1750,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/61532/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "UD Pinatar vs Elche",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ud-pinatar-vs-elche",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 28, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/27 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UD Pinatar",
-            "flag": "https://img.sofascore.com/api/v1/team/1260147/image"
-          },
-          "team_b": {
-            "name": "Elche",
-            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
         "channels": [],
         "total_channels": 0
       },
@@ -2332,8 +2344,20 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?",
+            "raw_link": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "San Antonio Spurs vs Sacramento Kings",
@@ -2359,8 +2383,20 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3429/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?",
+            "raw_link": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "New York Knicks vs Detroit Pistons",
@@ -2386,8 +2422,20 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3421/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/wfazgsqtrezu66.m3u8?",
+            "raw_link": "https://edgestream6.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Los Angeles Lakers vs Portland Trail Blazers",
@@ -2413,8 +2461,20 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3427/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8?",
+            "raw_link": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       }
     ]
   }
