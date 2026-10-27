@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T00:04:18.534898+00:00",
+  "last_updated": "2026-10-27T00:19:21.267571+00:00",
   "event_count": 36,
   "events": {
     "events": [
@@ -1107,6 +1107,46 @@
         "total_channels": 1
       },
       {
+        "title": "Houston Rockets vs Atlanta Hawks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "houston-rockets-vs-atlanta-hawks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 06:30:00 AM",
+          "end_time_bst": "Oct 27, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/10/27 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          },
+          "team_b": {
+            "name": "Atlanta Hawks",
+            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
+        "channels": [
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8",
+            "raw_link": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://embedcenter.st",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -2044,46 +2084,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/71044/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Houston Rockets vs Atlanta Hawks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "houston-rockets-vs-atlanta-hawks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 27, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/10/27 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Houston Rockets",
-            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
-          },
-          "team_b": {
-            "name": "Atlanta Hawks",
-            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
-        "channels": [
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8",
-            "raw_link": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Denver Nuggets vs Golden State Warriors",
