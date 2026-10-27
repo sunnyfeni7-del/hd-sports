@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T12:26:05.621268+00:00",
+  "last_updated": "2026-10-27T13:31:21.670740+00:00",
   "event_count": 51,
   "events": {
     "events": [
@@ -95,86 +95,6 @@
         "total_channels": 7
       },
       {
-        "title": "Pakistan vs Sri Lanka",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "pakistan-vs-sri-lanka",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 02:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 10:00:00 PM",
-          "raw_start_utc": "2026/10/27 08:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pakistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187754/image"
-          },
-          "team_b": {
-            "name": "Sri Lanka",
-            "flag": "https://img.sofascore.com/api/v1/team/187756/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
-            "headers": {},
-            "drm_key": "71c9587a489e14e4463fb01f0951bc69:2e5fcd0b450696f14c9f065364b6787b"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
-            "headers": {},
-            "drm_key": "71c9587a489e14e4463fb01f0951bc69:2e5fcd0b450696f14c9f065364b6787b"
-          },
-          {
-            "channel_name": "TAPMAD - AQ ",
-            "stream_type": "HLS",
-            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
-            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "PTV SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
-      },
-      {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -228,6 +148,46 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Abha vs Al Faisaly",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "abha-vs-al-faisaly",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 06:40:00 PM",
+          "end_time_bst": "Oct 27, 2026, 09:00:00 PM",
+          "raw_start_utc": "2026/10/27 12:40:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abha",
+            "flag": "https://img.sofascore.com/api/v1/team/168090/image"
+          },
+          "team_b": {
+            "name": "Al Faisaly",
+            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/168090/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/JYYYAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/JYYYAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
@@ -1126,6 +1086,86 @@
         "total_channels": 6
       },
       {
+        "title": "Pakistan vs Sri Lanka",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "pakistan-vs-sri-lanka",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:00:26 PM",
+          "end_time_bst": "Oct 31, 2026, 11:00:30 PM",
+          "raw_start_utc": "2026/10/31 08:00:26 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187754/image"
+          },
+          "team_b": {
+            "name": "Sri Lanka",
+            "flag": "https://img.sofascore.com/api/v1/team/187756/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
+            "headers": {},
+            "drm_key": "71c9587a489e14e4463fb01f0951bc69:2e5fcd0b450696f14c9f065364b6787b"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jcogtjna1p/out/v1/49e48e49b1b74230bc32c008303e962f/cenc.mpd",
+            "headers": {},
+            "drm_key": "71c9587a489e14e4463fb01f0951bc69:2e5fcd0b450696f14c9f065364b6787b"
+          },
+          {
+            "channel_name": "TAPMAD - AQ ",
+            "stream_type": "HLS",
+            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
+            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "PTV SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD HD",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
+      },
+      {
         "title": "Bangladesh vs West Indies",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1558,33 +1598,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2696/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Abha vs Al Faisaly",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "abha-vs-al-faisaly",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:40:00 PM",
-          "end_time_bst": "Oct 27, 2026, 09:00:00 PM",
-          "raw_start_utc": "2026/10/27 12:40:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abha",
-            "flag": "https://img.sofascore.com/api/v1/team/168090/image"
-          },
-          "team_b": {
-            "name": "Al Faisaly",
-            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168090/image",
         "channels": [],
         "total_channels": 0
       },
