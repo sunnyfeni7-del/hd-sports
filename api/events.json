@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-27T12:01:01.043592+00:00",
-  "event_count": 55,
+  "last_updated": "2026-10-27T12:11:00.434855+00:00",
+  "event_count": 51,
   "events": {
     "events": [
       {
@@ -230,67 +230,35 @@
         "total_channels": 3
       },
       {
-        "title": "Daejeon Hana Citizen vs Vissel Kobe",
+        "title": "Ratchaburi vs Kashiwa Reysol",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "daejeon-hana-citizen-vs-vissel-kobe",
+        "slug": "ratchaburi-vs-kashiwa-reysol",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/27 10:00:00 +0000"
+          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
+          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/10/27 12:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Daejeon Hana Citizen",
-            "flag": "https://img.sofascore.com/api/v1/team/7645/image"
+            "name": "Ratchaburi",
+            "flag": "https://img.sofascore.com/api/v1/team/85743/image"
           },
           "team_b": {
-            "name": "Vissel Kobe",
-            "flag": "https://img.sofascore.com/api/v1/team/3146/image"
+            "name": "Kashiwa Reysol",
+            "flag": "https://img.sofascore.com/api/v1/team/3140/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/7645/image",
+        "logo": "https://img.sofascore.com/api/v1/team/85743/image",
         "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621521.m3u8?txSecret=77ff51d8170b78ee1b5e2397d3cde37d&txTime=6AE08304",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621521.m3u8?txSecret=77ff51d8170b78ee1b5e2397d3cde37d&txTime=6AE08304|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xoilac.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xoilac.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/0da418d9-1da7-41e0-a54c-31c6b4779fb5.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/0da418d9-1da7-41e0-a54c-31c6b4779fb5.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/O555A.m3u8",
-            "raw_link": "http://193.47.62.59/hls/O555A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.50/hls/JYYYA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/JYYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -299,223 +267,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
-      },
-      {
-        "title": "Johor Darul Tazim vs Port FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "johor-darul-tazim-vs-port-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/27 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Johor Darul Ta'zim",
-            "flag": "https://img.sofascore.com/api/v1/team/3327/image"
-          },
-          "team_b": {
-            "name": "Port FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40661/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3327/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621533.m3u8?txSecret=6f1984cc27d76298d6002aacbc390be9&txTime=6AE082B2",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621533.m3u8?txSecret=6f1984cc27d76298d6002aacbc390be9&txTime=6AE082B2|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xoilac.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xoilac.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/c5ca93f3-4d89-43b0-858c-af4b3e1ef3f6.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/c5ca93f3-4d89-43b0-858c-af4b3e1ef3f6.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/O555AA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/O555AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Kyoto Sanga FC vs Newcastle Jets",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "kyoto-sanga-fc-vs-newcastle-jets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/27 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kyoto Sanga FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3149/image"
-          },
-          "team_b": {
-            "name": "Newcastle Jets",
-            "flag": "https://img.sofascore.com/api/v1/team/2934/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3149/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621532.m3u8?txSecret=881cc1a1de999e6174009d20401a793f&txTime=6AE0834A",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621532.m3u8?txSecret=881cc1a1de999e6174009d20401a793f&txTime=6AE0834A|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xoilac.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xoilac.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/20e1a5db-9be0-4d7b-af4d-e4f7631b0880.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/20e1a5db-9be0-4d7b-af4d-e4f7631b0880.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/O555AAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/O555AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Shanghai Port vs Cong An Ha Noi",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "shanghai-port-vs-cong-an-ha-noi",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 27, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/27 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Shanghai Port",
-            "flag": "https://img.sofascore.com/api/v1/team/41537/image"
-          },
-          "team_b": {
-            "name": "Công An Hà Nội",
-            "flag": "https://img.sofascore.com/api/v1/team/193616/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/41537/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621488.m3u8?txSecret=1b4f3e35c10a27706dcc9f0708f9cec4&txTime=6AE0828C",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621488.m3u8?txSecret=1b4f3e35c10a27706dcc9f0708f9cec4&txTime=6AE0828C|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xoilac.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xoilac.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/c2d67731-3d41-47cf-b2f7-4fcb58b94a88.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/c2d67731-3d41-47cf-b2f7-4fcb58b94a88.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/O555AAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/O555AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1800,33 +1552,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3376/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Ratchaburi vs Kashiwa Reysol",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ratchaburi-vs-kashiwa-reysol",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/27 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ratchaburi",
-            "flag": "https://img.sofascore.com/api/v1/team/85743/image"
-          },
-          "team_b": {
-            "name": "Kashiwa Reysol",
-            "flag": "https://img.sofascore.com/api/v1/team/3140/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/85743/image",
         "channels": [],
         "total_channels": 0
       },
