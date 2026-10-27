@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T12:11:00.434855+00:00",
+  "last_updated": "2026-10-27T12:26:05.621268+00:00",
   "event_count": 51,
   "events": {
     "events": [
@@ -230,6 +230,56 @@
         "total_channels": 3
       },
       {
+        "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "beijing-guoan-vs-jeonbuk-hyundai-motors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
+          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/10/27 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Beijing Guoan",
+            "flag": "https://img.sofascore.com/api/v1/team/3376/image"
+          },
+          "team_b": {
+            "name": "Jeonbuk Hyundai Motors",
+            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3376/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/JYYY.m3u8",
+            "raw_link": "http://193.47.62.50/hls/JYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "Ratchaburi vs Kashiwa Reysol",
         "sport": "Football",
         "sub_category": "Football",
@@ -255,6 +305,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/85743/image",
         "channels": [
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/JYYYA.m3u8",
@@ -267,7 +327,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1525,33 +1585,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/168090/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "beijing-guoan-vs-jeonbuk-hyundai-motors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 27, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/27 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Beijing Guoan",
-            "flag": "https://img.sofascore.com/api/v1/team/3376/image"
-          },
-          "team_b": {
-            "name": "Jeonbuk Hyundai Motors",
-            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3376/image",
         "channels": [],
         "total_channels": 0
       },
