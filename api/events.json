@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T12:03:18.675652+00:00",
-  "event_count": 77,
+  "last_updated": "2026-10-28T12:08:12.585819+00:00",
+  "event_count": 75,
   "events": {
     "events": [
       {
@@ -228,103 +228,35 @@
         "total_channels": 3
       },
       {
-        "title": "Gamba Osaka vs Buriram United",
+        "title": "Persib Bandung vs Melbourne Victory",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "gamba-osaka-vs-buriram-united",
+        "slug": "persib-bandung-vs-melbourne-victory",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 28, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/28 10:00:00 +0000"
+          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
+          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/10/28 12:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Gamba Osaka",
-            "flag": "https://img.sofascore.com/api/v1/team/3138/image"
+            "name": "Persib Bandung",
+            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
           },
           "team_b": {
-            "name": "Buriram United",
-            "flag": "https://img.sofascore.com/api/v1/team/34218/image"
+            "name": "Melbourne Victory",
+            "flag": "https://img.sofascore.com/api/v1/team/5970/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/3138/image",
+        "logo": "https://img.sofascore.com/api/v1/team/64289/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE ",
+            "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621500.m3u8?txSecret=9311110d21432f468bbd50c39984412b&txTime=6AE1DB4C",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621500.m3u8?txSecret=9311110d21432f468bbd50c39984412b&txTime=6AE1DB4C|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/8c1d041c-494e-47a5-841a-630651bc0bef.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/8c1d041c-494e-47a5-841a-630651bc0bef.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/AQQQAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/AQQQAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Kashima Antlers vs Pohang Steelers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "kashima-antlers-vs-pohang-steelers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 28, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/28 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kashima Antlers",
-            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
-          },
-          "team_b": {
-            "name": "Pohang Steelers",
-            "flag": "https://img.sofascore.com/api/v1/team/7650/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3134/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621512.m3u8?txSecret=733818d14376653f336646c8f9280923&txTime=6AE1DB18",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621512.m3u8?txSecret=733818d14376653f336646c8f9280923&txTime=6AE1DB18|Referer=https://player.on8on8.com/",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621359.m3u8?txSecret=2be3492013d5b021a19e9aaca5a61887&txTime=6AE1F5F6",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621359.m3u8?txSecret=2be3492013d5b021a19e9aaca5a61887&txTime=6AE1F5F6|Referer=https://player.on8on8.com/",
             "headers": {
               "Referer": "https://player.on8on8.com/"
             },
@@ -333,26 +265,18 @@
           {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
           },
           {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/def63eec-1143-4057-bdd8-24b88a714aa7.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/def63eec-1143-4057-bdd8-24b88a714aa7.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/AQQQAAAAQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/AQQQAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/JRRRA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/JRRRA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -361,7 +285,67 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 3
+      },
+      {
+        "title": "The Cong - Viettel vs FC Seoul",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "the-cong-viettel-vs-fc-seoul",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
+          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/10/28 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Thể Công - Viettel",
+            "flag": "https://img.sofascore.com/api/v1/team/231270/image"
+          },
+          "team_b": {
+            "name": "FC Seoul",
+            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/231270/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621355.m3u8?txSecret=b5a762dd09852601bb0c2527d59ef16b&txTime=6AE1F5C8",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621355.m3u8?txSecret=b5a762dd09852601bb0c2527d59ef16b&txTime=6AE1F5C8|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel11.m3u8?",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/JRRRAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/JRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1310,60 +1294,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Persib Bandung vs Melbourne Victory",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "persib-bandung-vs-melbourne-victory",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/28 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Persib Bandung",
-            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
-          },
-          "team_b": {
-            "name": "Melbourne Victory",
-            "flag": "https://img.sofascore.com/api/v1/team/5970/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/64289/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "The Cong - Viettel vs FC Seoul",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "the-cong-viettel-vs-fc-seoul",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/28 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Thể Công - Viettel",
-            "flag": "https://img.sofascore.com/api/v1/team/231270/image"
-          },
-          "team_b": {
-            "name": "FC Seoul",
-            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/231270/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Gol Gohar Sirjan vs Arkadag FK",
