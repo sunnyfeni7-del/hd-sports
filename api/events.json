@@ -1,8 +1,65 @@
 {
-  "last_updated": "2026-10-28T23:16:42.527791+00:00",
+  "last_updated": "2026-10-28T23:46:49.143005+00:00",
   "event_count": 45,
   "events": {
     "events": [
+      {
+        "title": "Milwaukee Brewers vs Tampa Bay Rays",
+        "sport": "Baseball",
+        "sub_category": "Baseball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "milwaukee-brewers-vs-tampa-bay-rays",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:53 AM",
+          "end_time_bst": "Oct 29, 2026, 09:00:56 AM",
+          "raw_start_utc": "2026/10/29 00:00:53 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Milwaukee Brewers",
+            "flag": "https://img.sofascore.com/api/v1/team/3630/image"
+          },
+          "team_b": {
+            "name": "Tampa Bay Rays",
+            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3630/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "FOX DEPORTES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "headers": {},
+            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+          },
+          {
+            "channel_name": "HD QUALITY",
+            "stream_type": "HLS",
+            "url": "https://edgestream1.pro/hls/dazhfiach15.m3u8?",
+            "raw_link": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+            "headers": {
+              "Referer": "https://streamscenter.online/",
+              "Origin": "https://streamscenter.online"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
       {
         "title": "Genoa vs Juventus",
         "sport": "Football",
@@ -1171,6 +1228,162 @@
         "total_channels": 1
       },
       {
+        "title": "Minnesota Timberwolves vs Golden State Warriors",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "minnesota-timberwolves-vs-golden-state-warriors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Minnesota Timberwolves",
+            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
+          },
+          "team_b": {
+            "name": "Golden State Warriors",
+            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3426/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?",
+            "raw_link": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Chicago Bulls vs New York Knicks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "chicago-bulls-vs-new-york-knicks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chicago Bulls",
+            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+          },
+          "team_b": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3409/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8?",
+            "raw_link": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "New Orleans Pelicans vs Denver Nuggets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-orleans-pelicans-vs-denver-nuggets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Orleans Pelicans",
+            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
+          },
+          "team_b": {
+            "name": "Denver Nuggets",
+            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?",
+            "raw_link": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Milwaukee Bucks vs Houston Rockets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "milwaukee-bucks-vs-houston-rockets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Milwaukee Bucks",
+            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
+          },
+          "team_b": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream7.pro/hls/ztyarueaghj71.m3u8?",
+            "raw_link": "https://edgestream7.pro/hls/ztyarueaghj71.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -2169,63 +2382,6 @@
         "total_channels": 7
       },
       {
-        "title": "Milwaukee Brewers vs Tampa Bay Rays",
-        "sport": "Baseball",
-        "sub_category": "Baseball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milwaukee-brewers-vs-tampa-bay-rays",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:00:53 AM",
-          "end_time_bst": "Oct 29, 2026, 09:00:56 AM",
-          "raw_start_utc": "2026/10/29 00:00:53 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milwaukee Brewers",
-            "flag": "https://img.sofascore.com/api/v1/team/3630/image"
-          },
-          "team_b": {
-            "name": "Tampa Bay Rays",
-            "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3630/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "headers": {},
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream1.pro/hls/dazhfiach15.m3u8?",
-            "raw_link": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-            "headers": {
-              "Referer": "https://streamscenter.online/",
-              "Origin": "https://streamscenter.online"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -2375,162 +2531,6 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
             "headers": {},
             "drm_key": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Minnesota Timberwolves vs Golden State Warriors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "minnesota-timberwolves-vs-golden-state-warriors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/29 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Minnesota Timberwolves",
-            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
-          },
-          "team_b": {
-            "name": "Golden State Warriors",
-            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3426/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?",
-            "raw_link": "https://edgestream4.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Chicago Bulls vs New York Knicks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "chicago-bulls-vs-new-york-knicks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/29 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Chicago Bulls",
-            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
-          },
-          "team_b": {
-            "name": "New York Knicks",
-            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3409/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8?",
-            "raw_link": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "New Orleans Pelicans vs Denver Nuggets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-orleans-pelicans-vs-denver-nuggets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/29 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Orleans Pelicans",
-            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
-          },
-          "team_b": {
-            "name": "Denver Nuggets",
-            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?",
-            "raw_link": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Milwaukee Bucks vs Houston Rockets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milwaukee-bucks-vs-houston-rockets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/29 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milwaukee Bucks",
-            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
-          },
-          "team_b": {
-            "name": "Houston Rockets",
-            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/ztyarueaghj71.m3u8?",
-            "raw_link": "https://edgestream7.pro/hls/ztyarueaghj71.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 1
