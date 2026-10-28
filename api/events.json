@@ -1,8 +1,98 @@
 {
-  "last_updated": "2026-10-28T18:05:05.207249+00:00",
-  "event_count": 67,
+  "last_updated": "2026-10-28T18:10:05.093284+00:00",
+  "event_count": 59,
   "events": {
     "events": [
+      {
+        "title": "Al Khaldiya vs Al-Wahda FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-khaldiya-vs-al-wahda-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
+          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
+          "raw_start_utc": "2026/10/28 18:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al Khaldiya",
+            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
+          },
+          "team_b": {
+            "name": "Al-Wahda FC",
+            "flag": "https://img.sofascore.com/api/v1/team/264115/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/371631/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/5JJJQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/5JJJQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Al Faisaly SC vs Al-Taawoun",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-faisaly-sc-vs-al-taawoun",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
+          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
+          "raw_start_utc": "2026/10/28 18:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al Faisaly SC",
+            "flag": "https://img.sofascore.com/api/v1/team/47482/image"
+          },
+          "team_b": {
+            "name": "Al-Taawoun",
+            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/47482/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/5JJJQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/5JJJQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "AC Milan vs Bologna",
         "sport": "Football",
@@ -1726,60 +1816,6 @@
         "total_channels": 3
       },
       {
-        "title": "Al Khaldiya vs Al-Wahda FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-khaldiya-vs-al-wahda-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/28 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Khaldiya",
-            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
-          },
-          "team_b": {
-            "name": "Al-Wahda FC",
-            "flag": "https://img.sofascore.com/api/v1/team/264115/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/371631/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al Faisaly SC vs Al-Taawoun",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-faisaly-sc-vs-al-taawoun",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/28 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Faisaly SC",
-            "flag": "https://img.sofascore.com/api/v1/team/47482/image"
-          },
-          "team_b": {
-            "name": "Al-Taawoun",
-            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47482/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Adelaide United vs Lion City Sailors",
         "sport": "Football",
         "sub_category": "Football",
@@ -1803,222 +1839,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2946/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Alcoyano vs Mallorca",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-alcoyano-vs-mallorca",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/28 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Alcoyano",
-            "flag": "https://img.sofascore.com/api/v1/team/6585/image"
-          },
-          "team_b": {
-            "name": "Mallorca",
-            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6585/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Covadonga vs Real Valladolid",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-covadonga-vs-real-valladolid",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/28 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Covadonga",
-            "flag": "https://img.sofascore.com/api/v1/team/263608/image"
-          },
-          "team_b": {
-            "name": "Real Valladolid",
-            "flag": "https://img.sofascore.com/api/v1/team/2831/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263608/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "calvo-sotelo-puertollano-vs-albacete-balompie",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/28 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Calvo Sotelo Puertollano",
-            "flag": "https://img.sofascore.com/api/v1/team/295639/image"
-          },
-          "team_b": {
-            "name": "Albacete Balompié",
-            "flag": "https://img.sofascore.com/api/v1/team/2848/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/295639/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Numancia vs Real Oviedo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "numancia-vs-real-oviedo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/28 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Numancia",
-            "flag": "https://img.sofascore.com/api/v1/team/2855/image"
-          },
-          "team_b": {
-            "name": "Real Oviedo",
-            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2855/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Trival Valderas Alcorcon vs Leganes",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "trival-valderas-alcorcon-vs-leganes",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/28 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Trival Valderas Alcorcón",
-            "flag": "https://img.sofascore.com/api/v1/team/167158/image"
-          },
-          "team_b": {
-            "name": "Leganés",
-            "flag": "https://img.sofascore.com/api/v1/team/2845/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/167158/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CDA Navalcarnero vs Real Betis",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cda-navalcarnero-vs-real-betis",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/28 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CDA Navalcarnero",
-            "flag": "https://img.sofascore.com/api/v1/team/24352/image"
-          },
-          "team_b": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24352/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Salamanca UDS vs Celta Vigo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "salamanca-uds-vs-celta-vigo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/28 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Salamanca UDS",
-            "flag": "https://img.sofascore.com/api/v1/team/263916/image"
-          },
-          "team_b": {
-            "name": "Celta Vigo",
-            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263916/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "UE Tavernes vs Valencia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ue-tavernes-vs-valencia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/28 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UE Tavernes",
-            "flag": "https://img.sofascore.com/api/v1/team/1284427/image"
-          },
-          "team_b": {
-            "name": "Valencia",
-            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1284427/image",
         "channels": [],
         "total_channels": 0
       },
