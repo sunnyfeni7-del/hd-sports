@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T17:34:53.022982+00:00",
+  "last_updated": "2026-10-28T17:50:03.114001+00:00",
   "event_count": 73,
   "events": {
     "events": [
@@ -159,6 +159,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/43924486-7277-47f0-8207-2a358270562f.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/43924486-7277-47f0-8207-2a358270562f.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/HHHH4Q.m3u8",
@@ -171,7 +179,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Parma vs Udinese",
@@ -199,7 +207,7 @@
         "logo": "https://img.sofascore.com/api/v1/team/2690/image",
         "channels": [
           {
-            "channel_name": "PARAMOUNT+ HD",
+            "channel_name": "FUBO SPORTS HD ",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58774/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/58774/load-playlist-multi?|Referer=https://gooz.aapmains.net",
@@ -219,6 +227,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/77e70614-e407-48d5-af16-feac1d185e50.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/77e70614-e407-48d5-af16-feac1d185e50.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/H666AAA.m3u8",
@@ -231,7 +247,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Venezia vs Inter",
@@ -277,7 +293,7 @@
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           },
           {
-            "channel_name": "PARAMOUNT+ HD",
+            "channel_name": "FUBO SPORTS HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/58773/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/58773/load-playlist-multi?|Referer=https://gooz.aapmains.net",
@@ -297,6 +313,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/0f0956d0-2f25-47a0-b7c8-007a8187d28d.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/0f0956d0-2f25-47a0-b7c8-007a8187d28d.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/HHHH4QQ.m3u8",
@@ -309,7 +333,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "SG Dynamo Dresden vs FC Schalke 04",
@@ -550,6 +574,146 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Chelsea FC vs AS Roma",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "chelsea-fc-vs-as-roma",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
+          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/28 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chelsea FC",
+            "flag": "https://img.sofascore.com/api/v1/team/66768/image"
+          },
+          "team_b": {
+            "name": "AS Roma",
+            "flag": "https://img.sofascore.com/api/v1/team/301414/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/66768/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4646524.m3u8?txSecret=dbb5e85eff054215db0f78201a5d709d&txTime=6AE246AB",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4646524.m3u8?txSecret=dbb5e85eff054215db0f78201a5d709d&txTime=6AE246AB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/JBBBA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/JBBBA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "FC Bayern Munchen vs Real Madrid",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-bayern-munchen-vs-real-madrid",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
+          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/28 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Bayern München",
+            "flag": "https://img.sofascore.com/api/v1/team/5543/image"
+          },
+          "team_b": {
+            "name": "Real Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/305051/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5543/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4646523.m3u8?txSecret=614e8eefe05d37290f1310fcb662394c&txTime=6AE246C3",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4646523.m3u8?txSecret=614e8eefe05d37290f1310fcb662394c&txTime=6AE246C3|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/JBBB.m3u8",
+            "raw_link": "http://193.47.62.59/hls/JBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Servette FC Chenois Feminin vs Oud-Heverlee Leuven",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "servette-fc-chenois-feminin-vs-oud-heverlee-leuven",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
+          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/28 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Servette FC Chênois Féminin",
+            "flag": "https://img.sofascore.com/api/v1/team/305811/image"
+          },
+          "team_b": {
+            "name": "Oud-Heverlee Leuven",
+            "flag": "https://img.sofascore.com/api/v1/team/178246/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/305811/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/JBBBAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/JBBBAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2404,87 +2568,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2573/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Chelsea FC vs AS Roma",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "chelsea-fc-vs-as-roma",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
-          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/28 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Chelsea FC",
-            "flag": "https://img.sofascore.com/api/v1/team/66768/image"
-          },
-          "team_b": {
-            "name": "AS Roma",
-            "flag": "https://img.sofascore.com/api/v1/team/301414/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/66768/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Bayern Munchen vs Real Madrid",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-bayern-munchen-vs-real-madrid",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
-          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/28 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Bayern München",
-            "flag": "https://img.sofascore.com/api/v1/team/5543/image"
-          },
-          "team_b": {
-            "name": "Real Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/305051/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5543/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Servette FC Chenois Feminin vs Oud-Heverlee Leuven",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "servette-fc-chenois-feminin-vs-oud-heverlee-leuven",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:45:00 PM",
-          "end_time_bst": "Oct 29, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/28 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Servette FC Chênois Féminin",
-            "flag": "https://img.sofascore.com/api/v1/team/305811/image"
-          },
-          "team_b": {
-            "name": "Oud-Heverlee Leuven",
-            "flag": "https://img.sofascore.com/api/v1/team/178246/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/305811/image",
         "channels": [],
         "total_channels": 0
       },
