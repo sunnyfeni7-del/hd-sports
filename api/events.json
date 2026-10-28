@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T20:15:53.833729+00:00",
+  "last_updated": "2026-10-28T22:16:26.140738+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -59,6 +59,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/90395230-9fa9-4930-b159-e067b1fd7daf.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/90395230-9fa9-4930-b159-e067b1fd7daf.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/77IIIAAAA.m3u8",
@@ -71,7 +79,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Monza vs SSC Napoli",
@@ -129,6 +137,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/2694a52d-472d-46a1-a6db-b80f7af1e36f.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/2694a52d-472d-46a1-a6db-b80f7af1e36f.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/77IIIAAAAQ.m3u8",
@@ -141,7 +157,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Manchester City vs Brighton Hove Albion",
@@ -307,6 +323,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/f68ef32b-ab13-4506-9a5c-76923a575a0f.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/f68ef32b-ab13-4506-9a5c-76923a575a0f.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/JMMMAAQQQ.m3u8",
@@ -319,7 +343,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Fulham vs Crystal Palace",
@@ -611,6 +635,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/fac95417-38cd-4196-8dbb-ade9d660fe79.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/fac95417-38cd-4196-8dbb-ade9d660fe79.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/77III.m3u8",
@@ -623,7 +655,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "FC Bayern Munchen vs 1. FC Magdeburg",
@@ -671,6 +703,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/dec93ea9-7c72-424b-bc9f-ea1f3ee27030.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/dec93ea9-7c72-424b-bc9f-ea1f3ee27030.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/77IIIA.m3u8",
@@ -683,7 +723,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Hannover 96 vs 1. FC Kaiserslautern",
@@ -884,6 +924,134 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Fluminense vs Internacional",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fluminense-vs-internacional",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
+          "raw_start_utc": "2026/10/28 22:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fluminense",
+            "flag": "https://img.sofascore.com/api/v1/team/1961/image"
+          },
+          "team_b": {
+            "name": "Internacional",
+            "flag": "https://img.sofascore.com/api/v1/team/1966/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1961/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Red Bull Bragantino vs Chapecoense",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "red-bull-bragantino-vs-chapecoense",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
+          "raw_start_utc": "2026/10/28 22:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Red Bull Bragantino",
+            "flag": "https://img.sofascore.com/api/v1/team/1999/image"
+          },
+          "team_b": {
+            "name": "Chapecoense",
+            "flag": "https://img.sofascore.com/api/v1/team/21845/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1999/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+            "headers": {},
+            "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Santos vs Palmeiras",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "santos-vs-palmeiras",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
+          "raw_start_utc": "2026/10/28 22:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Santos",
+            "flag": "https://img.sofascore.com/api/v1/team/1968/image"
+          },
+          "team_b": {
+            "name": "Palmeiras",
+            "flag": "https://img.sofascore.com/api/v1/team/1963/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1968/image",
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+          },
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "headers": {},
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+          },
+          {
+            "channel_name": "SportDigital FussBall",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "headers": {},
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -2021,134 +2189,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2946/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Fluminense vs Internacional",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fluminense-vs-internacional",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
-          "raw_start_utc": "2026/10/28 22:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fluminense",
-            "flag": "https://img.sofascore.com/api/v1/team/1961/image"
-          },
-          "team_b": {
-            "name": "Internacional",
-            "flag": "https://img.sofascore.com/api/v1/team/1966/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1961/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Red Bull Bragantino vs Chapecoense",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "red-bull-bragantino-vs-chapecoense",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
-          "raw_start_utc": "2026/10/28 22:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Red Bull Bragantino",
-            "flag": "https://img.sofascore.com/api/v1/team/1999/image"
-          },
-          "team_b": {
-            "name": "Chapecoense",
-            "flag": "https://img.sofascore.com/api/v1/team/21845/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1999/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-            "headers": {},
-            "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Santos vs Palmeiras",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "santos-vs-palmeiras",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 06:50:00 AM",
-          "raw_start_utc": "2026/10/28 22:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Santos",
-            "flag": "https://img.sofascore.com/api/v1/team/1968/image"
-          },
-          "team_b": {
-            "name": "Palmeiras",
-            "flag": "https://img.sofascore.com/api/v1/team/1963/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1968/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-          },
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "headers": {},
-            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-          },
-          {
-            "channel_name": "SportDigital FussBall",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-            "headers": {},
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Bahia vs Sao Paulo",
