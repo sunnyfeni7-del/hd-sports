@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T16:04:29.416904+00:00",
+  "last_updated": "2026-10-28T16:49:37.901609+00:00",
   "event_count": 73,
   "events": {
     "events": [
@@ -102,6 +102,82 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "SC Freiburg vs VfL Wolfsburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-freiburg-vs-vfl-wolfsburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/28 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Freiburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
+          },
+          "team_b": {
+            "name": "VfL Wolfsburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2524/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2538/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "SC Paderborn 07 vs VfB Stuttgart",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-paderborn-07-vs-vfb-stuttgart",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/28 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Paderborn 07",
+            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
+          },
+          "team_b": {
+            "name": "VfB Stuttgart",
+            "flag": "https://img.sofascore.com/api/v1/team/2677/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1986,60 +2062,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2595/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Freiburg vs VfL Wolfsburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-freiburg-vs-vfl-wolfsburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/28 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Freiburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
-          },
-          "team_b": {
-            "name": "VfL Wolfsburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2524/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2538/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Paderborn 07 vs VfB Stuttgart",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-paderborn-07-vs-vfb-stuttgart",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/28 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Paderborn 07",
-            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
-          },
-          "team_b": {
-            "name": "VfB Stuttgart",
-            "flag": "https://img.sofascore.com/api/v1/team/2677/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
         "channels": [],
         "total_channels": 0
       },
