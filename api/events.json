@@ -1,98 +1,8 @@
 {
-  "last_updated": "2026-10-28T19:55:39.104766+00:00",
-  "event_count": 49,
+  "last_updated": "2026-10-28T20:15:53.833729+00:00",
+  "event_count": 45,
   "events": {
     "events": [
-      {
-        "title": "Al Khaldiya vs Al-Wahda FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-khaldiya-vs-al-wahda-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/28 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Khaldiya",
-            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
-          },
-          "team_b": {
-            "name": "Al-Wahda FC",
-            "flag": "https://img.sofascore.com/api/v1/team/264115/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/371631/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/5JJJQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/5JJJQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Al Faisaly SC vs Al-Taawoun",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-faisaly-sc-vs-al-taawoun",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 12:15:00 AM",
-          "end_time_bst": "Oct 29, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/10/28 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Faisaly SC",
-            "flag": "https://img.sofascore.com/api/v1/team/47482/image"
-          },
-          "team_b": {
-            "name": "Al-Taawoun",
-            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47482/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/5JJJQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/5JJJQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
       {
         "title": "Genoa vs Juventus",
         "sport": "Football",
@@ -309,6 +219,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/0b699221-cc80-40d5-b8e0-a20370c5915c.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/0b699221-cc80-40d5-b8e0-a20370c5915c.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/JMMMA.m3u8",
@@ -321,7 +239,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 7
       },
       {
         "title": "Bournemouth vs Aston Villa",
@@ -459,6 +377,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/885cf9c9-5cd5-4f01-bf28-d63554d069cd.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/885cf9c9-5cd5-4f01-bf28-d63554d069cd.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/OLLLAAA.m3u8",
@@ -471,7 +397,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Liverpool FC vs Chelsea",
@@ -509,6 +435,26 @@
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
           },
           {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "DAZN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58781/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58781/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live.vivo155.com/live/sd-1-4646877.m3u8?txSecret=4cb2bfe8cfe446024b96e23a76e2dc0b&txTime=6AE26234",
@@ -516,6 +462,14 @@
             "headers": {
               "Referer": "https://player.on8on8.com/"
             },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/9c6c3e17-c6b6-40ee-9681-62bc1336b057.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/9c6c3e17-c6b6-40ee-9681-62bc1336b057.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -531,7 +485,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 6
       },
       {
         "title": "Sunderland vs Brentford",
@@ -589,6 +543,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy HD",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/f15d19dd-029b-4b31-b9bb-a2b506a2c0d5.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/f15d19dd-029b-4b31-b9bb-a2b506a2c0d5.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/OLLLAAAA.m3u8",
@@ -601,7 +563,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Bayer 04 Leverkusen vs 1. FC Nurnberg",
@@ -842,6 +804,46 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Arsenal vs Benfica",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "arsenal-vs-benfica",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 02:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/10/28 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/26243/image"
+          },
+          "team_b": {
+            "name": "Benfica",
+            "flag": "https://img.sofascore.com/api/v1/team/297853/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/26243/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77IIIAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "OL Lyonnes vs Inter",
@@ -2021,33 +2023,6 @@
         "total_channels": 0
       },
       {
-        "title": "Arsenal vs Benfica",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "arsenal-vs-benfica",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/28 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/26243/image"
-          },
-          "team_b": {
-            "name": "Benfica",
-            "flag": "https://img.sofascore.com/api/v1/team/297853/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/26243/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Fluminense vs Internacional",
         "sport": "Football",
         "sub_category": "Football",
@@ -2248,33 +2223,6 @@
         "total_channels": 1
       },
       {
-        "title": "Indiana Pacers vs Philadelphia 76ers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "indiana-pacers-vs-philadelphia-76ers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/28 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Indiana Pacers",
-            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
-          },
-          "team_b": {
-            "name": "Philadelphia 76ers",
-            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3419/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Atlanta Hawks vs Miami Heat",
         "sport": "Basketball",
         "sub_category": "Basketball",
@@ -2312,33 +2260,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Cleveland Cavaliers vs Washington Wizards",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cleveland-cavaliers-vs-washington-wizards",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
-          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
-          "raw_start_utc": "2026/10/28 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cleveland Cavaliers",
-            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
-          },
-          "team_b": {
-            "name": "Washington Wizards",
-            "flag": "https://img.sofascore.com/api/v1/team/3431/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3432/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Detroit Pistons vs Charlotte Hornets",
