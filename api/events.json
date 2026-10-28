@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T03:45:40.582400+00:00",
-  "event_count": 66,
+  "last_updated": "2026-10-28T05:41:14.310481+00:00",
+  "event_count": 77,
   "events": {
     "events": [
       {
@@ -49,6 +49,22 @@
             "drm_key": null
           },
           {
+            "channel_name": "RABBITHOLE - AQ",
+            "stream_type": "HLS",
+            "url": "https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793163608~exp=1793192468~acl=/bpk-tv/202/default/*~eti=fa5c4cfd542424a6997eeb9a23402d68~sid=bd517d501743ba42~imax=2~hmac=a93e35b6ba5cd2b8f875372fdddac209b26195fd898d8aacdb59621bf0359000/bpk-tv/202/default/index.m3u8",
+            "raw_link": "https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793163608~exp=1793192468~acl=/bpk-tv/202/default/*~eti=fa5c4cfd542424a6997eeb9a23402d68~sid=bd517d501743ba42~imax=2~hmac=a93e35b6ba5cd2b8f875372fdddac209b26195fd898d8aacdb59621bf0359000/bpk-tv/202/default/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - LQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+          },
+          {
             "channel_name": "T SPORTS HD",
             "stream_type": "HLS",
             "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
@@ -68,79 +84,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
-      },
-      {
-        "title": "Los Angeles Lakers vs Portland Trail Blazers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-lakers-vs-portland-trail-blazers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 09:00:00 AM",
-          "end_time_bst": "Oct 28, 2026, 11:30:00 AM",
-          "raw_start_utc": "2026/10/28 03:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Lakers",
-            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-          },
-          "team_b": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58768/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58768/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58767/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58767/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8?st=EoJhQ3ebkCNC5pZyCvW1aCJZpcI8wT0ZKzua02BdjmY&e=1793165407",
-            "raw_link": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8?st=EoJhQ3ebkCNC5pZyCvW1aCJZpcI8wT0ZKzua02BdjmY&e=1793165407|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/JGGGAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/JGGGAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
@@ -2579,6 +2523,330 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2012/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Indiana Pacers vs Philadelphia 76ers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "indiana-pacers-vs-philadelphia-76ers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/28 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Indiana Pacers",
+            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
+          },
+          "team_b": {
+            "name": "Philadelphia 76ers",
+            "flag": "https://img.sofascore.com/api/v1/team/3420/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3419/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Atlanta Hawks vs Miami Heat",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "atlanta-hawks-vs-miami-heat",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/28 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atlanta Hawks",
+            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
+          },
+          "team_b": {
+            "name": "Miami Heat",
+            "flag": "https://img.sofascore.com/api/v1/team/3435/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3423/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Cleveland Cavaliers vs Washington Wizards",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "cleveland-cavaliers-vs-washington-wizards",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/28 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cleveland Cavaliers",
+            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
+          },
+          "team_b": {
+            "name": "Washington Wizards",
+            "flag": "https://img.sofascore.com/api/v1/team/3431/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3432/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Detroit Pistons vs Charlotte Hornets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "detroit-pistons-vs-charlotte-hornets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "raw_start_utc": "2026/10/28 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Detroit Pistons",
+            "flag": "https://img.sofascore.com/api/v1/team/3424/image"
+          },
+          "team_b": {
+            "name": "Charlotte Hornets",
+            "flag": "https://img.sofascore.com/api/v1/team/3430/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3424/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Toronto Raptors vs Orlando Magic",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "toronto-raptors-vs-orlando-magic",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 05:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:00:00 AM",
+          "raw_start_utc": "2026/10/28 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Toronto Raptors",
+            "flag": "https://img.sofascore.com/api/v1/team/3433/image"
+          },
+          "team_b": {
+            "name": "Orlando Magic",
+            "flag": "https://img.sofascore.com/api/v1/team/3437/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3433/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Minnesota Timberwolves vs Golden State Warriors",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "minnesota-timberwolves-vs-golden-state-warriors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Minnesota Timberwolves",
+            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
+          },
+          "team_b": {
+            "name": "Golden State Warriors",
+            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3426/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Chicago Bulls vs New York Knicks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "chicago-bulls-vs-new-york-knicks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chicago Bulls",
+            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+          },
+          "team_b": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3409/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "New Orleans Pelicans vs Denver Nuggets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "new-orleans-pelicans-vs-denver-nuggets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Orleans Pelicans",
+            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
+          },
+          "team_b": {
+            "name": "Denver Nuggets",
+            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Milwaukee Bucks vs Houston Rockets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "milwaukee-bucks-vs-houston-rockets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "raw_start_utc": "2026/10/29 00:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Milwaukee Bucks",
+            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
+          },
+          "team_b": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Utah Jazz vs San Antonio Spurs",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "utah-jazz-vs-san-antonio-spurs",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 07:00:00 AM",
+          "end_time_bst": "Oct 29, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/10/29 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Utah Jazz",
+            "flag": "https://img.sofascore.com/api/v1/team/3434/image"
+          },
+          "team_b": {
+            "name": "San Antonio Spurs",
+            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3434/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Dallas Mavericks vs Oklahoma City Thunder",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "dallas-mavericks-vs-oklahoma-city-thunder",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/10/29 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Dallas Mavericks",
+            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
+          },
+          "team_b": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3411/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Los Angeles Clippers vs Los Angeles Lakers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "los-angeles-clippers-vs-los-angeles-lakers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 08:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 11:00:00 AM",
+          "raw_start_utc": "2026/10/29 02:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Los Angeles Clippers",
+            "flag": "https://img.sofascore.com/api/v1/team/3425/image"
+          },
+          "team_b": {
+            "name": "Los Angeles Lakers",
+            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3425/image",
         "channels": [],
         "total_channels": 0
       }
