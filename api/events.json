@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T19:30:31.300154+00:00",
-  "event_count": 55,
+  "last_updated": "2026-10-28T19:40:33.697450+00:00",
+  "event_count": 52,
   "events": {
     "events": [
       {
@@ -94,55 +94,35 @@
         "total_channels": 2
       },
       {
-        "title": "AC Milan vs Bologna",
+        "title": "Genoa vs Juventus",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "ac-milan-vs-bologna",
+        "slug": "genoa-vs-juventus",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/28 17:30:00 +0000"
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "AC Milan",
-            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+            "name": "Genoa",
+            "flag": "https://img.sofascore.com/api/v1/team/2713/image"
           },
           "team_b": {
-            "name": "Bologna",
-            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2713/image",
         "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "TNT SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58772/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58772/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
           {
             "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4549088.m3u8?txSecret=8fae5a280018de3629c9313b1ee037a3&txTime=6AE244D3",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549088.m3u8?txSecret=8fae5a280018de3629c9313b1ee037a3&txTime=6AE244D3|Referer=https://player.on8on8.com/",
+            "url": "https://live.vivo155.com/live/hd-en-1-4549128.m3u8?txSecret=64054d369aefbc3dec67bed500df15c7&txTime=6AE2630E",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549128.m3u8?txSecret=64054d369aefbc3dec67bed500df15c7&txTime=6AE2630E|Referer=https://player.on8on8.com/",
             "headers": {
               "Referer": "https://player.on8on8.com/"
             },
@@ -151,16 +131,18 @@
           {
             "channel_name": "HD SERVER ",
             "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/43924486-7277-47f0-8207-2a358270562f.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/43924486-7277-47f0-8207-2a358270562f.m3u8",
-            "headers": {},
+            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/HHHH4Q.m3u8",
-            "raw_link": "http://193.47.62.44/hls/HHHH4Q.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.59/hls/77IIIAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -169,161 +151,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
-      },
-      {
-        "title": "Parma vs Udinese",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "parma-vs-udinese",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Parma",
-            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
-          },
-          "team_b": {
-            "name": "Udinese",
-            "flag": "https://img.sofascore.com/api/v1/team/2695/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2690/image",
-        "channels": [
-          {
-            "channel_name": "FUBO SPORTS HD ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58774/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58774/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4549123.m3u8?txSecret=2014690e32f00427d25b3cd56755a8c3&txTime=6AE2450B",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549123.m3u8?txSecret=2014690e32f00427d25b3cd56755a8c3&txTime=6AE2450B|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/77e70614-e407-48d5-af16-feac1d185e50.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/77e70614-e407-48d5-af16-feac1d185e50.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/H666AAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/H666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Venezia vs Inter",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "venezia-vs-inter",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Venezia",
-            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
-          },
-          "team_b": {
-            "name": "Inter",
-            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2688/image",
-        "channels": [
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "FUBO SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58773/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58773/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4549065.m3u8?txSecret=bc3888cc4a9f4de27c4c843514703412&txTime=6AE244F5",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549065.m3u8?txSecret=bc3888cc4a9f4de27c4c843514703412&txTime=6AE244F5|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/0f0956d0-2f25-47a0-b7c8-007a8187d28d.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/0f0956d0-2f25-47a0-b7c8-007a8187d28d.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/HHHH4QQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/HHHH4QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
+        "total_channels": 3
       },
       {
         "title": "Monza vs SSC Napoli",
@@ -359,9 +187,41 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4549113.m3u8?txSecret=471719387da9c0387a9d800955211ab2&txTime=6AE262C4",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549113.m3u8?txSecret=471719387da9c0387a9d800955211ab2&txTime=6AE262C4|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77IIIAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Manchester City vs Brighton Hove Albion",
@@ -487,9 +347,81 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/JMMMAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/JMMMAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
+      },
+      {
+        "title": "Fulham vs Crystal Palace",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fulham-vs-crystal-palace",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fulham",
+            "flag": "https://img.sofascore.com/api/v1/team/43/image"
+          },
+          "team_b": {
+            "name": "Crystal Palace",
+            "flag": "https://img.sofascore.com/api/v1/team/7/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/43/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4646876.m3u8?txSecret=3763132fcbf86dc38db115bce1660f3f&txTime=6AE26219",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4646876.m3u8?txSecret=3763132fcbf86dc38db115bce1660f3f&txTime=6AE26219|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/OLLLAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/OLLLAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Sunderland vs Brentford",
@@ -521,6 +453,166 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/OLLLAAAA.m3u8",
             "raw_link": "http://193.47.62.50/hls/OLLLAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Bayer 04 Leverkusen vs 1. FC Nurnberg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bayer-04-leverkusen-vs-1-fc-nurnberg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bayer 04 Leverkusen",
+            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+          },
+          "team_b": {
+            "name": "1. FC Nürnberg",
+            "flag": "https://img.sofascore.com/api/v1/team/2523/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2681/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77III.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77III.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FC Bayern Munchen vs 1. FC Magdeburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-bayern-munchen-vs-1-fc-magdeburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Bayern München",
+            "flag": "https://img.sofascore.com/api/v1/team/2672/image"
+          },
+          "team_b": {
+            "name": "1. FC Magdeburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2591/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2672/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77IIIA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Hannover 96 vs 1. FC Kaiserslautern",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "hannover-96-vs-1-fc-kaiserslautern",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hannover 96",
+            "flag": "https://img.sofascore.com/api/v1/team/2541/image"
+          },
+          "team_b": {
+            "name": "1. FC Kaiserslautern",
+            "flag": "https://img.sofascore.com/api/v1/team/2675/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2541/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77IIIAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Holstein Kiel vs TSG Hoffenheim",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "holstein-kiel-vs-tsg-hoffenheim",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/28 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Holstein Kiel",
+            "flag": "https://img.sofascore.com/api/v1/team/2573/image"
+          },
+          "team_b": {
+            "name": "TSG Hoffenheim",
+            "flag": "https://img.sofascore.com/api/v1/team/2569/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2573/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/77IIIAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/77IIIAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1809,60 +1901,6 @@
         "total_channels": 0
       },
       {
-        "title": "Genoa vs Juventus",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "genoa-vs-juventus",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Genoa",
-            "flag": "https://img.sofascore.com/api/v1/team/2713/image"
-          },
-          "team_b": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2713/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Fulham vs Crystal Palace",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fulham-vs-crystal-palace",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fulham",
-            "flag": "https://img.sofascore.com/api/v1/team/43/image"
-          },
-          "team_b": {
-            "name": "Crystal Palace",
-            "flag": "https://img.sofascore.com/api/v1/team/7/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/43/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Liverpool FC vs Chelsea",
         "sport": "Football",
         "sub_category": "Football",
@@ -1911,114 +1949,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Bayer 04 Leverkusen vs 1. FC Nurnberg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bayer-04-leverkusen-vs-1-fc-nurnberg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bayer 04 Leverkusen",
-            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
-          },
-          "team_b": {
-            "name": "1. FC Nürnberg",
-            "flag": "https://img.sofascore.com/api/v1/team/2523/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2681/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "FC Bayern Munchen vs 1. FC Magdeburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-bayern-munchen-vs-1-fc-magdeburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Bayern München",
-            "flag": "https://img.sofascore.com/api/v1/team/2672/image"
-          },
-          "team_b": {
-            "name": "1. FC Magdeburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2591/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2672/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Hannover 96 vs 1. FC Kaiserslautern",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "hannover-96-vs-1-fc-kaiserslautern",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Hannover 96",
-            "flag": "https://img.sofascore.com/api/v1/team/2541/image"
-          },
-          "team_b": {
-            "name": "1. FC Kaiserslautern",
-            "flag": "https://img.sofascore.com/api/v1/team/2675/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2541/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Holstein Kiel vs TSG Hoffenheim",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "holstein-kiel-vs-tsg-hoffenheim",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-          "end_time_bst": "Oct 29, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/10/28 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Holstein Kiel",
-            "flag": "https://img.sofascore.com/api/v1/team/2573/image"
-          },
-          "team_b": {
-            "name": "TSG Hoffenheim",
-            "flag": "https://img.sofascore.com/api/v1/team/2569/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2573/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Arsenal vs Benfica",
