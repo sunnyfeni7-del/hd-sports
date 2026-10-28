@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T13:33:42.230824+00:00",
-  "event_count": 74,
+  "last_updated": "2026-10-28T15:34:14.302780+00:00",
+  "event_count": 75,
   "events": {
     "events": [
       {
@@ -111,197 +111,6 @@
         "total_channels": 9
       },
       {
-        "title": "NPL Nepal Premier League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "npl-nepal-premier-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 05:15:38 PM",
-          "end_time_bst": "Oct 28, 2026, 09:00:43 PM",
-          "raw_start_utc": "2026/10/28 11:15:38 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
-          },
-          "team_b": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-        "channels": [
-          {
-            "channel_name": "STAR SPORTS - AQ",
-            "stream_type": "HLS",
-            "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
-            "raw_link": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "headers": {},
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250358_english_hls_96367dc67f52533_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250358_english_hls_96367dc67f52533_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Persib Bandung vs Melbourne Victory",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "persib-bandung-vs-melbourne-victory",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/28 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Persib Bandung",
-            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
-          },
-          "team_b": {
-            "name": "Melbourne Victory",
-            "flag": "https://img.sofascore.com/api/v1/team/5970/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/64289/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621359.m3u8?txSecret=2be3492013d5b021a19e9aaca5a61887&txTime=6AE1F5F6",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621359.m3u8?txSecret=2be3492013d5b021a19e9aaca5a61887&txTime=6AE1F5F6|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/e1d29c51-bd7a-4d98-9470-ea2ffc94456f.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/e1d29c51-bd7a-4d98-9470-ea2ffc94456f.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/JRRRA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/JRRRA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "The Cong - Viettel vs FC Seoul",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "the-cong-viettel-vs-fc-seoul",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 06:15:00 PM",
-          "end_time_bst": "Oct 28, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/10/28 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Thể Công - Viettel",
-            "flag": "https://img.sofascore.com/api/v1/team/231270/image"
-          },
-          "team_b": {
-            "name": "FC Seoul",
-            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/231270/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621355.m3u8?txSecret=b5a762dd09852601bb0c2527d59ef16b&txTime=6AE1F5C8",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621355.m3u8?txSecret=b5a762dd09852601bb0c2527d59ef16b&txTime=6AE1F5C8|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://live1.quickscoreboardz.com/live/channel11.m3u8?",
-            "raw_link": "https://live1.quickscoreboardz.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/d063fe8c-ddda-4251-b8b4-f615358791b0.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/d063fe8c-ddda-4251-b8b4-f615358791b0.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/JRRRAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/JRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Gol Gohar Sirjan vs Arkadag FK",
         "sport": "Football",
         "sub_category": "Football",
@@ -327,6 +136,26 @@
         "logo": "https://img.sofascore.com/api/v1/team/275525/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621318.m3u8?txSecret=37a5b03882c64baaec8a90dd0643209a&txTime=6AE2119D",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621318.m3u8?txSecret=37a5b03882c64baaec8a90dd0643209a&txTime=6AE2119D|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/I000AAAAQQ.m3u8",
@@ -339,7 +168,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Nasaf Qarshi vs Al Kuwait SC",
@@ -367,6 +196,26 @@
         "logo": "https://img.sofascore.com/api/v1/team/34017/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621303.m3u8?txSecret=ce551beaa92edfa46b85b97a47b9a8c5&txTime=6AE21179",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621303.m3u8?txSecret=ce551beaa92edfa46b85b97a47b9a8c5&txTime=6AE21179|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/I000AAAAQQQ.m3u8",
@@ -379,7 +228,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1323,6 +1172,61 @@
             "headers": {
               "Referer": "https://streamscenter.online/",
               "Origin": "https://streamscenter.online"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "NPL Nepal Premier League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "npl-nepal-premier-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 12:45:20 PM",
+          "end_time_bst": "Oct 29, 2026, 09:00:25 PM",
+          "raw_start_utc": "2026/10/29 06:45:20 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          },
+          "team_b": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "channels": [
+          {
+            "channel_name": "STAR SPORTS - AQ",
+            "stream_type": "HLS",
+            "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
+            "raw_link": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "headers": {},
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250358_english_hls_96367dc67f52533_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250358_english_hls_96367dc67f52533_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
             },
             "drm_key": null
           }
@@ -2939,6 +2843,87 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3425/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Melbourne Renegades Women vs Sydney Thunder Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "melbourne-renegades-women-vs-sydney-thunder-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 10:40:00 AM",
+          "end_time_bst": "Oct 29, 2026, 02:40:00 PM",
+          "raw_start_utc": "2026/10/29 04:40:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Melbourne Renegades Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
+          },
+          "team_b": {
+            "name": "Sydney Thunder Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274889/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274887/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Melbourne Stars Women vs Hobart Hurricanes Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "melbourne-stars-women-vs-hobart-hurricanes-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 02:10:00 PM",
+          "end_time_bst": "Oct 29, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/10/29 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Melbourne Stars Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274886/image"
+          },
+          "team_b": {
+            "name": "Hobart Hurricanes Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274886/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Brisbane Heat Women vs Sydney Sixers Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "brisbane-heat-women-vs-sydney-sixers-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 02:10:00 PM",
+          "end_time_bst": "Oct 30, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/10/30 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Brisbane Heat Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274884/image"
+          },
+          "team_b": {
+            "name": "Sydney Sixers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274883/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274884/image",
         "channels": [],
         "total_channels": 0
       }
