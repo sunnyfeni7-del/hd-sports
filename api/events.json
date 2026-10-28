@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T16:49:37.901609+00:00",
+  "last_updated": "2026-10-28T17:19:51.596793+00:00",
   "event_count": 73,
   "events": {
     "events": [
@@ -104,6 +104,150 @@
         "total_channels": 2
       },
       {
+        "title": "AC Milan vs Bologna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ac-milan-vs-bologna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/28 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Milan",
+            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+          },
+          "team_b": {
+            "name": "Bologna",
+            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Venezia vs Inter",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "venezia-vs-inter",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/28 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Venezia",
+            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
+          },
+          "team_b": {
+            "name": "Inter",
+            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2688/image",
+        "channels": [
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "SG Dynamo Dresden vs FC Schalke 04",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sg-dynamo-dresden-vs-fc-schalke-04",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/28 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SG Dynamo Dresden",
+            "flag": "https://img.sofascore.com/api/v1/team/2595/image"
+          },
+          "team_b": {
+            "name": "FC Schalke 04",
+            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2595/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4641670.m3u8?txSecret=c8ee258fb637d7d33ea9a4d878455792&txTime=6AE23FFB",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4641670.m3u8?txSecret=c8ee258fb637d7d33ea9a4d878455792&txTime=6AE23FFB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/K666AAAAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/K666AAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "SC Freiburg vs VfL Wolfsburg",
         "sport": "Football",
         "sub_category": "Football",
@@ -129,6 +273,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/2538/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4641679.m3u8?txSecret=6db318853e174a8d25cbc2260990d5ba&txTime=6AE2402C",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4641679.m3u8?txSecret=6db318853e174a8d25cbc2260990d5ba&txTime=6AE2402C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
@@ -137,9 +291,21 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/K666AAAAQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/K666AAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "SC Paderborn 07 vs VfB Stuttgart",
@@ -167,6 +333,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/2561/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4641681.m3u8?txSecret=0825a25ab7e863fbc261d8db56c04f8d&txTime=6AE2404B",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4641681.m3u8?txSecret=0825a25ab7e863fbc261d8db56c04f8d&txTime=6AE2404B|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
@@ -175,9 +351,81 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/K666AAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/K666AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
+      },
+      {
+        "title": "SSV Jeddeloh II vs Hertha BSC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ssv-jeddeloh-ii-vs-hertha-bsc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/28 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SSV Jeddeloh II",
+            "flag": "https://img.sofascore.com/api/v1/team/75853/image"
+          },
+          "team_b": {
+            "name": "Hertha BSC",
+            "flag": "https://img.sofascore.com/api/v1/team/2528/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/75853/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4641667.m3u8?txSecret=6eeafde4d94bfd1ed5cba732ebdc68f0&txTime=6AE24060",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4641667.m3u8?txSecret=6eeafde4d94bfd1ed5cba732ebdc68f0&txTime=6AE24060|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/K666AAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/K666AAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1695,44 +1943,6 @@
         "total_channels": 0
       },
       {
-        "title": "AC Milan vs Bologna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ac-milan-vs-bologna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AC Milan",
-            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
-          },
-          "team_b": {
-            "name": "Bologna",
-            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Parma vs Udinese",
         "sport": "Football",
         "sub_category": "Football",
@@ -1758,52 +1968,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2690/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Venezia vs Inter",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "venezia-vs-inter",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Venezia",
-            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
-          },
-          "team_b": {
-            "name": "Inter",
-            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2688/image",
-        "channels": [
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Genoa vs Juventus",
@@ -2035,60 +2199,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/41/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SG Dynamo Dresden vs FC Schalke 04",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sg-dynamo-dresden-vs-fc-schalke-04",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/28 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SG Dynamo Dresden",
-            "flag": "https://img.sofascore.com/api/v1/team/2595/image"
-          },
-          "team_b": {
-            "name": "FC Schalke 04",
-            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2595/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SSV Jeddeloh II vs Hertha BSC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ssv-jeddeloh-ii-vs-hertha-bsc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/28 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SSV Jeddeloh II",
-            "flag": "https://img.sofascore.com/api/v1/team/75853/image"
-          },
-          "team_b": {
-            "name": "Hertha BSC",
-            "flag": "https://img.sofascore.com/api/v1/team/2528/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/75853/image",
         "channels": [],
         "total_channels": 0
       },
