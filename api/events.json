@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T17:46:27.861350+00:00",
-  "event_count": 30,
+  "last_updated": "2026-10-29T17:51:29.618231+00:00",
+  "event_count": 28,
   "events": {
     "events": [
       {
@@ -199,6 +199,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Al-Riyadh vs Al-Qadsiah",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-riyadh-vs-al-qadsiah",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 30, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/29 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Riyadh",
+            "flag": "https://img.sofascore.com/api/v1/team/168088/image"
+          },
+          "team_b": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/168088/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/GTTTTAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/GTTTTAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FK Austria Wien vs Juventus",
@@ -1517,33 +1557,6 @@
         "total_channels": 2
       },
       {
-        "title": "Al-Riyadh vs Al-Qadsiah",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-riyadh-vs-al-qadsiah",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/29 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Riyadh",
-            "flag": "https://img.sofascore.com/api/v1/team/168088/image"
-          },
-          "team_b": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168088/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Everton vs Newcastle United",
         "sport": "Football",
         "sub_category": "Football",
@@ -1590,60 +1603,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Manchester City vs Paris Saint-Germain",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "manchester-city-vs-paris-saint-germain",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/29 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Manchester City",
-            "flag": "https://img.sofascore.com/api/v1/team/142658/image"
-          },
-          "team_b": {
-            "name": "Paris Saint-Germain",
-            "flag": "https://img.sofascore.com/api/v1/team/55505/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/142658/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "HB Kge vs Futbol Club Barcelona",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "hb-kge-vs-futbol-club-barcelona",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 02:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/10/29 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "HB Køge",
-            "flag": "https://img.sofascore.com/api/v1/team/333128/image"
-          },
-          "team_b": {
-            "name": "Fútbol Club Barcelona",
-            "flag": "https://img.sofascore.com/api/v1/team/77889/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/333128/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Hong Kong Sixes 2026",
