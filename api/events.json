@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T12:09:58.240046+00:00",
+  "last_updated": "2026-10-29T14:20:34.673638+00:00",
   "event_count": 30,
   "events": {
     "events": [
@@ -193,6 +193,71 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 08:30:54 PM",
+          "end_time_bst": "Oct 30, 2026, 12:30:59 AM",
+          "raw_start_utc": "2026/10/29 14:30:54 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "headers": {},
+            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
+            "headers": {},
+            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
+            "headers": {
+              "referer": "https://www.tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "NPL Nepal Premier League",
@@ -398,6 +463,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Al-Khaleej vs Al-Hazem",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-khaleej-vs-al-hazem",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 08:35:00 PM",
+          "end_time_bst": "Oct 29, 2026, 10:55:00 PM",
+          "raw_start_utc": "2026/10/29 14:35:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Khaleej",
+            "flag": "https://img.sofascore.com/api/v1/team/167228/image"
+          },
+          "team_b": {
+            "name": "Al-Hazem",
+            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/167228/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -981,71 +1086,6 @@
         "total_channels": 10
       },
       {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 08:30:54 PM",
-          "end_time_bst": "Oct 30, 2026, 12:30:59 AM",
-          "raw_start_utc": "2026/10/29 14:30:54 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "headers": {},
-            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
-            "headers": {},
-            "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://www.tapmad.com/",
-            "headers": {
-              "referer": "https://www.tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249769_english_hls_260c41cdcf27321_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Pakistan vs Sri Lanka",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1578,46 +1618,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Al-Khaleej vs Al-Hazem",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-khaleej-vs-al-hazem",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 08:35:00 PM",
-          "end_time_bst": "Oct 29, 2026, 10:55:00 PM",
-          "raw_start_utc": "2026/10/29 14:35:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Khaleej",
-            "flag": "https://img.sofascore.com/api/v1/team/167228/image"
-          },
-          "team_b": {
-            "name": "Al-Hazem",
-            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/167228/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 1
