@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T23:46:49.143005+00:00",
+  "last_updated": "2026-10-29T00:16:58.712652+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -1109,6 +1109,78 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Bahia vs Sao Paulo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bahia-vs-sao-paulo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/10/29 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bahia",
+            "flag": "https://img.sofascore.com/api/v1/team/1955/image"
+          },
+          "team_b": {
+            "name": "São Paulo",
+            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1955/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+            "headers": {},
+            "drm_key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Remo vs Botafogo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "remo-vs-botafogo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 06:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/10/29 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Remo",
+            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
+          },
+          "team_b": {
+            "name": "Botafogo",
+            "flag": "https://img.sofascore.com/api/v1/team/1958/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2012/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+            "headers": {},
+            "drm_key": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Atlanta Hawks vs Miami Heat",
@@ -2462,78 +2534,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2946/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Bahia vs Sao Paulo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bahia-vs-sao-paulo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/10/29 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bahia",
-            "flag": "https://img.sofascore.com/api/v1/team/1955/image"
-          },
-          "team_b": {
-            "name": "São Paulo",
-            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1955/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
-            "headers": {},
-            "drm_key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Remo vs Botafogo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "remo-vs-botafogo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/10/29 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Remo",
-            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
-          },
-          "team_b": {
-            "name": "Botafogo",
-            "flag": "https://img.sofascore.com/api/v1/team/1958/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2012/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-            "headers": {},
-            "drm_key": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Utah Jazz vs San Antonio Spurs",
