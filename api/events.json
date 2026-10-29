@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T12:04:58.007125+00:00",
-  "event_count": 32,
+  "last_updated": "2026-10-29T12:09:58.240046+00:00",
+  "event_count": 30,
   "events": {
     "events": [
       {
@@ -248,106 +248,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Gangwon FC vs Kuching City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "gangwon-fc-vs-kuching-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/29 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Gangwon FC",
-            "flag": "https://img.sofascore.com/api/v1/team/34220/image"
-          },
-          "team_b": {
-            "name": "Kuching City",
-            "flag": "https://img.sofascore.com/api/v1/team/338334/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34220/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/H888A.m3u8",
-            "raw_link": "http://193.47.62.59/hls/H888A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Tampines Rovers vs Preah Khan Reach Svay Rieng FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "tampines-rovers-vs-preah-khan-reach-svay-rieng-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 04:00:00 PM",
-          "end_time_bst": "Oct 29, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/10/29 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tampines Rovers",
-            "flag": "https://img.sofascore.com/api/v1/team/3043/image"
-          },
-          "team_b": {
-            "name": "Preah Khan Reach Svay Rieng FC",
-            "flag": "https://img.sofascore.com/api/v1/team/153474/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3043/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/H888AA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/H888AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Phnom Penh Crown vs Kitchee SC",
@@ -1706,8 +1606,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/167228/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Al-Nassr vs Al-Kholood",
