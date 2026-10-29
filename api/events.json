@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T17:31:25.708372+00:00",
-  "event_count": 29,
+  "last_updated": "2026-10-29T17:46:27.861350+00:00",
+  "event_count": 30,
   "events": {
     "events": [
       {
@@ -130,6 +130,16 @@
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58838/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58838/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/jmmm.m3u8",
@@ -142,7 +152,133 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
+      },
+      {
+        "title": "Al-Nassr vs Al-Kholood",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-nassr-vs-al-kholood",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 30, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/29 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Nassr",
+            "flag": "https://img.sofascore.com/api/v1/team/23400/image"
+          },
+          "team_b": {
+            "name": "Al-Kholood",
+            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/23400/image",
+        "channels": [
+          {
+            "channel_name": "FOX DEPORTES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+          },
+          {
+            "channel_name": "SportDigital FussBall",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "headers": {},
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "FK Austria Wien vs Juventus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fk-austria-wien-vs-juventus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
+          "end_time_bst": "Oct 30, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/29 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Austria Wien",
+            "flag": "https://img.sofascore.com/api/v1/team/229911/image"
+          },
+          "team_b": {
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/269824/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/229911/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/jmmmA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/jmmmA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Paris FC vs BK Hacken FF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "paris-fc-vs-bk-hacken-ff",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
+          "end_time_bst": "Oct 30, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/29 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Paris FC",
+            "flag": "https://img.sofascore.com/api/v1/team/264964/image"
+          },
+          "team_b": {
+            "name": "BK Häcken FF",
+            "flag": "https://img.sofascore.com/api/v1/team/1889/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/264964/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/jmmmAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/jmmmAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1381,52 +1517,6 @@
         "total_channels": 2
       },
       {
-        "title": "Al-Nassr vs Al-Kholood",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-nassr-vs-al-kholood",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/29 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Nassr",
-            "flag": "https://img.sofascore.com/api/v1/team/23400/image"
-          },
-          "team_b": {
-            "name": "Al-Kholood",
-            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-        "channels": [
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "SportDigital FussBall",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-            "headers": {},
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Al-Riyadh vs Al-Qadsiah",
         "sport": "Football",
         "sub_category": "Football",
@@ -1500,60 +1590,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "FK Austria Wien vs Juventus",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fk-austria-wien-vs-juventus",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
-          "end_time_bst": "Oct 30, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/29 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Austria Wien",
-            "flag": "https://img.sofascore.com/api/v1/team/229911/image"
-          },
-          "team_b": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/269824/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/229911/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Paris FC vs BK Hacken FF",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "paris-fc-vs-bk-hacken-ff",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
-          "end_time_bst": "Oct 30, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/29 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Paris FC",
-            "flag": "https://img.sofascore.com/api/v1/team/264964/image"
-          },
-          "team_b": {
-            "name": "BK Häcken FF",
-            "flag": "https://img.sofascore.com/api/v1/team/1889/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/264964/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Manchester City vs Paris Saint-Germain",
@@ -1761,6 +1797,54 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Green Bay Packers vs Carolina Panthers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "green-bay-packers-vs-carolina-panthers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 06:15:00 AM",
+          "end_time_bst": "Oct 30, 2026, 09:15:00 AM",
+          "raw_start_utc": "2026/10/30 00:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Green Bay Packers",
+            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
+          },
+          "team_b": {
+            "name": "Carolina Panthers",
+            "flag": "https://img.sofascore.com/api/v1/team/4415/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4420/image",
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 5 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 2
       }
     ]
   }
