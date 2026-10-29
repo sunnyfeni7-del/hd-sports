@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T00:47:04.515406+00:00",
+  "last_updated": "2026-10-29T01:17:11.994635+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -1495,6 +1495,45 @@
         "total_channels": 1
       },
       {
+        "title": "Dallas Mavericks vs Oklahoma City Thunder",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "dallas-mavericks-vs-oklahoma-city-thunder",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 07:30:00 AM",
+          "end_time_bst": "Oct 29, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/10/29 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Dallas Mavericks",
+            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
+          },
+          "team_b": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3411/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?",
+            "raw_link": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -2573,45 +2612,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2946/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Dallas Mavericks vs Oklahoma City Thunder",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "dallas-mavericks-vs-oklahoma-city-thunder",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 07:30:00 AM",
-          "end_time_bst": "Oct 29, 2026, 10:00:00 AM",
-          "raw_start_utc": "2026/10/29 01:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dallas Mavericks",
-            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
-          },
-          "team_b": {
-            "name": "Oklahoma City Thunder",
-            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3411/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?",
-            "raw_link": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Los Angeles Clippers vs Los Angeles Lakers",
