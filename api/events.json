@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T16:51:11.845257+00:00",
+  "last_updated": "2026-10-29T17:16:20.947455+00:00",
   "event_count": 29,
   "events": {
     "events": [
@@ -85,6 +85,52 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Frosinone vs Lecce",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "frosinone-vs-lecce",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 29, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 30, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/29 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Frosinone",
+            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
+          },
+          "team_b": {
+            "name": "Lecce",
+            "flag": "https://img.sofascore.com/api/v1/team/2689/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2801/image",
+        "channels": [
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1275,52 +1321,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Frosinone vs Lecce",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "frosinone-vs-lecce",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 11:30:00 PM",
-          "end_time_bst": "Oct 30, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/29 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Frosinone",
-            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
-          },
-          "team_b": {
-            "name": "Lecce",
-            "flag": "https://img.sofascore.com/api/v1/team/2689/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2801/image",
-        "channels": [
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Fiorentina vs Atalanta",
