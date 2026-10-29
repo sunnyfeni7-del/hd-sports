@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T16:11:04.151886+00:00",
-  "event_count": 30,
+  "last_updated": "2026-10-29T16:51:11.845257+00:00",
+  "event_count": 29,
   "events": {
     "events": [
       {
@@ -85,56 +85,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "Al-Khaleej vs Al-Hazem",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "al-khaleej-vs-al-hazem",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 29, 2026, 08:35:00 PM",
-          "end_time_bst": "Oct 29, 2026, 10:55:00 PM",
-          "raw_start_utc": "2026/10/29 14:35:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Khaleej",
-            "flag": "https://img.sofascore.com/api/v1/team/167228/image"
-          },
-          "team_b": {
-            "name": "Al-Hazem",
-            "flag": "https://img.sofascore.com/api/v1/team/168086/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/167228/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/6HHHAAQQQAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1406,9 +1356,17 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Al-Nassr vs Al-Kholood",
@@ -1444,9 +1402,17 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+          },
+          {
+            "channel_name": "SportDigital FussBall",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+            "headers": {},
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Al-Riyadh vs Al-Qadsiah",
