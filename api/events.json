@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T14:36:31.924453+00:00",
-  "event_count": 70,
+  "last_updated": "2026-10-30T14:51:31.591176+00:00",
+  "event_count": 69,
   "events": {
     "events": [
       {
@@ -105,73 +105,45 @@
         "total_channels": 8
       },
       {
-        "title": "Abha vs Al-Ittihad",
+        "title": "Diriyah vs Neom SC",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "abha-vs-al-ittihad",
+        "slug": "diriyah-vs-neom-sc",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:30:00 PM",
-          "end_time_bst": "Oct 30, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/10/30 12:30:00 +0000"
+          "start_time_bst": "Oct 30, 2026, 08:50:00 PM",
+          "end_time_bst": "Oct 30, 2026, 11:10:00 PM",
+          "raw_start_utc": "2026/10/30 14:50:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Abha",
-            "flag": "https://img.sofascore.com/api/v1/team/168090/image"
+            "name": "Diriyah",
+            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
           },
           "team_b": {
-            "name": "Al-Ittihad",
-            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
+            "name": "Neom SC",
+            "flag": "https://img.sofascore.com/api/v1/team/530631/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/168090/image",
+        "logo": "https://img.sofascore.com/api/v1/team/853574/image",
         "channels": [
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://pull.streamfeedk8z.click/livesp/sd-6MwarmCjUhMHQsjD7g_autosp.m3u8?txSecret=f290dab371c027d95336185073c388dc&txTime=6AE5DF48",
-            "raw_link": "https://pull.streamfeedk8z.click/livesp/sd-6MwarmCjUhMHQsjD7g_autosp.m3u8?txSecret=f290dab371c027d95336185073c388dc&txTime=6AE5DF48",
-            "headers": {},
-            "drm_key": null
-          },
           {
             "channel_name": "HD SERVER ",
             "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
           },
           {
-            "channel_name": "LOW SERVER",
+            "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KMMMAAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KMMMAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.44/hls/RRRRQQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/RRRRQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -180,7 +152,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1283,33 +1255,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Diriyah vs Neom SC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "diriyah-vs-neom-sc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 08:50:00 PM",
-          "end_time_bst": "Oct 30, 2026, 11:10:00 PM",
-          "raw_start_utc": "2026/10/30 14:50:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Diriyah",
-            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
-          },
-          "team_b": {
-            "name": "Neom SC",
-            "flag": "https://img.sofascore.com/api/v1/team/530631/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/853574/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Al-Shabab vs Al-Ahli",
