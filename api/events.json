@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T00:18:04.750369+00:00",
+  "last_updated": "2026-10-30T00:33:11.327008+00:00",
   "event_count": 28,
   "events": {
     "events": [
@@ -499,6 +499,42 @@
               "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Hong Kong Sixes 2026",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "hong-kong-sixes-2026",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 06:45:51 AM",
+          "end_time_bst": "Oct 30, 2026, 04:00:05 PM",
+          "raw_start_utc": "2026/10/30 00:45:51 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hong Kong Sixes",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
+          },
+          "team_b": {
+            "name": "Hong Kong Sixes",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
+          }
+        },
+        "logo": "null",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
           }
         ],
         "total_channels": 1
@@ -1767,42 +1803,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "Hong Kong Sixes 2026",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "hong-kong-sixes-2026",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:45:51 AM",
-          "end_time_bst": "Oct 30, 2026, 04:00:05 PM",
-          "raw_start_utc": "2026/10/30 00:45:51 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Hong Kong Sixes",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
-          },
-          "team_b": {
-            "name": "Hong Kong Sixes",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
-          }
-        },
-        "logo": "null",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Portland Trail Blazers vs Memphis Grizzlies",
