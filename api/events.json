@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T17:29:46.322259+00:00",
+  "last_updated": "2026-10-30T17:49:53.714362+00:00",
   "event_count": 68,
   "events": {
     "events": [
@@ -97,9 +97,31 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4566566.m3u8?txSecret=4c46b9f195b63be7f2ef39e04a589874&txTime=6AE4E730",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4566566.m3u8?txSecret=4c46b9f195b63be7f2ef39e04a589874&txTime=6AE4E730|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KYYYAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KYYYAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Energie Cottbus vs VfL Bochum 1848",
@@ -135,6 +157,66 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4566641.m3u8?txSecret=407bc2c1b590a59eb474fd83dbb66d5a&txTime=6AE4E752",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4566641.m3u8?txSecret=407bc2c1b590a59eb474fd83dbb66d5a&txTime=6AE4E752|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KYYYAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Le Havre vs Paris Saint-Germain",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "le-havre-vs-paris-saint-germain",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/30 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Le Havre",
+            "flag": "https://img.sofascore.com/api/v1/team/1662/image"
+          },
+          "team_b": {
+            "name": "Paris Saint-Germain",
+            "flag": "https://img.sofascore.com/api/v1/team/1644/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1662/image",
+        "channels": [
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
           }
         ],
         "total_channels": 1
@@ -1407,44 +1489,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Le Havre vs Paris Saint-Germain",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "le-havre-vs-paris-saint-germain",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 12:00:00 AM",
-          "end_time_bst": "Oct 31, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/30 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Le Havre",
-            "flag": "https://img.sofascore.com/api/v1/team/1662/image"
-          },
-          "team_b": {
-            "name": "Paris Saint-Germain",
-            "flag": "https://img.sofascore.com/api/v1/team/1644/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1662/image",
-        "channels": [
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Nice vs Stade Rennais",
