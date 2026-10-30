@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T01:48:26.684884+00:00",
-  "event_count": 19,
+  "last_updated": "2026-10-30T02:38:43.208238+00:00",
+  "event_count": 75,
   "events": {
     "events": [
       {
@@ -99,44 +99,6 @@
         "total_channels": 7
       },
       {
-        "title": "Gremio vs Athletico",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "gremio-vs-athletico",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:30:00 AM",
-          "end_time_bst": "Oct 30, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/10/30 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Grêmio",
-            "flag": "https://img.sofascore.com/api/v1/team/5926/image"
-          },
-          "team_b": {
-            "name": "Athletico",
-            "flag": "https://img.sofascore.com/api/v1/team/1967/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5926/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Hong Kong Sixes 2026",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -168,16 +130,6 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rll5yxkrnr/out/v1/8f7ed1841e054612b0e4ac89acb9ed47/cenc.mpd",
             "headers": {},
             "drm_key": "d81afd2cba994811b8521b0b02b26fae:d39df73c89b21af29b2224d26d46b9c0"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
           },
           {
             "channel_name": "WILLOW - ALT",
@@ -216,7 +168,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 5
       },
       {
         "title": "Atlanta Hawks vs Cleveland Cavaliers",
@@ -350,16 +302,29 @@
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?",
-            "raw_link": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "url": "https://chatgpt.hereisman.net/playlist/58873/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58873/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58873?ad=111&Origin=https://gooz.aapmains.net",
             "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "https://gooz.aapmains.net/new-stream-embed/58873?ad=111",
+              "Origin": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW QUALITY",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/ZRRRAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/ZRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Green Bay Packers vs Carolina Panthers",
@@ -1472,6 +1437,1545 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Konyaspor vs Galatasaray",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "konyaspor-vs-galatasaray",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/30 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Konyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
+          },
+          "team_b": {
+            "name": "Galatasaray",
+            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3085/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Arminia Bielefeld vs Eintracht Braunschweig",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "arminia-bielefeld-vs-eintracht-braunschweig",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/30 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Arminia Bielefeld",
+            "flag": "https://img.sofascore.com/api/v1/team/2540/image"
+          },
+          "team_b": {
+            "name": "Eintracht Braunschweig",
+            "flag": "https://img.sofascore.com/api/v1/team/2557/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2540/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Energie Cottbus vs VfL Bochum 1848",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "energie-cottbus-vs-vfl-bochum-1848",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 11:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/30 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Energie Cottbus",
+            "flag": "https://img.sofascore.com/api/v1/team/2532/image"
+          },
+          "team_b": {
+            "name": "VfL Bochum 1848",
+            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2532/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Abha vs Al-Ittihad",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "abha-vs-al-ittihad",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 06:30:00 PM",
+          "end_time_bst": "Oct 30, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/10/30 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abha",
+            "flag": "https://img.sofascore.com/api/v1/team/168090/image"
+          },
+          "team_b": {
+            "name": "Al-Ittihad",
+            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/168090/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Diriyah vs Neom SC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "diriyah-vs-neom-sc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 08:50:00 PM",
+          "end_time_bst": "Oct 30, 2026, 11:10:00 PM",
+          "raw_start_utc": "2026/10/30 14:50:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Diriyah",
+            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
+          },
+          "team_b": {
+            "name": "Neom SC",
+            "flag": "https://img.sofascore.com/api/v1/team/530631/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/853574/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Al-Shabab vs Al-Ahli",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "al-shabab-vs-al-ahli",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/30 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Shabab",
+            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
+          },
+          "team_b": {
+            "name": "Al-Ahli",
+            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34313/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Corinthians vs Mirassol",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "corinthians-vs-mirassol",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 05:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/10/30 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Corinthians",
+            "flag": "https://img.sofascore.com/api/v1/team/1957/image"
+          },
+          "team_b": {
+            "name": "Mirassol",
+            "flag": "https://img.sofascore.com/api/v1/team/21982/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1957/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "SV 07 Elversberg vs 1. FSV Mainz 05",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sv-07-elversberg-vs-1-fsv-mainz-05",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 01:30:00 AM",
+          "end_time_bst": "Oct 31, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/10/30 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SV 07 Elversberg",
+            "flag": "https://img.sofascore.com/api/v1/team/2598/image"
+          },
+          "team_b": {
+            "name": "1. FSV Mainz 05",
+            "flag": "https://img.sofascore.com/api/v1/team/2556/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2598/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Villarreal vs Espanyol",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "villarreal-vs-espanyol",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/10/30 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Villarreal",
+            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
+          },
+          "team_b": {
+            "name": "Espanyol",
+            "flag": "https://img.sofascore.com/api/v1/team/2814/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2819/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Le Havre vs Paris Saint-Germain",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "le-havre-vs-paris-saint-germain",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/30 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Le Havre",
+            "flag": "https://img.sofascore.com/api/v1/team/1662/image"
+          },
+          "team_b": {
+            "name": "Paris Saint-Germain",
+            "flag": "https://img.sofascore.com/api/v1/team/1644/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1662/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Nice vs Stade Rennais",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "nice-vs-stade-rennais",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 12:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/30 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Nice",
+            "flag": "https://img.sofascore.com/api/v1/team/1661/image"
+          },
+          "team_b": {
+            "name": "Stade Rennais",
+            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1661/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lille vs RC Lens",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lille-vs-rc-lens",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:05:00 AM",
+          "end_time_bst": "Oct 31, 2026, 04:25:00 AM",
+          "raw_start_utc": "2026/10/30 20:05:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lille",
+            "flag": "https://img.sofascore.com/api/v1/team/1643/image"
+          },
+          "team_b": {
+            "name": "RC Lens",
+            "flag": "https://img.sofascore.com/api/v1/team/1648/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1643/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sheffield United vs Wrexham",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sheffield-united-vs-wrexham",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:00:00 AM",
+          "end_time_bst": "Oct 31, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/10/30 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sheffield United",
+            "flag": "https://img.sofascore.com/api/v1/team/15/image"
+          },
+          "team_b": {
+            "name": "Wrexham",
+            "flag": "https://img.sofascore.com/api/v1/team/64/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/15/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Casa Pia vs Sporting CP",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "casa-pia-vs-sporting-cp",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:15:00 AM",
+          "end_time_bst": "Oct 31, 2026, 04:35:00 AM",
+          "raw_start_utc": "2026/10/30 20:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Casa Pia",
+            "flag": "https://img.sofascore.com/api/v1/team/36365/image"
+          },
+          "team_b": {
+            "name": "Sporting CP",
+            "flag": "https://img.sofascore.com/api/v1/team/3001/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/36365/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Augsburg vs SC Freiburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-augsburg-vs-sc-freiburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/31 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Augsburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2600/image"
+          },
+          "team_b": {
+            "name": "SC Freiburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2600/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bayer 04 Leverkusen vs VfB Stuttgart",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bayer-04-leverkusen-vs-vfb-stuttgart",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/31 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bayer 04 Leverkusen",
+            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+          },
+          "team_b": {
+            "name": "VfB Stuttgart",
+            "flag": "https://img.sofascore.com/api/v1/team/2677/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2681/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Borussia Mgladbach vs SC Paderborn 07",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "borussia-mgladbach-vs-sc-paderborn-07",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/31 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Borussia M'gladbach",
+            "flag": "https://img.sofascore.com/api/v1/team/2527/image"
+          },
+          "team_b": {
+            "name": "SC Paderborn 07",
+            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2527/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Schalke 04 vs RB Leipzig",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-schalke-04-vs-rb-leipzig",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/31 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Schalke 04",
+            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
+          },
+          "team_b": {
+            "name": "RB Leipzig",
+            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2530/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "SV Werder Bremen vs TSG Hoffenheim",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sv-werder-bremen-vs-tsg-hoffenheim",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/10/31 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SV Werder Bremen",
+            "flag": "https://img.sofascore.com/api/v1/team/2534/image"
+          },
+          "team_b": {
+            "name": "TSG Hoffenheim",
+            "flag": "https://img.sofascore.com/api/v1/team/2569/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2534/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Bayern Munchen vs Borussia Dortmund",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-bayern-munchen-vs-borussia-dortmund",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/31 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Bayern München",
+            "flag": "https://img.sofascore.com/api/v1/team/2672/image"
+          },
+          "team_b": {
+            "name": "Borussia Dortmund",
+            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2672/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Chelsea vs Manchester United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "chelsea-vs-manchester-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 06:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/10/31 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chelsea",
+            "flag": "https://img.sofascore.com/api/v1/team/38/image"
+          },
+          "team_b": {
+            "name": "Manchester United",
+            "flag": "https://img.sofascore.com/api/v1/team/35/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/38/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bournemouth vs Leeds United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bournemouth-vs-leeds-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/10/31 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bournemouth",
+            "flag": "https://img.sofascore.com/api/v1/team/60/image"
+          },
+          "team_b": {
+            "name": "Leeds United",
+            "flag": "https://img.sofascore.com/api/v1/team/34/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/60/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Brentford vs Nottingham Forest",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "brentford-vs-nottingham-forest",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/10/31 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Brentford",
+            "flag": "https://img.sofascore.com/api/v1/team/50/image"
+          },
+          "team_b": {
+            "name": "Nottingham Forest",
+            "flag": "https://img.sofascore.com/api/v1/team/14/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/50/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Coventry City vs Sunderland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "coventry-city-vs-sunderland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/10/31 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Coventry City",
+            "flag": "https://img.sofascore.com/api/v1/team/11/image"
+          },
+          "team_b": {
+            "name": "Sunderland",
+            "flag": "https://img.sofascore.com/api/v1/team/41/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/11/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Hull City vs Ipswich Town",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "hull-city-vs-ipswich-town",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/10/31 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hull City",
+            "flag": "https://img.sofascore.com/api/v1/team/96/image"
+          },
+          "team_b": {
+            "name": "Ipswich Town",
+            "flag": "https://img.sofascore.com/api/v1/team/32/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/96/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Manchester City vs Brighton Hove Albion",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "manchester-city-vs-brighton-hove-albion",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/10/31 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Manchester City",
+            "flag": "https://img.sofascore.com/api/v1/team/17/image"
+          },
+          "team_b": {
+            "name": "Brighton & Hove Albion",
+            "flag": "https://img.sofascore.com/api/v1/team/30/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/17/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Tottenham Hotspur vs Crystal Palace",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "tottenham-hotspur-vs-crystal-palace",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/31 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Tottenham Hotspur",
+            "flag": "https://img.sofascore.com/api/v1/team/33/image"
+          },
+          "team_b": {
+            "name": "Crystal Palace",
+            "flag": "https://img.sofascore.com/api/v1/team/7/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/33/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Aston Villa vs Fulham",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "aston-villa-vs-fulham",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 01, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/10/31 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Aston Villa",
+            "flag": "https://img.sofascore.com/api/v1/team/40/image"
+          },
+          "team_b": {
+            "name": "Fulham",
+            "flag": "https://img.sofascore.com/api/v1/team/43/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/40/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bologna vs Monza",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bologna-vs-monza",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/10/31 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bologna",
+            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+          },
+          "team_b": {
+            "name": "Monza",
+            "flag": "https://img.sofascore.com/api/v1/team/2729/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2685/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Udinese vs AS Roma",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "udinese-vs-as-roma",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/31 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Udinese",
+            "flag": "https://img.sofascore.com/api/v1/team/2695/image"
+          },
+          "team_b": {
+            "name": "AS Roma",
+            "flag": "https://img.sofascore.com/api/v1/team/2702/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2695/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AC Milan vs Inter",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ac-milan-vs-inter",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 01, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/31 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Milan",
+            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+          },
+          "team_b": {
+            "name": "Inter",
+            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Levante UD vs Atletico Madrid",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "levante-ud-vs-atletico-madrid",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 07:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/10/31 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Levante UD",
+            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
+          },
+          "team_b": {
+            "name": "Atlético Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2849/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Rayo Vallecano vs Celta Vigo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "rayo-vallecano-vs-celta-vigo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 09:15:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/10/31 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Rayo Vallecano",
+            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+          },
+          "team_b": {
+            "name": "Celta Vigo",
+            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2818/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Real Betis vs Malaga CF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "real-betis-vs-malaga-cf",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/31 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Betis",
+            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+          },
+          "team_b": {
+            "name": "Málaga CF",
+            "flag": "https://img.sofascore.com/api/v1/team/2830/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Barcelona vs Deportivo Alaves",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-barcelona-vs-deportivo-alaves",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 01, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/10/31 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Barcelona",
+            "flag": "https://img.sofascore.com/api/v1/team/2817/image"
+          },
+          "team_b": {
+            "name": "Deportivo Alavés",
+            "flag": "https://img.sofascore.com/api/v1/team/2885/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2817/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Troyes vs Le Mans",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "troyes-vs-le-mans",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 01, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/10/31 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Troyes",
+            "flag": "https://img.sofascore.com/api/v1/team/1652/image"
+          },
+          "team_b": {
+            "name": "Le Mans",
+            "flag": "https://img.sofascore.com/api/v1/team/1672/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1652/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "1. FC Union Berlin vs 1. FC Koln",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "1-fc-union-berlin-vs-1-fc-koln",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/01 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "1. FC Union Berlin",
+            "flag": "https://img.sofascore.com/api/v1/team/2547/image"
+          },
+          "team_b": {
+            "name": "1. FC Köln",
+            "flag": "https://img.sofascore.com/api/v1/team/2671/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2547/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Eintracht Frankfurt vs Hamburger SV",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "eintracht-frankfurt-vs-hamburger-sv",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:30:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/11/01 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Eintracht Frankfurt",
+            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
+          },
+          "team_b": {
+            "name": "Hamburger SV",
+            "flag": "https://img.sofascore.com/api/v1/team/2676/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2674/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Liverpool FC vs Arsenal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "liverpool-fc-vs-arsenal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:30:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/11/01 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Liverpool FC",
+            "flag": "https://img.sofascore.com/api/v1/team/44/image"
+          },
+          "team_b": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/42/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/44/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Como vs Venezia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "como-vs-venezia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 05:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 07:50:00 PM",
+          "raw_start_utc": "2026/11/01 11:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Como",
+            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
+          },
+          "team_b": {
+            "name": "Venezia",
+            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2704/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Frosinone vs Torino",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "frosinone-vs-torino",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/01 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Frosinone",
+            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
+          },
+          "team_b": {
+            "name": "Torino",
+            "flag": "https://img.sofascore.com/api/v1/team/2696/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2801/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lazio vs Cagliari",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lazio-vs-cagliari",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/01 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lazio",
+            "flag": "https://img.sofascore.com/api/v1/team/2699/image"
+          },
+          "team_b": {
+            "name": "Cagliari",
+            "flag": "https://img.sofascore.com/api/v1/team/2719/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2699/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lecce vs Genoa",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lecce-vs-genoa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 02, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/01 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lecce",
+            "flag": "https://img.sofascore.com/api/v1/team/2689/image"
+          },
+          "team_b": {
+            "name": "Genoa",
+            "flag": "https://img.sofascore.com/api/v1/team/2713/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2689/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Juventus vs SSC Napoli",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "juventus-vs-ssc-napoli",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 02, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/01 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+          },
+          "team_b": {
+            "name": "SSC Napoli",
+            "flag": "https://img.sofascore.com/api/v1/team/2714/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2687/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Getafe vs Sevilla",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "getafe-vs-sevilla",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/01 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Getafe",
+            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+          },
+          "team_b": {
+            "name": "Sevilla",
+            "flag": "https://img.sofascore.com/api/v1/team/2833/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Real Racing Club vs Real Madrid",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "real-racing-club-vs-real-madrid",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 01, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/01 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Racing Club",
+            "flag": "https://img.sofascore.com/api/v1/team/2835/image"
+          },
+          "team_b": {
+            "name": "Real Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2829/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2835/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Elche vs Valencia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "elche-vs-valencia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 02, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/01 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Elche",
+            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
+          },
+          "team_b": {
+            "name": "Valencia",
+            "flag": "https://img.sofascore.com/api/v1/team/2828/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2846/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Athletic Club vs Real Sociedad",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "athletic-club-vs-real-sociedad",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/01 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Athletic Club",
+            "flag": "https://img.sofascore.com/api/v1/team/2825/image"
+          },
+          "team_b": {
+            "name": "Real Sociedad",
+            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2825/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "RC Strasbourg vs Auxerre",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "rc-strasbourg-vs-auxerre",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/01 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "RC Strasbourg",
+            "flag": "https://img.sofascore.com/api/v1/team/1659/image"
+          },
+          "team_b": {
+            "name": "Auxerre",
+            "flag": "https://img.sofascore.com/api/v1/team/1646/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1659/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Olympique Lyonnais vs Angers",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "olympique-lyonnais-vs-angers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
+          "raw_start_utc": "2026/11/01 16:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Olympique Lyonnais",
+            "flag": "https://img.sofascore.com/api/v1/team/1649/image"
+          },
+          "team_b": {
+            "name": "Angers",
+            "flag": "https://img.sofascore.com/api/v1/team/1684/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1649/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Paris FC vs AS Monaco",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "paris-fc-vs-as-monaco",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
+          "raw_start_utc": "2026/11/01 16:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Paris FC",
+            "flag": "https://img.sofascore.com/api/v1/team/6070/image"
+          },
+          "team_b": {
+            "name": "AS Monaco",
+            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6070/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Olympique de Marseille vs Toulouse",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "olympique-de-marseille-vs-toulouse",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 02, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/01 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Olympique de Marseille",
+            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
+          },
+          "team_b": {
+            "name": "Toulouse",
+            "flag": "https://img.sofascore.com/api/v1/team/1681/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1641/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lorient vs Stade Brestois",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lorient-vs-stade-brestois",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 03, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/02 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lorient",
+            "flag": "https://img.sofascore.com/api/v1/team/1656/image"
+          },
+          "team_b": {
+            "name": "Stade Brestois",
+            "flag": "https://img.sofascore.com/api/v1/team/1715/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1656/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Deportivo de A Coruna vs Osasuna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "deportivo-de-a-coruna-vs-osasuna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 03, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/02 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Deportivo de A Coruña",
+            "flag": "https://img.sofascore.com/api/v1/team/2832/image"
+          },
+          "team_b": {
+            "name": "Osasuna",
+            "flag": "https://img.sofascore.com/api/v1/team/2820/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2832/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sassuolo vs Fiorentina",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sassuolo-vs-fiorentina",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 03, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/02 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sassuolo",
+            "flag": "https://img.sofascore.com/api/v1/team/2793/image"
+          },
+          "team_b": {
+            "name": "Fiorentina",
+            "flag": "https://img.sofascore.com/api/v1/team/2693/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2793/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Atalanta vs Parma",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "atalanta-vs-parma",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 03, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/02 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atalanta",
+            "flag": "https://img.sofascore.com/api/v1/team/2686/image"
+          },
+          "team_b": {
+            "name": "Parma",
+            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2686/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Newcastle United vs Everton",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "newcastle-united-vs-everton",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 03, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/02 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Newcastle United",
+            "flag": "https://img.sofascore.com/api/v1/team/39/image"
+          },
+          "team_b": {
+            "name": "Everton",
+            "flag": "https://img.sofascore.com/api/v1/team/48/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/39/image",
+        "channels": [],
+        "total_channels": 0
       }
     ]
   }
