@@ -21,6 +21,9 @@ jobs:
           python-version: '3.11'
 
       - name: Run Sync Script
+        env:
+          API_EVENTS: ${{ secrets.API_EVENTS }}
+          API_STREAMS_BASE: ${{ secrets.API_STREAMS_BASE }}
         run: python main.py
 
       - name: Commit and Push Changes
