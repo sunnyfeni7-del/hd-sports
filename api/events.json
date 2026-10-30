@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T17:19:44.017761+00:00",
-  "event_count": 69,
+  "last_updated": "2026-10-30T17:29:46.322259+00:00",
+  "event_count": 68,
   "events": {
     "events": [
       {
@@ -29,6 +29,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/3085/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581357.m3u8?txSecret=d79058ce5af0aa75049861a8231ecfbf&txTime=6AE4E7AB",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581357.m3u8?txSecret=d79058ce5af0aa75049861a8231ecfbf&txTime=6AE4E7AB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
@@ -51,7 +61,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Arminia Bielefeld vs Eintracht Braunschweig",
@@ -128,56 +138,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Diriyah vs Neom SC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "diriyah-vs-neom-sc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 08:50:00 PM",
-          "end_time_bst": "Oct 30, 2026, 11:10:00 PM",
-          "raw_start_utc": "2026/10/30 14:50:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Diriyah",
-            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
-          },
-          "team_b": {
-            "name": "Neom SC",
-            "flag": "https://img.sofascore.com/api/v1/team/530631/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/853574/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/RRRRQQQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/RRRRQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Formula 1",
