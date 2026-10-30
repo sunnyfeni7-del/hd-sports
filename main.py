@@ -17,12 +17,12 @@ ctx.verify_mode = ssl.CERT_NONE
 base_dir = 'api'
 os.makedirs(base_dir, exist_ok=True)
 
-# 🔐 GitHub Secrets থেকে লিঙ্কগুলো রিড করা হচ্ছে
+# 🔐 GitHub Secrets থেকে ইউআরএল গ্রহণ
 API_EVENTS = os.environ.get('API_EVENTS', '').strip()
 API_STREAMS_BASE = os.environ.get('API_STREAMS_BASE', '').strip()
 
 if not API_EVENTS or not API_STREAMS_BASE:
-    print("❌ Fatal: API_EVENTS বা API_STREAMS_BASE সিক্রেট পাওয়া যায়নি! দয়া করে GitHub Secrets চেক করুন।")
+    print("❌ Fatal: API_EVENTS বা API_STREAMS_BASE সিক্রেট পাওয়া যায়নি! GitHub Secrets চেক করুন।")
     exit(1)
 
 origin = ""
@@ -70,7 +70,7 @@ def fetch_json(url, timeout=12):
 
 def fetch_main_events_with_retry(retries=3, timeout=25):
     for attempt in range(1, retries + 1):
-        print(f"📡 Requesting schedule from Secret API (Attempt {attempt}/{retries})...")
+        print(f"📡 Requesting schedule from Source API (Attempt {attempt}/{retries})...")
         try:
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
@@ -89,7 +89,10 @@ def fetch_main_events_with_retry(retries=3, timeout=25):
 def parse_date(date_str):
     if not date_str:
         return None
-    clean = str(date_str).split('+')[0].strip().replace('T', ' ')
+    clean = str(date_str).strip()
+    if clean.endswith('Z'):
+        clean = clean[:-1]
+    clean = clean.split('+')[0].strip().replace('T', ' ')
     for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M", "%Y-%m-%d %H:%M"):
         try:
             return datetime.strptime(clean, fmt)
@@ -105,18 +108,30 @@ def parse_utc_to_bst(utc_str):
     return ""
 
 def calculate_event_status(start_utc, end_utc, api_status, has_channels):
+    """
+    লজিক:
+    ১. সোর্স API স্পষ্ট করে ended/finish না বললে ম্যাচ কখনো Ended হবে না।
+    ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে এবং ম্যাচ চলাকালীন চ্যানেল থাকলে 'Live' থাকবে।
+    ৩. চ্যানেল না থাকলে শুরু হওয়ার পরেও 'Upcoming' থাকবে।
+    """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
+    # ১. শুধুমাত্র মেইন সোর্স এপিআই-তে ম্যাচ শেষ হলেই 'Ended' হবে
     if api_status_str in ["finish", "finished", "ended", "completed", "closed"]:
         return "Ended"
 
     start = parse_date(start_utc)
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+
+    # স্টার্ট টাইম না থাকলে কিন্তু এপিআই লাইভ দেখালে
     if not start:
         return "Live" if (has_channels and api_status_str == "live") else "Upcoming"
 
-    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    # ⏰ ম্যাচ শুরুর ঠিক ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
+    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে শুরু করে পুরো ম্যাচ চলাকালীন:
+    # যতক্ষণ সোর্স API শেষ না বলে, আসল চ্যানেল থাকলে 'Live' থাকবে
     if now >= early_live_threshold or api_status_str == "live":
         return "Live" if has_channels else "Upcoming"
 
@@ -232,6 +247,7 @@ def process_single_match(event):
     raw_end_utc = event_info.get("endTime", "")
     api_raw_status = event_info.get("Status") or event.get("status", "")
 
+    # স্ট্যাটাস ক্যালকুলেশন
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
@@ -275,8 +291,9 @@ def run_sync():
         print("⚠️ API returned 0 active matches.")
         return
 
-    print(f"🎉 Successfully fetched {len(match_list)} events! Processing stream feeds...")
+    print(f"🎉 Successfully fetched {len(match_list)} events from source! Processing streams...")
 
+    # প্যারালালে স্ট্রিম প্রসেস
     with ThreadPoolExecutor(max_workers=10) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
