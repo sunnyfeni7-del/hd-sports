@@ -6,46 +6,48 @@ import ssl
 import time
 import gzip
 from io import BytesIO
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 
-# রেন্ডার কনসোলে ইনস্ট্যান্ট লগ দেখানোর জন্য বাফারিং বন্ধ রাখা
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(line_buffering=True)
 
 def log(msg):
-    """রেন্ডার কনসোলে সময়সহ সাথে সাথে লগ প্রিন্ট করবে"""
     timestamp = datetime.now().strftime("%I:%M:%S %p")
     print(f"[{timestamp}] {msg}", flush=True)
 
-# SSL ভেরিফিকেশন বাইপাস
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# কনফিগারেশন (Render Environment Variables থেকে নিবে)
+# সিক্রেট ও কনফিগারেশন ভ্যারিয়েবল
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
+API_EVENTS = os.environ.get("API_EVENTS", "").strip()
 
-API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
+# সোর্স ডোমেইন স্বয়ংক্রিয়ভাবে বের করে হেডারে বসানো হবে
+origin = ""
+if API_EVENTS:
+    parsed = urlparse(API_EVENTS)
+    origin = f"{parsed.scheme}://{parsed.netloc}"
 
-# 🚀 সোর্স API-এর ব্রাউজার হেডার (কানেকশন হ্যাং বন্ধে Connection: close আবশ্যক)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en-US,en;q=0.9',
-    'Origin': 'https://vortextv.modsdone.com',
-    'Referer': 'https://vortextv.modsdone.com/',
+    'Origin': origin,
+    'Referer': f"{origin}/" if origin else "",
     'Connection': 'close'
 }
 
 def parse_date(date_str):
     if not date_str:
         return None
-    clean = date_str.split('+')[0].strip()
-    for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+    clean = str(date_str).split('+')[0].strip().replace('T', ' ')
+    for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M", "%Y-%m-%d %H:%M"):
         try:
             return datetime.strptime(clean, fmt)
         except ValueError:
@@ -53,15 +55,17 @@ def parse_date(date_str):
     return None
 
 def fetch_events_with_retry(retries=3, timeout=25):
-    """৩ বার তাৎক্ষণিক চেষ্টা করবে যাতে সার্ভার স্লো থাকলেও টাইমআউট না হয়"""
+    if not API_EVENTS:
+        log("❌ Error: API_EVENTS এনভায়রনমেন্ট ভ্যারিয়েবল পাওয়া যায়নি!")
+        return None
+
     for attempt in range(1, retries + 1):
         try:
             log(f"📡 সোর্স API চেক করা হচ্ছে (চেষ্টা: {attempt}/{retries})...")
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as res:
                 content = res.read()
-                # সার্ভার যদি কমপ্রেসড (gzip) ডাটা পাঠায়
-                if res.info().get('Content-Encoding') == 'gzip':
+                if res.info().get('Content-Encoding') == 'gzip' or content[:2] == b'\x1f\x8b':
                     content = gzip.GzipFile(fileobj=BytesIO(content)).read()
                 
                 data = json.loads(content.decode('utf-8'))
@@ -74,7 +78,6 @@ def fetch_events_with_retry(retries=3, timeout=25):
     return None
 
 def trigger_github_action(reason):
-    """GitHub Action চালু করার জন্য ডিসপ্যাচ রিকোয়েস্ট পাঠাবে"""
     if not GITHUB_TOKEN:
         log("❌ GITHUB_TOKEN পাওয়া যায়নি! Action ট্রিগার বাতিল।")
         return
@@ -101,7 +104,6 @@ def trigger_github_action(reason):
         log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
-    """ইভেন্টগুলোর বর্তমান অবস্থা ট্র্যাক করে"""
     data = fetch_events_with_retry(retries=3, timeout=25)
     if not data:
         return None, {}
@@ -119,12 +121,10 @@ def get_current_event_states():
         info = ev.get('eventInfo', {})
         api_status = str(info.get('Status') or ev.get('status') or '').strip().lower()
 
-        # ১. সোর্স API যদি ended/finish ঘোষণা করে
         if api_status in ["finish", "finished", "ended", "completed", "closed"]:
             status = "Ended"
         else:
             start = parse_date(info.get('startTime'))
-            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে
             if start and (now >= (start - timedelta(minutes=15)) or api_status == "live"):
                 status = "Live"
             else:
@@ -136,7 +136,6 @@ def get_current_event_states():
     return state_map, summary_counts
 
 def detect_changes(previous_state, current_state):
-    """আগের অবস্থার সাথে নতুন অবস্থার পার্থক্য খোঁজে"""
     if previous_state is None:
         return "Initial Startup Sync"
 
@@ -161,7 +160,6 @@ def detect_changes(previous_state, current_state):
 
     return None
 
-# 🛠️ cron-job.org এবং Render-এর জন্য পারফেক্ট হেলথ সার্ভার
 class HealthServer(BaseHTTPRequestHandler):
     def _send_headers(self):
         body = b"Watcher is actively monitoring API!"
@@ -173,16 +171,14 @@ class HealthServer(BaseHTTPRequestHandler):
         return body
 
     def do_GET(self):
-        """GET রিকোয়েস্ট সফলভাবে হ্যান্ডেল করবে"""
         body = self._send_headers()
         self.wfile.write(body)
 
     def do_HEAD(self):
-        """cron-job.org-এর HEAD রিকোয়েস্ট সফলভাবে (200 OK) হ্যান্ডেল করবে"""
         self._send_headers()
 
     def log_message(self, format, *args):
-        pass  # কনসোল লগ পরিচ্ছন্ন রাখবে
+        pass
 
 def run_health_server():
     port = int(os.environ.get("PORT", 10000))
@@ -200,7 +196,7 @@ def watcher_loop():
             
             if current_state is not None:
                 total_events = len(current_state)
-                log(f"📊 চেক সম্পন্ন: মোট {total_events} টি ইভেন্ট পাওয়া গেছে | Live: {counts['Live']}, Upcoming: {counts['Upcoming']}, Ended: {counts['Ended']}")
+                log(f"📊 চেক সম্পন্ন: মোট {total_events} টি ইভেন্ট | Live: {counts['Live']}, Upcoming: {counts['Upcoming']}, Ended: {counts['Ended']}")
 
                 change_reason = detect_changes(previous_state, current_state)
                 
@@ -220,7 +216,5 @@ def watcher_loop():
         time.sleep(300)
 
 if __name__ == '__main__':
-    # হেলথ সার্ভার ব্যাকগ্রাউন্ড থ্রেডে চালু
     threading.Thread(target=run_health_server, daemon=True).start()
-    # মূল ওয়াচার লুপ চালু
     watcher_loop()
