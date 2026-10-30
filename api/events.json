@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T01:18:20.879759+00:00",
+  "last_updated": "2026-10-30T01:48:26.684884+00:00",
   "event_count": 19,
   "events": {
     "events": [
@@ -164,10 +164,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6lbayfsika/out/v1/00a31e7970b1405da9489c2ed5b6bf16/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6lbayfsika/out/v1/00a31e7970b1405da9489c2ed5b6bf16/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rll5yxkrnr/out/v1/8f7ed1841e054612b0e4ac89acb9ed47/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rll5yxkrnr/out/v1/8f7ed1841e054612b0e4ac89acb9ed47/cenc.mpd",
             "headers": {},
-            "drm_key": "f724cf13d135bee75e357780d1610060:7ce9d4c6df5638bbcb18926bf2a6bb4f"
+            "drm_key": "d81afd2cba994811b8521b0b02b26fae:d39df73c89b21af29b2224d26d46b9c0"
           },
           {
             "channel_name": "FANCODE - AQ",
@@ -321,6 +321,45 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Portland Trail Blazers vs Memphis Grizzlies",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "portland-trail-blazers-vs-memphis-grizzlies",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 08:00:00 AM",
+          "end_time_bst": "Oct 30, 2026, 10:30:00 AM",
+          "raw_start_utc": "2026/10/30 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Portland Trail Blazers",
+            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+          },
+          "team_b": {
+            "name": "Memphis Grizzlies",
+            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?",
+            "raw_link": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
+            "headers": {
+              "Referer": "https://embedcenter.st/",
+              "Origin": "https://embedcenter.st"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Green Bay Packers vs Carolina Panthers",
@@ -1433,45 +1472,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "Portland Trail Blazers vs Memphis Grizzlies",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "portland-trail-blazers-vs-memphis-grizzlies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/30 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          },
-          "team_b": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?",
-            "raw_link": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st",
-            "headers": {
-              "Referer": "https://embedcenter.st/",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       }
     ]
   }
