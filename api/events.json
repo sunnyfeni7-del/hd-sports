@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T22:46:34.972683+00:00",
+  "last_updated": "2026-10-30T23:16:36.923839+00:00",
   "event_count": 98,
   "events": {
     "events": [
@@ -434,6 +434,44 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Boston Celtics vs Chicago Bulls",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "boston-celtics-vs-chicago-bulls",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 05:30:00 AM",
+          "end_time_bst": "Oct 31, 2026, 08:00:00 AM",
+          "raw_start_utc": "2026/10/30 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Boston Celtics",
+            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+          },
+          "team_b": {
+            "name": "Chicago Bulls",
+            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Motogp",
@@ -2578,44 +2616,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/39/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Boston Celtics vs Chicago Bulls",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "boston-celtics-vs-chicago-bulls",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 05:30:00 AM",
-          "end_time_bst": "Oct 31, 2026, 08:00:00 AM",
-          "raw_start_utc": "2026/10/30 23:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Boston Celtics",
-            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
-          },
-          "team_b": {
-            "name": "Chicago Bulls",
-            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Golden State Warriors vs Los Angeles Lakers",
