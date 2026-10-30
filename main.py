@@ -48,6 +48,15 @@ DEMO_PATTERNS = [
     'sample.m3u8'
 ]
 
+def clean_img(url):
+    """'null', 'None' বা খালি স্ট্রিং ফিল্টার করে সঠিক ইমেজ ইউআরএল ফেরত দেয়"""
+    if not url:
+        return ""
+    s = str(url).strip()
+    if s.lower() in ("null", "none", "undefined", ""):
+        return ""
+    return s
+
 def is_real_stream(url):
     if not url or not url.strip():
         return False
@@ -108,30 +117,19 @@ def parse_utc_to_bst(utc_str):
     return ""
 
 def calculate_event_status(start_utc, end_utc, api_status, has_channels):
-    """
-    লজিক:
-    ১. সোর্স API স্পষ্ট করে ended/finish না বললে ম্যাচ কখনো Ended হবে না।
-    ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে এবং ম্যাচ চলাকালীন চ্যানেল থাকলে 'Live' থাকবে।
-    ৩. চ্যানেল না থাকলে শুরু হওয়ার পরেও 'Upcoming' থাকবে।
-    """
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
-    # ১. শুধুমাত্র মেইন সোর্স এপিআই-তে ম্যাচ শেষ হলেই 'Ended' হবে
     if api_status_str in ["finish", "finished", "ended", "completed", "closed"]:
         return "Ended"
 
     start = parse_date(start_utc)
     now = datetime.now(timezone.utc).replace(tzinfo=None)
 
-    # স্টার্ট টাইম না থাকলে কিন্তু এপিআই লাইভ দেখালে
     if not start:
         return "Live" if (has_channels and api_status_str == "live") else "Upcoming"
 
-    # ⏰ ম্যাচ শুরুর ঠিক ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে থেকে শুরু করে পুরো ম্যাচ চলাকালীন:
-    # যতক্ষণ সোর্স API শেষ না বলে, আসল চ্যানেল থাকলে 'Live' থাকবে
     if now >= early_live_threshold or api_status_str == "live":
         return "Live" if has_channels else "Upcoming"
 
@@ -233,9 +231,14 @@ def process_single_match(event):
 
     team_a_name = event_info.get("teamA") or (title.split(' vs ')[0] if ' vs ' in title else title)
     team_b_name = event_info.get("teamB") or (title.split(' vs ')[1] if ' vs ' in title else "")
-    team_a_flag = event_info.get("teamAFlag") or event.get('image', '')
-    team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
-    logo = event.get('image') or team_a_flag
+    
+    # 🖼️ ইমেজ ও লোগো হ্যান্ডলিং (কখনো "null" আসবে না)
+    raw_event_image = clean_img(event.get('image')) or clean_img(event_info.get('image'))
+    team_a_flag = clean_img(event_info.get("teamAFlag")) or raw_event_image
+    team_b_flag = clean_img(event_info.get("teamBFlag")) or raw_event_image
+    
+    # লোগো না থাকলে বা null থাকলে team_a এর ফ্ল্যাগ/ইমেজকে লোগো হিসেবে সেট করবে
+    logo = raw_event_image or team_a_flag or team_b_flag
 
     stream_base = API_STREAMS_BASE if API_STREAMS_BASE.endswith('/') else f"{API_STREAMS_BASE}/"
     stream_payload = fetch_json(f"{stream_base}{slug}", timeout=10)
@@ -247,7 +250,6 @@ def process_single_match(event):
     raw_end_utc = event_info.get("endTime", "")
     api_raw_status = event_info.get("Status") or event.get("status", "")
 
-    # স্ট্যাটাস ক্যালকুলেশন
     final_status = calculate_event_status(
         start_utc=raw_start_utc,
         end_utc=raw_end_utc,
@@ -293,7 +295,6 @@ def run_sync():
 
     print(f"🎉 Successfully fetched {len(match_list)} events from source! Processing streams...")
 
-    # প্যারালালে স্ট্রিম প্রসেস
     with ThreadPoolExecutor(max_workers=10) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
