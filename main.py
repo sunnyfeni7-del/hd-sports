@@ -6,10 +6,10 @@ import ssl
 import time
 import gzip
 from io import BytesIO
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
 
-# SSL certificate bypass
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
@@ -17,18 +17,27 @@ ctx.verify_mode = ssl.CERT_NONE
 base_dir = 'api'
 os.makedirs(base_dir, exist_ok=True)
 
-# 🚀 VortexTV-এর জন্য ১০০% সঠিক হেডার (Connection: close সকেট হ্যাং রোধ করবে)
+# 🔐 GitHub Secrets থেকে লিঙ্কগুলো রিড করা হচ্ছে
+API_EVENTS = os.environ.get('API_EVENTS', '').strip()
+API_STREAMS_BASE = os.environ.get('API_STREAMS_BASE', '').strip()
+
+if not API_EVENTS or not API_STREAMS_BASE:
+    print("❌ Fatal: API_EVENTS বা API_STREAMS_BASE সিক্রেট পাওয়া যায়নি! দয়া করে GitHub Secrets চেক করুন।")
+    exit(1)
+
+origin = ""
+if API_EVENTS:
+    parsed = urlparse(API_EVENTS)
+    origin = f"{parsed.scheme}://{parsed.netloc}"
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en-US,en;q=0.9',
-    'Origin': 'https://vortextv.modsdone.com',
-    'Referer': 'https://vortextv.modsdone.com/',
+    'Origin': origin,
+    'Referer': f"{origin}/" if origin else "",
     'Connection': 'close'
 }
-
-API_EVENTS = 'https://vortextv.modsdone.com/cricfy.php/events'
-API_STREAMS_BASE = 'https://vortextv.modsdone.com/cricfy.php/streams/'
 
 DEMO_PATTERNS = [
     'unified-streaming.com',
@@ -40,7 +49,6 @@ DEMO_PATTERNS = [
 ]
 
 def is_real_stream(url):
-    """চেক করে লিংকটি আসল নাকি ডেমো/টেস্টিং লিংক।"""
     if not url or not url.strip():
         return False
     url_lower = url.lower()
@@ -50,12 +58,10 @@ def is_real_stream(url):
     return True
 
 def fetch_json(url, timeout=12):
-    """Gzip অটো-ডিকোড সুবিধা সহ পারফেক্ট JSON ফেচার।"""
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
             content = response.read()
-            # 🚀 Gzip ডেটা আসলে আনজিপ করবে (ম্যাজিক বাইট b'\x1f\x8b' চেক)
             if response.info().get('Content-Encoding') == 'gzip' or content[:2] == b'\x1f\x8b':
                 content = gzip.GzipFile(fileobj=BytesIO(content)).read()
             return json.loads(content.decode('utf-8'))
@@ -63,9 +69,8 @@ def fetch_json(url, timeout=12):
         return None
 
 def fetch_main_events_with_retry(retries=3, timeout=25):
-    """মূল শিডিউল এপিআই যাতে স্লো হলেও ৩ বার চেষ্টা করে ডাটা আনে।"""
     for attempt in range(1, retries + 1):
-        print(f"📡 Requesting schedule from VortexTV API (Attempt {attempt}/{retries})...")
+        print(f"📡 Requesting schedule from Secret API (Attempt {attempt}/{retries})...")
         try:
             req = urllib.request.Request(API_EVENTS, headers=HEADERS)
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as response:
@@ -102,7 +107,6 @@ def parse_utc_to_bst(utc_str):
 def calculate_event_status(start_utc, end_utc, api_status, has_channels):
     api_status_str = str(api_status).strip().lower() if api_status else ""
 
-    # ১. মেইন সোর্স এপিআই-তে স্ট্যাটাস finish/ended হলে
     if api_status_str in ["finish", "finished", "ended", "completed", "closed"]:
         return "Ended"
 
@@ -111,13 +115,9 @@ def calculate_event_status(start_utc, end_utc, api_status, has_channels):
         return "Live" if (has_channels and api_status_str == "live") else "Upcoming"
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
-
-    # ⏰ ম্যাচ শুরুর ১৫ মিনিট আগের সময়সীমা
     early_live_threshold = start - timedelta(minutes=15)
 
-    # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে
     if now >= early_live_threshold or api_status_str == "live":
-        # চ্যানেল লিংক উপস্থিত থাকলে 'Live', অন্যথায় 'Upcoming'
         return "Live" if has_channels else "Upcoming"
 
     return "Upcoming"
@@ -161,7 +161,6 @@ def extract_drm_key(stream):
     return None
 
 def extract_raw_streams(stream_payload):
-    """API-এর বিভিন্ন ফরম্যাট থেকে নির্ভুলভাবে স্ট্রিম লিস্ট বের করে আনে।"""
     if not stream_payload:
         return []
     if isinstance(stream_payload, list):
@@ -187,7 +186,6 @@ def process_channels(raw_streams):
         if not isinstance(stream, dict):
             continue
             
-        # 🚀 link এবং webLink উভয় ফিল্ডই চেক করা হবে
         raw_link = stream.get('link') or stream.get('webLink') or stream.get('url') or ''
         clean_url, headers = parse_stream_url_and_headers(raw_link)
         
@@ -224,8 +222,8 @@ def process_single_match(event):
     team_b_flag = event_info.get("teamBFlag") or event.get('image', '')
     logo = event.get('image') or team_a_flag
 
-    # দ্রুত স্ট্রিম লিংক ফেচ করা
-    stream_payload = fetch_json(f"{API_STREAMS_BASE}{slug}", timeout=10)
+    stream_base = API_STREAMS_BASE if API_STREAMS_BASE.endswith('/') else f"{API_STREAMS_BASE}/"
+    stream_payload = fetch_json(f"{stream_base}{slug}", timeout=10)
     raw_stream_urls = extract_raw_streams(stream_payload)
     channels = process_channels(raw_stream_urls)
     has_real_channels = len(channels) > 0
@@ -241,7 +239,6 @@ def process_single_match(event):
         has_channels=has_real_channels
     )
 
-    # কনসোলে লাইভ স্ট্যাটাস ও চ্যানেল সংখ্যা প্রিন্ট করবে
     print(f"👉 [{final_status}] {title} | Channels: {len(channels)}")
 
     return {
@@ -280,7 +277,6 @@ def run_sync():
 
     print(f"🎉 Successfully fetched {len(match_list)} events! Processing stream feeds...")
 
-    # প্যারালালে ১০টি থ্রেডে দ্রুত সব স্ট্রিম ফেচ করা
     with ThreadPoolExecutor(max_workers=10) as executor:
         consolidated_data = list(executor.map(process_single_match, match_list))
 
