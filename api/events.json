@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T03:18:56.854875+00:00",
-  "event_count": 75,
+  "last_updated": "2026-10-30T05:44:42.855455+00:00",
+  "event_count": 71,
   "events": {
     "events": [
       {
@@ -136,11 +136,9 @@
           {
             "channel_name": "TAPMAD - AQ",
             "stream_type": "HLS",
-            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -150,16 +148,6 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
             "headers": {},
             "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
           },
           {
             "channel_name": "T SPORTS HD",
@@ -172,8 +160,8 @@
           {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3081877_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3081877_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -181,7 +169,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 5
       },
       {
         "title": "Hong Kong Sixes 2026",
@@ -192,9 +180,9 @@
         "slug": "hong-kong-sixes-2026",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:45:51 AM",
+          "start_time_bst": "Oct 30, 2026, 09:45:23 AM",
           "end_time_bst": "Oct 30, 2026, 04:00:05 PM",
-          "raw_start_utc": "2026/10/30 00:45:51 +0000"
+          "raw_start_utc": "2026/10/30 03:45:23 +0000"
         },
         "teams": {
           "team_a": {
@@ -211,10 +199,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/sdvqfcqoza/out/v1/1519bb4c746348ceb10f042aa84b70f0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/sdvqfcqoza/out/v1/1519bb4c746348ceb10f042aa84b70f0/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/isvdqcmqxp/out/v1/a14f4afa4e01449fb0ec63c19ce91b5e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/isvdqcmqxp/out/v1/a14f4afa4e01449fb0ec63c19ce91b5e/cenc.mpd",
             "headers": {},
-            "drm_key": "fbfab2ae4f4e8a1705b4cdc7802e9304:29db7aa2585fdbc1d5892db6d04fe351"
+            "drm_key": "962005439eb7ead2261fc486359be61a:8759346088db941cb0ae9a144bbf3c9d"
           },
           {
             "channel_name": "WILLOW - ALT",
@@ -254,222 +242,6 @@
           }
         ],
         "total_channels": 5
-      },
-      {
-        "title": "Atlanta Hawks vs Cleveland Cavaliers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "atlanta-hawks-vs-cleveland-cavaliers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/30 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlanta Hawks",
-            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
-          },
-          "team_b": {
-            "name": "Cleveland Cavaliers",
-            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3423/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58858/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58858/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58858?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58858?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/ZRRR.m3u8",
-            "raw_link": "http://193.47.62.44/hls/ZRRR.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "New Orleans Pelicans vs Sacramento Kings",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "new-orleans-pelicans-vs-sacramento-kings",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 08:30:00 AM",
-          "raw_start_utc": "2026/10/30 00:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Orleans Pelicans",
-            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
-          },
-          "team_b": {
-            "name": "Sacramento Kings",
-            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58862/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58862/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58862?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58862?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/ZRRRA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/ZRRRA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Portland Trail Blazers vs Memphis Grizzlies",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "portland-trail-blazers-vs-memphis-grizzlies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 30, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/30 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          },
-          "team_b": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58873/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58873/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58873?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58873?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW QUALITY",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/ZRRRAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/ZRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Green Bay Packers vs Carolina Panthers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "green-bay-packers-vs-carolina-panthers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 06:15:00 AM",
-          "end_time_bst": "Oct 30, 2026, 09:15:00 AM",
-          "raw_start_utc": "2026/10/30 00:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Green Bay Packers",
-            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-          },
-          "team_b": {
-            "name": "Carolina Panthers",
-            "flag": "https://img.sofascore.com/api/v1/team/4415/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4420/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          {
-            "channel_name": "TSN SPORTS 5 - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58843/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58843/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58843?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/58843?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Formula 1",
