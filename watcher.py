@@ -22,13 +22,11 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# সিক্রেট ও কনফিগারেশন ভ্যারিয়েবল
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 REPO_OWNER = os.environ.get("REPO_OWNER", "sunnyfeni7-del").strip()
 REPO_NAME = os.environ.get("REPO_NAME", "hd-sports").strip()
 API_EVENTS = os.environ.get("API_EVENTS", "").strip()
 
-# সোর্স ডোমেইন স্বয়ংক্রিয়ভাবে বের করে হেডারে বসানো হবে
 origin = ""
 if API_EVENTS:
     parsed = urlparse(API_EVENTS)
@@ -46,7 +44,10 @@ HEADERS = {
 def parse_date(date_str):
     if not date_str:
         return None
-    clean = str(date_str).split('+')[0].strip().replace('T', ' ')
+    clean = str(date_str).strip()
+    if clean.endswith('Z'):
+        clean = clean[:-1]
+    clean = clean.split('+')[0].strip().replace('T', ' ')
     for fmt in ("%Y/%m/%d %H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M", "%Y-%m-%d %H:%M"):
         try:
             return datetime.strptime(clean, fmt)
@@ -104,6 +105,11 @@ def trigger_github_action(reason):
         log(f"❌ Failed to trigger GitHub Action: {e}")
 
 def get_current_event_states():
+    """
+    ইভেন্টগুলোর স্টেটাস মূল্যায়ন:
+    - ম্যাচ শুরু হবার ১৫ মিনিট আগে পৌঁছালে স্টেটাস 'Live' হবে।
+    - সোর্স API 'finish/ended' বললে তবেই 'Ended' হবে।
+    """
     data = fetch_events_with_retry(retries=3, timeout=25)
     if not data:
         return None, {}
@@ -121,10 +127,12 @@ def get_current_event_states():
         info = ev.get('eventInfo', {})
         api_status = str(info.get('Status') or ev.get('status') or '').strip().lower()
 
+        # ১. সোর্স API যদি ended/finish ঘোষণা করে
         if api_status in ["finish", "finished", "ended", "completed", "closed"]:
             status = "Ended"
         else:
             start = parse_date(info.get('startTime'))
+            # ২. ম্যাচ শুরুর ১৫ মিনিট আগে পৌঁছালে অথবা সোর্স API লাইভ দেখালে
             if start and (now >= (start - timedelta(minutes=15)) or api_status == "live"):
                 status = "Live"
             else:
@@ -136,6 +144,13 @@ def get_current_event_states():
     return state_map, summary_counts
 
 def detect_changes(previous_state, current_state):
+    """
+    যেকোনো পরিবর্তন শনাক্ত করে:
+    ১. নতুন ম্যাচ যোগ
+    ২. ম্যাচ মুছে ফেলা
+    ৩. ১৫ মিনিট আগে পৌঁছে Upcoming ➔ Live হওয়া
+    ৪. ম্যাচ শেষ হয়ে Live ➔ Ended হওয়া
+    """
     if previous_state is None:
         return "Initial Startup Sync"
 
@@ -205,9 +220,9 @@ def watcher_loop():
                     trigger_github_action(change_reason)
                     previous_state = current_state
                 else:
-                    log("💤 আগের তালিকার সাথে কোনো পরিবর্তন নেই। GitHub রিকোয়েস্ট পাঠানো হয়নি।")
+                    log("💤 তালিকার অবস্থা অপরিবর্তিত। GitHub রিকোয়েস্ট পাঠানো হয়নি।")
             else:
-                log("⚠️ সোর্স এপিআই থেকে ডাটা পাওয়া যায়নি। ৫ মিনিট পর আবার চেষ্টা করা হবে...")
+                log("⚠️ সোর্স এপিআই রেসপন্স দেয়নি। পরবর্তী চেকের অপেক্ষা...")
 
         except Exception as e:
             log(f"❌ Watcher Loop Error: {e}")
