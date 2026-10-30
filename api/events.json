@@ -1,8 +1,58 @@
 {
-  "last_updated": "2026-10-30T16:24:22.268118+00:00",
+  "last_updated": "2026-10-30T16:49:31.450795+00:00",
   "event_count": 69,
   "events": {
     "events": [
+      {
+        "title": "Konyaspor vs Galatasaray",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "konyaspor-vs-galatasaray",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 30, 2026, 11:00:00 PM",
+          "end_time_bst": "Oct 31, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/10/30 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Konyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
+          },
+          "team_b": {
+            "name": "Galatasaray",
+            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3085/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/ANNNAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/ANNNAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "Diriyah vs Neom SC",
         "sport": "Football",
@@ -1152,56 +1202,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Konyaspor vs Galatasaray",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "konyaspor-vs-galatasaray",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 30, 2026, 11:00:00 PM",
-          "end_time_bst": "Oct 31, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/10/30 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Konyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
-          },
-          "team_b": {
-            "name": "Galatasaray",
-            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3085/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/ANNNAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/ANNNAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Arminia Bielefeld vs Eintracht Braunschweig",
