@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T23:46:58.439941+00:00",
+  "last_updated": "2026-10-31T00:32:01.404318+00:00",
   "event_count": 98,
   "events": {
     "events": [
@@ -222,6 +222,70 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Hong Kong Sixes 2026",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "hong-kong-sixes-2026",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 06:45:31 AM",
+          "end_time_bst": "Oct 31, 2026, 03:30:55 PM",
+          "raw_start_utc": "2026/10/31 00:45:31 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hong Kong Sixes",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
+          },
+          "team_b": {
+            "name": "Hong Kong Sixes",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+            "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD HD",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Corinthians vs Mirassol",
@@ -1391,70 +1455,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Hong Kong Sixes 2026",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "hong-kong-sixes-2026",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 06:45:31 AM",
-          "end_time_bst": "Oct 31, 2026, 03:30:55 PM",
-          "raw_start_utc": "2026/10/31 00:45:31 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Hong Kong Sixes",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
-          },
-          "team_b": {
-            "name": "Hong Kong Sixes",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-            "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-            "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
       },
       {
         "title": "FC Augsburg vs SC Freiburg",
