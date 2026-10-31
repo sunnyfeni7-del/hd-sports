@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T17:57:41.554587+00:00",
+  "last_updated": "2026-10-31T18:47:53.548592+00:00",
   "event_count": 51,
   "events": {
     "events": [
@@ -478,6 +478,42 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Coritiba vs Vitoria",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "coritiba-vs-vitoria",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 01:00:00 AM",
+          "end_time_bst": "Nov 01, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/10/31 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Coritiba",
+            "flag": "https://img.sofascore.com/api/v1/team/1982/image"
+          },
+          "team_b": {
+            "name": "Vitória",
+            "flag": "https://img.sofascore.com/api/v1/team/1962/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1982/image",
+        "channels": [
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "headers": {},
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Al-Hilal vs Al-Fateh",
@@ -2171,33 +2207,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/39/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Coritiba vs Vitoria",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "coritiba-vs-vitoria",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 01:00:00 AM",
-          "end_time_bst": "Nov 01, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/10/31 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Coritiba",
-            "flag": "https://img.sofascore.com/api/v1/team/1982/image"
-          },
-          "team_b": {
-            "name": "Vitória",
-            "flag": "https://img.sofascore.com/api/v1/team/1962/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1982/image",
         "channels": [],
         "total_channels": 0
       },
