@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T07:54:18.728057+00:00",
+  "last_updated": "2026-10-31T07:59:15.942505+00:00",
   "event_count": 89,
   "events": {
     "events": [
@@ -256,6 +256,103 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Perth Scorchers Women vs Melbourne Renegades Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "perth-scorchers-women-vs-melbourne-renegades-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:10:00 PM",
+          "end_time_bst": "Oct 31, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/10/31 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Perth Scorchers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274890/image"
+          },
+          "team_b": {
+            "name": "Melbourne Renegades Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274890/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
+            "headers": {},
+            "drm_key": "3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909"
+          },
+          {
+            "channel_name": "SKY CRICKET - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
+            "headers": {},
+            "drm_key": "3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "EUROSPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+            "raw_link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+            "headers": {},
+            "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+          },
+          {
+            "channel_name": "FOX CRICKET HD",
+            "stream_type": "HLS",
+            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICBUZZ HD",
+            "stream_type": "HLS",
+            "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
+            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 8
       },
       {
         "title": "Formula 1",
@@ -1139,8 +1236,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2530/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "SV Werder Bremen vs TSG Hoffenheim",
@@ -1396,8 +1504,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/17/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Tottenham Hotspur vs Crystal Palace",
@@ -1627,8 +1746,29 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2818/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Real Betis vs Malaga CF",
@@ -2594,8 +2734,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/25/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Southampton vs Queens Park Rangers",
@@ -2675,8 +2826,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/37/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Wolverhampton vs Cardiff City",
@@ -2837,8 +2999,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2959/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "SportDigital Fussball",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "PSV Eindhoven vs Willem II Tilburg",
@@ -3190,103 +3363,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/3052/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Perth Scorchers Women vs Melbourne Renegades Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "perth-scorchers-women-vs-melbourne-renegades-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 02:10:00 PM",
-          "end_time_bst": "Oct 31, 2026, 06:10:00 PM",
-          "raw_start_utc": "2026/10/31 08:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Perth Scorchers Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274890/image"
-          },
-          "team_b": {
-            "name": "Melbourne Renegades Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/274890/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
-            "headers": {},
-            "drm_key": "3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909"
-          },
-          {
-            "channel_name": "SKY CRICKET - AQ",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd",
-            "headers": {},
-            "drm_key": "3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "EUROSPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-            "raw_link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-            "headers": {},
-            "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-          },
-          {
-            "channel_name": "FOX CRICKET HD",
-            "stream_type": "HLS",
-            "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICBUZZ HD",
-            "stream_type": "HLS",
-            "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-            "raw_link": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 8
       }
     ]
   }
