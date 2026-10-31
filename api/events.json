@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T17:22:30.206451+00:00",
-  "event_count": 54,
+  "last_updated": "2026-10-31T17:32:38.404823+00:00",
+  "event_count": 52,
   "events": {
     "events": [
       {
@@ -135,6 +135,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/2672/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/sokjg0lmx4/out/v1/28cef8d0eb944131ae93100669b14392/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/sokjg0lmx4/out/v1/28cef8d0eb944131ae93100669b14392/cenc.mpd",
+            "headers": {},
+            "drm_key": "091ad6e7e054c57d9463c3c9aecd2734:bba8e56d5ec8aed6fb3a49e78eaf39b2"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -143,6 +151,14 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "PEACOCK ES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
+            "headers": {},
+            "drm_key": "37438df8aaee89e4e707af3a0ea2c3c6:43d47f359bcc4e5ce06e244e08262d12"
           },
           {
             "channel_name": "SporTV BR - AQ",
@@ -175,6 +191,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/40d8dda1-368b-4114-8d99-5b755b728be1.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/40d8dda1-368b-4114-8d99-5b755b728be1.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/ZAZAZAQQ.m3u8",
@@ -187,7 +211,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 8
       },
       {
         "title": "Tottenham Hotspur vs Crystal Palace",
@@ -215,6 +239,22 @@
         "logo": "https://img.sofascore.com/api/v1/team/33/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
+            "headers": {},
+            "drm_key": "3ef3ff31b60778c45e20731fbc30f657:b0f9541fc0840445539e0f1ac36fd750"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd?aws_sessionId=77fe8528-ea5d-4b88-98b8-653c66ef845c",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd?aws_sessionId=77fe8528-ea5d-4b88-98b8-653c66ef845c",
+            "headers": {},
+            "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
+          },
+          {
             "channel_name": "NBC SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
@@ -225,7 +265,7 @@
             "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
           },
           {
-            "channel_name": "FUBO SPORTS - AQ",
+            "channel_name": "FUBO SPORTS - ALT",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
             "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -243,9 +283,29 @@
               "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/6f94fa45-8327-47f2-91dd-fb49308e6591.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/6f94fa45-8327-47f2-91dd-fb49308e6591.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/ZAZAZA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/ZAZAZA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 7
       },
       {
         "title": "Udinese vs AS Roma",
@@ -387,7 +447,7 @@
             "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
           },
           {
-            "channel_name": "LOW SERVER",
+            "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/GAGAGAQQQQQQQQ.m3u8",
             "raw_link": "http://193.47.62.59/hls/GAGAGAQQQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -400,106 +460,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Feyenoord vs Fortuna Sittard",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "feyenoord-vs-fortuna-sittard",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 09:30:00 PM",
-          "end_time_bst": "Oct 31, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/10/31 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Feyenoord",
-            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
-          },
-          "team_b": {
-            "name": "Fortuna Sittard",
-            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2959/image",
-        "channels": [
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/EUUUAAAAAAAQQQAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/EUUUAAAAAAAQQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Moreirense vs CF Estrela Amadora",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "moreirense-vs-cf-estrela-amadora",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 09:30:00 PM",
-          "end_time_bst": "Oct 31, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/10/31 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Moreirense",
-            "flag": "https://img.sofascore.com/api/v1/team/3014/image"
-          },
-          "team_b": {
-            "name": "CF Estrela Amadora",
-            "flag": "https://img.sofascore.com/api/v1/team/3035/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3014/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/EUUUAAAAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/EUUUAAAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Celta Fortuna vs Cordoba",
