@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T17:17:38.836380+00:00",
-  "event_count": 56,
+  "last_updated": "2026-10-31T17:22:30.206451+00:00",
+  "event_count": 54,
   "events": {
     "events": [
       {
@@ -173,9 +173,21 @@
               "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/ZAZAZAQQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/ZAZAZAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Tottenham Hotspur vs Crystal Palace",
@@ -320,54 +332,6 @@
         "total_channels": 6
       },
       {
-        "title": "Rayo Vallecano vs Celta Vigo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "rayo-vallecano-vs-celta-vigo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 09:15:00 PM",
-          "end_time_bst": "Oct 31, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/10/31 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Rayo Vallecano",
-            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
-          },
-          "team_b": {
-            "name": "Celta Vigo",
-            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2818/image",
-        "channels": [
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Real Betis vs Malaga CF",
         "sport": "Football",
         "sub_category": "Football",
@@ -415,15 +379,27 @@
           {
             "channel_name": "CazéTV - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+            "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/GAGAGAQQQQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/GAGAGAQQQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Feyenoord vs Fortuna Sittard",
@@ -526,45 +502,35 @@
         "total_channels": 1
       },
       {
-        "title": "Eibar vs Almeria",
+        "title": "Celta Fortuna vs Cordoba",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "eibar-vs-almeria",
+        "slug": "celta-fortuna-vs-cordoba",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 09:15:00 PM",
-          "end_time_bst": "Oct 31, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/10/31 15:15:00 +0000"
+          "start_time_bst": "Oct 31, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/10/31 17:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Eibar",
-            "flag": "https://img.sofascore.com/api/v1/team/2839/image"
+            "name": "Celta Fortuna",
+            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
           },
           "team_b": {
-            "name": "Almería",
-            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
+            "name": "Córdoba",
+            "flag": "https://img.sofascore.com/api/v1/team/2850/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2839/image",
+        "logo": "https://img.sofascore.com/api/v1/team/24336/image",
         "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/EUUUAAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/EUUUAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.59/hls/GAGAGAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/GAGAGAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -573,7 +539,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 1
       },
       {
         "title": "Fenerbahce vs Goztepe",
@@ -2379,33 +2345,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Celta Fortuna vs Cordoba",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "celta-fortuna-vs-cordoba",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 01, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/10/31 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Celta Fortuna",
-            "flag": "https://img.sofascore.com/api/v1/team/24336/image"
-          },
-          "team_b": {
-            "name": "Córdoba",
-            "flag": "https://img.sofascore.com/api/v1/team/2850/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24336/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Albacete Balompie vs CE Sabadell",
