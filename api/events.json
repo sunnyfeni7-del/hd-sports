@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T17:32:38.404823+00:00",
+  "last_updated": "2026-10-31T17:47:52.566167+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -143,6 +143,14 @@
             "drm_key": "091ad6e7e054c57d9463c3c9aecd2734:bba8e56d5ec8aed6fb3a49e78eaf39b2"
           },
           {
+            "channel_name": "PEACOCK ES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
+            "headers": {},
+            "drm_key": "37438df8aaee89e4e707af3a0ea2c3c6:43d47f359bcc4e5ce06e244e08262d12"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -151,14 +159,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "PEACOCK ES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
-            "headers": {},
-            "drm_key": "37438df8aaee89e4e707af3a0ea2c3c6:43d47f359bcc4e5ce06e244e08262d12"
           },
           {
             "channel_name": "SporTV BR - AQ",
@@ -460,6 +460,82 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "PSV Eindhoven vs Willem II Tilburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "psv-eindhoven-vs-willem-ii-tilburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 01, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/31 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "PSV Eindhoven",
+            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
+          },
+          "team_b": {
+            "name": "Willem II Tilburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2952/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "SC Heerenveen vs NEC Nijmegen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-heerenveen-vs-nec-nijmegen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 01, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/10/31 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Heerenveen",
+            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
+          },
+          "team_b": {
+            "name": "NEC Nijmegen",
+            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2964/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Celta Fortuna vs Cordoba",
@@ -2146,60 +2222,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2553/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "PSV Eindhoven vs Willem II Tilburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "psv-eindhoven-vs-willem-ii-tilburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 01, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/31 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "PSV Eindhoven",
-            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
-          },
-          "team_b": {
-            "name": "Willem II Tilburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2952/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Heerenveen vs NEC Nijmegen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-heerenveen-vs-nec-nijmegen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 01, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/10/31 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Heerenveen",
-            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
-          },
-          "team_b": {
-            "name": "NEC Nijmegen",
-            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2964/image",
         "channels": [],
         "total_channels": 0
       },
