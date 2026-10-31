@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T14:37:31.196696+00:00",
+  "last_updated": "2026-10-31T14:42:34.628362+00:00",
   "event_count": 81,
   "events": {
     "events": [
@@ -482,6 +482,56 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Al-Fayha vs Al Faisaly",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-fayha-vs-al-faisaly",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 08:55:00 PM",
+          "end_time_bst": "Oct 31, 2026, 11:15:00 PM",
+          "raw_start_utc": "2026/10/31 14:55:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Fayha",
+            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+          },
+          "team_b": {
+            "name": "Al Faisaly",
+            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/168094/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4599641.m3u8?txSecret=94d6da6a054b7e9b2adc5e62ae2bacd8&txTime=6AE61060",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4599641.m3u8?txSecret=94d6da6a054b7e9b2adc5e62ae2bacd8&txTime=6AE61060|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/kkkkAAAAAQQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/kkkkAAAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Kocaelispor vs Caykur Rizespor",
@@ -1483,8 +1533,31 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/60/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/A888.m3u8",
+            "raw_link": "http://193.47.62.50/hls/A888.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Brentford vs Nottingham Forest",
@@ -1510,8 +1583,31 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/50/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "USA NETWORK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58919/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58919/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/A888a.m3u8",
+            "raw_link": "http://193.47.62.50/hls/A888a.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Coventry City vs Sunderland",
@@ -1601,9 +1697,31 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          },
+          {
+            "channel_name": "PEACOCK TV HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/A888aaaa.m3u8",
+            "raw_link": "http://193.47.62.55/hls/A888aaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Tottenham Hotspur vs Crystal Palace",
@@ -2603,33 +2721,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/56021/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Fayha vs Al Faisaly",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-fayha-vs-al-faisaly",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 08:55:00 PM",
-          "end_time_bst": "Oct 31, 2026, 11:15:00 PM",
-          "raw_start_utc": "2026/10/31 14:55:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Fayha",
-            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
-          },
-          "team_b": {
-            "name": "Al Faisaly",
-            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168094/image",
         "channels": [],
         "total_channels": 0
       },
