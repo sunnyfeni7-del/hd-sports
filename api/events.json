@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T11:05:22.514319+00:00",
-  "event_count": 89,
+  "last_updated": "2026-10-31T11:15:22.926710+00:00",
+  "event_count": 90,
   "events": {
     "events": [
       {
@@ -270,61 +270,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Perth Scorchers Women vs Melbourne Renegades Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "perth-scorchers-women-vs-melbourne-renegades-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 02:10:00 PM",
-          "end_time_bst": "Oct 31, 2026, 06:10:00 PM",
-          "raw_start_utc": "2026/10/31 08:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Perth Scorchers Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274890/image"
-          },
-          "team_b": {
-            "name": "Melbourne Renegades Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/274890/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-            "headers": {},
-            "drm_key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-            "headers": {},
-            "drm_key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250391_english_hls_9173e82c8482158_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250391_english_hls_9173e82c8482158_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -3538,6 +3483,60 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3052/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sydney Thunder Women vs Brisbane Heat Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sydney-thunder-women-vs-brisbane-heat-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:40:00 AM",
+          "end_time_bst": "Nov 01, 2026, 02:40:00 PM",
+          "raw_start_utc": "2026/11/01 04:40:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sydney Thunder Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274889/image"
+          },
+          "team_b": {
+            "name": "Brisbane Heat Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274884/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274889/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sydney Sixers Women vs Hobart Hurricanes Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sydney-sixers-women-vs-hobart-hurricanes-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 02:10:00 PM",
+          "end_time_bst": "Nov 01, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/11/01 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sydney Sixers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274883/image"
+          },
+          "team_b": {
+            "name": "Hobart Hurricanes Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274883/image",
         "channels": [],
         "total_channels": 0
       }
