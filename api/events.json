@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T17:47:52.566167+00:00",
-  "event_count": 52,
+  "last_updated": "2026-10-31T17:57:41.554587+00:00",
+  "event_count": 51,
   "events": {
     "events": [
       {
@@ -71,9 +71,27 @@
           {
             "channel_name": "SPORTSCAST - AQ",
             "stream_type": "HLS",
-            "url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/58464152-0ce6-4e18-a3c1-393ba5669a09/master.m3u8",
-            "raw_link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/58464152-0ce6-4e18-a3c1-393ba5669a09/master.m3u8",
+            "url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8",
+            "raw_link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8",
             "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FORMULA 1 - AQ",
+            "stream_type": "HLS",
+            "url": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "raw_link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SKY SPORTS F1",
+            "stream_type": "HLS",
+            "url": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula",
+            "raw_link": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
             "drm_key": null
           },
           {
@@ -89,8 +107,8 @@
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/KYYY.m3u8",
-            "raw_link": "http://193.47.62.50/hls/KYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.44/hls/KYYYAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/KYYYAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -107,7 +125,7 @@
             "drm_key": "1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
           }
         ],
-        "total_channels": 8
+        "total_channels": 10
       },
       {
         "title": "FC Bayern Munchen vs Borussia Dortmund",
@@ -462,6 +480,44 @@
         "total_channels": 4
       },
       {
+        "title": "Al-Hilal vs Al-Fateh",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-hilal-vs-al-fateh",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 01, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/10/31 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Hilal",
+            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
+          },
+          "team_b": {
+            "name": "Al-Fateh",
+            "flag": "https://img.sofascore.com/api/v1/team/56023/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "PSV Eindhoven vs Willem II Tilburg",
         "sport": "Football",
         "sub_category": "Football",
@@ -495,9 +551,21 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/JOOOA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/JOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "SC Heerenveen vs NEC Nijmegen",
@@ -533,9 +601,21 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/JOOO.m3u8",
+            "raw_link": "http://193.47.62.59/hls/JOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Celta Fortuna vs Cordoba",
@@ -576,56 +656,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Fenerbahce vs Goztepe",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fenerbahce-vs-goztepe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 01, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/10/31 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fenerbahçe",
-            "flag": "https://img.sofascore.com/api/v1/team/3052/image"
-          },
-          "team_b": {
-            "name": "Göztepe",
-            "flag": "https://img.sofascore.com/api/v1/team/3054/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3052/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/H666AA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/H666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Motogp",
@@ -2168,33 +2198,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/1982/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Hilal vs Al-Fateh",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-hilal-vs-al-fateh",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 01, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/10/31 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Hilal",
-            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
-          },
-          "team_b": {
-            "name": "Al-Fateh",
-            "flag": "https://img.sofascore.com/api/v1/team/56023/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
         "channels": [],
         "total_channels": 0
       },
