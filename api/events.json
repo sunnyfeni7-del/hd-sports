@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T03:17:51.636265+00:00",
-  "event_count": 90,
+  "last_updated": "2026-10-31T03:43:00.087542+00:00",
+  "event_count": 92,
   "events": {
     "events": [
       {
@@ -234,8 +234,8 @@
           {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3081877_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3081877_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3062034_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3062034_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -254,9 +254,9 @@
         "slug": "hong-kong-sixes-2026",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 06:45:31 AM",
+          "start_time_bst": "Oct 31, 2026, 09:31:16 AM",
           "end_time_bst": "Oct 31, 2026, 03:30:55 PM",
-          "raw_start_utc": "2026/10/31 00:45:31 +0000"
+          "raw_start_utc": "2026/10/31 03:31:16 +0000"
         },
         "teams": {
           "team_a": {
@@ -3221,6 +3221,60 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3052/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Adelaide Strikers Women vs Melbourne Stars Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "adelaide-strikers-women-vs-melbourne-stars-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 10:40:00 AM",
+          "end_time_bst": "Oct 31, 2026, 02:40:00 PM",
+          "raw_start_utc": "2026/10/31 04:40:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Adelaide Strikers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274888/image"
+          },
+          "team_b": {
+            "name": "Melbourne Stars Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274886/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274888/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Perth Scorchers Women vs Melbourne Renegades Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "perth-scorchers-women-vs-melbourne-renegades-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 02:10:00 PM",
+          "end_time_bst": "Oct 31, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/10/31 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Perth Scorchers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274890/image"
+          },
+          "team_b": {
+            "name": "Melbourne Renegades Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274890/image",
         "channels": [],
         "total_channels": 0
       }
