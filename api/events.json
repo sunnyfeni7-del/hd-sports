@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T06:33:52.958128+00:00",
-  "event_count": 92,
+  "last_updated": "2026-10-31T07:04:02.171173+00:00",
+  "event_count": 90,
   "events": {
     "events": [
       {
@@ -215,8 +215,8 @@
           {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250360_english_hls_c17496c5a897481_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250360_english_hls_c17496c5a897481_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -254,10 +254,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/he7gcglt9x/out/v1/9605ed2ba03c489cbf23516f7668a08f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/he7gcglt9x/out/v1/9605ed2ba03c489cbf23516f7668a08f/cenc.mpd",
             "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+            "drm_key": "618ed9fba02a14e4350000041b526502:d6bae617d11994298f1fe5116231f897"
           },
           {
             "channel_name": "TAPMAD - AQ",
@@ -289,126 +289,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Golden State Warriors vs Los Angeles Lakers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "golden-state-warriors-vs-los-angeles-lakers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 31, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/31 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Golden State Warriors",
-            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-          },
-          "team_b": {
-            "name": "Los Angeles Lakers",
-            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3428/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58905/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58905/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58905/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58905/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/fdgsqdfawa73.m3u8?st=vf3GY7hMO4szb2_zbBEoO_Q-rB3wfrHaELnDeuAVFag&e=1793421010",
-            "raw_link": "https://edgestream6.pro/hls/fdgsqdfawa73.m3u8?st=vf3GY7hMO4szb2_zbBEoO_Q-rB3wfrHaELnDeuAVFag&e=1793421010|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Phoenix Suns vs Denver Nuggets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "phoenix-suns-vs-denver-nuggets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 08:00:00 AM",
-          "end_time_bst": "Oct 31, 2026, 10:30:00 AM",
-          "raw_start_utc": "2026/10/31 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Phoenix Suns",
-            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
-          },
-          "team_b": {
-            "name": "Denver Nuggets",
-            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3416/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58903/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58903/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58901/load-playlist?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58901/load-playlist?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD QUALITY",
-            "stream_type": "HLS",
-            "url": "https://edgestream6.pro/hls/yjtzafghvjza74.m3u8?st=Daqs-ooQhMS4TspjOvDZxg1CrNF6IBALus8YS4DWWqg&e=1793421010",
-            "raw_link": "https://edgestream6.pro/hls/yjtzafghvjza74.m3u8?st=Daqs-ooQhMS4TspjOvDZxg1CrNF6IBALus8YS4DWWqg&e=1793421010|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://embedcenter.st",
-              "Origin": "https://embedcenter.st"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Adelaide Strikers Women vs Melbourne Stars Women",
