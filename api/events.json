@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T08:44:29.153258+00:00",
+  "last_updated": "2026-10-31T10:20:00.505299+00:00",
   "event_count": 89,
   "events": {
     "events": [
@@ -71,6 +71,18 @@
             "drm_key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
           },
           {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/XAXAXAAX.m3u8",
+            "raw_link": "http://193.47.62.44/hls/XAXAXAAX.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
             "url": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780024185_1ta-di_h264/index.m3u8",
@@ -82,7 +94,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 7
       },
       {
         "title": "Pakistan vs Sri Lanka",
@@ -290,6 +302,44 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Erzurumspor FK vs Corum FK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "erzurumspor-fk-vs-corum-fk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Oct 31, 2026, 04:30:00 PM",
+          "end_time_bst": "Oct 31, 2026, 06:50:00 PM",
+          "raw_start_utc": "2026/10/31 10:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Erzurumspor FK",
+            "flag": "https://img.sofascore.com/api/v1/team/55603/image"
+          },
+          "team_b": {
+            "name": "Çorum FK",
+            "flag": "https://img.sofascore.com/api/v1/team/77629/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/55603/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Perth Scorchers Women vs Melbourne Renegades Women",
@@ -3424,44 +3474,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2848/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Erzurumspor FK vs Corum FK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "erzurumspor-fk-vs-corum-fk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Oct 31, 2026, 04:30:00 PM",
-          "end_time_bst": "Oct 31, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/10/31 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Erzurumspor FK",
-            "flag": "https://img.sofascore.com/api/v1/team/55603/image"
-          },
-          "team_b": {
-            "name": "Çorum FK",
-            "flag": "https://img.sofascore.com/api/v1/team/77629/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/55603/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Kocaelispor vs Caykur Rizespor",
