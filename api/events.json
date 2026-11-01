@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T17:46:38.940538+00:00",
-  "event_count": 47,
+  "last_updated": "2026-11-01T18:16:49.098689+00:00",
+  "event_count": 44,
   "events": {
     "events": [
       {
@@ -461,124 +461,6 @@
         "total_channels": 5
       },
       {
-        "title": "Olympique Lyonnais vs Angers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "olympique-lyonnais-vs-angers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
-          "raw_start_utc": "2026/11/01 16:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Olympique Lyonnais",
-            "flag": "https://img.sofascore.com/api/v1/team/1649/image"
-          },
-          "team_b": {
-            "name": "Angers",
-            "flag": "https://img.sofascore.com/api/v1/team/1684/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1649/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-            "headers": {},
-            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/DRRRRQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/DRRRRQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Paris FC vs AS Monaco",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "paris-fc-vs-as-monaco",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
-          "raw_start_utc": "2026/11/01 16:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Paris FC",
-            "flag": "https://img.sofascore.com/api/v1/team/6070/image"
-          },
-          "team_b": {
-            "name": "AS Monaco",
-            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6070/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?aws_sessionId=d7a79a64-4f97-438f-b860-44a258064025",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?aws_sessionId=d7a79a64-4f97-438f-b860-44a258064025",
-            "headers": {},
-            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/595fc382-27c9-44b0-a1de-c1f9bb2ad2b1.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/595fc382-27c9-44b0-a1de-c1f9bb2ad2b1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/DRRRRQQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/DRRRRQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Academico Viseu FC vs Rio Ave",
         "sport": "Football",
         "sub_category": "Football",
@@ -667,43 +549,55 @@
         "total_channels": 2
       },
       {
-        "title": "Kasmpasa vs Besiktas JK",
-        "sport": "Football",
-        "sub_category": "Football",
+        "title": "Buffalo Bills vs Baltimore Ravens",
+        "sport": "American football",
+        "sub_category": "American football",
         "status": "Live",
         "is_hot": false,
-        "slug": "kasmpasa-vs-besiktas-jk",
+        "slug": "buffalo-bills-vs-baltimore-ravens",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/01 16:00:00 +0000"
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Kasımpaşa",
-            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
+            "name": "Buffalo Bills",
+            "flag": "https://img.sofascore.com/api/v1/team/4414/image"
           },
           "team_b": {
-            "name": "Beşiktaş JK",
-            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
+            "name": "Baltimore Ravens",
+            "flag": "https://img.sofascore.com/api/v1/team/4413/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/6063/image",
+        "logo": "https://img.sofascore.com/api/v1/team/4414/image",
         "channels": [
           {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd",
-            "headers": {},
-            "drm_key": "4b17f5cd91d6b9dde66cf11dac2c7805:ffc6dd5e62c688c5f8e131649df94a2d"
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59062/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59062/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59031/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59031/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/MMMMAQQQQA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/MMMMAQQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.59/hls/kikiki.m3u8",
+            "raw_link": "http://193.47.62.59/hls/kikiki.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -712,7 +606,425 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
+      },
+      {
+        "title": "Cincinnati Bengals vs Tennessee Titans",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cincinnati-bengals-vs-tennessee-titans",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cincinnati Bengals",
+            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
+          },
+          "team_b": {
+            "name": "Tennessee Titans",
+            "flag": "https://img.sofascore.com/api/v1/team/4431/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4416/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6ghtddqemm/out/v1/a284680840d04b8ca78da1e6e48d85a4/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6ghtddqemm/out/v1/a284680840d04b8ca78da1e6e48d85a4/cenc.mpd",
+            "headers": {},
+            "drm_key": "6e84df3c5ab6cc4542e2bb032888fb78:f70a093df9f2afa85b2ae89fefdbe6cb"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59060/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59060/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59038/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59038/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/G999.m3u8",
+            "raw_link": "http://193.47.62.50/hls/G999.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Dallas Cowboys vs Arizona Cardinals",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "dallas-cowboys-vs-arizona-cardinals",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Dallas Cowboys",
+            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
+          },
+          "team_b": {
+            "name": "Arizona Cardinals",
+            "flag": "https://img.sofascore.com/api/v1/team/4412/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4392/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/g0qjga9edn/out/v1/aea06bfc646045b08e1c15124d19d345/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/g0qjga9edn/out/v1/aea06bfc646045b08e1c15124d19d345/cenc.mpd",
+            "headers": {},
+            "drm_key": "3b3580b4daf25bbf11f4c3cd011fe360:67e43f5b08cea0ebd3643b582bab430e"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59058/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59058/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59042/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59042/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/kikikiA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/kikikiA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Detroit Lions vs Minnesota Vikings",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "detroit-lions-vs-minnesota-vikings",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Detroit Lions",
+            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
+          },
+          "team_b": {
+            "name": "Minnesota Vikings",
+            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4419/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/z0fmnuemex/out/v1/0e3acebe1705493db8051047c4cfe821/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/z0fmnuemex/out/v1/0e3acebe1705493db8051047c4cfe821/cenc.mpd",
+            "headers": {},
+            "drm_key": "22f125b5721ad4b08b2fd5640117a84a:9f3579b0759dbc527bec14638027d25f"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59064/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59064/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59036/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59036/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/G999A.m3u8",
+            "raw_link": "http://193.47.62.55/hls/G999A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Jacksonville Jaguars vs Indianapolis Colts",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "jacksonville-jaguars-vs-indianapolis-colts",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Jacksonville Jaguars",
+            "flag": "https://img.sofascore.com/api/v1/team/4386/image"
+          },
+          "team_b": {
+            "name": "Indianapolis Colts",
+            "flag": "https://img.sofascore.com/api/v1/team/4421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4386/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8eggdiukti/out/v1/ec99f9deec094b39a576b70536e61d21/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8eggdiukti/out/v1/ec99f9deec094b39a576b70536e61d21/cenc.mpd",
+            "headers": {},
+            "drm_key": "0ec30f4db165b0934334ff7600670752:804a2984f3ee2ba6054a8b011c1d2730"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59061/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59061/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59041/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59041/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/kikikiAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/kikikiAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "New York Jets vs Las Vegas Raiders",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-york-jets-vs-las-vegas-raiders",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New York Jets",
+            "flag": "https://img.sofascore.com/api/v1/team/4427/image"
+          },
+          "team_b": {
+            "name": "Las Vegas Raiders",
+            "flag": "https://img.sofascore.com/api/v1/team/4390/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4427/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/gi9pvfalzb/out/v1/d01083b9972a4ab0ba7bc4ac17e126a9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/gi9pvfalzb/out/v1/d01083b9972a4ab0ba7bc4ac17e126a9/cenc.mpd",
+            "headers": {},
+            "drm_key": "7d1ba9b75a6aadca4aafc599d686fefe:3116ebf4a9a89f0724f3de8649a829d3"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59059/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59059/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59034/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59034/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/G999AA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/G999AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Pittsburgh Steelers vs Cleveland Browns",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "pittsburgh-steelers-vs-cleveland-browns",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pittsburgh Steelers",
+            "flag": "https://img.sofascore.com/api/v1/team/4345/image"
+          },
+          "team_b": {
+            "name": "Cleveland Browns",
+            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4345/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xx6cp8hvry/out/v1/afe92e12a7cc4a7fb3a971963b8a789f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xx6cp8hvry/out/v1/afe92e12a7cc4a7fb3a971963b8a789f/cenc.mpd",
+            "headers": {},
+            "drm_key": "3424b4b11fc437618d745899a1462dbe:b893f41749b700fd8bea8ac40add9b8a"
+          },
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59057/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59057/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59047/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59047/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/kikikiAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/kikikiAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
       },
       {
         "title": "Tampa Bay Buccaneers vs Atlanta Falcons",
@@ -739,6 +1051,14 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/4388/image",
         "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ezoxrkaalp/out/v1/98a84b316c2e4b57ac0ae058ab19c50e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ezoxrkaalp/out/v1/98a84b316c2e4b57ac0ae058ab19c50e/cenc.mpd",
+            "headers": {},
+            "drm_key": "28abdcc48c2e8f9db40cfd10dd2fc456:28862d01222392a805f9a0fd83afe3ea"
+          },
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
@@ -772,7 +1092,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Formula 1",
@@ -1516,7 +1836,7 @@
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
           },
           {
-            "channel_name": "SPORT 1 CZ - AQ",
+            "channel_name": "SPORT 1 CZ - AQ ",
             "stream_type": "DASH",
             "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
             "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
@@ -1815,195 +2135,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Buffalo Bills vs Baltimore Ravens",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "buffalo-bills-vs-baltimore-ravens",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Buffalo Bills",
-            "flag": "https://img.sofascore.com/api/v1/team/4414/image"
-          },
-          "team_b": {
-            "name": "Baltimore Ravens",
-            "flag": "https://img.sofascore.com/api/v1/team/4413/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4414/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Cincinnati Bengals vs Tennessee Titans",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cincinnati-bengals-vs-tennessee-titans",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cincinnati Bengals",
-            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
-          },
-          "team_b": {
-            "name": "Tennessee Titans",
-            "flag": "https://img.sofascore.com/api/v1/team/4431/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4416/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Dallas Cowboys vs Arizona Cardinals",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "dallas-cowboys-vs-arizona-cardinals",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dallas Cowboys",
-            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-          },
-          "team_b": {
-            "name": "Arizona Cardinals",
-            "flag": "https://img.sofascore.com/api/v1/team/4412/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4392/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Detroit Lions vs Minnesota Vikings",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "detroit-lions-vs-minnesota-vikings",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Detroit Lions",
-            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
-          },
-          "team_b": {
-            "name": "Minnesota Vikings",
-            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4419/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Jacksonville Jaguars vs Indianapolis Colts",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "jacksonville-jaguars-vs-indianapolis-colts",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Jacksonville Jaguars",
-            "flag": "https://img.sofascore.com/api/v1/team/4386/image"
-          },
-          "team_b": {
-            "name": "Indianapolis Colts",
-            "flag": "https://img.sofascore.com/api/v1/team/4421/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4386/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "New York Jets vs Las Vegas Raiders",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-york-jets-vs-las-vegas-raiders",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New York Jets",
-            "flag": "https://img.sofascore.com/api/v1/team/4427/image"
-          },
-          "team_b": {
-            "name": "Las Vegas Raiders",
-            "flag": "https://img.sofascore.com/api/v1/team/4390/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4427/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Pittsburgh Steelers vs Cleveland Browns",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "pittsburgh-steelers-vs-cleveland-browns",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pittsburgh Steelers",
-            "flag": "https://img.sofascore.com/api/v1/team/4345/image"
-          },
-          "team_b": {
-            "name": "Cleveland Browns",
-            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4345/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Los Angeles Rams vs Los Angeles Chargers",
