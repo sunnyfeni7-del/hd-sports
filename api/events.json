@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T13:20:37.816626+00:00",
-  "event_count": 65,
+  "last_updated": "2026-11-01T13:40:44.733650+00:00",
+  "event_count": 64,
   "events": {
     "events": [
       {
@@ -183,98 +183,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Como vs Venezia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "como-vs-venezia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 05:30:00 PM",
-          "end_time_bst": "Nov 01, 2026, 07:50:00 PM",
-          "raw_start_utc": "2026/11/01 11:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Como",
-            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
-          },
-          "team_b": {
-            "name": "Venezia",
-            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2704/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wwmbmktacw/out/v1/c6b561b85d374da4a9bcf42de192bf99/cenc.mpd?aws_sessionId=9c9fa417-eb7a-47ad-8343-5504e944771c",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wwmbmktacw/out/v1/c6b561b85d374da4a9bcf42de192bf99/cenc.mpd?aws_sessionId=9c9fa417-eb7a-47ad-8343-5504e944771c",
-            "headers": {},
-            "drm_key": "9afba5a3c123b275d1ecbdcb7002e530:fb47476d2e7ec4cc7987261088b555e8"
-          },
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cj9ylmqsf0/out/v1/0ee8b60f8f9f4da2a4ef153a1c5df21b/cenc.mpd?aws_sessionId=47d1cddf-795e-45c4-b031-266761b8e28c",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cj9ylmqsf0/out/v1/0ee8b60f8f9f4da2a4ef153a1c5df21b/cenc.mpd?aws_sessionId=47d1cddf-795e-45c4-b031-266761b8e28c",
-            "headers": {},
-            "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4549105.m3u8?txSecret=01a5f35e92b834b8e59e1084001ac357&txTime=6AE736F6",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549105.m3u8?txSecret=01a5f35e92b834b8e59e1084001ac357&txTime=6AE736F6|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/cff94e78-fb0a-4545-bef5-274069bae6d5.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/cff94e78-fb0a-4545-bef5-274069bae6d5.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/ZZZZAAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/ZZZZAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 7
       },
       {
         "title": "Getafe vs Sevilla",
@@ -494,6 +402,102 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/JIIIAA.m3u8",
             "raw_link": "http://193.47.62.55/hls/JIIIAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Excelsior vs FC Twente",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "excelsior-vs-fc-twente",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/11/01 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Excelsior",
+            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
+          },
+          "team_b": {
+            "name": "FC Twente",
+            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2967/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/fb665ec8-646c-42da-9846-fd5012ba068e.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/fb665ec8-646c-42da-9846-fd5012ba068e.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/YOOOAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/YOOOAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "SC Telstar vs FC Utrecht",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-telstar-vs-fc-utrecht",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/11/01 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Telstar",
+            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
+          },
+          "team_b": {
+            "name": "FC Utrecht",
+            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2972/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/9589f825-3a0a-4258-a532-e3c0641d545e.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/9589f825-3a0a-4258-a532-e3c0641d545e.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/YOOOAAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/YOOOAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1899,60 +1903,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/39/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Excelsior vs FC Twente",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "excelsior-vs-fc-twente",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:30:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/11/01 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Excelsior",
-            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
-          },
-          "team_b": {
-            "name": "FC Twente",
-            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2967/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Telstar vs FC Utrecht",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-telstar-vs-fc-utrecht",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:30:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/11/01 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Telstar",
-            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
-          },
-          "team_b": {
-            "name": "FC Utrecht",
-            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2972/image",
         "channels": [],
         "total_channels": 0
       },
