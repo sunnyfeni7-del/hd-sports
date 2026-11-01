@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T12:40:27.042606+00:00",
+  "last_updated": "2026-11-01T12:45:25.079603+00:00",
   "event_count": 66,
   "events": {
     "events": [
@@ -277,6 +277,76 @@
         "total_channels": 7
       },
       {
+        "title": "Getafe vs Sevilla",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "getafe-vs-sevilla",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/01 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Getafe",
+            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+          },
+          "team_b": {
+            "name": "Sevilla",
+            "flag": "https://img.sofascore.com/api/v1/team/2833/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/B111AAQQQQAAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/B111AAQQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
         "title": "SpVgg Greuther Furth vs Holstein Kiel",
         "sport": "Football",
         "sub_category": "Football",
@@ -475,6 +545,126 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "CD Eldense vs Granada",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-eldense-vs-granada",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/01 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Eldense",
+            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
+          },
+          "team_b": {
+            "name": "Granada",
+            "flag": "https://img.sofascore.com/api/v1/team/33779/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/47321/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Basaksehir FK vs Samsunspor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "basaksehir-fk-vs-samsunspor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/01 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Başakşehir FK",
+            "flag": "https://img.sofascore.com/api/v1/team/3086/image"
+          },
+          "team_b": {
+            "name": "Samsunspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3086/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/KRRRAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/KRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Trabzonspor vs Gaziantep FK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "trabzonspor-vs-gaziantep-fk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/01 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Trabzonspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
+          },
+          "team_b": {
+            "name": "Gaziantep FK",
+            "flag": "https://img.sofascore.com/api/v1/team/5138/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/KRRRAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/KRRRAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1378,76 +1568,6 @@
         "total_channels": 3
       },
       {
-        "title": "Getafe vs Sevilla",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "getafe-vs-sevilla",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/01 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Getafe",
-            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
-          },
-          "team_b": {
-            "name": "Sevilla",
-            "flag": "https://img.sofascore.com/api/v1/team/2833/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/B111AAQQQQAAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/B111AAQQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Real Racing Club vs Real Madrid",
         "sport": "Football",
         "sub_category": "Football",
@@ -2001,46 +2121,6 @@
         "total_channels": 1
       },
       {
-        "title": "CD Eldense vs Granada",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-eldense-vs-granada",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/01 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Eldense",
-            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
-          },
-          "team_b": {
-            "name": "Granada",
-            "flag": "https://img.sofascore.com/api/v1/team/33779/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47321/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "AD Ceuta vs Sporting Gijon",
         "sport": "Football",
         "sub_category": "Football",
@@ -2120,86 +2200,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2822/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Basaksehir FK vs Samsunspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "basaksehir-fk-vs-samsunspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/01 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Başakşehir FK",
-            "flag": "https://img.sofascore.com/api/v1/team/3086/image"
-          },
-          "team_b": {
-            "name": "Samsunspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3086/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/KRRRAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/KRRRAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Trabzonspor vs Gaziantep FK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "trabzonspor-vs-gaziantep-fk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 01, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/01 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          },
-          "team_b": {
-            "name": "Gaziantep FK",
-            "flag": "https://img.sofascore.com/api/v1/team/5138/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/KRRRAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/KRRRAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Kasmpasa vs Besiktas JK",
