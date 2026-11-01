@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T08:49:00.766473+00:00",
+  "last_updated": "2026-11-01T10:19:36.666801+00:00",
   "event_count": 68,
   "events": {
     "events": [
@@ -249,7 +249,7 @@
         "schedule": {
           "timezone": "BST (UTC+6)",
           "start_time_bst": "Nov 01, 2026, 01:10:00 PM",
-          "end_time_bst": "Nov 01, 2026, 04:00:51 PM",
+          "end_time_bst": "Nov 01, 2026, 03:10:42 PM",
           "raw_start_utc": "2026/11/01 07:10:00 +0000"
         },
         "teams": {
@@ -373,6 +373,44 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Amed Sportif Faaliyetler vs Eyupspor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "amed-sportif-faaliyetler-vs-eyupspor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 04:30:00 PM",
+          "end_time_bst": "Nov 01, 2026, 06:50:00 PM",
+          "raw_start_utc": "2026/11/01 10:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Amed Sportif Faaliyetler",
+            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
+          },
+          "team_b": {
+            "name": "Eyüpspor",
+            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/207011/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1724,8 +1762,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2971/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Excelsior vs FC Twente",
@@ -2032,33 +2081,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2822/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Amed Sportif Faaliyetler vs Eyupspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "amed-sportif-faaliyetler-vs-eyupspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 04:30:00 PM",
-          "end_time_bst": "Nov 01, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/11/01 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Amed Sportif Faaliyetler",
-            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
-          },
-          "team_b": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/207011/image",
         "channels": [],
         "total_channels": 0
       },
