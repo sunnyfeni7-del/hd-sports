@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T17:41:55.946944+00:00",
+  "last_updated": "2026-11-01T17:46:38.940538+00:00",
   "event_count": 47,
   "events": {
     "events": [
@@ -120,79 +120,6 @@
           }
         ],
         "total_channels": 10
-      },
-      {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 08:30:15 PM",
-          "end_time_bst": "Nov 02, 2026, 12:30:21 AM",
-          "raw_start_utc": "2026/11/01 14:30:15 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
-            "headers": {},
-            "drm_key": "468c69668fb1f8433921d80485af81dc:fdc96b10b6e9cdcc3c5904afb6bff82d"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
-            "headers": {},
-            "drm_key": "468c69668fb1f8433921d80485af81dc:fdc96b10b6e9cdcc3c5904afb6bff82d"
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "headers": {},
-            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249771_english_hls_2fcd66b57713925_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249771_english_hls_2fcd66b57713925_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
       },
       {
         "title": "Eintracht Frankfurt vs Hamburger SV",
@@ -652,6 +579,46 @@
         "total_channels": 4
       },
       {
+        "title": "Academico Viseu FC vs Rio Ave",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "academico-viseu-fc-vs-rio-ave",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Académico Viseu FC",
+            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
+          },
+          "team_b": {
+            "name": "Rio Ave",
+            "flag": "https://img.sofascore.com/api/v1/team/3036/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3022/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/TMMMAAAAQQQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/TMMMAAAAQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Burgos Club de Futbol vs CD Castellon",
         "sport": "Football",
         "sub_category": "Football",
@@ -746,6 +713,66 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Tampa Bay Buccaneers vs Atlanta Falcons",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "tampa-bay-buccaneers-vs-atlanta-falcons",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/01 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Tampa Bay Buccaneers",
+            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
+          },
+          "team_b": {
+            "name": "Atlanta Falcons",
+            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4388/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59063/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59063/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59044/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59044/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/G999AAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/G999AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1237,6 +1264,79 @@
         "total_channels": 11
       },
       {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:00:11 AM",
+          "end_time_bst": "Nov 05, 2026, 07:00:15 PM",
+          "raw_start_utc": "2026/11/05 05:00:11 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
+            "headers": {},
+            "drm_key": "468c69668fb1f8433921d80485af81dc:fdc96b10b6e9cdcc3c5904afb6bff82d"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ezgg5lj3v/out/v1/e6092692ffac4419aab30cecd66d3470/cenc.mpd",
+            "headers": {},
+            "drm_key": "468c69668fb1f8433921d80485af81dc:fdc96b10b6e9cdcc3c5904afb6bff82d"
+          },
+          {
+            "channel_name": "FANCODE - LQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249771_english_hls_2fcd66b57713925_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249771_english_hls_2fcd66b57713925_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
         "title": "Bangladesh vs West Indies",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1616,46 +1716,6 @@
         "total_channels": 0
       },
       {
-        "title": "Academico Viseu FC vs Rio Ave",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "academico-viseu-fc-vs-rio-ave",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Académico Viseu FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
-          },
-          "team_b": {
-            "name": "Rio Ave",
-            "flag": "https://img.sofascore.com/api/v1/team/3036/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3022/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/TMMMAAAAQQQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/TMMMAAAAQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "CS Maritimo vs Santa Clara",
         "sport": "Football",
         "sub_category": "Football",
@@ -1942,33 +2002,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4345/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Tampa Bay Buccaneers vs Atlanta Falcons",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "tampa-bay-buccaneers-vs-atlanta-falcons",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 02, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/01 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tampa Bay Buccaneers",
-            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
-          },
-          "team_b": {
-            "name": "Atlanta Falcons",
-            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4388/image",
         "channels": [],
         "total_channels": 0
       },
