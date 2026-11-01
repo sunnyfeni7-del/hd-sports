@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T14:35:59.914800+00:00",
+  "last_updated": "2026-11-01T15:01:11.380052+00:00",
   "event_count": 61,
   "events": {
     "events": [
@@ -752,6 +752,42 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "AD Ceuta vs Sporting Gijon",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ad-ceuta-vs-sporting-gijon",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 01, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/01 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AD Ceuta",
+            "flag": "https://img.sofascore.com/api/v1/team/2869/image"
+          },
+          "team_b": {
+            "name": "Sporting Gijón",
+            "flag": "https://img.sofascore.com/api/v1/team/2852/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2869/image",
+        "channels": [
+          {
+            "channel_name": "Laliga Hypermotion",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Basaksehir FK vs Samsunspor",
@@ -2054,42 +2090,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "AD Ceuta vs Sporting Gijon",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ad-ceuta-vs-sporting-gijon",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 01, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/01 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AD Ceuta",
-            "flag": "https://img.sofascore.com/api/v1/team/2869/image"
-          },
-          "team_b": {
-            "name": "Sporting Gijón",
-            "flag": "https://img.sofascore.com/api/v1/team/2852/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2869/image",
-        "channels": [
-          {
-            "channel_name": "Laliga Hypermotion",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
           }
         ],
         "total_channels": 1
