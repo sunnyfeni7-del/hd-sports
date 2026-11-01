@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T16:07:15.480791+00:00",
+  "last_updated": "2026-11-01T16:17:20.571015+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -255,6 +255,66 @@
         "total_channels": 3
       },
       {
+        "title": "Liverpool FC vs Arsenal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "liverpool-fc-vs-arsenal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:30:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:50:00 AM",
+          "raw_start_utc": "2026/11/01 16:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Liverpool FC",
+            "flag": "https://img.sofascore.com/api/v1/team/44/image"
+          },
+          "team_b": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/42/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/44/image",
+        "channels": [
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          },
+          {
+            "channel_name": "SKY SPORTS - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/G333a.m3u8",
+            "raw_link": "http://193.47.62.50/hls/G333a.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Real Racing Club vs Real Madrid",
         "sport": "Football",
         "sub_category": "Football",
@@ -386,6 +446,112 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Olympique Lyonnais vs Angers",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "olympique-lyonnais-vs-angers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
+          "raw_start_utc": "2026/11/01 16:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Olympique Lyonnais",
+            "flag": "https://img.sofascore.com/api/v1/team/1649/image"
+          },
+          "team_b": {
+            "name": "Angers",
+            "flag": "https://img.sofascore.com/api/v1/team/1684/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1649/image",
+        "channels": [
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+            "headers": {},
+            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/DRRRRQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/DRRRRQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Paris FC vs AS Monaco",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "paris-fc-vs-as-monaco",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
+          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
+          "raw_start_utc": "2026/11/01 16:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Paris FC",
+            "flag": "https://img.sofascore.com/api/v1/team/6070/image"
+          },
+          "team_b": {
+            "name": "AS Monaco",
+            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6070/image",
+        "channels": [
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?aws_sessionId=d7a79a64-4f97-438f-b860-44a258064025",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?aws_sessionId=d7a79a64-4f97-438f-b860-44a258064025",
+            "headers": {},
+            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/DRRRRQQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/DRRRRQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "FC Groningen vs Sparta Rotterdam",
@@ -539,6 +705,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/6063/image",
         "channels": [
           {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd",
+            "headers": {},
+            "drm_key": "4b17f5cd91d6b9dde66cf11dac2c7805:ffc6dd5e62c688c5f8e131649df94a2d"
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/MMMMAQQQQA.m3u8",
@@ -551,7 +725,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1206,33 +1380,6 @@
         "total_channels": 0
       },
       {
-        "title": "Liverpool FC vs Arsenal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "liverpool-fc-vs-arsenal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:30:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/11/01 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Liverpool FC",
-            "flag": "https://img.sofascore.com/api/v1/team/44/image"
-          },
-          "team_b": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/42/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/44/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Lecce vs Genoa",
         "sport": "Football",
         "sub_category": "Football",
@@ -1433,60 +1580,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2825/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Olympique Lyonnais vs Angers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "olympique-lyonnais-vs-angers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
-          "raw_start_utc": "2026/11/01 16:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Olympique Lyonnais",
-            "flag": "https://img.sofascore.com/api/v1/team/1649/image"
-          },
-          "team_b": {
-            "name": "Angers",
-            "flag": "https://img.sofascore.com/api/v1/team/1684/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1649/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Paris FC vs AS Monaco",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "paris-fc-vs-as-monaco",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 10:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 12:35:00 AM",
-          "raw_start_utc": "2026/11/01 16:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Paris FC",
-            "flag": "https://img.sofascore.com/api/v1/team/6070/image"
-          },
-          "team_b": {
-            "name": "AS Monaco",
-            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6070/image",
         "channels": [],
         "total_channels": 0
       },
