@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T13:32:08.576872+00:00",
+  "last_updated": "2026-11-02T15:02:34.175537+00:00",
   "event_count": 48,
   "events": {
     "events": [
@@ -111,6 +111,42 @@
         "total_channels": 2
       },
       {
+        "title": "Real Oviedo vs UD Las Palmas",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-oviedo-vs-ud-las-palmas",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 02, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/02 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Oviedo",
+            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
+          },
+          "team_b": {
+            "name": "UD Las Palmas",
+            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2851/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Pakhtakor Tashkent vs Al-Nassr",
         "sport": "Football",
         "sub_category": "Football",
@@ -136,6 +172,42 @@
         "logo": "https://img.sofascore.com/api/v1/team/34310/image",
         "channels": [
           {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "HLS",
+            "url": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?",
+            "raw_link": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?|Referer=https://www.arena-koora.online/",
+            "headers": {
+              "Referer": "https://www.arena-koora.online/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.uu1pp.com/sport/202_5704399_1.m3u8?txSecret=68657b00004c63725be5bf5c9156221c&txTime=6AE8DAC1",
+            "raw_link": "https://live.uu1pp.com/sport/202_5704399_1.m3u8?txSecret=68657b00004c63725be5bf5c9156221c&txTime=6AE8DAC1",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4621440.m3u8?txSecret=ad78bb536e23461cba3cffb7faa5cc15&txTime=6AE8A562",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621440.m3u8?txSecret=ad78bb536e23461cba3cffb7faa5cc15&txTime=6AE8A562|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
@@ -158,7 +230,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
@@ -1207,44 +1279,29 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4430/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Real Oviedo vs UD Las Palmas",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "real-oviedo-vs-ud-las-palmas",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/02 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Oviedo",
-            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
-          },
-          "team_b": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2851/image",
         "channels": [
           {
-            "channel_name": "LaLiga Hypermotion",
+            "channel_name": "TSN SPORTS 1 - AQ",
             "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Real Valladolid vs Leganes",
