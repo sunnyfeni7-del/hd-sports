@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T17:18:18.805645+00:00",
-  "event_count": 46,
+  "last_updated": "2026-11-02T17:23:12.798378+00:00",
+  "event_count": 45,
   "events": {
     "events": [
       {
@@ -58,54 +58,6 @@
         "total_channels": 3
       },
       {
-        "title": "Real Oviedo vs UD Las Palmas",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "real-oviedo-vs-ud-las-palmas",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 02, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/02 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Oviedo",
-            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
-          },
-          "team_b": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2851/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/YFFFAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Real Valladolid vs Leganes",
         "sport": "Football",
         "sub_category": "Football",
@@ -137,9 +89,21 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/YFFFAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Genclerbirligi vs Alanyaspor",
