@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T12:47:07.709529+00:00",
+  "last_updated": "2026-11-02T13:32:08.576872+00:00",
   "event_count": 48,
   "events": {
     "events": [
@@ -94,9 +94,71 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/YFFFAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
+      },
+      {
+        "title": "Pakhtakor Tashkent vs Al-Nassr",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "pakhtakor-tashkent-vs-al-nassr",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 02, 2026, 07:45:00 PM",
+          "end_time_bst": "Nov 02, 2026, 10:05:00 PM",
+          "raw_start_utc": "2026/11/02 13:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakhtakor Tashkent",
+            "flag": "https://img.sofascore.com/api/v1/team/34310/image"
+          },
+          "team_b": {
+            "name": "Al-Nassr",
+            "flag": "https://img.sofascore.com/api/v1/team/23400/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34310/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/YFFFAAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/YFFFAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1511,33 +1573,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/39733/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Pakhtakor Tashkent vs Al-Nassr",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "pakhtakor-tashkent-vs-al-nassr",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 02, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 02, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/02 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pakhtakor Tashkent",
-            "flag": "https://img.sofascore.com/api/v1/team/34310/image"
-          },
-          "team_b": {
-            "name": "Al-Nassr",
-            "flag": "https://img.sofascore.com/api/v1/team/23400/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34310/image",
         "channels": [],
         "total_channels": 0
       },
