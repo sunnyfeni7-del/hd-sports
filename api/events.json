@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T20:03:58.108048+00:00",
+  "last_updated": "2026-11-02T22:49:39.563427+00:00",
   "event_count": 42,
   "events": {
     "events": [
@@ -291,9 +291,29 @@
               "Referer": "https://www.arena-koora.online/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "USA NETWORK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59121/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59121/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558688.m3u8?txSecret=9a2698f76986dd544e4273b4d8b53938&txTime=6AE8FD60",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558688.m3u8?txSecret=9a2698f76986dd544e4273b4d8b53938&txTime=6AE8FD60|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Real Valladolid vs Leganes",
@@ -425,6 +445,54 @@
               "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Red Bull Bragantino vs Santos",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "red-bull-bragantino-vs-santos",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 05:00:00 AM",
+          "end_time_bst": "Nov 03, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/11/02 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Red Bull Bragantino",
+            "flag": "https://img.sofascore.com/api/v1/team/1999/image"
+          },
+          "team_b": {
+            "name": "Santos",
+            "flag": "https://img.sofascore.com/api/v1/team/1968/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1999/image",
+        "channels": [
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+          },
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
           }
         ],
         "total_channels": 2
@@ -1439,54 +1507,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Red Bull Bragantino vs Santos",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "red-bull-bragantino-vs-santos",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 03, 2026, 05:00:00 AM",
-          "end_time_bst": "Nov 03, 2026, 07:20:00 AM",
-          "raw_start_utc": "2026/11/02 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Red Bull Bragantino",
-            "flag": "https://img.sofascore.com/api/v1/team/1999/image"
-          },
-          "team_b": {
-            "name": "Santos",
-            "flag": "https://img.sofascore.com/api/v1/team/1968/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1999/image",
-        "channels": [
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-          },
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
           }
         ],
         "total_channels": 2
