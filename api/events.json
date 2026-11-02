@@ -1,126 +1,8 @@
 {
-  "last_updated": "2026-11-02T09:36:09.215070+00:00",
+  "last_updated": "2026-11-02T09:41:14.996286+00:00",
   "event_count": 47,
   "events": {
     "events": [
-      {
-        "title": "UFC LIVE",
-        "sport": "Boxing",
-        "sub_category": "Boxing",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ufc-live",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 01, 2026, 03:00:07 AM",
-          "end_time_bst": "Nov 01, 2026, 10:00:52 AM",
-          "raw_start_utc": "2026/10/31 21:00:07 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "R. Moicano",
-            "flag": "https://img.sofascore.com/api/v1/team/461712/image"
-          },
-          "team_b": {
-            "name": "T. Nolan",
-            "flag": "https://img.sofascore.com/api/v1/team/486626/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/461712/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cd5hufwg7w/out/v1/52491b8acfa14499b0a88ee8832a0787/cenc.mpd?aws_sessionId=979310de-3bf1-4499-aeea-8d2f9ad21db4",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cd5hufwg7w/out/v1/52491b8acfa14499b0a88ee8832a0787/cenc.mpd?aws_sessionId=979310de-3bf1-4499-aeea-8d2f9ad21db4",
-            "headers": {},
-            "drm_key": "de1b507bc71689e4b0d2e41332084daf:0d24dbce556b49baf5348090a59f8e5e"
-          },
-          {
-            "channel_name": "PARAMOUNT+ ES",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/iciyxuqbci/out/v1/03a3f0fde12a4fb99557eae7774c9989/cenc.mpd?aws_sessionId=cf2a8132-1fb1-486a-ae9d-24660bef6b88",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/iciyxuqbci/out/v1/03a3f0fde12a4fb99557eae7774c9989/cenc.mpd?aws_sessionId=cf2a8132-1fb1-486a-ae9d-24660bef6b88",
-            "headers": {},
-            "drm_key": "80f3ef6e7b3f81a120750f8eb45a5363:2874a2addc99f260ef6ccf1d37699e79"
-          },
-          {
-            "channel_name": "PARAMOUNT+ POR",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zxnjfzuj7s/out/v1/823821d93c1a4250860fd079bf2f7998/cenc.mpd?aws_sessionId=0b932add-7c2b-4b29-ade7-7b81a674b5d6",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zxnjfzuj7s/out/v1/823821d93c1a4250860fd079bf2f7998/cenc.mpd?aws_sessionId=0b932add-7c2b-4b29-ade7-7b81a674b5d6",
-            "headers": {},
-            "drm_key": "325424c12306beff75ef379b6d778974:78d8e8f415823e9ddf0d209567102c7f"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-          },
-          {
-            "channel_name": "PARAMOUNT+ HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "UFC LIVE - AQ",
-            "stream_type": "HLS",
-            "url": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
-            "raw_link": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
-            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/h555.m3u8",
-            "raw_link": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SportsNet - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b"
-          },
-          {
-            "channel_name": "UFC TV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
-            "headers": {},
-            "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
-          }
-        ],
-        "total_channels": 10
-      },
       {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
@@ -621,6 +503,124 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "UFC LIVE",
+        "sport": "Boxing",
+        "sub_category": "Boxing",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ufc-live",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 04:00:57 AM",
+          "end_time_bst": "Nov 08, 2026, 12:00:06 PM",
+          "raw_start_utc": "2026/11/07 22:00:57 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "G. Bonfim",
+            "flag": "https://img.sofascore.com/api/v1/team/472216/image"
+          },
+          "team_b": {
+            "name": "S. Brady",
+            "flag": "https://img.sofascore.com/api/v1/team/461773/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/472216/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cd5hufwg7w/out/v1/52491b8acfa14499b0a88ee8832a0787/cenc.mpd?aws_sessionId=979310de-3bf1-4499-aeea-8d2f9ad21db4",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cd5hufwg7w/out/v1/52491b8acfa14499b0a88ee8832a0787/cenc.mpd?aws_sessionId=979310de-3bf1-4499-aeea-8d2f9ad21db4",
+            "headers": {},
+            "drm_key": "de1b507bc71689e4b0d2e41332084daf:0d24dbce556b49baf5348090a59f8e5e"
+          },
+          {
+            "channel_name": "PARAMOUNT+ ES",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/iciyxuqbci/out/v1/03a3f0fde12a4fb99557eae7774c9989/cenc.mpd?aws_sessionId=cf2a8132-1fb1-486a-ae9d-24660bef6b88",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/iciyxuqbci/out/v1/03a3f0fde12a4fb99557eae7774c9989/cenc.mpd?aws_sessionId=cf2a8132-1fb1-486a-ae9d-24660bef6b88",
+            "headers": {},
+            "drm_key": "80f3ef6e7b3f81a120750f8eb45a5363:2874a2addc99f260ef6ccf1d37699e79"
+          },
+          {
+            "channel_name": "PARAMOUNT+ POR",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zxnjfzuj7s/out/v1/823821d93c1a4250860fd079bf2f7998/cenc.mpd?aws_sessionId=0b932add-7c2b-4b29-ade7-7b81a674b5d6",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zxnjfzuj7s/out/v1/823821d93c1a4250860fd079bf2f7998/cenc.mpd?aws_sessionId=0b932add-7c2b-4b29-ade7-7b81a674b5d6",
+            "headers": {},
+            "drm_key": "325424c12306beff75ef379b6d778974:78d8e8f415823e9ddf0d209567102c7f"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "UFC LIVE - AQ",
+            "stream_type": "HLS",
+            "url": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
+            "raw_link": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
+            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/h555.m3u8",
+            "raw_link": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SportsNet - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b"
+          },
+          {
+            "channel_name": "UFC TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+            "headers": {},
+            "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
+          }
+        ],
+        "total_channels": 10
       },
       {
         "title": "New Zealand vs India",
