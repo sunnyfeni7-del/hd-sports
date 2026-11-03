@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T06:36:44.679352+00:00",
+  "last_updated": "2026-11-03T07:32:01.438824+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -51,8 +51,8 @@
           {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250365_english_hls_bb6466746876937_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250365_english_hls_bb6466746876937_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250366_english_hls_88259a4e5e85082_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250366_english_hls_88259a4e5e85082_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -61,6 +61,44 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Newcastle Jets vs Shanghai Port",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "newcastle-jets-vs-shanghai-port",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 03, 2026, 01:45:00 PM",
+          "end_time_bst": "Nov 03, 2026, 04:05:00 PM",
+          "raw_start_utc": "2026/11/03 07:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Newcastle Jets",
+            "flag": "https://img.sofascore.com/api/v1/team/2934/image"
+          },
+          "team_b": {
+            "name": "Shanghai Port",
+            "flag": "https://img.sofascore.com/api/v1/team/41537/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2934/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1587,44 +1625,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/6908/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Newcastle Jets vs Shanghai Port",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "newcastle-jets-vs-shanghai-port",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 03, 2026, 01:45:00 PM",
-          "end_time_bst": "Nov 03, 2026, 04:05:00 PM",
-          "raw_start_utc": "2026/11/03 07:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Newcastle Jets",
-            "flag": "https://img.sofascore.com/api/v1/team/2934/image"
-          },
-          "team_b": {
-            "name": "Shanghai Port",
-            "flag": "https://img.sofascore.com/api/v1/team/41537/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2934/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "CD Anaitasuna FT vs Deportivo Alaves",
