@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T11:02:59.019925+00:00",
+  "last_updated": "2026-11-03T12:03:12.087441+00:00",
   "event_count": 53,
   "events": {
     "events": [
@@ -49,10 +49,18 @@
             "drm_key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
           },
           {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "https://sp-original.pages.dev/liveop2.m3u8",
+            "raw_link": "https://sp-original.pages.dev/liveop2.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250366_english_hls_88259a4e5e85082_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250366_english_hls_88259a4e5e85082_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250367_english_hls_7df9a62f5588246_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250367_english_hls_7df9a62f5588246_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -60,7 +68,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Vissel Kobe vs Ratchaburi",
