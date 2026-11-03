@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T17:34:44.117879+00:00",
-  "event_count": 49,
+  "last_updated": "2026-11-03T18:04:58.185964+00:00",
+  "event_count": 47,
   "events": {
     "events": [
       {
@@ -29,6 +29,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/3061/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nneitrfr1l/out/v1/c96eca69bbb04f77add2020a85495524/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nneitrfr1l/out/v1/c96eca69bbb04f77add2020a85495524/cenc.mpd",
+            "headers": {},
+            "drm_key": "92d6baa3bffdea423754f5e0ab55631a:50b69d834ee34886fa9830363b88e800"
+          },
+          {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
@@ -39,6 +47,30 @@
             "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pmxpfwjpew/out/v1/57a2345d56b3485088df37bb379b1884/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pmxpfwjpew/out/v1/57a2345d56b3485088df37bb379b1884/cenc.mpd",
+            "headers": {},
+            "drm_key": "042cea058767bc670450467c2ed410cb:045a98c84a49742be3a5a454198ec14c"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/gwpfwrdluy/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/gwpfwrdluy/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+            "headers": {},
+            "drm_key": "9d5218f13397a8cbed7a4544d0d6d198:919a50686f1bd2dbd1f1b6a9357a9577"
+          },
+          {
+            "channel_name": "DAZN DE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/u4nnymerwj/out/v1/3a24e30418334f10b02441649eaa8cc3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/u4nnymerwj/out/v1/3a24e30418334f10b02441649eaa8cc3/cenc.mpd",
+            "headers": {},
+            "drm_key": "a9dac59142fae1c70a50d526b491a86e:62752c3314581b6a305f3c655810e201"
+          },
+          {
             "channel_name": "CBS SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
@@ -47,6 +79,26 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59195/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59195/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628435.m3u8?txSecret=94ae11617a86f1e1f52d5b968c1bbe03&txTime=6AEA2E2C",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628435.m3u8?txSecret=94ae11617a86f1e1f52d5b968c1bbe03&txTime=6AEA2E2C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "SonyLiv ",
@@ -62,6 +114,24 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/289d4e5b-d051-4eab-b21f-2dbe45448b70.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/289d4e5b-d051-4eab-b21f-2dbe45448b70.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/TPPPA.m3u8",
@@ -74,7 +144,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 12
       },
       {
         "title": "Shakhtar Donetsk vs Sporting CP",
@@ -102,6 +172,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/3313/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/aeumjv0tof/out/v1/0d70b9334db84658bd3db38c484a071a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/aeumjv0tof/out/v1/0d70b9334db84658bd3db38c484a071a/cenc.mpd",
+            "headers": {},
+            "drm_key": "c6b9abe413b8c5552ad7f4a57dbb2af2:e37d1a8371a874deda5f9b7260e65cde"
+          },
+          {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
@@ -110,6 +188,60 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5z5zrkjiuu/out/v1/7f409e917e5740f18b65323ab79309e5/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5z5zrkjiuu/out/v1/7f409e917e5740f18b65323ab79309e5/cenc.mpd",
+            "headers": {},
+            "drm_key": "e6a29d67b1f49548bc93da53455af671:877d754b52368cebafec625d56be4967"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w4lpjel0uk/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w4lpjel0uk/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "headers": {},
+            "drm_key": "f0db1a79217cb4d57ae5616c4bf7b2d8:c01f7bdddf9afec6c7c70841905aeed6"
+          },
+          {
+            "channel_name": "DAZN DE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jiybvnjqls/out/v1/9cbdccb678364dafbac6a54af5461882/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jiybvnjqls/out/v1/9cbdccb678364dafbac6a54af5461882/cenc.mpd",
+            "headers": {},
+            "drm_key": "bddd33b45c3b369cf7febc4c35332e83:1bbd40180ff193eb23f3db5dbdc43c40"
+          },
+          {
+            "channel_name": "HBO MAX BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59194/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59194/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628496.m3u8?txSecret=4a74cb960700c25acb77fd007065e6ac&txTime=6AEA2E6B",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628496.m3u8?txSecret=4a74cb960700c25acb77fd007065e6ac&txTime=6AEA2E6B|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "SonyLiv ",
@@ -125,6 +257,32 @@
             "drm_key": null
           },
           {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/d283ad68-9075-4a7c-9280-297a22a093c2.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/d283ad68-9075-4a7c-9280-297a22a093c2.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/TPPPAA.m3u8",
@@ -137,38 +295,38 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 13
       },
       {
-        "title": "Al-Hussein Irbid vs Al-Shorta",
+        "title": "Al-Hilal vs Shabab Al-Ahli Dubai",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "al-hussein-irbid-vs-al-shorta",
+        "slug": "al-hilal-vs-shabab-al-ahli-dubai",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 03, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 04, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/03 16:00:00 +0000"
+          "start_time_bst": "Nov 04, 2026, 12:15:00 AM",
+          "end_time_bst": "Nov 04, 2026, 02:35:00 AM",
+          "raw_start_utc": "2026/11/03 18:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Al-Hussein Irbid",
-            "flag": "https://img.sofascore.com/api/v1/team/117204/image"
+            "name": "Al-Hilal",
+            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
           },
           "team_b": {
-            "name": "Al-Shorta",
-            "flag": "https://img.sofascore.com/api/v1/team/61532/image"
+            "name": "Shabab Al-Ahli Dubai",
+            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/117204/image",
+        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
         "channels": [
           {
             "channel_name": "HD SERVER ",
             "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
@@ -177,58 +335,8 @@
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/LOOOAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/LOOOAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Esteghlal FC vs Al Shamal SC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "esteghlal-fc-vs-al-shamal-sc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 03, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 04, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/03 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Esteghlal FC",
-            "flag": "https://img.sofascore.com/api/v1/team/34316/image"
-          },
-          "team_b": {
-            "name": "Al Shamal SC",
-            "flag": "https://img.sofascore.com/api/v1/team/170366/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34316/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/LOOOAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/LOOOAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/AA111AA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/AA111AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1576,33 +1684,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Al-Hilal vs Shabab Al-Ahli Dubai",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-hilal-vs-shabab-al-ahli-dubai",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 12:15:00 AM",
-          "end_time_bst": "Nov 04, 2026, 02:35:00 AM",
-          "raw_start_utc": "2026/11/03 18:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Hilal",
-            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
-          },
-          "team_b": {
-            "name": "Shabab Al-Ahli Dubai",
-            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21895/image",
         "channels": [],
         "total_channels": 0
       },
