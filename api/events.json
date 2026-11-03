@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T15:54:15.343617+00:00",
-  "event_count": 47,
+  "last_updated": "2026-11-03T17:24:39.992857+00:00",
+  "event_count": 45,
   "events": {
     "events": [
       {
@@ -957,9 +957,34 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0311/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=8a9a7376f4a7e2e69898723191590131-1793725803091",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "8a9a7376f4a7e2e69898723191590131-1793725803091"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/TPPPA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/TPPPA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Shakhtar Donetsk vs Sporting CP",
@@ -995,9 +1020,34 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0311/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=8a9a7376f4a7e2e69898723191590131-1793725803091",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "8a9a7376f4a7e2e69898723191590131-1793725803091"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/TPPPAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/TPPPAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Atletico Madrid vs FC Bayern Munchen",
@@ -1553,60 +1603,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/21895/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Anaitasuna FT vs Deportivo Alaves",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-anaitasuna-ft-vs-deportivo-alaves",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 04, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/03 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Anaitasuna FT",
-            "flag": "https://img.sofascore.com/api/v1/team/263773/image"
-          },
-          "team_b": {
-            "name": "Deportivo Alavés",
-            "flag": "https://img.sofascore.com/api/v1/team/2885/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263773/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Pamplona vs Eibar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "pamplona-vs-eibar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 04, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/03 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pamplona",
-            "flag": "https://img.sofascore.com/api/v1/team/263528/image"
-          },
-          "team_b": {
-            "name": "Eibar",
-            "flag": "https://img.sofascore.com/api/v1/team/2839/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263528/image",
         "channels": [],
         "total_channels": 0
       },
