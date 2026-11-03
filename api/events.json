@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T17:24:39.992857+00:00",
-  "event_count": 45,
+  "last_updated": "2026-11-03T17:29:41.080233+00:00",
+  "event_count": 49,
   "events": {
     "events": [
       {
@@ -1630,8 +1630,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/21845/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Internacional vs Coritiba",
@@ -1657,8 +1668,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/1966/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "headers": {},
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "West Bromwich Albion vs Southampton",
@@ -1965,6 +1985,114 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/191564/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sri Lanka Under-19 vs Malaysia Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sri-lanka-under-19-vs-malaysia-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 05, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/05 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sri Lanka Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
+          },
+          "team_b": {
+            "name": "Malaysia Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bangladesh Under-19 vs Afghanistan Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bangladesh-under-19-vs-afghanistan-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 05, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/05 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bangladesh Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213099/image"
+          },
+          "team_b": {
+            "name": "Afghanistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213103/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213099/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Pakistan Under-19 vs United Arab Emirates Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "pakistan-under-19-vs-united-arab-emirates-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/06 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213104/image"
+          },
+          "team_b": {
+            "name": "United Arab Emirates Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/300266/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213104/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "India Under-19 vs Nepal Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "india-under-19-vs-nepal-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/06 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213112/image"
+          },
+          "team_b": {
+            "name": "Nepal Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213113/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213112/image",
         "channels": [],
         "total_channels": 0
       }
