@@ -1,8 +1,58 @@
 {
-  "last_updated": "2026-11-04T12:15:29.869890+00:00",
+  "last_updated": "2026-11-04T13:30:51.718932+00:00",
   "event_count": 59,
   "events": {
     "events": [
+      {
+        "title": "Arkadag FK vs Gol Gohar Sirjan",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "arkadag-fk-vs-gol-gohar-sirjan",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 04, 2026, 07:45:00 PM",
+          "end_time_bst": "Nov 04, 2026, 10:05:00 PM",
+          "raw_start_utc": "2026/11/04 13:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Arkadag FK",
+            "flag": "https://img.sofascore.com/api/v1/team/469420/image"
+          },
+          "team_b": {
+            "name": "Gol Gohar Sirjan",
+            "flag": "https://img.sofascore.com/api/v1/team/275525/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/469420/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
       {
         "title": "Buriram United vs Kashima Antlers",
         "sport": "Football",
@@ -1321,33 +1371,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/213112/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Arkadag FK vs Gol Gohar Sirjan",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "arkadag-fk-vs-gol-gohar-sirjan",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 04, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/04 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Arkadag FK",
-            "flag": "https://img.sofascore.com/api/v1/team/469420/image"
-          },
-          "team_b": {
-            "name": "Gol Gohar Sirjan",
-            "flag": "https://img.sofascore.com/api/v1/team/275525/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/469420/image",
         "channels": [],
         "total_channels": 0
       },
