@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T14:26:10.725582+00:00",
+  "last_updated": "2026-11-04T15:16:27.081979+00:00",
   "event_count": 58,
   "events": {
     "events": [
@@ -52,6 +52,44 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Stade Rennais vs Olympiacos FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "stade-rennais-vs-olympiacos-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 04, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 04, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/04 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Stade Rennais",
+            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+          },
+          "team_b": {
+            "name": "Olympiacos FC",
+            "flag": "https://img.sofascore.com/api/v1/team/3245/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1658/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1458,44 +1496,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/45474/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Stade Rennais vs Olympiacos FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "stade-rennais-vs-olympiacos-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 04, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/04 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Stade Rennais",
-            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
-          },
-          "team_b": {
-            "name": "Olympiacos FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3245/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1658/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Athletico vs Vasco da Gama",
