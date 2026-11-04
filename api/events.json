@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T19:54:17.855059+00:00",
+  "last_updated": "2026-11-04T22:15:37.808337+00:00",
   "event_count": 84,
   "events": {
     "events": [
@@ -47,6 +47,14 @@
             "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0vx98ay1lb/out/v1/d07d82c064f64707a06a346cf0a68aec/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0vx98ay1lb/out/v1/d07d82c064f64707a06a346cf0a68aec/cenc.mpd",
+            "headers": {},
+            "drm_key": "5179ee0d1758a6d33f607816ed0859a3:629388cbf031a99953425a8db5e157ab"
+          },
+          {
             "channel_name": "VIX SPANISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qacdpbrjpj/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd",
@@ -63,6 +71,36 @@
             "drm_key": "874b7df0e3c0b86b0e056c8398d64f66:674ce96dacc3b24d099c9e0dfe179c70"
           },
           {
+            "channel_name": "HBO MAX BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59245/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59245/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628417.m3u8?txSecret=cbba77e215e7054b7a70b8bc15f26896&txTime=6AEBA4A9",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628417.m3u8?txSecret=cbba77e215e7054b7a70b8bc15f26896&txTime=6AEBA4A9|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -74,9 +112,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/9cb44401-d33c-4e18-badb-0a3ed23fab19.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/9cb44401-d33c-4e18-badb-0a3ed23fab19.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/JMMM.m3u8",
+            "raw_link": "http://193.47.62.44/hls/JMMM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 11
       },
       {
         "title": "FC Porto vs SSC Napoli",
@@ -112,6 +170,14 @@
             "drm_key": "55d6c128b456acb1d0acd5e17f4c0ae7:7cc673c958ec7bbacbfe242ebce8ceaa"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dbaurfydof/out/v1/4b729bd9c7bf4f538326b9096f71dc35/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dbaurfydof/out/v1/4b729bd9c7bf4f538326b9096f71dc35/cenc.mpd",
+            "headers": {},
+            "drm_key": "605cec5d4d0c9b9adc5b1da537582b4f:e8687e2457e5ce2060fc52d5b39efa04"
+          },
+          {
             "channel_name": "VIX SPANISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ofniszbiz0/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
@@ -128,6 +194,26 @@
             "drm_key": "4f7fd79e857cefefb63370d487dc6777:417f1bd8e20424493509e566e6f3657c"
           },
           {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59247/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59247/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628422.m3u8?txSecret=eb10490c56c03d3c4f264b387091a4c1&txTime=6AEBA5CD",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628422.m3u8?txSecret=eb10490c56c03d3c4f264b387091a4c1&txTime=6AEBA5CD|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -139,9 +225,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/f718bcf1-86da-47f1-9161-4dfaa15d68ce.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/f718bcf1-86da-47f1-9161-4dfaa15d68ce.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/JMMMA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/JMMMA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 9
       },
       {
         "title": "RC Lens vs Como",
@@ -177,6 +283,14 @@
             "drm_key": "c609b1f56b17276d3526bc297ba8dd10:390c9205242b5132df2bc9d1fb7f38e1"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ndc5q7xrdi/out/v1/0eaae29490a342ab9f98fb5a773a02e2/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ndc5q7xrdi/out/v1/0eaae29490a342ab9f98fb5a773a02e2/cenc.mpd",
+            "headers": {},
+            "drm_key": "5d745d9fa3b4e61a2d000528b30d6936:4eda3c78f484d4efe408baee3afa19fa"
+          },
+          {
             "channel_name": "VIX SPANISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sjwfufyzxv/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
@@ -193,6 +307,16 @@
             "drm_key": "9e4b09f3c59b42b79e6dc16c1691052e:f798767c242f008883e5a3207c98e8da"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628447.m3u8?txSecret=3b7c26d8ac342446434134415edbfc15&txTime=6AEBA74C",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628447.m3u8?txSecret=3b7c26d8ac342446434134415edbfc15&txTime=6AEBA74C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -204,9 +328,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/8ac2fd58-4da4-4fc6-b43e-9e779e53d4d9.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/8ac2fd58-4da4-4fc6-b43e-9e779e53d4d9.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/z777A.m3u8",
+            "raw_link": "http://193.47.62.50/hls/z777A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 8
       },
       {
         "title": "PSV Eindhoven vs Club Brugge KV",
@@ -242,6 +386,14 @@
             "drm_key": "fb49bd892b824f28fad679dd7ad71e8c:cd9842c07299c799b409629ba7ac0a98"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3th6vjorn/out/v1/7a9ccc6d6f1e4fc3abe851fac45936a2/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3th6vjorn/out/v1/7a9ccc6d6f1e4fc3abe851fac45936a2/cenc.mpd",
+            "headers": {},
+            "drm_key": "334c272e7990a300f968c6842e0b31aa:17f15f267b0d4773dc441eb88fb10636"
+          },
+          {
             "channel_name": "VIX SPANISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r9udn69u5v/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
@@ -269,9 +421,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/7b9a2bbe-a88f-4ae5-8237-8e23b030d3a5.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/7b9a2bbe-a88f-4ae5-8237-8e23b030d3a5.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/z777AA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/z777AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 7
       },
       {
         "title": "RB Leipzig vs Manchester City",
@@ -317,12 +489,60 @@
             "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bkksxyoatu/out/v1/3a200f1388e64601810e77d248d539bc/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bkksxyoatu/out/v1/3a200f1388e64601810e77d248d539bc/cenc.mpd",
+            "headers": {},
+            "drm_key": "70b527424e2853177f33a7e23a404998:c25b49129a1dd6b14b3ab94ca070b72e"
+          },
+          {
             "channel_name": "DAZN DE - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ncceucfcrw/out/v1/979b060296954c2b8d173b04481fd767/cenc.mpd",
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ncceucfcrw/out/v1/979b060296954c2b8d173b04481fd767/cenc.mpd",
             "headers": {},
             "drm_key": "5d3f3429e47c011b33c90469366ed19e:22aeb1655c535fa117a2645d66959922"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59246/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59246/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TNT SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59249/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59249/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "beIN ARABIC - AQ",
+            "stream_type": "HLS",
+            "url": "https://live-cdn.ryazanslah3.space/hls/bein3.m3u8?",
+            "raw_link": "https://live-cdn.ryazanslah3.space/hls/bein3.m3u8?|Referer=https://www.arena-koora.online/",
+            "headers": {
+              "Referer": "https://www.arena-koora.online/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628476.m3u8?txSecret=454703574f61561e5eaa8a83255a28f6&txTime=6AEBA3E8",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628476.m3u8?txSecret=454703574f61561e5eaa8a83255a28f6&txTime=6AEBA3E8|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "SonyLiv - ENG",
@@ -388,9 +608,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/a8ae5806-b901-41a1-b0db-6b94f385378c.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/a8ae5806-b901-41a1-b0db-6b94f385378c.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/JMMMAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/JMMMAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 8
+        "total_channels": 15
       },
       {
         "title": "SK Slavia Praha vs Arsenal",
@@ -436,12 +676,60 @@
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ghsrznt4cw/out/v1/29ae8f113c97453f93de2d779ea4b918/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ghsrznt4cw/out/v1/29ae8f113c97453f93de2d779ea4b918/cenc.mpd",
+            "headers": {},
+            "drm_key": "240ece5a526065afd7164e649987a94c:70e85851e563044ae68cc148a25b3943"
+          },
+          {
             "channel_name": "DAZN DE - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvn93joghj/out/v1/3e6fd3525aef47a0827ad25d4b1eafc3/cenc.mpd",
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvn93joghj/out/v1/3e6fd3525aef47a0827ad25d4b1eafc3/cenc.mpd",
             "headers": {},
             "drm_key": "e6b846f1025ac88b970d2ee03c85ad14:15167e2a38eb3ab78eea15100425f9cc"
+          },
+          {
+            "channel_name": "HBO MAX BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59248/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59248/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "beIN ARABIC - AQ",
+            "stream_type": "HLS",
+            "url": "https://live-cdn.ryazanslah3.space/hls/bein4.m3u8?",
+            "raw_link": "https://live-cdn.ryazanslah3.space/hls/bein4.m3u8?|Referer=https://www.arena-koora.online/",
+            "headers": {
+              "Referer": "https://www.arena-koora.online/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628499.m3u8?txSecret=9ab591417e0da16ac6d1e83b1db88d0d&txTime=6AEBA5F8",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628499.m3u8?txSecret=9ab591417e0da16ac6d1e83b1db88d0d&txTime=6AEBA5F8|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "SonyLiv ",
@@ -455,9 +743,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/990ea245-4240-40ac-8317-de658fae890b.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/990ea245-4240-40ac-8317-de658fae890b.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/JMMMAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/JMMMAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 11
       },
       {
         "title": "Viking FK vs Sabah FK",
@@ -493,6 +801,22 @@
             "drm_key": "e60b8609a832e0e89e24e20360799b32:4372ab7df1035676ca2664e982eaad11"
           },
           {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bolpzl4bhy/out/v1/4a628200c43b4392ae4c229f9681c6be/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bolpzl4bhy/out/v1/4a628200c43b4392ae4c229f9681c6be/cenc.mpd",
+            "headers": {},
+            "drm_key": "6f9db4767fc068998e97bb0b81a472af:69eed2a1450edfea00df23eb206688e9"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnj1sg9ucp/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnj1sg9ucp/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
+            "headers": {},
+            "drm_key": "4be3ef3f08c462098111934a936c6f32:c0ce1f708bbae793401f1a7d42a31329"
+          },
+          {
             "channel_name": "DAZN DE - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lrcgrcxnei/out/v1/5f6299a26a16446a96cc315d927c5a8e/cenc.mpd",
@@ -512,9 +836,29 @@
               "x-playback-session-id": "c1bcb74500400c36bb6231a967ec0de8-1793820603430"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/c8004b15-f068-41da-8d20-d21a1a5249f7.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/c8004b15-f068-41da-8d20-d21a1a5249f7.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/z777.m3u8",
+            "raw_link": "http://193.47.62.50/hls/z777.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 7
       },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
@@ -567,6 +911,42 @@
         "total_channels": 2
       },
       {
+        "title": "Athletico vs Vasco da Gama",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "athletico-vs-vasco-da-gama",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 04:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 06:50:00 AM",
+          "raw_start_utc": "2026/11/04 22:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Athletico",
+            "flag": "https://img.sofascore.com/api/v1/team/1967/image"
+          },
+          "team_b": {
+            "name": "Vasco da Gama",
+            "flag": "https://img.sofascore.com/api/v1/team/1974/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1967/image",
+        "channels": [
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+            "headers": {},
+            "drm_key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Cardiff City vs West Ham United",
         "sport": "Football",
         "sub_category": "Football",
@@ -594,10 +974,10 @@
           {
             "channel_name": "PARAMOUNT+ - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n1lhb2ffmr/out/v1/fd2157164ff14b08aee352dd0f295309/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n1lhb2ffmr/out/v1/fd2157164ff14b08aee352dd0f295309/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/av8nbpiryk/out/v1/a1d1370a98cf4197a90f40216f706e08/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/av8nbpiryk/out/v1/a1d1370a98cf4197a90f40216f706e08/cenc.mpd",
             "headers": {},
-            "drm_key": "1c6a422a997d250d93eba4656ca35ee0:280cb26b9073a5175e88992f85291699"
+            "drm_key": "15e6cbc7c811b4b80d98a4a93b29e458:306718cd3dc0b3ce7a94c0aecf065ae3"
           },
           {
             "channel_name": "CRICFy LIVE ",
@@ -728,6 +1108,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/58/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eezs90eoe6/out/v1/da29fc8814d740d7bac78837af3b419a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eezs90eoe6/out/v1/da29fc8814d740d7bac78837af3b419a/cenc.mpd",
+            "headers": {},
+            "drm_key": "7e2b431c16dc8f646c9cd210ff1b0c1e:b0166b0503dfda031bd82af8b8d7d1a5"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -750,7 +1138,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1748,42 +2136,6 @@
         "total_channels": 0
       },
       {
-        "title": "Athletico vs Vasco da Gama",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "athletico-vs-vasco-da-gama",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 04:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 06:50:00 AM",
-          "raw_start_utc": "2026/11/04 22:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Athletico",
-            "flag": "https://img.sofascore.com/api/v1/team/1967/image"
-          },
-          "team_b": {
-            "name": "Vasco da Gama",
-            "flag": "https://img.sofascore.com/api/v1/team/1974/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1967/image",
-        "channels": [
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
-            "headers": {},
-            "drm_key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Flamengo vs Gremio",
         "sport": "Football",
         "sub_category": "Football",
@@ -1920,8 +2272,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3431/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Detroit Pistons vs Philadelphia 76ers",
@@ -1947,8 +2310,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3424/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Boston Celtics vs Milwaukee Bucks",
