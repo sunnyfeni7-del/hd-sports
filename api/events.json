@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T22:16:35.877172+00:00",
+  "last_updated": "2026-11-04T00:17:01.279020+00:00",
   "event_count": 44,
   "events": {
     "events": [
@@ -704,6 +704,42 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Internacional vs Coritiba",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "internacional-vs-coritiba",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 04, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 04, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/11/04 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Internacional",
+            "flag": "https://img.sofascore.com/api/v1/team/1966/image"
+          },
+          "team_b": {
+            "name": "Coritiba",
+            "flag": "https://img.sofascore.com/api/v1/team/1982/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1966/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "headers": {},
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
           }
         ],
         "total_channels": 1
@@ -2220,42 +2256,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Internacional vs Coritiba",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "internacional-vs-coritiba",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 04, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/11/04 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Internacional",
-            "flag": "https://img.sofascore.com/api/v1/team/1966/image"
-          },
-          "team_b": {
-            "name": "Coritiba",
-            "flag": "https://img.sofascore.com/api/v1/team/1982/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1966/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "headers": {},
-            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Pakistan vs India",
