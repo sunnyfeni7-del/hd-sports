@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T03:22:46.567836+00:00",
+  "last_updated": "2026-11-04T07:34:06.238767+00:00",
   "event_count": 59,
   "events": {
     "events": [
@@ -29,6 +29,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/187755/image",
         "channels": [
           {
+            "channel_name": "PRIME ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
+            "headers": {},
+            "drm_key": "db4b3e1da015cf0f03c2a5f4b9ee8433:964bab777741f2b59adedcbbcd463374"
+          },
+          {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/s3eotogzpl/out/v1/3a421da823214ef99571a137c1035f04/cenc.mpd",
@@ -37,14 +45,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7ef90352c28904be995275bc47f74c04:af5e36ddef7584474601c19b4ae5935a"
-          },
-          {
-            "channel_name": "PRIME ENG - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
-            "headers": {},
-            "drm_key": "db4b3e1da015cf0f03c2a5f4b9ee8433:964bab777741f2b59adedcbbcd463374"
           },
           {
             "channel_name": "PRIME HINDI - AQ",
@@ -116,6 +116,44 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Melbourne Victory vs Persib Bandung",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "melbourne-victory-vs-persib-bandung",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 04, 2026, 01:45:00 PM",
+          "end_time_bst": "Nov 04, 2026, 04:05:00 PM",
+          "raw_start_utc": "2026/11/04 07:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Melbourne Victory",
+            "flag": "https://img.sofascore.com/api/v1/team/5970/image"
+          },
+          "team_b": {
+            "name": "Persib Bandung",
+            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5970/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1265,33 +1303,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/213112/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Melbourne Victory vs Persib Bandung",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "melbourne-victory-vs-persib-bandung",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 01:45:00 PM",
-          "end_time_bst": "Nov 04, 2026, 04:05:00 PM",
-          "raw_start_utc": "2026/11/04 07:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Melbourne Victory",
-            "flag": "https://img.sofascore.com/api/v1/team/5970/image"
-          },
-          "team_b": {
-            "name": "Persib Bandung",
-            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5970/image",
         "channels": [],
         "total_channels": 0
       },
