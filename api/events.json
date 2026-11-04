@@ -1,98 +1,52 @@
 {
-  "last_updated": "2026-11-04T12:00:23.507702+00:00",
-  "event_count": 61,
+  "last_updated": "2026-11-04T12:15:29.869890+00:00",
+  "event_count": 59,
   "events": {
     "events": [
       {
-        "title": "FC Seoul vs The Cong - Viettel",
+        "title": "Buriram United vs Kashima Antlers",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "fc-seoul-vs-the-cong-viettel",
+        "slug": "buriram-united-vs-kashima-antlers",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 04, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/04 10:00:00 +0000"
+          "start_time_bst": "Nov 04, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 04, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/04 12:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "FC Seoul",
-            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
+            "name": "Buriram United",
+            "flag": "https://img.sofascore.com/api/v1/team/34218/image"
           },
           "team_b": {
-            "name": "Thể Công - Viettel",
-            "flag": "https://img.sofascore.com/api/v1/team/231270/image"
+            "name": "Kashima Antlers",
+            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/7646/image",
+        "logo": "https://img.sofascore.com/api/v1/team/34218/image",
         "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621350.m3u8?txSecret=c36e19116a245a274b03d6bc38afb05a&txTime=6AEB0EB6",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621350.m3u8?txSecret=c36e19116a245a274b03d6bc38afb05a&txTime=6AEB0EB6|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793785392-0-0-da18d27271023ba64c3c21fde0ba85fb?",
-            "raw_link": "https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793785392-0-0-da18d27271023ba64c3c21fde0ba85fb?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Pohang Steelers vs Gamba Osaka",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "pohang-steelers-vs-gamba-osaka",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 04, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/04 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pohang Steelers",
-            "flag": "https://img.sofascore.com/api/v1/team/7650/image"
-          },
-          "team_b": {
-            "name": "Gamba Osaka",
-            "flag": "https://img.sofascore.com/api/v1/team/3138/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7650/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4621506.m3u8?txSecret=1a268250d7b49117021c378d986e778d&txTime=6AEB0B2B",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4621506.m3u8?txSecret=1a268250d7b49117021c378d986e778d&txTime=6AEB0B2B|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
           {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/HHHHAAQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
@@ -1835,33 +1789,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/95/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Buriram United vs Kashima Antlers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "buriram-united-vs-kashima-antlers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 04, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/04 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Buriram United",
-            "flag": "https://img.sofascore.com/api/v1/team/34218/image"
-          },
-          "team_b": {
-            "name": "Kashima Antlers",
-            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34218/image",
         "channels": [],
         "total_channels": 0
       },
