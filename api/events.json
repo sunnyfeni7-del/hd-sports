@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-04T18:08:48.286492+00:00",
-  "event_count": 52,
+  "last_updated": "2026-11-04T19:34:09.065545+00:00",
+  "event_count": 87,
   "events": {
     "events": [
       {
@@ -193,6 +193,161 @@
         "total_channels": 15
       },
       {
+        "title": "Fenerbahce vs Liverpool FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fenerbahce-vs-liverpool-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 05, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/04 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fenerbahçe",
+            "flag": "https://img.sofascore.com/api/v1/team/3052/image"
+          },
+          "team_b": {
+            "name": "Liverpool FC",
+            "flag": "https://img.sofascore.com/api/v1/team/44/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3052/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/finodo98vw/out/v1/0bba03d3a8594cd6bfe409ec5ecf1114/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/finodo98vw/out/v1/0bba03d3a8594cd6bfe409ec5ecf1114/cenc.mpd",
+            "headers": {},
+            "drm_key": "368bdc08268c3e679d53a4b94964a911:a88f47b574b27e32d186ce686b45f9a5"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hve6te3gra/out/v1/c852d0c20b0c4009a6320557da063330/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hve6te3gra/out/v1/c852d0c20b0c4009a6320557da063330/cenc.mpd",
+            "headers": {},
+            "drm_key": "196d7adbb90349cc7b8fa41a4205a287:56e77fe45183734a76ab51d67efefa96"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lho2ni3olb/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lho2ni3olb/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "headers": {},
+            "drm_key": "2453950127dfcbf10a57b540a2691b1e:4eb4220aeb59cb8ca47c0bbd3cac9e6e"
+          },
+          {
+            "channel_name": "DAZN DE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4hzilar79/out/v1/89daf1d02da540d79fad24952ec7a8df/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4hzilar79/out/v1/89daf1d02da540d79fad24952ec7a8df/cenc.mpd",
+            "headers": {},
+            "drm_key": "d8102ff81175e6be48e14f62803ba7d5:7933876f7d2d1bcb66f43030e1ad926c"
+          },
+          {
+            "channel_name": "HBO MAX BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59241/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59241/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "HLS",
+            "url": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?",
+            "raw_link": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?|Referer=https://www.arena-koora.online/",
+            "headers": {
+              "Referer": "https://www.arena-koora.online/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4628424.m3u8?txSecret=2a4f45736a005bef6796b7fd6aae6ccd&txTime=6AEB82CD",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4628424.m3u8?txSecret=2a4f45736a005bef6796b7fd6aae6ccd&txTime=6AEB82CD|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive0411/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive0411/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "bc9979e108e3dced000de5864f70ecef-1793812202066"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/e7ccc407-251f-432b-a8c4-c5e352c045a1.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/e7ccc407-251f-432b-a8c4-c5e352c045a1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://live.uu1pp.com/sport/202_5738820_1.m3u8?txSecret=f91acbf43a64e2a1a4383d7e6da9421c&txTime=6AEBB7BD",
+            "raw_link": "https://live.uu1pp.com/sport/202_5738820_1.m3u8?txSecret=f91acbf43a64e2a1a4383d7e6da9421c&txTime=6AEBB7BD",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/FAFAFAa.m3u8",
+            "raw_link": "http://193.47.62.44/hls/FAFAFAa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 13
+      },
+      {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
         "sport": "Football",
         "sub_category": "Football",
@@ -241,6 +396,166 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Cardiff City vs West Ham United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cardiff-city-vs-west-ham-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/04 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cardiff City",
+            "flag": "https://img.sofascore.com/api/v1/team/61/image"
+          },
+          "team_b": {
+            "name": "West Ham United",
+            "flag": "https://img.sofascore.com/api/v1/team/37/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/61/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563670.m3u8?txSecret=967f716a84215a332bc8b534bd15b260&txTime=6AEB9AF4",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563670.m3u8?txSecret=967f716a84215a332bc8b534bd15b260&txTime=6AEB9AF4|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/tiiiAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/tiiiAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Wrexham vs Middlesbrough",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "wrexham-vs-middlesbrough",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/04 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Wrexham",
+            "flag": "https://img.sofascore.com/api/v1/team/64/image"
+          },
+          "team_b": {
+            "name": "Middlesbrough",
+            "flag": "https://img.sofascore.com/api/v1/team/36/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/64/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563671.m3u8?txSecret=04a5941dd1c02e31cdfcf49b079330e2&txTime=6AEB9B63",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563671.m3u8?txSecret=04a5941dd1c02e31cdfcf49b079330e2&txTime=6AEB9B63|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/tiiiAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/tiiiAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Oxford United vs Reading",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "oxford-united-vs-reading",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/04 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Oxford United",
+            "flag": "https://img.sofascore.com/api/v1/team/95/image"
+          },
+          "team_b": {
+            "name": "Reading",
+            "flag": "https://img.sofascore.com/api/v1/team/28/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/95/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/tiiiA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/tiiiA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1049,33 +1364,6 @@
         "total_channels": 4
       },
       {
-        "title": "Fenerbahce vs Liverpool FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fenerbahce-vs-liverpool-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 05, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/04 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fenerbahçe",
-            "flag": "https://img.sofascore.com/api/v1/team/3052/image"
-          },
-          "team_b": {
-            "name": "Liverpool FC",
-            "flag": "https://img.sofascore.com/api/v1/team/44/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3052/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Borussia Dortmund vs Real Betis",
         "sport": "Football",
         "sub_category": "Football",
@@ -1625,60 +1913,6 @@
         "total_channels": 2
       },
       {
-        "title": "Cardiff City vs West Ham United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cardiff-city-vs-west-ham-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/04 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cardiff City",
-            "flag": "https://img.sofascore.com/api/v1/team/61/image"
-          },
-          "team_b": {
-            "name": "West Ham United",
-            "flag": "https://img.sofascore.com/api/v1/team/37/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/61/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Wrexham vs Middlesbrough",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "wrexham-vs-middlesbrough",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/04 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Wrexham",
-            "flag": "https://img.sofascore.com/api/v1/team/64/image"
-          },
-          "team_b": {
-            "name": "Middlesbrough",
-            "flag": "https://img.sofascore.com/api/v1/team/36/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/64/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Bristol City vs Wolverhampton",
         "sport": "Football",
         "sub_category": "Football",
@@ -1712,36 +1946,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/tiiiAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/tiiiAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
-      },
-      {
-        "title": "Oxford United vs Reading",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "oxford-united-vs-reading",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 05, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/04 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Oxford United",
-            "flag": "https://img.sofascore.com/api/v1/team/95/image"
-          },
-          "team_b": {
-            "name": "Reading",
-            "flag": "https://img.sofascore.com/api/v1/team/28/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/95/image",
-        "channels": [],
-        "total_channels": 0
+        "total_channels": 2
       },
       {
         "title": "Washington Wizards vs Atlanta Hawks",
@@ -2235,6 +2454,951 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/274886/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AC Milan vs Ferencvaros TC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ac-milan-vs-ferencvaros-tc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Milan",
+            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+          },
+          "team_b": {
+            "name": "Ferencváros TC",
+            "flag": "https://img.sofascore.com/api/v1/team/1925/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "RSC Anderlecht vs Red Bull Salzburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "rsc-anderlecht-vs-red-bull-salzburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "RSC Anderlecht",
+            "flag": "https://img.sofascore.com/api/v1/team/2900/image"
+          },
+          "team_b": {
+            "name": "Red Bull Salzburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2046/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2900/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Crystal Palace vs TSG Hoffenheim",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "crystal-palace-vs-tsg-hoffenheim",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Crystal Palace",
+            "flag": "https://img.sofascore.com/api/v1/team/7/image"
+          },
+          "team_b": {
+            "name": "TSG Hoffenheim",
+            "flag": "https://img.sofascore.com/api/v1/team/2569/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Levski Sofia vs Jagiellonia Biaystok",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "levski-sofia-vs-jagiellonia-biaystok",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Levski Sofia",
+            "flag": "https://img.sofascore.com/api/v1/team/3273/image"
+          },
+          "team_b": {
+            "name": "Jagiellonia Białystok",
+            "flag": "https://img.sofascore.com/api/v1/team/7691/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3273/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lillestrm SK vs FC Viktoria Plzen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lillestrm-sk-vs-fc-viktoria-plzen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lillestrøm SK",
+            "flag": "https://img.sofascore.com/api/v1/team/664/image"
+          },
+          "team_b": {
+            "name": "FC Viktoria Plzeň",
+            "flag": "https://img.sofascore.com/api/v1/team/4502/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/664/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "NEC Nijmegen vs Omonia Nicosia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "nec-nijmegen-vs-omonia-nicosia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "NEC Nijmegen",
+            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+          },
+          "team_b": {
+            "name": "Omonia Nicosia",
+            "flag": "https://img.sofascore.com/api/v1/team/3395/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2962/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Real Sociedad vs Olympique Lyonnais",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "real-sociedad-vs-olympique-lyonnais",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Sociedad",
+            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
+          },
+          "team_b": {
+            "name": "Olympique Lyonnais",
+            "flag": "https://img.sofascore.com/api/v1/team/1649/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2824/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AC Sparta Praha vs Bournemouth",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ac-sparta-praha-vs-bournemouth",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Sparta Praha",
+            "flag": "https://img.sofascore.com/api/v1/team/2218/image"
+          },
+          "team_b": {
+            "name": "Bournemouth",
+            "flag": "https://img.sofascore.com/api/v1/team/60/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2218/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AZ Alkmaar vs Juventus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "az-alkmaar-vs-juventus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AZ Alkmaar",
+            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
+          },
+          "team_b": {
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2950/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bayer 04 Leverkusen vs Olympique de Marseille",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bayer-04-leverkusen-vs-olympique-de-marseille",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bayer 04 Leverkusen",
+            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+          },
+          "team_b": {
+            "name": "Olympique de Marseille",
+            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2681/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Benfica vs Lech Poznan",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "benfica-vs-lech-poznan",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Benfica",
+            "flag": "https://img.sofascore.com/api/v1/team/3006/image"
+          },
+          "team_b": {
+            "name": "Lech Poznań",
+            "flag": "https://img.sofascore.com/api/v1/team/3121/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3006/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Celta Vigo vs Royale Union Saint-Gilloise",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "celta-vigo-vs-royale-union-saint-gilloise",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Celta Vigo",
+            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
+          },
+          "team_b": {
+            "name": "Royale Union Saint-Gilloise",
+            "flag": "https://img.sofascore.com/api/v1/team/4860/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2821/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Hapoel Beer Sheva vs OFI Crete",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "hapoel-beer-sheva-vs-ofi-crete",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hapoel Be'er Sheva",
+            "flag": "https://img.sofascore.com/api/v1/team/5202/image"
+          },
+          "team_b": {
+            "name": "OFI Crete",
+            "flag": "https://img.sofascore.com/api/v1/team/3241/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5202/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Celtic vs Besiktas JK",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "celtic-vs-besiktas-jk",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Celtic",
+            "flag": "https://img.sofascore.com/api/v1/team/2352/image"
+          },
+          "team_b": {
+            "name": "Beşiktaş JK",
+            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2352/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "SK Sturm Graz vs NK Celje",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sk-sturm-graz-vs-nk-celje",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SK Sturm Graz",
+            "flag": "https://img.sofascore.com/api/v1/team/2051/image"
+          },
+          "team_b": {
+            "name": "NK Celje",
+            "flag": "https://img.sofascore.com/api/v1/team/2413/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2051/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sunderland vs GNK Dinamo Zagreb",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sunderland-vs-gnk-dinamo-zagreb",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sunderland",
+            "flag": "https://img.sofascore.com/api/v1/team/41/image"
+          },
+          "team_b": {
+            "name": "GNK Dinamo Zagreb",
+            "flag": "https://img.sofascore.com/api/v1/team/2032/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/41/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Torreense vs FC Ararat-Armenia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "torreense-vs-fc-ararat-armenia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Torreense",
+            "flag": "https://img.sofascore.com/api/v1/team/25787/image"
+          },
+          "team_b": {
+            "name": "FC Ararat-Armenia",
+            "flag": "https://img.sofascore.com/api/v1/team/262229/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/25787/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AGF vs Sporting Braga",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "agf-vs-sporting-braga",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AGF",
+            "flag": "https://img.sofascore.com/api/v1/team/1291/image"
+          },
+          "team_b": {
+            "name": "Sporting Braga",
+            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1291/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Atalanta vs FC Kairat Almaty",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "atalanta-vs-fc-kairat-almaty",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atalanta",
+            "flag": "https://img.sofascore.com/api/v1/team/2686/image"
+          },
+          "team_b": {
+            "name": "FC Kairat Almaty",
+            "flag": "https://img.sofascore.com/api/v1/team/5172/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2686/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Midtjylland vs AFC Ajax",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-midtjylland-vs-afc-ajax",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Midtjylland",
+            "flag": "https://img.sofascore.com/api/v1/team/1289/image"
+          },
+          "team_b": {
+            "name": "AFC Ajax",
+            "flag": "https://img.sofascore.com/api/v1/team/2953/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1289/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FK Crvena zvezda vs Inter Club dEscaldes",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fk-crvena-zvezda-vs-inter-club-descaldes",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FK Crvena zvezda",
+            "flag": "https://img.sofascore.com/api/v1/team/5149/image"
+          },
+          "team_b": {
+            "name": "Inter Club d'Escaldes",
+            "flag": "https://img.sofascore.com/api/v1/team/37946/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5149/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Kuopion Palloseura vs KAA Gent",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "kuopion-palloseura-vs-kaa-gent",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Kuopion Palloseura",
+            "flag": "https://img.sofascore.com/api/v1/team/2244/image"
+          },
+          "team_b": {
+            "name": "KAA Gent",
+            "flag": "https://img.sofascore.com/api/v1/team/2903/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2244/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lincoln Red Imps vs HNK Hajduk Split",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lincoln-red-imps-vs-hnk-hajduk-split",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lincoln Red Imps",
+            "flag": "https://img.sofascore.com/api/v1/team/126304/image"
+          },
+          "team_b": {
+            "name": "HNK Hajduk Split",
+            "flag": "https://img.sofascore.com/api/v1/team/2036/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/126304/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Mjallby AIF vs FK Borac Banja Luka",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "mjallby-aif-vs-fk-borac-banja-luka",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Mjällby AIF",
+            "flag": "https://img.sofascore.com/api/v1/team/1783/image"
+          },
+          "team_b": {
+            "name": "FK Borac Banja Luka",
+            "flag": "https://img.sofascore.com/api/v1/team/5235/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1783/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Thun vs Heart of Midlothian",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-thun-vs-heart-of-midlothian",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Thun",
+            "flag": "https://img.sofascore.com/api/v1/team/2454/image"
+          },
+          "team_b": {
+            "name": "Heart of Midlothian",
+            "flag": "https://img.sofascore.com/api/v1/team/2353/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2454/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Trabzonspor vs SC Freiburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "trabzonspor-vs-sc-freiburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 06, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/05 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Trabzonspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
+          },
+          "team_b": {
+            "name": "SC Freiburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Kbenhavn vs FC Iberia 1999",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-kbenhavn-vs-fc-iberia-1999",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC København",
+            "flag": "https://img.sofascore.com/api/v1/team/1284/image"
+          },
+          "team_b": {
+            "name": "FC Iberia 1999",
+            "flag": "https://img.sofascore.com/api/v1/team/116312/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1284/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Twente vs Pafos FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-twente-vs-pafos-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Twente",
+            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+          },
+          "team_b": {
+            "name": "Pafos FC",
+            "flag": "https://img.sofascore.com/api/v1/team/171626/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2955/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Getafe vs Brighton Hove Albion",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "getafe-vs-brighton-hove-albion",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Getafe",
+            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+          },
+          "team_b": {
+            "name": "Brighton & Hove Albion",
+            "flag": "https://img.sofascore.com/api/v1/team/30/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2859/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Lugano vs FK Kauno Zalgiris",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-lugano-vs-fk-kauno-zalgiris",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Lugano",
+            "flag": "https://img.sofascore.com/api/v1/team/2443/image"
+          },
+          "team_b": {
+            "name": "FK Kauno Žalgiris",
+            "flag": "https://img.sofascore.com/api/v1/team/80741/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2443/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "AS Monaco vs FC Nordsjlland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "as-monaco-vs-fc-nordsjlland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AS Monaco",
+            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+          },
+          "team_b": {
+            "name": "FC Nordsjælland",
+            "flag": "https://img.sofascore.com/api/v1/team/1292/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1653/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Panathinaikos FC vs CSKA Sofia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "panathinaikos-fc-vs-cska-sofia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Panathinaikos FC",
+            "flag": "https://img.sofascore.com/api/v1/team/3248/image"
+          },
+          "team_b": {
+            "name": "CSKA Sofia",
+            "flag": "https://img.sofascore.com/api/v1/team/3275/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3248/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Riga FC vs FK Jablonec",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "riga-fc-vs-fk-jablonec",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Riga FC",
+            "flag": "https://img.sofascore.com/api/v1/team/162368/image"
+          },
+          "team_b": {
+            "name": "FK Jablonec",
+            "flag": "https://img.sofascore.com/api/v1/team/2205/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/162368/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sint-Truidense VV vs SK Brann",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sint-truidense-vv-vs-sk-brann",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sint-Truidense VV",
+            "flag": "https://img.sofascore.com/api/v1/team/2895/image"
+          },
+          "team_b": {
+            "name": "SK Brann",
+            "flag": "https://img.sofascore.com/api/v1/team/1159/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2895/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Universitatea Craiova vs KF Egnatia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "universitatea-craiova-vs-kf-egnatia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 06, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/05 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Universitatea Craiova",
+            "flag": "https://img.sofascore.com/api/v1/team/116223/image"
+          },
+          "team_b": {
+            "name": "KF Egnatia",
+            "flag": "https://img.sofascore.com/api/v1/team/264619/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/116223/image",
         "channels": [],
         "total_channels": 0
       }
