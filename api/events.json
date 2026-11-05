@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T00:46:23.085848+00:00",
+  "last_updated": "2026-11-05T01:16:32.504762+00:00",
   "event_count": 84,
   "events": {
     "events": [
@@ -1254,15 +1254,25 @@
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "url": "https://chatgpt.hereisman.net/playlist/59254/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59254/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59262/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59262/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Detroit Pistons vs Philadelphia 76ers",
@@ -1292,8 +1302,248 @@
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "url": "https://chatgpt.hereisman.net/playlist/59251/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59251/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59264/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59264/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Boston Celtics vs Milwaukee Bucks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "boston-celtics-vs-milwaukee-bucks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/11/05 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Boston Celtics",
+            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+          },
+          "team_b": {
+            "name": "Milwaukee Bucks",
+            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59257/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59257/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59277/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59277/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "New York Knicks vs Chicago Bulls",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-york-knicks-vs-chicago-bulls",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/11/05 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          },
+          "team_b": {
+            "name": "Chicago Bulls",
+            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3421/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59263/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59263/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59261/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59261/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Brooklyn Nets vs Charlotte Hornets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "brooklyn-nets-vs-charlotte-hornets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/11/05 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Brooklyn Nets",
+            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
+          },
+          "team_b": {
+            "name": "Charlotte Hornets",
+            "flag": "https://img.sofascore.com/api/v1/team/3430/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3436/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59258/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59258/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59276/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59276/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Oklahoma City Thunder vs Cleveland Cavaliers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "oklahoma-city-thunder-vs-cleveland-cavaliers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/11/05 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          },
+          "team_b": {
+            "name": "Cleveland Cavaliers",
+            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3418/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59281/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59281/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59267/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59267/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Memphis Grizzlies vs Indiana Pacers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "memphis-grizzlies-vs-indiana-pacers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/11/05 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Memphis Grizzlies",
+            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
+          },
+          "team_b": {
+            "name": "Indiana Pacers",
+            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3415/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59270/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59270/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
             },
@@ -1301,6 +1551,92 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "New Orleans Pelicans vs Utah Jazz",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-orleans-pelicans-vs-utah-jazz",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/11/05 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Orleans Pelicans",
+            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
+          },
+          "team_b": {
+            "name": "Utah Jazz",
+            "flag": "https://img.sofascore.com/api/v1/team/3434/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59266/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59266/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Houston Rockets vs Minnesota Timberwolves",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "houston-rockets-vs-minnesota-timberwolves",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 07:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/11/05 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          },
+          "team_b": {
+            "name": "Minnesota Timberwolves",
+            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59278/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59278/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59282/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59282/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -2325,195 +2661,6 @@
         "total_channels": 0
       },
       {
-        "title": "Boston Celtics vs Milwaukee Bucks",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "boston-celtics-vs-milwaukee-bucks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/11/05 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Boston Celtics",
-            "flag": "https://img.sofascore.com/api/v1/team/3422/image"
-          },
-          "team_b": {
-            "name": "Milwaukee Bucks",
-            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "New York Knicks vs Chicago Bulls",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-york-knicks-vs-chicago-bulls",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/11/05 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New York Knicks",
-            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
-          },
-          "team_b": {
-            "name": "Chicago Bulls",
-            "flag": "https://img.sofascore.com/api/v1/team/3409/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3421/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Brooklyn Nets vs Charlotte Hornets",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "brooklyn-nets-vs-charlotte-hornets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:00:00 AM",
-          "raw_start_utc": "2026/11/05 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Brooklyn Nets",
-            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
-          },
-          "team_b": {
-            "name": "Charlotte Hornets",
-            "flag": "https://img.sofascore.com/api/v1/team/3430/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3436/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Oklahoma City Thunder vs Cleveland Cavaliers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "oklahoma-city-thunder-vs-cleveland-cavaliers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/05 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Oklahoma City Thunder",
-            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
-          },
-          "team_b": {
-            "name": "Cleveland Cavaliers",
-            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3418/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Memphis Grizzlies vs Indiana Pacers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "memphis-grizzlies-vs-indiana-pacers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/05 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          },
-          "team_b": {
-            "name": "Indiana Pacers",
-            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3415/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "New Orleans Pelicans vs Utah Jazz",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-orleans-pelicans-vs-utah-jazz",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 05, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/05 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Orleans Pelicans",
-            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
-          },
-          "team_b": {
-            "name": "Utah Jazz",
-            "flag": "https://img.sofascore.com/api/v1/team/3434/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Houston Rockets vs Minnesota Timberwolves",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "houston-rockets-vs-minnesota-timberwolves",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 07:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 10:00:00 AM",
-          "raw_start_utc": "2026/11/05 01:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Houston Rockets",
-            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
-          },
-          "team_b": {
-            "name": "Minnesota Timberwolves",
-            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3412/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Denver Nuggets vs Toronto Raptors",
         "sport": "Basketball",
         "sub_category": "Basketball",
@@ -2537,8 +2684,29 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3417/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS 4 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
+          },
+          {
+            "channel_name": "TSN SPORTS 5 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "San Antonio Spurs vs Dallas Mavericks",
