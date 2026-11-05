@@ -1,84 +1,8 @@
 {
-  "last_updated": "2026-11-05T14:20:25.519155+00:00",
+  "last_updated": "2026-11-05T16:21:01.552065+00:00",
   "event_count": 53,
   "events": {
     "events": [
-      {
-        "title": "Bhutan vs Bangladesh",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bhutan-vs-bangladesh",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 05, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/05 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bhutan",
-            "flag": "https://img.sofascore.com/api/v1/team/191564/image"
-          },
-          "team_b": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/6080/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/191564/image",
-        "channels": [
-          {
-            "channel_name": "MyCO TV - AQ",
-            "stream_type": "HLS",
-            "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
-            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
-            "headers": {
-              "referer": "https://myco.io/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
-            "raw_link": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "BACKUP HD",
-            "stream_type": "HLS",
-            "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793890435-0-0-cfa8e67b7f53e252d7d0f5887fccec2a",
-            "raw_link": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793890435-0-0-cfa8e67b7f53e252d7d0f5887fccec2a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/RHHHAAAAAQQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/RHHHAAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
         "sport": "Football",
@@ -2194,6 +2118,54 @@
         "logo": "https://img.sofascore.com/api/v1/team/1954/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "Baltimore Ravens vs Jacksonville Jaguars",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "baltimore-ravens-vs-jacksonville-jaguars",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 06, 2026, 07:15:00 AM",
+          "end_time_bst": "Nov 06, 2026, 10:15:00 AM",
+          "raw_start_utc": "2026/11/06 01:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Baltimore Ravens",
+            "flag": "https://img.sofascore.com/api/v1/team/4413/image"
+          },
+          "team_b": {
+            "name": "Jacksonville Jaguars",
+            "flag": "https://img.sofascore.com/api/v1/team/4386/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4413/image",
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS 1 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          }
+        ],
+        "total_channels": 2
       }
     ]
   }
