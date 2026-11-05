@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-05T09:18:52.613854+00:00",
-  "event_count": 63,
+  "last_updated": "2026-11-05T09:49:01.038411+00:00",
+  "event_count": 62,
   "events": {
     "events": [
       {
@@ -246,7 +246,17 @@
         "logo": "https://img.sofascore.com/api/v1/team/6081/image",
         "channels": [
           {
-            "channel_name": "HD SERVER",
+            "channel_name": "MYCO - AQ",
+            "stream_type": "HLS",
+            "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+            "headers": {
+              "referer": "https://myco.io/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
             "raw_link": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
@@ -254,70 +264,21 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Sri Lanka Under-19 vs Malaysia Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "sri-lanka-under-19-vs-malaysia-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 05, 2026, 07:00:55 PM",
-          "raw_start_utc": "2026/11/05 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sri Lanka Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
-          },
-          "team_b": {
-            "name": "Malaysia Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-            "headers": {},
-            "drm_key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
           },
           {
-            "channel_name": "SonyLiv PRIME - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
-            "headers": {},
-            "drm_key": "5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-            "headers": {},
-            "drm_key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
-          },
-          {
-            "channel_name": "SonyLiv",
+            "channel_name": "T SPORTS HD",
             "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/criclive0511/ENG/std_lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "6ab21ad3e778a9d0372ec3387a1f521d-1793853003444"
-            },
+            "url": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
+            "raw_link": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1793874752-0-0-5ff06f528414dfefb16363bff6b7e3fe",
+            "raw_link": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1793874752-0-0-5ff06f528414dfefb16363bff6b7e3fe",
+            "headers": {},
             "drm_key": null
           }
         ],
@@ -534,6 +495,120 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Kitchee SC vs Phnom Penh Crown",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "kitchee-sc-vs-phnom-penh-crown",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
+          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
+          "raw_start_utc": "2026/11/05 10:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Kitchee SC",
+            "flag": "https://img.sofascore.com/api/v1/team/42199/image"
+          },
+          "team_b": {
+            "name": "Phnom Penh Crown",
+            "flag": "https://img.sofascore.com/api/v1/team/35605/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/42199/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Lion City Sailors vs Adelaide United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "lion-city-sailors-vs-adelaide-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
+          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
+          "raw_start_utc": "2026/11/05 10:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lion City Sailors",
+            "flag": "https://img.sofascore.com/api/v1/team/3041/image"
+          },
+          "team_b": {
+            "name": "Adelaide United",
+            "flag": "https://img.sofascore.com/api/v1/team/2946/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3041/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Machida Zelvia vs Shanghai Shenhua",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "machida-zelvia-vs-shanghai-shenhua",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
+          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
+          "raw_start_utc": "2026/11/05 10:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Machida Zelvia",
+            "flag": "https://img.sofascore.com/api/v1/team/44409/image"
+          },
+          "team_b": {
+            "name": "Shanghai Shenhua",
+            "flag": "https://img.sofascore.com/api/v1/team/3373/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/44409/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2331,120 +2406,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/116223/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Kitchee SC vs Phnom Penh Crown",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "kitchee-sc-vs-phnom-penh-crown",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/05 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kitchee SC",
-            "flag": "https://img.sofascore.com/api/v1/team/42199/image"
-          },
-          "team_b": {
-            "name": "Phnom Penh Crown",
-            "flag": "https://img.sofascore.com/api/v1/team/35605/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/42199/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Lion City Sailors vs Adelaide United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "lion-city-sailors-vs-adelaide-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/05 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Lion City Sailors",
-            "flag": "https://img.sofascore.com/api/v1/team/3041/image"
-          },
-          "team_b": {
-            "name": "Adelaide United",
-            "flag": "https://img.sofascore.com/api/v1/team/2946/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3041/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Machida Zelvia vs Shanghai Shenhua",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "machida-zelvia-vs-shanghai-shenhua",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 05, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/05 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Machida Zelvia",
-            "flag": "https://img.sofascore.com/api/v1/team/44409/image"
-          },
-          "team_b": {
-            "name": "Shanghai Shenhua",
-            "flag": "https://img.sofascore.com/api/v1/team/3373/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/44409/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "BG Pathum United vs Tai Po",
