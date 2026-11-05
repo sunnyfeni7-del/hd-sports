@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T23:46:05.777905+00:00",
+  "last_updated": "2026-11-05T00:16:14.507977+00:00",
   "event_count": 84,
   "events": {
     "events": [
@@ -945,6 +945,92 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Botafogo vs Atletico Mineiro",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "botafogo-vs-atletico-mineiro",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/11/05 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Botafogo",
+            "flag": "https://img.sofascore.com/api/v1/team/1958/image"
+          },
+          "team_b": {
+            "name": "Atlético Mineiro",
+            "flag": "https://img.sofascore.com/api/v1/team/1977/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1958/image",
+        "channels": [
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Sao Paulo vs Corinthians",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sao-paulo-vs-corinthians",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 05, 2026, 08:50:00 AM",
+          "raw_start_utc": "2026/11/05 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "São Paulo",
+            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
+          },
+          "team_b": {
+            "name": "Corinthians",
+            "flag": "https://img.sofascore.com/api/v1/team/1957/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1981/image",
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+          },
+          {
+            "channel_name": "PREMIERE BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Cardiff City vs West Ham United",
@@ -2237,92 +2323,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/5981/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Botafogo vs Atletico Mineiro",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "botafogo-vs-atletico-mineiro",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/11/05 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Botafogo",
-            "flag": "https://img.sofascore.com/api/v1/team/1958/image"
-          },
-          "team_b": {
-            "name": "Atlético Mineiro",
-            "flag": "https://img.sofascore.com/api/v1/team/1977/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1958/image",
-        "channels": [
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Sao Paulo vs Corinthians",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sao-paulo-vs-corinthians",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 05, 2026, 06:30:00 AM",
-          "end_time_bst": "Nov 05, 2026, 08:50:00 AM",
-          "raw_start_utc": "2026/11/05 00:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "São Paulo",
-            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
-          },
-          "team_b": {
-            "name": "Corinthians",
-            "flag": "https://img.sofascore.com/api/v1/team/1957/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1981/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-          },
-          {
-            "channel_name": "PREMIERE BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Boston Celtics vs Milwaukee Bucks",
