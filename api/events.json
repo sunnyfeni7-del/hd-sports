@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-06T11:26:32.453859+00:00",
-  "event_count": 28,
+  "last_updated": "2026-11-06T12:11:50.657576+00:00",
+  "event_count": 31,
   "events": {
     "events": [
       {
@@ -47,12 +47,22 @@
             "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
           },
           {
-            "channel_name": "SPOTV - AQ",
+            "channel_name": "SKY SPORT MIX - AQ",
             "stream_type": "DASH",
-            "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-            "raw_link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd",
             "headers": {},
-            "drm_key": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
+            "drm_key": "fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0"
+          },
+          {
+            "channel_name": "SKY TOP EVENT - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
           },
           {
             "channel_name": "MotoGP - AQ",
@@ -65,6 +75,14 @@
             "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
           },
           {
+            "channel_name": "SPOTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+            "raw_link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+            "headers": {},
+            "drm_key": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
+          },
+          {
             "channel_name": "FANCODE - LQ",
             "stream_type": "DASH",
             "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
@@ -73,30 +91,19 @@
             "drm_key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
           },
           {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8",
-            "raw_link": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://streame.center",
-              "Origin": "https://streame.center"
-            },
-            "drm_key": null
-          },
-          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?",
-            "raw_link": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+            "url": "http://193.47.62.44/hls/ziii.m3u8",
+            "raw_link": "http://193.47.62.44/hls/ziii.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc/"
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 8
       },
       {
         "title": "Afghanistan vs Zimbabwe",
@@ -215,74 +222,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Pakistan Under-19 vs United Arab Emirates Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "pakistan-under-19-vs-united-arab-emirates-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 06, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 06, 2026, 07:00:34 PM",
-          "raw_start_utc": "2026/11/06 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pakistan Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213104/image"
-          },
-          "team_b": {
-            "name": "United Arab Emirates Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/300266/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213104/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-            "headers": {},
-            "drm_key": "1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317"
-          },
-          {
-            "channel_name": "SonyLiv PRIME - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhmymymkrb/out/v1/63a3f37439d848cf828763d9a3104a61/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhmymymkrb/out/v1/63a3f37439d848cf828763d9a3104a61/cenc.mpd",
-            "headers": {},
-            "drm_key": "894a711509fd4cd9f746368eb6c5fd38:d77f5b857e3e1f1d53900ed6d586cb78"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-            "headers": {},
-            "drm_key": "1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317"
-          },
-          {
-            "channel_name": "PTV SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TEN SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
       },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
@@ -1513,6 +1452,114 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/5067/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Melbourne Renegades Women vs Adelaide Strikers Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "melbourne-renegades-women-vs-adelaide-strikers-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 10:40:00 AM",
+          "end_time_bst": "Nov 07, 2026, 02:40:00 PM",
+          "raw_start_utc": "2026/11/07 04:40:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Melbourne Renegades Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274887/image"
+          },
+          "team_b": {
+            "name": "Adelaide Strikers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274888/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274887/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Brisbane Heat Women vs Hobart Hurricanes Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "brisbane-heat-women-vs-hobart-hurricanes-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 02:10:00 PM",
+          "end_time_bst": "Nov 07, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/11/07 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Brisbane Heat Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274884/image"
+          },
+          "team_b": {
+            "name": "Hobart Hurricanes Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274884/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Afghanistan Under-19 vs Malaysia Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "afghanistan-under-19-vs-malaysia-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 07:00:13 PM",
+          "raw_start_utc": "2026/11/07 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213103/image"
+          },
+          "team_b": {
+            "name": "Malaysia Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213103/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Sri Lanka Under-19 vs Bangladesh Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sri-lanka-under-19-vs-bangladesh-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 07:00:27 PM",
+          "raw_start_utc": "2026/11/07 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sri Lanka Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
+          },
+          "team_b": {
+            "name": "Bangladesh Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213099/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
         "channels": [],
         "total_channels": 0
       }
