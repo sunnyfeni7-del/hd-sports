@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T19:38:43.046651+00:00",
+  "last_updated": "2026-11-06T19:48:45.459935+00:00",
   "event_count": 36,
   "events": {
     "events": [
@@ -377,9 +377,79 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4660323.m3u8?txSecret=041a022dc32a4a4ba0a49ce8348db5b1&txTime=6AEE4221",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4660323.m3u8?txSecret=041a022dc32a4a4ba0a49ce8348db5b1&txTime=6AEE4221|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/SYYY.m3u8",
+            "raw_link": "http://193.47.62.44/hls/SYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
+      },
+      {
+        "title": "Everton vs Coventry City",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "everton-vs-coventry-city",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/06 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Everton",
+            "flag": "https://img.sofascore.com/api/v1/team/48/image"
+          },
+          "team_b": {
+            "name": "Coventry City",
+            "flag": "https://img.sofascore.com/api/v1/team/11/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/48/image",
+        "channels": [
+          {
+            "channel_name": "SKY SPORT PL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Venezia vs Udinese",
@@ -450,6 +520,64 @@
         "total_channels": 4
       },
       {
+        "title": "Sevilla vs Deportivo Alaves",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sevilla-vs-deportivo-alaves",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/06 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sevilla",
+            "flag": "https://img.sofascore.com/api/v1/team/2833/image"
+          },
+          "team_b": {
+            "name": "Deportivo Alavés",
+            "flag": "https://img.sofascore.com/api/v1/team/2885/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2833/image",
+        "channels": [
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Toulouse vs RC Strasbourg",
         "sport": "Football",
         "sub_category": "Football",
@@ -487,15 +615,63 @@
           {
             "channel_name": "CazéTV - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+            "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4550930.m3u8?txSecret=c0671a44002b36cb834c478b7bf5d51a&txTime=6AEE41F9",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4550930.m3u8?txSecret=c0671a44002b36cb834c478b7bf5d51a&txTime=6AEE41F9|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
+      },
+      {
+        "title": "Derby County vs Bolton Wanderers",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "derby-county-vs-bolton-wanderers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/06 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Derby County",
+            "flag": "https://img.sofascore.com/api/v1/team/27/image"
+          },
+          "team_b": {
+            "name": "Bolton Wanderers",
+            "flag": "https://img.sofascore.com/api/v1/team/5/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/27/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Willem II Tilburg vs PEC Zwolle",
@@ -1236,150 +1412,6 @@
         "total_channels": 0
       },
       {
-        "title": "Everton vs Coventry City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "everton-vs-coventry-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/06 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Everton",
-            "flag": "https://img.sofascore.com/api/v1/team/48/image"
-          },
-          "team_b": {
-            "name": "Coventry City",
-            "flag": "https://img.sofascore.com/api/v1/team/11/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/48/image",
-        "channels": [
-          {
-            "channel_name": "SKY SPORT PL - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-          },
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Sevilla vs Deportivo Alaves",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sevilla-vs-deportivo-alaves",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/06 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sevilla",
-            "flag": "https://img.sofascore.com/api/v1/team/2833/image"
-          },
-          "team_b": {
-            "name": "Deportivo Alavés",
-            "flag": "https://img.sofascore.com/api/v1/team/2885/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2833/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Derby County vs Bolton Wanderers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "derby-county-vs-bolton-wanderers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/06 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Derby County",
-            "flag": "https://img.sofascore.com/api/v1/team/27/image"
-          },
-          "team_b": {
-            "name": "Bolton Wanderers",
-            "flag": "https://img.sofascore.com/api/v1/team/5/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/27/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Famalicao vs FC Arouca",
         "sport": "Football",
         "sub_category": "Football",
@@ -1403,8 +1435,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/49531/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/BGBGBGAAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/BGBGBGAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Melbourne Renegades Women vs Adelaide Strikers Women",
