@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T14:03:58.354217+00:00",
+  "last_updated": "2026-11-07T14:19:04.814877+00:00",
   "event_count": 63,
   "events": {
     "events": [
@@ -381,6 +381,124 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Borussia Dortmund vs SV 07 Elversberg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "borussia-dortmund-vs-sv-07-elversberg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/07 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Borussia Dortmund",
+            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
+          },
+          "team_b": {
+            "name": "SV 07 Elversberg",
+            "flag": "https://img.sofascore.com/api/v1/team/2598/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2673/image",
+        "channels": [
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "SC Paderborn 07 vs Eintracht Frankfurt",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-paderborn-07-vs-eintracht-frankfurt",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/07 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Paderborn 07",
+            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
+          },
+          "team_b": {
+            "name": "Eintracht Frankfurt",
+            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/E777AA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/E777AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "RB Leipzig vs FC Augsburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "rb-leipzig-vs-fc-augsburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/07 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "RB Leipzig",
+            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
+          },
+          "team_b": {
+            "name": "FC Augsburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2600/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/36360/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/E777AAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/E777AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Leeds United vs Tottenham Hotspur",
@@ -1568,44 +1686,6 @@
         "total_channels": 0
       },
       {
-        "title": "Borussia Dortmund vs SV 07 Elversberg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "borussia-dortmund-vs-sv-07-elversberg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/07 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Borussia Dortmund",
-            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
-          },
-          "team_b": {
-            "name": "SV 07 Elversberg",
-            "flag": "https://img.sofascore.com/api/v1/team/2598/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2673/image",
-        "channels": [
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "1. FSV Mainz 05 vs FC Bayern Munchen",
         "sport": "Football",
         "sub_category": "Football",
@@ -1629,60 +1709,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2556/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Paderborn 07 vs Eintracht Frankfurt",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-paderborn-07-vs-eintracht-frankfurt",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/07 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Paderborn 07",
-            "flag": "https://img.sofascore.com/api/v1/team/2561/image"
-          },
-          "team_b": {
-            "name": "Eintracht Frankfurt",
-            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2561/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "RB Leipzig vs FC Augsburg",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "rb-leipzig-vs-fc-augsburg",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/07 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "RB Leipzig",
-            "flag": "https://img.sofascore.com/api/v1/team/36360/image"
-          },
-          "team_b": {
-            "name": "FC Augsburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2600/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/36360/image",
         "channels": [],
         "total_channels": 0
       },
