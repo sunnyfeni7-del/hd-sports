@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T02:45:28.778096+00:00",
-  "event_count": 36,
+  "last_updated": "2026-11-07T03:15:35.258328+00:00",
+  "event_count": 32,
   "events": {
     "events": [
       {
@@ -327,10 +327,12 @@
           {
             "channel_name": "PRIME ENG - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
-            "headers": {},
-            "drm_key": "db4b3e1da015cf0f03c2a5f4b9ee8433:964bab777741f2b59adedcbbcd463374"
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cqbd0spknz/out/v1/71f66b096687482b8139a87814657aee/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cqbd0spknz/out/v1/71f66b096687482b8139a87814657aee/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d6fa7afe010c5fd6a05338599da7158f:865584ea64ec125cd6524ab3fb7d0e80"
           },
           {
             "channel_name": "WILLOW - AQ",
@@ -345,12 +347,12 @@
           {
             "channel_name": "PRIME HINDI - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ppmrp8tlzz/out/v1/cf829370483b4212ac7d5e3009c514b1/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ppmrp8tlzz/out/v1/cf829370483b4212ac7d5e3009c514b1/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kuptqxvclu/out/v1/5f434a56da684ce58ef04a955faeb1d7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kuptqxvclu/out/v1/5f434a56da684ce58ef04a955faeb1d7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": "952fb91696308da86bee7cd24edf0b58:bf359214ab3ac848738bdf014ace21b3"
+            "drm_key": "8e3eef73bb953c9da96600b47e2190d1:f1dbf72267c0bb24aa5fa2ab61987df8"
           },
           {
             "channel_name": "TNT SPORTS - AQ",
@@ -412,6 +414,86 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Bangladesh vs West Indies",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bangladesh-vs-west-indies",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:30:28 AM",
+          "end_time_bst": "Nov 07, 2026, 06:00:34 PM",
+          "raw_start_utc": "2026/11/07 03:30:28 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+          },
+          "team_b": {
+            "name": "West Indies",
+            "flag": "https://img.sofascore.com/api/v1/team/187760/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187744/image",
+        "channels": [
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.16.24.4:8083/14.m3u8",
+            "raw_link": "http://103.16.24.4:8083/14.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD HD",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - LQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+          },
+          {
+            "channel_name": "T SPORTS - LQ",
+            "stream_type": "HLS",
+            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
@@ -1054,6 +1136,102 @@
         "total_channels": 1
       },
       {
+        "title": "Los Angeles Lakers vs Portland Trail Blazers",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "los-angeles-lakers-vs-portland-trail-blazers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
+          "raw_start_utc": "2026/11/07 03:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Los Angeles Lakers",
+            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
+          },
+          "team_b": {
+            "name": "Portland Trail Blazers",
+            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59435/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59435/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59425/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59425/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Sacramento Kings vs San Antonio Spurs",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sacramento-kings-vs-san-antonio-spurs",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
+          "raw_start_utc": "2026/11/07 03:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sacramento Kings",
+            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+          },
+          "team_b": {
+            "name": "San Antonio Spurs",
+            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3413/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "WWE Raw",
         "sport": "Boxing",
         "sub_category": "WWE",
@@ -1301,86 +1479,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Bangladesh vs West Indies",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bangladesh-vs-west-indies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:30:28 AM",
-          "end_time_bst": "Nov 07, 2026, 06:00:34 PM",
-          "raw_start_utc": "2026/11/07 03:30:28 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-          },
-          "team_b": {
-            "name": "West Indies",
-            "flag": "https://img.sofascore.com/api/v1/team/187760/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187744/image",
-        "channels": [
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.16.24.4:8083/14.m3u8",
-            "raw_link": "http://103.16.24.4:8083/14.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "headers": {},
-            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-          },
-          {
-            "channel_name": "T SPORTS - LQ",
-            "stream_type": "HLS",
-            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
       },
       {
         "title": "NPL Nepal Premier League",
@@ -1713,168 +1811,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3432/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Memphis Grizzlies vs Oklahoma City Thunder",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "memphis-grizzlies-vs-oklahoma-city-thunder",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/07 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Memphis Grizzlies",
-            "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-          },
-          "team_b": {
-            "name": "Oklahoma City Thunder",
-            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3415/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Milwaukee Bucks vs Toronto Raptors",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milwaukee-bucks-vs-toronto-raptors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/07 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milwaukee Bucks",
-            "flag": "https://img.sofascore.com/api/v1/team/3410/image"
-          },
-          "team_b": {
-            "name": "Toronto Raptors",
-            "flag": "https://img.sofascore.com/api/v1/team/3433/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3410/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "New Orleans Pelicans vs Minnesota Timberwolves",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-orleans-pelicans-vs-minnesota-timberwolves",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/07 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Orleans Pelicans",
-            "flag": "https://img.sofascore.com/api/v1/team/5539/image"
-          },
-          "team_b": {
-            "name": "Minnesota Timberwolves",
-            "flag": "https://img.sofascore.com/api/v1/team/3426/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5539/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Dallas Mavericks vs Utah Jazz",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "dallas-mavericks-vs-utah-jazz",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 09:30:00 AM",
-          "raw_start_utc": "2026/11/07 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dallas Mavericks",
-            "flag": "https://img.sofascore.com/api/v1/team/3411/image"
-          },
-          "team_b": {
-            "name": "Utah Jazz",
-            "flag": "https://img.sofascore.com/api/v1/team/3434/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3411/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Los Angeles Lakers vs Portland Trail Blazers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "los-angeles-lakers-vs-portland-trail-blazers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
-          "raw_start_utc": "2026/11/07 03:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Lakers",
-            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-          },
-          "team_b": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sacramento Kings vs San Antonio Spurs",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sacramento-kings-vs-san-antonio-spurs",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
-          "raw_start_utc": "2026/11/07 03:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sacramento Kings",
-            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
-          },
-          "team_b": {
-            "name": "San Antonio Spurs",
-            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3413/image",
         "channels": [],
         "total_channels": 0
       }
