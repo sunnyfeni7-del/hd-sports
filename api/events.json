@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T15:29:31.582541+00:00",
+  "last_updated": "2026-11-07T15:49:35.911817+00:00",
   "event_count": 56,
   "events": {
     "events": [
@@ -928,6 +928,86 @@
         "total_channels": 6
       },
       {
+        "title": "Fortuna Sittard vs SC Telstar",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fortuna-sittard-vs-sc-telstar",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/07 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fortuna Sittard",
+            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
+          },
+          "team_b": {
+            "name": "SC Telstar",
+            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2957/image",
+        "channels": [
+          {
+            "channel_name": "LOW QUALITY ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "CD Nacional vs Academico Viseu FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-nacional-vs-academico-viseu-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/07 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Nacional",
+            "flag": "https://img.sofascore.com/api/v1/team/3013/image"
+          },
+          "team_b": {
+            "name": "Académico Viseu FC",
+            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3013/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/HYYYAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/HYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Cadiz vs Real Oviedo",
         "sport": "Football",
         "sub_category": "Football",
@@ -974,6 +1054,44 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Galatasaray vs Amedspor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "galatasaray-vs-amedspor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/07 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Galatasaray",
+            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
+          },
+          "team_b": {
+            "name": "Amedspor",
+            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3061/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Birmingham City vs Swansea City",
@@ -2506,33 +2624,6 @@
         "total_channels": 0
       },
       {
-        "title": "Fortuna Sittard vs SC Telstar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fortuna-sittard-vs-sc-telstar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/07 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fortuna Sittard",
-            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-          },
-          "team_b": {
-            "name": "SC Telstar",
-            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "ADO Den Haag vs Sparta Rotterdam",
         "sport": "Football",
         "sub_category": "Football",
@@ -2583,33 +2674,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2967/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Nacional vs Academico Viseu FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-nacional-vs-academico-viseu-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/07 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Nacional",
-            "flag": "https://img.sofascore.com/api/v1/team/3013/image"
-          },
-          "team_b": {
-            "name": "Académico Viseu FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3013/image",
         "channels": [],
         "total_channels": 0
       },
@@ -2756,44 +2820,6 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Galatasaray vs Amedspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "galatasaray-vs-amedspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/07 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Galatasaray",
-            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
-          },
-          "team_b": {
-            "name": "Amedspor",
-            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3061/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
           }
         ],
         "total_channels": 1
