@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:47:54.684923+00:00",
+  "last_updated": "2026-11-07T11:18:04.431542+00:00",
   "event_count": 66,
   "events": {
     "events": [
@@ -423,8 +423,8 @@
           {
             "channel_name": "FANCODE - IN",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249855_english_hls_62f97a03e897115_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249855_english_hls_62f97a03e897115_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -480,6 +480,50 @@
               "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Abu Dhabi T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "abu-dhabi-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 05:30:20 PM",
+          "end_time_bst": "Nov 07, 2026, 11:55:24 PM",
+          "raw_start_utc": "2026/11/07 11:30:20 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          },
+          "team_b": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xhywkebli4/out/v1/b680bf867c374df2abef9ab2c55b0b65/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xhywkebli4/out/v1/b680bf867c374df2abef9ab2c55b0b65/cenc.mpd",
+            "headers": {},
+            "drm_key": "14959da8f9875554b690371dac4e2e5f:bad6682edf4b318c0ba3501758fe8cb9"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xhywkebli4/out/v1/b680bf867c374df2abef9ab2c55b0b65/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xhywkebli4/out/v1/b680bf867c374df2abef9ab2c55b0b65/cenc.mpd",
+            "headers": {},
+            "drm_key": "14959da8f9875554b690371dac4e2e5f:bad6682edf4b318c0ba3501758fe8cb9"
           }
         ],
         "total_channels": 2
@@ -1140,42 +1184,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Abu Dhabi T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "abu-dhabi-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 05:30:20 PM",
-          "end_time_bst": "Nov 07, 2026, 11:55:24 PM",
-          "raw_start_utc": "2026/11/07 11:30:20 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          },
-          "team_b": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-        "channels": [
-          {
-            "channel_name": "Live Channel",
-            "stream_type": "HLS",
-            "url": "ok",
-            "raw_link": "ok",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Borussia Dortmund vs SV 07 Elversberg",
