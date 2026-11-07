@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T16:44:54.200677+00:00",
+  "last_updated": "2026-11-07T16:49:53.120788+00:00",
   "event_count": 50,
   "events": {
     "events": [
@@ -366,6 +366,53 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Parma vs Bologna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "parma-vs-bologna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/07 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Parma",
+            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
+          },
+          "team_b": {
+            "name": "Bologna",
+            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2690/image",
+        "channels": [
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+            "headers": {
+              "Origin": "https://amazon.com",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Espanyol vs Deportivo de A Coruna",
@@ -1979,53 +2026,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Parma vs Bologna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "parma-vs-bologna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 11:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/11/07 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Parma",
-            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
-          },
-          "team_b": {
-            "name": "Bologna",
-            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2690/image",
-        "channels": [
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-            "headers": {
-              "Origin": "https://amazon.com",
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "AS Roma vs Sassuolo",
