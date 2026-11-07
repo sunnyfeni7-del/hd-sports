@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T14:49:11.964228+00:00",
+  "last_updated": "2026-11-07T15:04:40.651035+00:00",
   "event_count": 59,
   "events": {
     "events": [
@@ -634,6 +634,34 @@
         "logo": "https://img.sofascore.com/api/v1/team/42/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igr5elwsmu/out/v1/fd08479ed632421dae63f6c9d2705b3d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igr5elwsmu/out/v1/fd08479ed632421dae63f6c9d2705b3d/cenc.mpd",
+            "headers": {},
+            "drm_key": "f0ab82e649db67c77f045022194c3cb2:5e21bae323c1278656e6c93a70928aea"
+          },
+          {
+            "channel_name": "PEACOCK TV HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59444/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59444/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558696.m3u8?txSecret=d6e1cbf8be4e0c68ee66881bc53d5fda&txTime=6AEF4F31",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558696.m3u8?txSecret=d6e1cbf8be4e0c68ee66881bc53d5fda&txTime=6AEF4F31|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/mmmmA.m3u8",
@@ -646,7 +674,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Fulham vs Newcastle United",
@@ -674,6 +702,42 @@
         "logo": "https://img.sofascore.com/api/v1/team/43/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/ltdcb8x3a6/out/v1/48407f0bf9ef4707b9780e6cd3467b76/cenc-sd.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/ltdcb8x3a6/out/v1/48407f0bf9ef4707b9780e6cd3467b76/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "1f8b913e80701b02ed0e563ff5b34b24:feecbd2460a60f40b9df0c525d12a239"
+          },
+          {
+            "channel_name": "SKY SPORT DE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "headers": {},
+            "drm_key": "09d34ac8d64803c1f8b1bddada99d638:752ab3efc7eb3601c8d3c6b5a89ffa39"
+          },
+          {
+            "channel_name": "USA NETWROK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59445/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59445/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558711.m3u8?txSecret=c7886f031b2eaa2d1cdc091ef09e6003&txTime=6AEF4F6E",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558711.m3u8?txSecret=c7886f031b2eaa2d1cdc091ef09e6003&txTime=6AEF4F6E|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/mmmm.m3u8",
@@ -686,7 +750,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 5
       },
       {
         "title": "Cagliari vs Frosinone",
@@ -921,6 +985,62 @@
         "total_channels": 8
       },
       {
+        "title": "Espanyol vs Deportivo de A Coruna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "espanyol-vs-deportivo-de-a-coruna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/07 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Espanyol",
+            "flag": "https://img.sofascore.com/api/v1/team/2814/image"
+          },
+          "team_b": {
+            "name": "Deportivo de A Coruña",
+            "flag": "https://img.sofascore.com/api/v1/team/2832/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2814/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "headers": {},
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+          },
+          {
+            "channel_name": "CazéTV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Burgos Club de Futbol vs Celta Fortuna",
         "sport": "Football",
         "sub_category": "Football",
@@ -977,6 +1097,42 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Cadiz vs Real Oviedo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cadiz-vs-real-oviedo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/07 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cádiz",
+            "flag": "https://img.sofascore.com/api/v1/team/4488/image"
+          },
+          "team_b": {
+            "name": "Real Oviedo",
+            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4488/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Samsunspor vs Konyaspor",
@@ -1074,6 +1230,16 @@
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563681.m3u8?txSecret=2012d78efba541c1e8d9192ae7f9f92c&txTime=6AEF4DDA",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563681.m3u8?txSecret=2012d78efba541c1e8d9192ae7f9f92c&txTime=6AEF4DDA|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/DADADAA.m3u8",
@@ -1086,7 +1252,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Blackburn Rovers vs West Ham United",
@@ -1169,6 +1335,136 @@
         "total_channels": 1
       },
       {
+        "title": "Charlton Athletic vs Sheffield United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "charlton-athletic-vs-sheffield-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/07 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Charlton Athletic",
+            "flag": "https://img.sofascore.com/api/v1/team/47/image"
+          },
+          "team_b": {
+            "name": "Sheffield United",
+            "flag": "https://img.sofascore.com/api/v1/team/15/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/47/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563674.m3u8?txSecret=61f436a0eb2d90567aa4faa895ab75c0&txTime=6AEF4E14",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563674.m3u8?txSecret=61f436a0eb2d90567aa4faa895ab75c0&txTime=6AEF4E14|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/UPPPA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/UPPPA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Preston North End vs Southampton",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "preston-north-end-vs-southampton",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/07 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Preston North End",
+            "flag": "https://img.sofascore.com/api/v1/team/21/image"
+          },
+          "team_b": {
+            "name": "Southampton",
+            "flag": "https://img.sofascore.com/api/v1/team/45/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/21/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/DADADAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/DADADAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Queens Park Rangers vs Lincoln City",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "queens-park-rangers-vs-lincoln-city",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/07 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Queens Park Rangers",
+            "flag": "https://img.sofascore.com/api/v1/team/1/image"
+          },
+          "team_b": {
+            "name": "Lincoln City",
+            "flag": "https://img.sofascore.com/api/v1/team/92/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/RARARAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/RARARAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Watford vs Middlesbrough",
         "sport": "Football",
         "sub_category": "Football",
@@ -1202,6 +1498,68 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4563679.m3u8?txSecret=a442e5bb9eadd1c1bc0708b034a4ea3e&txTime=6AEF4E2C",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4563679.m3u8?txSecret=a442e5bb9eadd1c1bc0708b034a4ea3e&txTime=6AEF4E2C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/UPPPAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/UPPPAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "West Bromwich Albion vs Millwall",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "west-bromwich-albion-vs-millwall",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/07 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "West Bromwich Albion",
+            "flag": "https://img.sofascore.com/api/v1/team/8/image"
+          },
+          "team_b": {
+            "name": "Millwall",
+            "flag": "https://img.sofascore.com/api/v1/team/25/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/8/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/FAFAFAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/FAFAFAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
         "total_channels": 1
@@ -1973,62 +2331,6 @@
         "total_channels": 2
       },
       {
-        "title": "Espanyol vs Deportivo de A Coruna",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "espanyol-vs-deportivo-de-a-coruna",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/07 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Espanyol",
-            "flag": "https://img.sofascore.com/api/v1/team/2814/image"
-          },
-          "team_b": {
-            "name": "Deportivo de A Coruña",
-            "flag": "https://img.sofascore.com/api/v1/team/2832/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2814/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
         "title": "Osasuna vs Athletic Club",
         "sport": "Football",
         "sub_category": "Football",
@@ -2459,42 +2761,6 @@
         "total_channels": 0
       },
       {
-        "title": "Cadiz vs Real Oviedo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cadiz-vs-real-oviedo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/07 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cádiz",
-            "flag": "https://img.sofascore.com/api/v1/team/4488/image"
-          },
-          "team_b": {
-            "name": "Real Oviedo",
-            "flag": "https://img.sofascore.com/api/v1/team/2851/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4488/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Cordoba vs AD Ceuta",
         "sport": "Football",
         "sub_category": "Football",
@@ -2628,114 +2894,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3054/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Charlton Athletic vs Sheffield United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "charlton-athletic-vs-sheffield-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/07 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Charlton Athletic",
-            "flag": "https://img.sofascore.com/api/v1/team/47/image"
-          },
-          "team_b": {
-            "name": "Sheffield United",
-            "flag": "https://img.sofascore.com/api/v1/team/15/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Preston North End vs Southampton",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "preston-north-end-vs-southampton",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/07 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Preston North End",
-            "flag": "https://img.sofascore.com/api/v1/team/21/image"
-          },
-          "team_b": {
-            "name": "Southampton",
-            "flag": "https://img.sofascore.com/api/v1/team/45/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Queens Park Rangers vs Lincoln City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "queens-park-rangers-vs-lincoln-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/07 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Queens Park Rangers",
-            "flag": "https://img.sofascore.com/api/v1/team/1/image"
-          },
-          "team_b": {
-            "name": "Lincoln City",
-            "flag": "https://img.sofascore.com/api/v1/team/92/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "West Bromwich Albion vs Millwall",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "west-bromwich-albion-vs-millwall",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/07 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "West Bromwich Albion",
-            "flag": "https://img.sofascore.com/api/v1/team/8/image"
-          },
-          "team_b": {
-            "name": "Millwall",
-            "flag": "https://img.sofascore.com/api/v1/team/25/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/8/image",
         "channels": [],
         "total_channels": 0
       },
