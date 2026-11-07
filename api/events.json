@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:17:46.944519+00:00",
+  "last_updated": "2026-11-07T10:32:50.796088+00:00",
   "event_count": 66,
   "events": {
     "events": [
@@ -278,6 +278,61 @@
         "total_channels": 7
       },
       {
+        "title": "NPL Nepal Premier League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "npl-nepal-premier-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 04:45:51 PM",
+          "end_time_bst": "Nov 07, 2026, 09:00:56 PM",
+          "raw_start_utc": "2026/11/07 10:45:51 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          },
+          "team_b": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "channels": [
+          {
+            "channel_name": "NPL LIVE - AQ",
+            "stream_type": "DASH",
+            "url": "https://ott-lb.nettv.com.np/npl/live_match/index.mpd",
+            "raw_link": "https://ott-lb.nettv.com.np/npl/live_match/index.mpd",
+            "headers": {},
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "STAR SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
+            "raw_link": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
         "sport": "Football",
         "sub_category": "Football",
@@ -510,6 +565,56 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Eyupspor vs Kocaelispor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "eyupspor-vs-kocaelispor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 04:30:00 PM",
+          "end_time_bst": "Nov 07, 2026, 06:50:00 PM",
+          "raw_start_utc": "2026/11/07 10:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Eyüpspor",
+            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
+          },
+          "team_b": {
+            "name": "Kocaelispor",
+            "flag": "https://img.sofascore.com/api/v1/team/3065/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/QAQAQAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/QAQAQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Motogp",
@@ -1008,61 +1113,6 @@
           }
         ],
         "total_channels": 10
-      },
-      {
-        "title": "NPL Nepal Premier League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "npl-nepal-premier-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 04:45:51 PM",
-          "end_time_bst": "Nov 07, 2026, 09:00:56 PM",
-          "raw_start_utc": "2026/11/07 10:45:51 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
-          },
-          "team_b": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-        "channels": [
-          {
-            "channel_name": "NPL LIVE - AQ",
-            "stream_type": "DASH",
-            "url": "https://ott-lb.nettv.com.np/npl/live_match/index.mpd",
-            "raw_link": "https://ott-lb.nettv.com.np/npl/live_match/index.mpd",
-            "headers": {},
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "STAR SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-            "raw_link": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250370_english_hls_3f2891c62258649_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Pakistan vs Sri Lanka",
@@ -2395,33 +2445,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Eyupspor vs Kocaelispor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "eyupspor-vs-kocaelispor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 04:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/11/07 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
-          },
-          "team_b": {
-            "name": "Kocaelispor",
-            "flag": "https://img.sofascore.com/api/v1/team/3065/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Samsunspor vs Konyaspor",
