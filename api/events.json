@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T04:46:03.032780+00:00",
-  "event_count": 69,
+  "last_updated": "2026-11-07T05:46:22.496230+00:00",
+  "event_count": 67,
   "events": {
     "events": [
       {
@@ -260,6 +260,69 @@
         "total_channels": 10
       },
       {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 12:00:25 PM",
+          "end_time_bst": "Nov 07, 2026, 08:00:28 PM",
+          "raw_start_utc": "2026/11/07 06:00:25 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+            "headers": {},
+            "drm_key": "8e9af61f4a7f6d5a8f27cd3b85cc9a1d:bafb7bbc65820a0d0a5f77a990db7b76"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+            "headers": {},
+            "drm_key": "8e9af61f4a7f6d5a8f27cd3b85cc9a1d:bafb7bbc65820a0d0a5f77a990db7b76"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
         "title": "Bangladesh vs West Indies",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -428,10 +491,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7u2cpvujin/out/v1/6f128c4eef0848ed8ea6b79faaa90fe6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7u2cpvujin/out/v1/6f128c4eef0848ed8ea6b79faaa90fe6/cenc.mpd",
             "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+            "drm_key": "8034d996508ff5f2f3017d9e2a03d3e6:ce2d564ec40cf4a6423afcc93e28f2be"
           },
           {
             "channel_name": "SKY CRICKET - AQ",
@@ -446,135 +509,143 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7u2cpvujin/out/v1/6f128c4eef0848ed8ea6b79faaa90fe6/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7u2cpvujin/out/v1/6f128c4eef0848ed8ea6b79faaa90fe6/cenc.mpd",
             "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          },
-          {
-            "channel_name": "EUROSPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-            "raw_link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-            "headers": {},
-            "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Los Angeles Lakers vs Portland Trail Blazers",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-lakers-vs-portland-trail-blazers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
-          "raw_start_utc": "2026/11/07 03:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Lakers",
-            "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-          },
-          "team_b": {
-            "name": "Portland Trail Blazers",
-            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3427/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59425/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59425/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NBA ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59434/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59434/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
+            "drm_key": "8034d996508ff5f2f3017d9e2a03d3e6:ce2d564ec40cf4a6423afcc93e28f2be"
           }
         ],
         "total_channels": 3
       },
       {
-        "title": "Sacramento Kings vs San Antonio Spurs",
-        "sport": "Basketball",
-        "sub_category": "Basketball",
+        "title": "Afghanistan Under-19 vs Malaysia Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
         "status": "Live",
         "is_hot": false,
-        "slug": "sacramento-kings-vs-san-antonio-spurs",
+        "slug": "afghanistan-under-19-vs-malaysia-under-19",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 11:30:00 AM",
-          "raw_start_utc": "2026/11/07 03:00:00 +0000"
+          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 07:00:13 PM",
+          "raw_start_utc": "2026/11/07 05:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Sacramento Kings",
-            "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+            "name": "Afghanistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213103/image"
           },
           "team_b": {
-            "name": "San Antonio Spurs",
-            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+            "name": "Malaysia Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/3413/image",
+        "logo": "https://img.sofascore.com/api/v1/team/213103/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59430/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2mmao0cgab/out/v1/90e706956b5f4d8eb0d93c5081ba6527/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2mmao0cgab/out/v1/90e706956b5f4d8eb0d93c5081ba6527/cenc.mpd",
+            "headers": {},
+            "drm_key": "6285784b996a420f16710da94ed83846:94f2f4d5dffb2097ce56a43289d76662"
           },
           {
-            "channel_name": "HD SERVER ",
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqq44fkslo/out/v1/6a680b9da5b945198a352e8eabdef769/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqq44fkslo/out/v1/6a680b9da5b945198a352e8eabdef769/cenc.mpd",
+            "headers": {},
+            "drm_key": "4d45a2704f4fed42bc2bb4efddeed7f9:1bf5276486e13685c9f654c0654c41a4"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/2mmao0cgab/out/v1/90e706956b5f4d8eb0d93c5081ba6527/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/2mmao0cgab/out/v1/90e706956b5f4d8eb0d93c5081ba6527/cenc.mpd",
+            "headers": {},
+            "drm_key": "6285784b996a420f16710da94ed83846:94f2f4d5dffb2097ce56a43289d76662"
+          },
+          {
+            "channel_name": "SonyLiv",
             "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59426/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59426/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/Criclive0711/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/Criclive0711/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=92de8a56a170b063896666ff6600417e-1794028203356",
             "headers": {
-              "Referer": "https://gooz.aapmains.net"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "92de8a56a170b063896666ff6600417e-1794028203356"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
+      },
+      {
+        "title": "Sri Lanka Under-19 vs Bangladesh Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sri-lanka-under-19-vs-bangladesh-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 07, 2026, 07:00:27 PM",
+          "raw_start_utc": "2026/11/07 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sri Lanka Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
+          },
+          "team_b": {
+            "name": "Bangladesh Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213099/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0fwqahjstr/out/v1/2047669080944848be586e9a051a881e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0fwqahjstr/out/v1/2047669080944848be586e9a051a881e/cenc.mpd",
+            "headers": {},
+            "drm_key": "7c70292ec5aeeabfafcbb4443924d0a4:cc6f131f2ddb87f645d045586ce0ecb7"
+          },
+          {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dl1fffpemp/out/v1/1614fa801f50438792fcc1c8ca3938ef/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dl1fffpemp/out/v1/1614fa801f50438792fcc1c8ca3938ef/cenc.mpd",
+            "headers": {},
+            "drm_key": "ba574d2f843814a52b478ede5f2d1801:075d45773a901e56cea8f12bc4e2e7f1"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0fwqahjstr/out/v1/2047669080944848be586e9a051a881e/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0fwqahjstr/out/v1/2047669080944848be586e9a051a881e/cenc.mpd",
+            "headers": {},
+            "drm_key": "7c70292ec5aeeabfafcbb4443924d0a4:cc6f131f2ddb87f645d045586ce0ecb7"
+          },
+          {
+            "channel_name": "SonyLiv",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Criclive0711/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Criclive0711/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=92de8a56a170b063896666ff6600417e-1794028203356",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "92de8a56a170b063896666ff6600417e-1794028203356"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Motogp",
@@ -939,69 +1010,6 @@
         "total_channels": 10
       },
       {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 12:00:25 PM",
-          "end_time_bst": "Nov 07, 2026, 08:00:28 PM",
-          "raw_start_utc": "2026/11/07 06:00:25 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-            "headers": {},
-            "drm_key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-            "headers": {},
-            "drm_key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1143,60 +1151,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/274884/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Afghanistan Under-19 vs Malaysia Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-under-19-vs-malaysia-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 07:00:13 PM",
-          "raw_start_utc": "2026/11/07 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213103/image"
-          },
-          "team_b": {
-            "name": "Malaysia Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213103/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sri Lanka Under-19 vs Bangladesh Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sri-lanka-under-19-vs-bangladesh-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 07:00:27 PM",
-          "raw_start_utc": "2026/11/07 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sri Lanka Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
-          },
-          "team_b": {
-            "name": "Bangladesh Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213099/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
         "channels": [],
         "total_channels": 0
       },
