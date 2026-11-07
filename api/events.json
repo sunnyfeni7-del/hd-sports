@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T17:35:11.502285+00:00",
-  "event_count": 38,
+  "last_updated": "2026-11-07T17:40:11.067674+00:00",
+  "event_count": 36,
   "events": {
     "events": [
       {
@@ -197,6 +197,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/14/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oqqqgttdec/out/v1/d120aa86304f4f28a77896fcb03c658b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oqqqgttdec/out/v1/d120aa86304f4f28a77896fcb03c658b/cenc.mpd",
+            "headers": {},
+            "drm_key": "7958dfdd2dc78d547fa387ca43e9fccf:a147d16dccfe009c7ad64c11c5db23ee"
+          },
+          {
             "channel_name": "NBC SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
@@ -257,7 +265,7 @@
             "drm_key": null
           },
           {
-            "channel_name": "LOW SERVER ",
+            "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/GBBB.m3u8",
             "raw_link": "http://193.47.62.59/hls/GBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -269,7 +277,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 8
       },
       {
         "title": "Parma vs Bologna",
@@ -449,86 +457,6 @@
           }
         ],
         "total_channels": 7
-      },
-      {
-        "title": "Fortuna Sittard vs SC Telstar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fortuna-sittard-vs-sc-telstar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/07 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fortuna Sittard",
-            "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-          },
-          "team_b": {
-            "name": "SC Telstar",
-            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-        "channels": [
-          {
-            "channel_name": "LOW QUALITY ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "CD Nacional vs Academico Viseu FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cd-nacional-vs-academico-viseu-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/07 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Nacional",
-            "flag": "https://img.sofascore.com/api/v1/team/3013/image"
-          },
-          "team_b": {
-            "name": "Académico Viseu FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3013/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/HYYYAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/HYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Cordoba vs AD Ceuta",
