@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T17:45:10.833369+00:00",
-  "event_count": 36,
+  "last_updated": "2026-11-07T18:05:19.088701+00:00",
+  "event_count": 34,
   "events": {
     "events": [
       {
@@ -28,6 +28,16 @@
         },
         "logo": "nulln",
         "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          },
           {
             "channel_name": "FANCODE - AQ",
             "stream_type": "DASH",
@@ -69,8 +79,8 @@
           {
             "channel_name": "SPORTSCAST - AQ",
             "stream_type": "HLS",
-            "url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d32654f3-6054-47ac-bf21-f3d0bfa6bd2b/master.m3u8",
-            "raw_link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d32654f3-6054-47ac-bf21-f3d0bfa6bd2b/master.m3u8",
+            "url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7c9c6731-ebff-4136-8d8d-6237eeab3691/master.m3u8",
+            "raw_link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7c9c6731-ebff-4136-8d8d-6237eeab3691/master.m3u8",
             "headers": {},
             "drm_key": null
           },
@@ -95,8 +105,8 @@
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/mmmmAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/mmmmAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.59/hls/mmmmAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/mmmmAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -113,7 +123,7 @@
             "drm_key": "1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
           }
         ],
-        "total_channels": 9
+        "total_channels": 10
       },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
@@ -596,6 +606,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/1646/image",
         "channels": [
           {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axtvmoxwxq/out/v1/7763c905a97d486ea1e9c36deb017e25/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axtvmoxwxq/out/v1/7763c905a97d486ea1e9c36deb017e25/cenc.mpd",
+            "headers": {},
+            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
@@ -606,17 +624,107 @@
             "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
           },
           {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/HJHJHJ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/HJHJHJ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "ADO Den Haag vs Sparta Rotterdam",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ado-den-haag-vs-sparta-rotterdam",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 08, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/07 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "ADO Den Haag",
+            "flag": "https://img.sofascore.com/api/v1/team/2966/image"
+          },
+          "team_b": {
+            "name": "Sparta Rotterdam",
+            "flag": "https://img.sofascore.com/api/v1/team/2960/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2966/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/LOOOAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/LOOOAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "FC Alverca vs Casa Pia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-alverca-vs-casa-pia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/07 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Alverca",
+            "flag": "https://img.sofascore.com/api/v1/team/190328/image"
+          },
+          "team_b": {
+            "name": "Casa Pia",
+            "flag": "https://img.sofascore.com/api/v1/team/36365/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/190328/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/HJHJHJAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/HJHJHJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Cordoba vs AD Ceuta",
@@ -713,104 +821,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Galatasaray vs Amedspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "galatasaray-vs-amedspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/07 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Galatasaray",
-            "flag": "https://img.sofascore.com/api/v1/team/3061/image"
-          },
-          "team_b": {
-            "name": "Amedspor",
-            "flag": "https://img.sofascore.com/api/v1/team/207011/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3061/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd",
-            "headers": {},
-            "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/zazazaAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/zazazaAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Goztepe vs Basaksehir FK",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "goztepe-vs-basaksehir-fk",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/07 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Göztepe",
-            "flag": "https://img.sofascore.com/api/v1/team/3054/image"
-          },
-          "team_b": {
-            "name": "Başakşehir FK",
-            "flag": "https://img.sofascore.com/api/v1/team/3086/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3054/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/zazazaAAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/zazazaAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Altrincham FC vs Notts County",
@@ -1775,33 +1785,6 @@
         "total_channels": 0
       },
       {
-        "title": "ADO Den Haag vs Sparta Rotterdam",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ado-den-haag-vs-sparta-rotterdam",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 08, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/07 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "ADO Den Haag",
-            "flag": "https://img.sofascore.com/api/v1/team/2966/image"
-          },
-          "team_b": {
-            "name": "Sparta Rotterdam",
-            "flag": "https://img.sofascore.com/api/v1/team/2960/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2966/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Excelsior vs Go Ahead Eagles",
         "sport": "Football",
         "sub_category": "Football",
@@ -1875,33 +1858,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "FC Alverca vs Casa Pia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-alverca-vs-casa-pia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 08, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/07 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Alverca",
-            "flag": "https://img.sofascore.com/api/v1/team/190328/image"
-          },
-          "team_b": {
-            "name": "Casa Pia",
-            "flag": "https://img.sofascore.com/api/v1/team/36365/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/190328/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Inter Miami CF vs Charlotte FC",
