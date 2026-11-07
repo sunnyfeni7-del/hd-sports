@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T12:48:33.753754+00:00",
-  "event_count": 68,
+  "last_updated": "2026-11-07T13:03:35.317845+00:00",
+  "event_count": 67,
   "events": {
     "events": [
       {
@@ -455,7 +455,7 @@
         "schedule": {
           "timezone": "BST (UTC+6)",
           "start_time_bst": "Nov 07, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 07, 2026, 07:00:27 PM",
+          "end_time_bst": "Nov 07, 2026, 08:00:03 PM",
           "raw_start_utc": "2026/11/07 05:00:00 +0000"
         },
         "teams": {
@@ -576,6 +576,16 @@
             "drm_key": null
           },
           {
+            "channel_name": "USA NETWORK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59439/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59439/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/R999.m3u8",
@@ -588,7 +598,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Malaga CF vs Real Racing Club",
@@ -616,6 +626,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/2830/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/j7rrs31foe/out/v1/7eca9af515d9417fb46df6e3e31482a4/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/j7rrs31foe/out/v1/7eca9af515d9417fb46df6e3e31482a4/cenc.mpd",
+            "headers": {},
+            "drm_key": "bcd57c63f88ea1f103c83ee0d677edfc:d3e400add2860e6300aa070e11e4bba3"
+          },
+          {
             "channel_name": "PREMIER SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
@@ -632,6 +650,16 @@
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
           },
           {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
             "channel_name": "D SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
@@ -642,17 +670,39 @@
             "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
           },
           {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "channel_name": "ESPN DEPORTES HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59440/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59440/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+              "Referer": "https://gooz.aapmains.net"
             },
-            "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4565569.m3u8?txSecret=36f32e1090ec8d89214f566555de9c44&txTime=6AEF314C",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4565569.m3u8?txSecret=36f32e1090ec8d89214f566555de9c44&txTime=6AEF314C|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/Z444AAAAAAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/Z444AAAAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 8
       },
       {
         "title": "Holstein Kiel vs Arminia Bielefeld",
@@ -890,50 +940,22 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Eyupspor vs Kocaelispor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "eyupspor-vs-kocaelispor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 04:30:00 PM",
-          "end_time_bst": "Nov 07, 2026, 06:50:00 PM",
-          "raw_start_utc": "2026/11/07 10:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
           },
-          "team_b": {
-            "name": "Kocaelispor",
-            "flag": "https://img.sofascore.com/api/v1/team/3065/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7040/image",
-        "channels": [
           {
-            "channel_name": "HD SERVER",
+            "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://live.vivo155.com/live/sd-1-4567346.m3u8?txSecret=84383db20ecb141a6ce16a2f32a6d733&txTime=6AEF31FC",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4567346.m3u8?txSecret=84383db20ecb141a6ce16a2f32a6d733&txTime=6AEF31FC|Referer=https://player.on8on8.com/",
             "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
+              "Referer": "https://player.on8on8.com/"
             },
             "drm_key": null
           },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/QAQAQAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/QAQAQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.44/hls/Z444AA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/Z444AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -942,7 +964,67 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
+      },
+      {
+        "title": "Samsunspor vs Konyaspor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "samsunspor-vs-konyaspor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 07, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/07 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Samsunspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
+          },
+          "team_b": {
+            "name": "Konyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4581367.m3u8?txSecret=17f4e76573e0166c15cc3e1deaf697fc&txTime=6AEF3242",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4581367.m3u8?txSecret=17f4e76573e0166c15cc3e1deaf697fc&txTime=6AEF3242|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/Z444AAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/Z444AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Bristol City vs Norwich City",
@@ -2651,33 +2733,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Samsunspor vs Konyaspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "samsunspor-vs-konyaspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 07, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/07 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Samsunspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
-          },
-          "team_b": {
-            "name": "Konyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Galatasaray vs Amedspor",
