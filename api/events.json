@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T20:17:27.895812+00:00",
+  "last_updated": "2026-11-07T20:47:37.614005+00:00",
   "event_count": 89,
   "events": {
     "events": [
@@ -402,6 +402,14 @@
             "drm_key": null
           },
           {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "FANCODE - LQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
@@ -434,7 +442,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 9
+        "total_channels": 10
       },
       {
         "title": "Paris Saint-Germain vs Troyes",
