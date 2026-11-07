@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T18:35:27.044484+00:00",
-  "event_count": 79,
+  "last_updated": "2026-11-07T18:50:36.352518+00:00",
+  "event_count": 86,
   "events": {
     "events": [
       {
@@ -253,6 +253,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/2677/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bqghxjqpds/out/v1/9df0796aa49940fa98b492bef10378d0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bqghxjqpds/out/v1/9df0796aa49940fa98b492bef10378d0/cenc.mpd",
+            "headers": {},
+            "drm_key": "54e8a56d27a4ed414bb48e96e08387e1:c7faec0ba61a58a7b35ddb653448fe08"
+          },
+          {
             "channel_name": "PEACOCK ES - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/shlerkxipf/out/v1/712bf92a40f34997af7f6572aa552eb6/cenc.mpd",
@@ -291,7 +299,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Nottingham Forest vs Manchester City",
@@ -327,6 +335,14 @@
             "drm_key": "7958dfdd2dc78d547fa387ca43e9fccf:a147d16dccfe009c7ad64c11c5db23ee"
           },
           {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
+            "headers": {},
+            "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
+          },
+          {
             "channel_name": "NBC SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
@@ -337,7 +353,7 @@
             "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
           },
           {
-            "channel_name": "FUBO SPORTS - AQ",
+            "channel_name": "FUBO SPORTS - ALT",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
             "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -399,7 +415,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 8
+        "total_channels": 9
       },
       {
         "title": "Parma vs Bologna",
@@ -614,6 +630,14 @@
             "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
           },
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hmfuehvuzy/out/v1/93c30fd294c2413e897a5474e21f20b1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hmfuehvuzy/out/v1/93c30fd294c2413e897a5474e21f20b1/cenc.mpd",
+            "headers": {},
+            "drm_key": "1ed745d3e3e141e6dbf5ecca6af23e24:772dab362b4f01d919642267c0c16ac1"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
@@ -636,7 +660,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "ADO Den Haag vs Sparta Rotterdam",
@@ -3244,6 +3268,195 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3050/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Indiana Pacers vs Denver Nuggets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "indiana-pacers-vs-denver-nuggets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 04:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 06:30:00 AM",
+          "raw_start_utc": "2026/11/07 22:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Indiana Pacers",
+            "flag": "https://img.sofascore.com/api/v1/team/3419/image"
+          },
+          "team_b": {
+            "name": "Denver Nuggets",
+            "flag": "https://img.sofascore.com/api/v1/team/3417/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3419/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Atlanta Hawks vs Brooklyn Nets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "atlanta-hawks-vs-brooklyn-nets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 06:30:00 AM",
+          "end_time_bst": "Nov 08, 2026, 09:00:00 AM",
+          "raw_start_utc": "2026/11/08 00:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atlanta Hawks",
+            "flag": "https://img.sofascore.com/api/v1/team/3423/image"
+          },
+          "team_b": {
+            "name": "Brooklyn Nets",
+            "flag": "https://img.sofascore.com/api/v1/team/3436/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3423/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Cleveland Cavaliers vs New York Knicks",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "cleveland-cavaliers-vs-new-york-knicks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/11/08 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cleveland Cavaliers",
+            "flag": "https://img.sofascore.com/api/v1/team/3432/image"
+          },
+          "team_b": {
+            "name": "New York Knicks",
+            "flag": "https://img.sofascore.com/api/v1/team/3421/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3432/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Oklahoma City Thunder vs Washington Wizards",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "oklahoma-city-thunder-vs-washington-wizards",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 09:30:00 AM",
+          "raw_start_utc": "2026/11/08 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Oklahoma City Thunder",
+            "flag": "https://img.sofascore.com/api/v1/team/3418/image"
+          },
+          "team_b": {
+            "name": "Washington Wizards",
+            "flag": "https://img.sofascore.com/api/v1/team/3431/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3418/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Golden State Warriors vs Orlando Magic",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "golden-state-warriors-vs-orlando-magic",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 07:30:00 AM",
+          "end_time_bst": "Nov 08, 2026, 10:00:00 AM",
+          "raw_start_utc": "2026/11/08 01:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Golden State Warriors",
+            "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+          },
+          "team_b": {
+            "name": "Orlando Magic",
+            "flag": "https://img.sofascore.com/api/v1/team/3437/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3428/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Phoenix Suns vs Houston Rockets",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "phoenix-suns-vs-houston-rockets",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 10:30:00 AM",
+          "raw_start_utc": "2026/11/08 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Phoenix Suns",
+            "flag": "https://img.sofascore.com/api/v1/team/3416/image"
+          },
+          "team_b": {
+            "name": "Houston Rockets",
+            "flag": "https://img.sofascore.com/api/v1/team/3412/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3416/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Portland Trail Blazers vs San Antonio Spurs",
+        "sport": "Basketball",
+        "sub_category": "Basketball",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "portland-trail-blazers-vs-san-antonio-spurs",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 09:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 11:30:00 AM",
+          "raw_start_utc": "2026/11/08 03:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Portland Trail Blazers",
+            "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+          },
+          "team_b": {
+            "name": "San Antonio Spurs",
+            "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3414/image",
         "channels": [],
         "total_channels": 0
       }
