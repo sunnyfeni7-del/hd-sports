@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T15:18:21.438644+00:00",
-  "event_count": 64,
+  "last_updated": "2026-11-08T15:33:32.362452+00:00",
+  "event_count": 61,
   "events": {
     "events": [
       {
@@ -939,9 +939,41 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+          },
+          {
+            "channel_name": "ESPN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59594/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59594/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4565573.m3u8?txSecret=2174ebea7c70399101637c939b57f437&txTime=6AF0A6FB",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4565573.m3u8?txSecret=2174ebea7c70399101637c939b57f437&txTime=6AF0A6FB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/S666A.m3u8",
+            "raw_link": "http://193.47.62.44/hls/S666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 7
       },
       {
         "title": "Stade Rennais vs LOSC Lille",
@@ -1022,29 +1054,69 @@
         "total_channels": 5
       },
       {
-        "title": "FC Twente vs AFC Ajax",
+        "title": "AZ Alkmaar vs FC Groningen",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "fc-twente-vs-afc-ajax",
+        "slug": "az-alkmaar-vs-fc-groningen",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 07:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/11/08 13:30:00 +0000"
+          "start_time_bst": "Nov 08, 2026, 09:45:00 PM",
+          "end_time_bst": "Nov 09, 2026, 12:05:00 AM",
+          "raw_start_utc": "2026/11/08 15:45:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "FC Twente",
-            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+            "name": "AZ Alkmaar",
+            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
           },
           "team_b": {
-            "name": "AFC Ajax",
-            "flag": "https://img.sofascore.com/api/v1/team/2953/image"
+            "name": "FC Groningen",
+            "flag": "https://img.sofascore.com/api/v1/team/2951/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2955/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2950/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/JJJJAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/JJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "SC Cambuur vs PSV Eindhoven",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-cambuur-vs-psv-eindhoven",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 09:45:00 PM",
+          "end_time_bst": "Nov 09, 2026, 12:05:00 AM",
+          "raw_start_utc": "2026/11/08 15:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Cambuur",
+            "flag": "https://img.sofascore.com/api/v1/team/2970/image"
+          },
+          "team_b": {
+            "name": "PSV Eindhoven",
+            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2970/image",
         "channels": [
           {
             "channel_name": "SportDigital Fussball",
@@ -1055,12 +1127,50 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Santa Clara vs Gil Vicente",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "santa-clara-vs-gil-vicente",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/08 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Santa Clara",
+            "flag": "https://img.sofascore.com/api/v1/team/3011/image"
+          },
+          "team_b": {
+            "name": "Gil Vicente",
+            "flag": "https://img.sofascore.com/api/v1/team/3010/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3011/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4578246.m3u8?txSecret=23aedc529904ab7509b547cb6374cd81&txTime=6AF0A803",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4578246.m3u8?txSecret=23aedc529904ab7509b547cb6374cd81&txTime=6AF0A803|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/Q222AAAAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/Q222AAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.44/hls/S666AAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/S666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1103,9 +1213,31 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4567350.m3u8?txSecret=9c5e5a82317660723b9eacfdcbe4d483&txTime=6AF0A732",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4567350.m3u8?txSecret=9c5e5a82317660723b9eacfdcbe4d483&txTime=6AF0A732|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/S666.m3u8",
+            "raw_link": "http://193.47.62.44/hls/S666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Alanyaspor vs Trabzonspor",
@@ -1141,9 +1273,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/K777F.m3u8",
+            "raw_link": "http://193.47.62.44/hls/K777F.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Atlanta Falcons vs Cincinnati Bengals",
@@ -2487,71 +2631,6 @@
         "total_channels": 2
       },
       {
-        "title": "AZ Alkmaar vs FC Groningen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "az-alkmaar-vs-fc-groningen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:45:00 PM",
-          "end_time_bst": "Nov 09, 2026, 12:05:00 AM",
-          "raw_start_utc": "2026/11/08 15:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AZ Alkmaar",
-            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
-          },
-          "team_b": {
-            "name": "FC Groningen",
-            "flag": "https://img.sofascore.com/api/v1/team/2951/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2950/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "SC Cambuur vs PSV Eindhoven",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-cambuur-vs-psv-eindhoven",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:45:00 PM",
-          "end_time_bst": "Nov 09, 2026, 12:05:00 AM",
-          "raw_start_utc": "2026/11/08 15:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Cambuur",
-            "flag": "https://img.sofascore.com/api/v1/team/2970/image"
-          },
-          "team_b": {
-            "name": "PSV Eindhoven",
-            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2970/image",
-        "channels": [
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "FC Utrecht vs NEC Nijmegen",
         "sport": "Football",
         "sub_category": "Football",
@@ -2575,87 +2654,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2948/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Estoril Praia vs CS Maritimo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "estoril-praia-vs-cs-maritimo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/08 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Estoril Praia",
-            "flag": "https://img.sofascore.com/api/v1/team/4500/image"
-          },
-          "team_b": {
-            "name": "CS Marítimo",
-            "flag": "https://img.sofascore.com/api/v1/team/3007/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4500/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Nacional vs Academico Viseu FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-nacional-vs-academico-viseu-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/08 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Nacional",
-            "flag": "https://img.sofascore.com/api/v1/team/3013/image"
-          },
-          "team_b": {
-            "name": "Académico Viseu FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3022/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3013/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Santa Clara vs Gil Vicente",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "santa-clara-vs-gil-vicente",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/08 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Santa Clara",
-            "flag": "https://img.sofascore.com/api/v1/team/3011/image"
-          },
-          "team_b": {
-            "name": "Gil Vicente",
-            "flag": "https://img.sofascore.com/api/v1/team/3010/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3011/image",
         "channels": [],
         "total_channels": 0
       },
