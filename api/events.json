@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T13:32:43.719469+00:00",
-  "event_count": 71,
+  "last_updated": "2026-11-08T13:42:44.547952+00:00",
+  "event_count": 70,
   "events": {
     "events": [
       {
@@ -202,69 +202,6 @@
         "total_channels": 7
       },
       {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 12:00:13 PM",
-          "end_time_bst": "Nov 08, 2026, 08:00:16 PM",
-          "raw_start_utc": "2026/11/08 06:00:13 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-            "headers": {},
-            "drm_key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-            "headers": {},
-            "drm_key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "Abu Dhabi T10 League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -315,129 +252,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "SSC Napoli vs Lazio",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ssc-napoli-vs-lazio",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 05:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 07:50:00 PM",
-          "raw_start_utc": "2026/11/08 11:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SSC Napoli",
-            "flag": "https://img.sofascore.com/api/v1/team/2714/image"
-          },
-          "team_b": {
-            "name": "Lazio",
-            "flag": "https://img.sofascore.com/api/v1/team/2699/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2714/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3c139et4qh/out/v1/576c656ec7944cf6a7dcd38a93554c64/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3c139et4qh/out/v1/576c656ec7944cf6a7dcd38a93554c64/cenc.mpd",
-            "headers": {},
-            "drm_key": "7a3612d07b988704b2f85e9d205d8155:97ed43a6bcf98ef345f3164e3dea7242"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sd0jrfrl6f/out/v1/ebfbbac143874943b3f946e8c1d303a1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sd0jrfrl6f/out/v1/ebfbbac143874943b3f946e8c1d303a1/cenc.mpd",
-            "headers": {},
-            "drm_key": "da9a1f83b9894600230b08e846e6d912:8d6def9b7a51d059b06b55a97d7c67e5"
-          },
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
-            "headers": {},
-            "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
-          },
-          {
-            "channel_name": "PEACOCK - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sd0jrfrl6f/out/v1/ebfbbac143874943b3f946e8c1d303a1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sd0jrfrl6f/out/v1/ebfbbac143874943b3f946e8c1d303a1/cenc.mpd",
-            "headers": {},
-            "drm_key": "da9a1f83b9894600230b08e846e6d912:8d6def9b7a51d059b06b55a97d7c67e5"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "FUBO SPORTS - ALT",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          },
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-            "headers": {
-              "Origin": "https://amazon.com",
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/495935cb-0963-4a0f-b68c-2a320420dd1b.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/495935cb-0963-4a0f-b68c-2a320420dd1b.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/BKKKAAAAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/BKKKAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 10
       },
       {
         "title": "Elche vs Real Betis",
@@ -1190,6 +1004,69 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 12:00:27 PM",
+          "end_time_bst": "Nov 09, 2026, 08:00:30 PM",
+          "raw_start_utc": "2026/11/09 06:00:27 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
+            "headers": {},
+            "drm_key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
+            "headers": {},
+            "drm_key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Bangladesh vs West Indies",
