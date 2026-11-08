@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T17:24:21.973021+00:00",
-  "event_count": 50,
+  "last_updated": "2026-11-08T17:34:27.167076+00:00",
+  "event_count": 47,
   "events": {
     "events": [
       {
@@ -622,9 +622,21 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pd1qqlhy9d/out/v1/e0481c1c73754d7999e2cbd58ef27028/cenc.mpd",
             "headers": {},
             "drm_key": "127a995c1831eb46c0f3a7189fbf6983:c13e706ffa60998e55d8a5b95b21dca0"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/J999AAAQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/J999AAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Villarreal vs Getafe",
@@ -1027,92 +1039,6 @@
         "total_channels": 2
       },
       {
-        "title": "Santa Clara vs Gil Vicente",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "santa-clara-vs-gil-vicente",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/08 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Santa Clara",
-            "flag": "https://img.sofascore.com/api/v1/team/3011/image"
-          },
-          "team_b": {
-            "name": "Gil Vicente",
-            "flag": "https://img.sofascore.com/api/v1/team/3010/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3011/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/sd-1-4578246.m3u8?txSecret=23aedc529904ab7509b547cb6374cd81&txTime=6AF0A803",
-            "raw_link": "https://live.vivo155.com/live/sd-1-4578246.m3u8?txSecret=23aedc529904ab7509b547cb6374cd81&txTime=6AF0A803|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/S666AAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/S666AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "UD Las Palmas vs CD Eldense",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ud-las-palmas-vs-cd-eldense",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 09, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/08 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          },
-          "team_b": {
-            "name": "CD Eldense",
-            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
-            "headers": {},
-            "drm_key": "5fc8da8b94c447468ffe392157f8c75e:333b934fdde4c1ee87e7f1c5dac4cb8f"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Sporting Gijon vs Real Valladolid",
         "sport": "Football",
         "sub_category": "Football",
@@ -1144,50 +1070,12 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Alanyaspor vs Trabzonspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "alanyaspor-vs-trabzonspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/08 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Alanyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
-          },
-          "team_b": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
           },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/K777F.m3u8",
-            "raw_link": "http://193.47.62.44/hls/K777F.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.44/hls/S666.m3u8",
+            "raw_link": "http://193.47.62.44/hls/S666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
