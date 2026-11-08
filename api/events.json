@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T18:49:48.480631+00:00",
-  "event_count": 39,
+  "last_updated": "2026-11-08T18:54:53.477380+00:00",
+  "event_count": 41,
   "events": {
     "events": [
       {
@@ -559,6 +559,46 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "FC Utrecht vs NEC Nijmegen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-utrecht-vs-nec-nijmegen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 01:00:00 AM",
+          "end_time_bst": "Nov 09, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/11/08 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Utrecht",
+            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+          },
+          "team_b": {
+            "name": "NEC Nijmegen",
+            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2948/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/C555AAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/C555AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Vitoria SC vs FC Porto",
@@ -2026,33 +2066,6 @@
         "total_channels": 2
       },
       {
-        "title": "FC Utrecht vs NEC Nijmegen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-utrecht-vs-nec-nijmegen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 01:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/11/08 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Utrecht",
-            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-          },
-          "team_b": {
-            "name": "NEC Nijmegen",
-            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2948/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Rio Ave vs Sporting Braga",
         "sport": "Football",
         "sub_category": "Football",
@@ -2387,6 +2400,60 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187746/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "CE Sabadell vs Real Sociedad B",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ce-sabadell-vs-real-sociedad-b",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/09 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CE Sabadell",
+            "flag": "https://img.sofascore.com/api/v1/team/24335/image"
+          },
+          "team_b": {
+            "name": "Real Sociedad B",
+            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/24335/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Plymouth Parkway vs Berkhamsted Town",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "plymouth-parkway-vs-berkhamsted-town",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/09 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Plymouth Parkway",
+            "flag": "https://img.sofascore.com/api/v1/team/80011/image"
+          },
+          "team_b": {
+            "name": "Berkhamsted Town",
+            "flag": "https://img.sofascore.com/api/v1/team/231/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/80011/image",
         "channels": [],
         "total_channels": 0
       }
