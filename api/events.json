@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T18:34:44.779133+00:00",
-  "event_count": 40,
+  "last_updated": "2026-11-08T18:39:45.393623+00:00",
+  "event_count": 39,
   "events": {
     "events": [
       {
@@ -234,58 +234,6 @@
         "total_channels": 8
       },
       {
-        "title": "Abu Dhabi T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "abu-dhabi-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 10:00:40 PM",
-          "end_time_bst": "Nov 08, 2026, 11:55:38 PM",
-          "raw_start_utc": "2026/11/08 16:00:40 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          },
-          "team_b": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
-            "headers": {},
-            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
-            "headers": {},
-            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
         "title": "TSG Hoffenheim vs FC Schalke 04",
         "sport": "Football",
         "sub_category": "Football",
@@ -348,116 +296,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Manchester United vs Aston Villa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "manchester-united-vs-aston-villa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 10:30:00 PM",
-          "end_time_bst": "Nov 09, 2026, 12:50:00 AM",
-          "raw_start_utc": "2026/11/08 16:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Manchester United",
-            "flag": "https://img.sofascore.com/api/v1/team/35/image"
-          },
-          "team_b": {
-            "name": "Aston Villa",
-            "flag": "https://img.sofascore.com/api/v1/team/40/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/35/image",
-        "channels": [
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
-            "headers": {},
-            "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
-          },
-          {
-            "channel_name": "SKY SPORT PL - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-          },
-          {
-            "channel_name": "FUBO SPORTS - ALT",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-          },
-          {
-            "channel_name": "SKY SPORTS EPL",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
-            "raw_link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "USA NETWORK FHD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59599/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59599/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://live.vivo155.com/live/hd-en-1-4558721.m3u8?txSecret=b3a9b851fc77cd7b99cc463c389a9741&txTime=6AF0B4F2",
-            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558721.m3u8?txSecret=b3a9b851fc77cd7b99cc463c389a9741&txTime=6AF0B4F2|Referer=https://player.on8on8.com/",
-            "headers": {
-              "Referer": "https://player.on8on8.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/512a16c5-bbb9-4932-a173-f068a4aa668e.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/512a16c5-bbb9-4932-a173-f068a4aa668e.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/RRRR.m3u8",
-            "raw_link": "http://193.47.62.41/hls/RRRR.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 8
       },
       {
         "title": "Inter vs Como",
@@ -1927,6 +1765,58 @@
         "total_channels": 0
       },
       {
+        "title": "Abu Dhabi T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "abu-dhabi-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 07:45:15 PM",
+          "end_time_bst": "Nov 09, 2026, 11:57:20 PM",
+          "raw_start_utc": "2026/11/09 13:45:15 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          },
+          "team_b": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "headers": {},
+            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "headers": {},
+            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Fiorentina vs Juventus",
         "sport": "Football",
         "sub_category": "Football",
@@ -2261,8 +2151,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4429/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HFDY53XT.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HFDY53XT.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HFDY53XT"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "New England Patriots vs Green Bay Packers",
@@ -2288,8 +2187,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4424/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLS4Y2NZ.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLS4Y2NZ.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HLS4Y2NZ"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "San Francisco 49ers vs Las Vegas Raiders",
@@ -2353,8 +2261,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4430/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL4XXSQZ.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL4XXSQZ.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HL4XXSQZ"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Chicago Bears vs Tampa Bay Buccaneers",
