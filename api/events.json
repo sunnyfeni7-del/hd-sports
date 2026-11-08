@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T13:27:39.114377+00:00",
+  "last_updated": "2026-11-08T13:32:43.719469+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -263,6 +263,58 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Abu Dhabi T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "abu-dhabi-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 07:45:34 PM",
+          "end_time_bst": "Nov 08, 2026, 11:55:38 PM",
+          "raw_start_utc": "2026/11/08 13:45:34 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          },
+          "team_b": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "headers": {},
+            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "headers": {},
+            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "SSC Napoli vs Lazio",
@@ -1303,58 +1355,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Abu Dhabi T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "abu-dhabi-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 07:45:34 PM",
-          "end_time_bst": "Nov 08, 2026, 11:55:38 PM",
-          "raw_start_utc": "2026/11/08 13:45:34 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          },
-          "team_b": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "headers": {},
-            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "headers": {},
-            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "1. FC Koln vs Bayer 04 Leverkusen",
