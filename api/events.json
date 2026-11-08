@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T03:24:33.661762+00:00",
+  "last_updated": "2026-11-08T04:50:03.065126+00:00",
   "event_count": 75,
   "events": {
     "events": [
@@ -137,8 +137,8 @@
           {
             "channel_name": "TAPMAD - AQ",
             "stream_type": "HLS",
-            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8|referer=https://tapmad.com/",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
             "headers": {
               "referer": "https://tapmad.com/"
             },
@@ -149,14 +149,6 @@
             "stream_type": "HLS",
             "url": "http://103.16.24.4:8083/14.m3u8",
             "raw_link": "http://103.16.24.4:8083/14.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
             "headers": {},
             "drm_key": null
           },
@@ -188,7 +180,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 6
       },
       {
         "title": "Arkadag FK vs Gol Gohar Sirjan",
@@ -268,10 +260,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fmnpybdb8n/out/v1/86b4f50e91b14fc781b444b06fabb5fa/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fmnpybdb8n/out/v1/86b4f50e91b14fc781b444b06fabb5fa/cenc.mpd",
             "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+            "drm_key": "bd35b1d5d52fa3407fe1e6730691c148:21222db5e5b30d5d7c84b06df43703b9"
           },
           {
             "channel_name": "SKY CRICKET - AQ",
@@ -312,6 +304,136 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "United Arab Emirates Under-19 vs Nepal Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "united-arab-emirates-under-19-vs-nepal-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 07:00:55 PM",
+          "raw_start_utc": "2026/11/08 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "United Arab Emirates Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/300266/image"
+          },
+          "team_b": {
+            "name": "Nepal Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213113/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/300266/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
+            "headers": {},
+            "drm_key": "5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "SonyLiv",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "6ab21ad3e778a9d0372ec3387a1f521d-1793853003444"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "India Under-19 vs Pakistan Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "india-under-19-vs-pakistan-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 08, 2026, 07:00:22 PM",
+          "raw_start_utc": "2026/11/08 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213112/image"
+          },
+          "team_b": {
+            "name": "Pakistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213104/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213112/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "SonyLiv PRIME - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
+            "headers": {},
+            "drm_key": "5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "SonyLiv",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "6ab21ad3e778a9d0372ec3387a1f521d-1793853003444"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Formula 1",
@@ -1036,60 +1158,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/274890/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "United Arab Emirates Under-19 vs Nepal Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "united-arab-emirates-under-19-vs-nepal-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 08, 2026, 07:00:55 PM",
-          "raw_start_utc": "2026/11/08 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "United Arab Emirates Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/300266/image"
-          },
-          "team_b": {
-            "name": "Nepal Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213113/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/300266/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "India Under-19 vs Pakistan Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "india-under-19-vs-pakistan-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 08, 2026, 07:00:22 PM",
-          "raw_start_utc": "2026/11/08 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "India Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213112/image"
-          },
-          "team_b": {
-            "name": "Pakistan Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213104/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213112/image",
         "channels": [],
         "total_channels": 0
       },
