@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T13:47:47.191401+00:00",
+  "last_updated": "2026-11-08T14:18:02.578809+00:00",
   "event_count": 70,
   "events": {
     "events": [
@@ -229,18 +229,18 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
             "headers": {},
-            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
+            "drm_key": "b107afb9c4f0fc911437a899bcccaf7c:56fb9ff0fd62018a100332cd35bdd207"
           },
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
             "headers": {},
-            "drm_key": "bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971"
+            "drm_key": "b107afb9c4f0fc911437a899bcccaf7c:56fb9ff0fd62018a100332cd35bdd207"
           },
           {
             "channel_name": "A SPORTS HD",
@@ -249,6 +249,58 @@
             "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
             "headers": {},
             "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Brighton Hove Albion vs Brentford",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "brighton-hove-albion-vs-brentford",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/08 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Brighton & Hove Albion",
+            "flag": "https://img.sofascore.com/api/v1/team/30/image"
+          },
+          "team_b": {
+            "name": "Brentford",
+            "flag": "https://img.sofascore.com/api/v1/team/50/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/30/image",
+        "channels": [
+          {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hctkanzbw5/out/v1/ac0f81a504c94bcb85defaf7717cd292/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hctkanzbw5/out/v1/ac0f81a504c94bcb85defaf7717cd292/cenc.mpd",
+            "headers": {},
+            "drm_key": "adf54925862f35dc2ffbfe0695c10f42:7b8779de614969add43c33532e625d32"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxwd61llso/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxwd61llso/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
+            "headers": {},
+            "drm_key": "cd26f115435d0177c6c5a9864e360b08:2d0c9efb55b5c72a0644fa12a1d52ed1"
+          },
+          {
+            "channel_name": "SKY SPORT PL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5c52hx2xgb/out/v1/bfba4ade9a4e461abced445f84834e4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5c52hx2xgb/out/v1/bfba4ade9a4e461abced445f84834e4a/cenc.mpd",
+            "headers": {},
+            "drm_key": "0f50911ca94963e80ce59a189d4b90aa:436e241be2a8fe317e45cc7a9a3115ab"
           }
         ],
         "total_channels": 3
@@ -279,6 +331,22 @@
         "logo": "https://img.sofascore.com/api/v1/team/7/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tzvttna77o/out/v1/aca4a2d65fd24dcbb81e7ad1f14338d2/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tzvttna77o/out/v1/aca4a2d65fd24dcbb81e7ad1f14338d2/cenc.mpd",
+            "headers": {},
+            "drm_key": "48da485752c758fc5a1be1d3f49fb6ab:12be8cc1e11f76b2e8875eb8c8fb4206"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bpsbblktxa/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bpsbblktxa/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd",
+            "headers": {},
+            "drm_key": "af4fd680ddeb823a64c66659e9f52587:677c3938bd5b906c462a80e727a99d41"
+          },
+          {
             "channel_name": "SKY SPORT PL - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
@@ -289,7 +357,91 @@
             "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
+      },
+      {
+        "title": "Ipswich Town vs Bournemouth",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ipswich-town-vs-bournemouth",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/08 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ipswich Town",
+            "flag": "https://img.sofascore.com/api/v1/team/32/image"
+          },
+          "team_b": {
+            "name": "Bournemouth",
+            "flag": "https://img.sofascore.com/api/v1/team/60/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/32/image",
+        "channels": [
+          {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t0zwjh8duv/out/v1/152ff1e739c94c87aaa4068dd6213fe6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t0zwjh8duv/out/v1/152ff1e739c94c87aaa4068dd6213fe6/cenc.mpd",
+            "headers": {},
+            "drm_key": "a744ae1196026646c33e5a96894c81eb:66bf0de18f4f42ebb891bdd301be34ff"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mibl1kagx8/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mibl1kagx8/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/cenc.mpd",
+            "headers": {},
+            "drm_key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+          },
+          {
+            "channel_name": "SKY SPORT PL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "headers": {},
+            "drm_key": "09d34ac8d64803c1f8b1bddada99d638:752ab3efc7eb3601c8d3c6b5a89ffa39"
+          },
+          {
+            "channel_name": "PEACOCK TV HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59590/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59590/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558713.m3u8?txSecret=87834589eea8861c9dd781bef38db079&txTime=6AF0973D",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558713.m3u8?txSecret=87834589eea8861c9dd781bef38db079&txTime=6AF0973D|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/b04f0f05-426c-44c3-a941-67517aa7201d.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/b04f0f05-426c-44c3-a941-67517aa7201d.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "Sunderland vs Chelsea",
@@ -317,17 +469,23 @@
         "logo": "https://img.sofascore.com/api/v1/team/41/image",
         "channels": [
           {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2m8jgddrr9/out/v1/4379e830995b4993a974c6cd682b8b54/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2m8jgddrr9/out/v1/4379e830995b4993a974c6cd682b8b54/cenc.mpd",
+            "headers": {},
+            "drm_key": "f53e95350f79e7cf780e4409ef996399:a5cbb7650616359dbc0de252f254c472"
+          },
+          {
             "channel_name": "SKY SPORT MIX - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd",
+            "headers": {},
             "drm_key": "fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0"
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Genoa vs AC Milan",
@@ -355,6 +513,30 @@
         "logo": "https://img.sofascore.com/api/v1/team/2713/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkhi8wtlmy/out/v1/fdae499977c04957a358d7be53cdc4f0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkhi8wtlmy/out/v1/fdae499977c04957a358d7be53cdc4f0/cenc.mpd",
+            "headers": {},
+            "drm_key": "285eaa3bb641a11c7190877e945ebabd:d253e08b2c3a3b148374814cb01b3bf0"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmcoljvkzm/out/v1/959c0e797f864fd5a2acfbf924cca5c2/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmcoljvkzm/out/v1/959c0e797f864fd5a2acfbf924cca5c2/cenc.mpd",
+            "headers": {},
+            "drm_key": "48fb7237ec9141e9190472a5480fd77f:cfcb31f3872784c0c76c271295b0bd01"
+          },
+          {
+            "channel_name": "PEACOCK - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkhi8wtlmy/out/v1/fdae499977c04957a358d7be53cdc4f0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkhi8wtlmy/out/v1/fdae499977c04957a358d7be53cdc4f0/cenc.mpd",
+            "headers": {},
+            "drm_key": "285eaa3bb641a11c7190877e945ebabd:d253e08b2c3a3b148374814cb01b3bf0"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -371,9 +553,105 @@
             "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
             "headers": {},
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59587/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59587/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4549147.m3u8?txSecret=0fd0e79a602d107331917ed957f3bda5&txTime=6AF09333",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4549147.m3u8?txSecret=0fd0e79a602d107331917ed957f3bda5&txTime=6AF09333|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/374bcf66-fb5a-4fd9-b104-1c2c50c8aec0.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/374bcf66-fb5a-4fd9-b104-1c2c50c8aec0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/SYYYAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/SYYYAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 9
+      },
+      {
+        "title": "Monza vs Atalanta",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "monza-vs-atalanta",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/08 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Monza",
+            "flag": "https://img.sofascore.com/api/v1/team/2729/image"
+          },
+          "team_b": {
+            "name": "Atalanta",
+            "flag": "https://img.sofascore.com/api/v1/team/2686/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9jpgyztduu/out/v1/457d9db334ca46b8a64757fa6954d963/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9jpgyztduu/out/v1/457d9db334ca46b8a64757fa6954d963/cenc.mpd",
+            "headers": {},
+            "drm_key": "68a6f73f95fa60c688adfa19a0c99eda:dcb7ec022c9d3daa13f336823a4abd3d"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zo5nruftvt/out/v1/b59284953fcd4c93a6977856612840ae/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zo5nruftvt/out/v1/b59284953fcd4c93a6977856612840ae/cenc.mpd",
+            "headers": {},
+            "drm_key": "388f14a59253a3472efa6a23bb38f8fc:c2c86c468ea03b213c7ce500b729db5d"
+          },
+          {
+            "channel_name": "PEACOCK - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9jpgyztduu/out/v1/457d9db334ca46b8a64757fa6954d963/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9jpgyztduu/out/v1/457d9db334ca46b8a64757fa6954d963/cenc.mpd",
+            "headers": {},
+            "drm_key": "68a6f73f95fa60c688adfa19a0c99eda:dcb7ec022c9d3daa13f336823a4abd3d"
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Elche vs Real Betis",
@@ -470,6 +748,84 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "Stade Rennais vs LOSC Lille",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "stade-rennais-vs-losc-lille",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/08 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Stade Rennais",
+            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+          },
+          "team_b": {
+            "name": "LOSC Lille",
+            "flag": "https://img.sofascore.com/api/v1/team/1643/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1658/image",
+        "channels": [
+          {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1hlq3jbwjj/out/v1/854ccaa16ba846e2bfe783bd58a9b2b1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1hlq3jbwjj/out/v1/854ccaa16ba846e2bfe783bd58a9b2b1/cenc.mpd",
+            "headers": {},
+            "drm_key": "8d88d98b19a395092831e8339f251d72:28b12e8ecf00c3a641869adc452b69bd"
+          },
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd",
+            "headers": {},
+            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4550929.m3u8?txSecret=a6e6bebe20eeb57004418f22445619b3&txTime=6AF09312",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4550929.m3u8?txSecret=a6e6bebe20eeb57004418f22445619b3&txTime=6AF09312|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/2ccaa0f1-f576-41f9-ad94-709356fc2130.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/2ccaa0f1-f576-41f9-ad94-709356fc2130.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/SYYYA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/SYYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
       },
       {
         "title": "VfL Bochum 1848 vs Karlsruher SC",
@@ -1488,60 +1844,6 @@
         "total_channels": 0
       },
       {
-        "title": "Brighton Hove Albion vs Brentford",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "brighton-hove-albion-vs-brentford",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/08 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Brighton & Hove Albion",
-            "flag": "https://img.sofascore.com/api/v1/team/30/image"
-          },
-          "team_b": {
-            "name": "Brentford",
-            "flag": "https://img.sofascore.com/api/v1/team/50/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/30/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Ipswich Town vs Bournemouth",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ipswich-town-vs-bournemouth",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/08 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ipswich Town",
-            "flag": "https://img.sofascore.com/api/v1/team/32/image"
-          },
-          "team_b": {
-            "name": "Bournemouth",
-            "flag": "https://img.sofascore.com/api/v1/team/60/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/32/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Manchester United vs Aston Villa",
         "sport": "Football",
         "sub_category": "Football",
@@ -1598,33 +1900,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Monza vs Atalanta",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "monza-vs-atalanta",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/08 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Monza",
-            "flag": "https://img.sofascore.com/api/v1/team/2729/image"
-          },
-          "team_b": {
-            "name": "Atalanta",
-            "flag": "https://img.sofascore.com/api/v1/team/2686/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2729/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Inter vs Como",
@@ -2029,33 +2304,6 @@
           }
         ],
         "total_channels": 7
-      },
-      {
-        "title": "Stade Rennais vs LOSC Lille",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "stade-rennais-vs-losc-lille",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/08 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Stade Rennais",
-            "flag": "https://img.sofascore.com/api/v1/team/1658/image"
-          },
-          "team_b": {
-            "name": "LOSC Lille",
-            "flag": "https://img.sofascore.com/api/v1/team/1643/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1658/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Angers vs OGC Nice",
