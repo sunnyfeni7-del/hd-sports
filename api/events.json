@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T15:33:32.362452+00:00",
+  "last_updated": "2026-11-08T16:03:37.040474+00:00",
   "event_count": 61,
   "events": {
     "events": [
@@ -12,9 +12,9 @@
         "slug": "motogp",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 06:00:51 PM",
+          "start_time_bst": "Nov 08, 2026, 10:00:55 PM",
           "end_time_bst": "Nov 09, 2026, 03:00:43 AM",
-          "raw_start_utc": "2026/11/08 12:00:51 +0000"
+          "raw_start_utc": "2026/11/08 16:00:55 +0000"
         },
         "teams": {
           "team_a": {
@@ -210,9 +210,9 @@
         "slug": "abu-dhabi-t10-league",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 07:45:34 PM",
+          "start_time_bst": "Nov 08, 2026, 10:00:40 PM",
           "end_time_bst": "Nov 08, 2026, 11:55:38 PM",
-          "raw_start_utc": "2026/11/08 13:45:34 +0000"
+          "raw_start_utc": "2026/11/08 16:00:40 +0000"
         },
         "teams": {
           "team_a": {
@@ -229,18 +229,18 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
             "headers": {},
-            "drm_key": "b107afb9c4f0fc911437a899bcccaf7c:56fb9ff0fd62018a100332cd35bdd207"
+            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
           },
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tt7bt6wnxg/out/v1/865dd41533dc426eb8cd944c1454c6e7/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd",
             "headers": {},
-            "drm_key": "b107afb9c4f0fc911437a899bcccaf7c:56fb9ff0fd62018a100332cd35bdd207"
+            "drm_key": "195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7"
           },
           {
             "channel_name": "A SPORTS HD",
@@ -1127,9 +1127,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/JJJJAAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/JJJJAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Santa Clara vs Gil Vicente",
@@ -2385,7 +2397,7 @@
         "sport": "Football",
         "sub_category": "Football",
         "status": "Upcoming",
-        "is_hot": false,
+        "is_hot": true,
         "slug": "atletico-madrid-vs-fc-barcelona",
         "schedule": {
           "timezone": "BST (UTC+6)",
