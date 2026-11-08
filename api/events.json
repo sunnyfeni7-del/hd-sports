@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T17:34:27.167076+00:00",
+  "last_updated": "2026-11-08T17:49:33.816069+00:00",
   "event_count": 47,
   "events": {
     "events": [
@@ -141,7 +141,7 @@
         "schedule": {
           "timezone": "BST (UTC+6)",
           "start_time_bst": "Nov 08, 2026, 10:00:55 PM",
-          "end_time_bst": "Nov 09, 2026, 03:00:43 AM",
+          "end_time_bst": "Nov 08, 2026, 11:40:42 PM",
           "raw_start_utc": "2026/11/08 16:00:55 +0000"
         },
         "teams": {
@@ -624,6 +624,18 @@
             "drm_key": "127a995c1831eb46c0f3a7189fbf6983:c13e706ffa60998e55d8a5b95b21dca0"
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/c505f0f3-15c2-4a52-bc96-24e0dd5f1b90.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/c505f0f3-15c2-4a52-bc96-24e0dd5f1b90.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/J999AAAQ.m3u8",
@@ -636,7 +648,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Villarreal vs Getafe",
@@ -696,9 +708,29 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/ed1c16c7-4860-44ea-b3fa-9f876b52d032.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/ed1c16c7-4860-44ea-b3fa-9f876b52d032.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/J999AAAQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/J999AAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 6
       },
       {
         "title": "Angers vs OGC Nice",
@@ -1039,6 +1071,44 @@
         "total_channels": 2
       },
       {
+        "title": "Vitoria SC vs FC Porto",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "vitoria-sc-vs-fc-porto",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/08 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Vitória SC",
+            "flag": "https://img.sofascore.com/api/v1/team/3009/image"
+          },
+          "team_b": {
+            "name": "FC Porto",
+            "flag": "https://img.sofascore.com/api/v1/team/3002/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3009/image",
+        "channels": [
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Sporting Gijon vs Real Valladolid",
         "sport": "Football",
         "sub_category": "Football",
@@ -1085,6 +1155,44 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Besiktas JK vs Genclerbirligi",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "besiktas-jk-vs-genclerbirligi",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/08 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Beşiktaş JK",
+            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
+          },
+          "team_b": {
+            "name": "Gençlerbirliği",
+            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3050/image",
+        "channels": [
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Atlanta Falcons vs Cincinnati Bengals",
@@ -1950,44 +2058,6 @@
         "total_channels": 0
       },
       {
-        "title": "Vitoria SC vs FC Porto",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "vitoria-sc-vs-fc-porto",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Vitória SC",
-            "flag": "https://img.sofascore.com/api/v1/team/3009/image"
-          },
-          "team_b": {
-            "name": "FC Porto",
-            "flag": "https://img.sofascore.com/api/v1/team/3002/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3009/image",
-        "channels": [
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Rio Ave vs Sporting Braga",
         "sport": "Football",
         "sub_category": "Football",
@@ -2061,44 +2131,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Besiktas JK vs Genclerbirligi",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "besiktas-jk-vs-genclerbirligi",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Beşiktaş JK",
-            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
-          },
-          "team_b": {
-            "name": "Gençlerbirliği",
-            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3050/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Kansas City Chiefs vs New York Jets",
