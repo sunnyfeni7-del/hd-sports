@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T10:56:54.843278+00:00",
+  "last_updated": "2026-11-08T11:01:53.639867+00:00",
   "event_count": 74,
   "events": {
     "events": [
@@ -269,6 +269,56 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "SC Heerenveen vs Feyenoord",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-heerenveen-vs-feyenoord",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 05:15:00 PM",
+          "end_time_bst": "Nov 08, 2026, 07:35:00 PM",
+          "raw_start_utc": "2026/11/08 11:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Heerenveen",
+            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
+          },
+          "team_b": {
+            "name": "Feyenoord",
+            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2964/image",
+        "channels": [
+          {
+            "channel_name": "SportDigital Fussball",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/BKKKAAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/BKKKAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Caykur Rizespor vs Erzurumspor FK",
@@ -2180,56 +2230,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2591/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "SC Heerenveen vs Feyenoord",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-heerenveen-vs-feyenoord",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 05:15:00 PM",
-          "end_time_bst": "Nov 08, 2026, 07:35:00 PM",
-          "raw_start_utc": "2026/11/08 11:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Heerenveen",
-            "flag": "https://img.sofascore.com/api/v1/team/2964/image"
-          },
-          "team_b": {
-            "name": "Feyenoord",
-            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2964/image",
-        "channels": [
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/BKKKAAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/BKKKAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "FC Twente vs AFC Ajax",
