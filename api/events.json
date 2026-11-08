@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T14:18:02.578809+00:00",
-  "event_count": 70,
+  "last_updated": "2026-11-08T14:38:11.945501+00:00",
+  "event_count": 66,
   "events": {
     "events": [
       {
@@ -254,6 +254,66 @@
         "total_channels": 3
       },
       {
+        "title": "1. FC Koln vs Bayer 04 Leverkusen",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "1-fc-koln-vs-bayer-04-leverkusen",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 08, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/08 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "1. FC Köln",
+            "flag": "https://img.sofascore.com/api/v1/team/2671/image"
+          },
+          "team_b": {
+            "name": "Bayer 04 Leverkusen",
+            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2671/image",
+        "channels": [
+          {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z4yk0bhh36/out/v1/2a23af58f77247849688edac3ce07022/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z4yk0bhh36/out/v1/2a23af58f77247849688edac3ce07022/cenc.mpd",
+            "headers": {},
+            "drm_key": "a4f80bd1af6f690babee33ca904a6963:1c266b79d9282476ee6cd7bffa209571"
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/be3d7e2d-95ae-4b01-b745-dfc853dfae96.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/be3d7e2d-95ae-4b01-b745-dfc853dfae96.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/G555.m3u8",
+            "raw_link": "http://193.47.62.44/hls/G555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Brighton Hove Albion vs Brentford",
         "sport": "Football",
         "sub_category": "Football",
@@ -347,17 +407,39 @@
             "drm_key": "af4fd680ddeb823a64c66659e9f52587:677c3938bd5b906c462a80e727a99d41"
           },
           {
-            "channel_name": "SKY SPORT PL - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "channel_name": "SKY MAIN EVENT",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59589/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59589/load-playlist-multi?|Referer=https://gooz.aapmains.net",
             "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+              "Referer": "https://gooz.aapmains.net"
             },
-            "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558705.m3u8?txSecret=a0206baf36b0df99fb85981b3dbccfc7&txTime=6AF092C1",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558705.m3u8?txSecret=a0206baf36b0df99fb85981b3dbccfc7&txTime=6AF092C1|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/82aee5e2-d39f-48e0-9a27-c76cb83fea3e.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/82aee5e2-d39f-48e0-9a27-c76cb83fea3e.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "Ipswich Town vs Bournemouth",
@@ -483,9 +565,53 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd",
             "headers": {},
             "drm_key": "fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0"
+          },
+          {
+            "channel_name": "USA NETWORK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59586/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59586/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4558726.m3u8?txSecret=c5a04c6b0bc9ebc4a0067f5d17d3aa10&txTime=6AF09298",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4558726.m3u8?txSecret=c5a04c6b0bc9ebc4a0067f5d17d3aa10&txTime=6AF09298|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/a11ab7dc-8c43-4ec2-ab1e-b3509fa2803b.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/a11ab7dc-8c43-4ec2-ab1e-b3509fa2803b.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/XK444AAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/XK444AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 6
       },
       {
         "title": "Genoa vs AC Milan",
@@ -828,150 +954,6 @@
         "total_channels": 5
       },
       {
-        "title": "VfL Bochum 1848 vs Karlsruher SC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "vfl-bochum-1848-vs-karlsruher-sc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/08 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "VfL Bochum 1848",
-            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
-          },
-          "team_b": {
-            "name": "Karlsruher SC",
-            "flag": "https://img.sofascore.com/api/v1/team/2553/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2542/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pq38ujseug/out/v1/84544ed7c3b04cf08fe395708cfcedc6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pq38ujseug/out/v1/84544ed7c3b04cf08fe395708cfcedc6/cenc.mpd",
-            "headers": {},
-            "drm_key": "f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/YOOO.m3u8",
-            "raw_link": "http://193.47.62.44/hls/YOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "1. FC Heidenheim vs Hannover 96",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "1-fc-heidenheim-vs-hannover-96",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/08 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "1. FC Heidenheim",
-            "flag": "https://img.sofascore.com/api/v1/team/5885/image"
-          },
-          "team_b": {
-            "name": "Hannover 96",
-            "flag": "https://img.sofascore.com/api/v1/team/2541/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5885/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oi4rnidcwc/out/v1/0e3c984eb7284664919152f18e7915b1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oi4rnidcwc/out/v1/0e3c984eb7284664919152f18e7915b1/cenc.mpd",
-            "headers": {},
-            "drm_key": "42650c79c7a241e79d18488fef3d75da:42c319fd698c3914b7bfbaa38d08e41e"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/YOOOA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/YOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "1. FC Magdeburg vs FC St. Pauli",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "1-fc-magdeburg-vs-fc-st-pauli",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/08 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "1. FC Magdeburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2591/image"
-          },
-          "team_b": {
-            "name": "FC St. Pauli",
-            "flag": "https://img.sofascore.com/api/v1/team/2526/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2591/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w1ad3vckry/out/v1/33ce68a8d21949da84e49f2695e51980/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w1ad3vckry/out/v1/33ce68a8d21949da84e49f2695e51980/cenc.mpd",
-            "headers": {},
-            "drm_key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/YOOOAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/YOOOAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "FC Twente vs AFC Ajax",
         "sport": "Football",
         "sub_category": "Football",
@@ -1084,44 +1066,90 @@
         "total_channels": 3
       },
       {
-        "title": "Sri Lanka vs Bhutan",
-        "sport": "Football",
-        "sub_category": "Football",
+        "title": "Atlanta Falcons vs Cincinnati Bengals",
+        "sport": "American football",
+        "sub_category": "American football",
         "status": "Live",
         "is_hot": false,
-        "slug": "sri-lanka-vs-bhutan",
+        "slug": "atlanta-falcons-vs-cincinnati-bengals",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/08 14:00:00 +0000"
+          "start_time_bst": "Nov 08, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 08, 2026, 11:30:00 PM",
+          "raw_start_utc": "2026/11/08 14:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Sri Lanka",
-            "flag": "https://img.sofascore.com/api/v1/team/23487/image"
+            "name": "Atlanta Falcons",
+            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
           },
           "team_b": {
-            "name": "Bhutan",
-            "flag": "https://img.sofascore.com/api/v1/team/191564/image"
+            "name": "Cincinnati Bengals",
+            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/23487/image",
+        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
         "channels": [
           {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/SYYY.m3u8",
-            "raw_link": "http://193.47.62.44/hls/SYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "channel_name": "PARAMOUNT+ - AQ ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
+            "headers": {},
+            "drm_key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
+          },
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
@@ -1748,33 +1776,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "1. FC Koln vs Bayer 04 Leverkusen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "1-fc-koln-vs-bayer-04-leverkusen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/08 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "1. FC Köln",
-            "flag": "https://img.sofascore.com/api/v1/team/2671/image"
-          },
-          "team_b": {
-            "name": "Bayer 04 Leverkusen",
-            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2671/image",
         "channels": [],
         "total_channels": 0
       },
@@ -2903,33 +2904,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Atlanta Falcons vs Cincinnati Bengals",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "atlanta-falcons-vs-cincinnati-bengals",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:30:00 PM",
-          "raw_start_utc": "2026/11/08 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlanta Falcons",
-            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
-          },
-          "team_b": {
-            "name": "Cincinnati Bengals",
-            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Kansas City Chiefs vs New York Jets",
