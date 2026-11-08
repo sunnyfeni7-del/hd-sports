@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T16:44:26.955572+00:00",
+  "last_updated": "2026-11-08T16:49:13.900891+00:00",
   "event_count": 52,
   "events": {
     "events": [
@@ -29,16 +29,6 @@
         "logo": "nulln",
         "channels": [
           {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          },
-          {
             "channel_name": "FANCODE - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -51,8 +41,8 @@
           {
             "channel_name": "SKY SPORT F1 - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l1pw9fzori/out/v1/68469cf8a4ba49608a0e0fab18d45aee/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l1pw9fzori/out/v1/68469cf8a4ba49608a0e0fab18d45aee/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9fm80mkzat/out/v1/c46b85c35e7b4a0086723fe79de09b6b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9fm80mkzat/out/v1/c46b85c35e7b4a0086723fe79de09b6b/cenc.mpd",
             "headers": {},
             "drm_key": "0d7d09d646a2a4edd51b87563abe77a3:a1e63461298a129daa947f42cbad4aa2"
           },
@@ -123,7 +113,7 @@
             "drm_key": "1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
           }
         ],
-        "total_channels": 10
+        "total_channels": 9
       },
       {
         "title": "Motogp",
@@ -462,6 +452,89 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Inter vs Como",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "inter-vs-como",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 08, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 09, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/08 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Inter",
+            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+          },
+          "team_b": {
+            "name": "Como",
+            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
+            "headers": {},
+            "drm_key": "38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "PEACOCK - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
+            "headers": {},
+            "drm_key": "38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614"
+          },
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+            "headers": {
+              "Origin": "https://amazon.com",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "Real Sociedad vs Rayo Vallecano",
@@ -1679,89 +1752,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2569/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Inter vs Como",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "inter-vs-como",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 11:00:00 PM",
-          "end_time_bst": "Nov 09, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/11/08 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Inter",
-            "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-          },
-          "team_b": {
-            "name": "Como",
-            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2697/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
-            "headers": {},
-            "drm_key": "38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "PEACOCK - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd",
-            "headers": {},
-            "drm_key": "38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-            "headers": {
-              "Origin": "https://amazon.com",
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 6
       },
       {
         "title": "Fiorentina vs Juventus",
