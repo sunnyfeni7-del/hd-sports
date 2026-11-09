@@ -1,20 +1,161 @@
 {
-  "last_updated": "2026-11-09T03:15:30.613143+00:00",
-  "event_count": 37,
+  "last_updated": "2026-11-09T03:40:33.977426+00:00",
+  "event_count": 16,
   "events": {
     "events": [
+      {
+        "title": "Bangladesh vs West Indies",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bangladesh-vs-west-indies",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 09:30:02 AM",
+          "end_time_bst": "Nov 09, 2026, 06:00:10 PM",
+          "raw_start_utc": "2026/11/09 03:30:02 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+          },
+          "team_b": {
+            "name": "West Indies",
+            "flag": "https://img.sofascore.com/api/v1/team/187760/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187744/image",
+        "channels": [
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://103.16.24.4:8083/14.m3u8",
+            "raw_link": "http://103.16.24.4:8083/14.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - LQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+          },
+          {
+            "channel_name": "T SPORTS - LQ",
+            "stream_type": "HLS",
+            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
+      },
+      {
+        "title": "Chicago Bears vs Tampa Bay Buccaneers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "chicago-bears-vs-tampa-bay-buccaneers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 09, 2026, 07:20:00 AM",
+          "end_time_bst": "Nov 09, 2026, 10:20:00 AM",
+          "raw_start_utc": "2026/11/09 01:20:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chicago Bears",
+            "flag": "https://img.sofascore.com/api/v1/team/4391/image"
+          },
+          "team_b": {
+            "name": "Tampa Bay Buccaneers",
+            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4391/image",
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          },
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+          }
+        ],
+        "total_channels": 3
+      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
-        "status": "Live",
+        "status": "Upcoming",
         "is_hot": false,
         "slug": "formula-1",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 10:55:55 PM",
-          "end_time_bst": "Nov 09, 2026, 03:00:05 AM",
-          "raw_start_utc": "2026/11/08 16:55:55 +0000"
+          "start_time_bst": "Nov 20, 2026, 06:30:55 AM",
+          "end_time_bst": "Nov 20, 2026, 02:00:01 PM",
+          "raw_start_utc": "2026/11/20 00:30:55 +0000"
         },
         "teams": {
           "team_a": {
@@ -135,14 +276,14 @@
         "title": "Motogp",
         "sport": "Motorsport",
         "sub_category": "Motorsport",
-        "status": "Live",
+        "status": "Upcoming",
         "is_hot": false,
         "slug": "motogp",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 10:00:55 PM",
-          "end_time_bst": "Nov 08, 2026, 11:40:42 PM",
-          "raw_start_utc": "2026/11/08 16:00:55 +0000"
+          "start_time_bst": "Nov 20, 2026, 04:45:42 PM",
+          "end_time_bst": "Nov 20, 2026, 11:55:53 PM",
+          "raw_start_utc": "2026/11/20 10:45:42 +0000"
         },
         "teams": {
           "team_a": {
@@ -232,1404 +373,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "Bangladesh vs West Indies",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bangladesh-vs-west-indies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 09:30:02 AM",
-          "end_time_bst": "Nov 09, 2026, 06:00:10 PM",
-          "raw_start_utc": "2026/11/09 03:30:02 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-          },
-          "team_b": {
-            "name": "West Indies",
-            "flag": "https://img.sofascore.com/api/v1/team/187760/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187744/image",
-        "channels": [
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "http://103.16.24.4:8083/14.m3u8",
-            "raw_link": "http://103.16.24.4:8083/14.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "headers": {},
-            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-          },
-          {
-            "channel_name": "T SPORTS - LQ",
-            "stream_type": "HLS",
-            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
-      },
-      {
-        "title": "TSG Hoffenheim vs FC Schalke 04",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "tsg-hoffenheim-vs-fc-schalke-04",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:30:00 AM",
-          "end_time_bst": "Nov 09, 2026, 02:50:00 AM",
-          "raw_start_utc": "2026/11/08 18:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "TSG Hoffenheim",
-            "flag": "https://img.sofascore.com/api/v1/team/2569/image"
-          },
-          "team_b": {
-            "name": "FC Schalke 04",
-            "flag": "https://img.sofascore.com/api/v1/team/2530/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2569/image",
-        "channels": [
-          {
-            "channel_name": "DAZN ENG - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vuzaaxxem1/out/v1/e94aa80abc75481084c80546b0f77980/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vuzaaxxem1/out/v1/e94aa80abc75481084c80546b0f77980/cenc.mpd",
-            "headers": {},
-            "drm_key": "e25d10551883acc40dcb71e47eebd489:892509ea654a668fd71a04f54c30efec"
-          },
-          {
-            "channel_name": "PEACOCK ES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z2axvo6izi/out/v1/7865fac6859d404c9dac5c5a7c589b1e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z2axvo6izi/out/v1/7865fac6859d404c9dac5c5a7c589b1e/cenc.mpd",
-            "headers": {},
-            "drm_key": "cb4ba2f6a3667bb086116570ed56a9fd:31f36919eb3705936718c1fa18bf4998"
-          },
-          {
-            "channel_name": "DAZN DE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jgsjthpk9s/out/v1/cf2461b87edc43dfa9283591ea2c9357/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jgsjthpk9s/out/v1/cf2461b87edc43dfa9283591ea2c9357/cenc.mpd",
-            "headers": {},
-            "drm_key": "43cc4d82eb9afa82c539228715687b0c:ee8658a2ae68af6e6e490caa29242af3"
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/CVCVCVQQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/CVCVCVQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Fiorentina vs Juventus",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fiorentina-vs-juventus",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 09, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/08 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fiorentina",
-            "flag": "https://img.sofascore.com/api/v1/team/2693/image"
-          },
-          "team_b": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2693/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r88d2pdp9j/out/v1/d2747fb3865c40e5aa159dac4dabc099/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r88d2pdp9j/out/v1/d2747fb3865c40e5aa159dac4dabc099/cenc.mpd",
-            "headers": {},
-            "drm_key": "623cf27873ec1d0e07641e517358b49f:386dfdaa9e9824908ff8c5938abfef75"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nzmf5zluhh/out/v1/094afe7ad5a84d4cac4199f30aa43215/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nzmf5zluhh/out/v1/094afe7ad5a84d4cac4199f30aa43215/cenc.mpd",
-            "headers": {},
-            "drm_key": "1d6e7dcdee376d426fbebc296618b49b:15674716de0a81eb5a09ae362eba9640"
-          },
-          {
-            "channel_name": "FUBO SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4e3ds5dcr9/out/v1/65981ddb85a7494ca4d49accea19fcdd/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4e3ds5dcr9/out/v1/65981ddb85a7494ca4d49accea19fcdd/cenc.mpd",
-            "headers": {},
-            "drm_key": "589001796b4413ba7a0f777726394262:4357a8663574f5e9fa3aca6ff28ca3ad"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "PEACOCK - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wp0tjgwyax/out/v1/7c06e98232194753be1f636a9cd3ec36/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wp0tjgwyax/out/v1/7c06e98232194753be1f636a9cd3ec36/cenc.mpd",
-            "headers": {},
-            "drm_key": "1d6e7dcdee376d426fbebc296618b49b:15674716de0a81eb5a09ae362eba9640"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-            "headers": {
-              "Origin": "https://amazon.com",
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/ZMMMA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/ZMMMA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 9
-      },
-      {
-        "title": "Atletico Madrid vs FC Barcelona",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": true,
-        "slug": "atletico-madrid-vs-fc-barcelona",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/08 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlético Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
-          },
-          "team_b": {
-            "name": "FC Barcelona",
-            "flag": "https://img.sofascore.com/api/v1/team/2817/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2836/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-          },
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "headers": {},
-            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/diw10svamz/out/v1/632e30dd88a84b74a430d0903b256245/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/diw10svamz/out/v1/632e30dd88a84b74a430d0903b256245/cenc.mpd",
-            "headers": {},
-            "drm_key": "b24c292436ae84178eea604e6e3578c6:6c88f1be55496b455f217372c717ac0f"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-          },
-          {
-            "channel_name": "CazéTV - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/8888A.m3u8",
-            "raw_link": "http://193.47.62.41/hls/8888A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 9
-      },
-      {
-        "title": "RC Lens vs Olympique de Marseille",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "rc-lens-vs-olympique-de-marseille",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 09, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/08 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "RC Lens",
-            "flag": "https://img.sofascore.com/api/v1/team/1648/image"
-          },
-          "team_b": {
-            "name": "Olympique de Marseille",
-            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1648/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3hhqflz9jw/out/v1/98648640c82541bd9dd175bc61c3c1b7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3hhqflz9jw/out/v1/98648640c82541bd9dd175bc61c3c1b7/cenc.mpd",
-            "headers": {},
-            "drm_key": "a6ebb55a865d1939e0e7778351299ba0:218e2ecbd170cd9521d3838749156f24"
-          },
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/ZMMM.m3u8",
-            "raw_link": "http://193.47.62.44/hls/ZMMM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "FC Utrecht vs NEC Nijmegen",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fc-utrecht-vs-nec-nijmegen",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 01:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:20:00 AM",
-          "raw_start_utc": "2026/11/08 19:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Utrecht",
-            "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-          },
-          "team_b": {
-            "name": "NEC Nijmegen",
-            "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2948/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/C555AAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/C555AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Vitoria SC vs FC Porto",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "vitoria-sc-vs-fc-porto",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Vitória SC",
-            "flag": "https://img.sofascore.com/api/v1/team/3009/image"
-          },
-          "team_b": {
-            "name": "FC Porto",
-            "flag": "https://img.sofascore.com/api/v1/team/3002/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3009/image",
-        "channels": [
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Rio Ave vs Sporting Braga",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "rio-ave-vs-sporting-braga",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 02:30:00 AM",
-          "end_time_bst": "Nov 09, 2026, 04:50:00 AM",
-          "raw_start_utc": "2026/11/08 20:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Rio Ave",
-            "flag": "https://img.sofascore.com/api/v1/team/3036/image"
-          },
-          "team_b": {
-            "name": "Sporting Braga",
-            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3036/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/FYYYQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/FYYYQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "CF Estrela Amadora vs Benfica",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cf-estrela-amadora-vs-benfica",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 02:30:00 AM",
-          "end_time_bst": "Nov 09, 2026, 04:50:00 AM",
-          "raw_start_utc": "2026/11/08 20:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CF Estrela Amadora",
-            "flag": "https://img.sofascore.com/api/v1/team/3035/image"
-          },
-          "team_b": {
-            "name": "Benfica",
-            "flag": "https://img.sofascore.com/api/v1/team/3006/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3035/image",
-        "channels": [
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Besiktas JK vs Genclerbirligi",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "besiktas-jk-vs-genclerbirligi",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Beşiktaş JK",
-            "flag": "https://img.sofascore.com/api/v1/team/3050/image"
-          },
-          "team_b": {
-            "name": "Gençlerbirliği",
-            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3050/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Atlanta Falcons vs Cincinnati Bengals",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "atlanta-falcons-vs-cincinnati-bengals",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 08, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 08, 2026, 11:30:00 PM",
-          "raw_start_utc": "2026/11/08 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlanta Falcons",
-            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
-          },
-          "team_b": {
-            "name": "Cincinnati Bengals",
-            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-        "channels": [
-          {
-            "channel_name": "NFL NETWORK - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
-            "headers": {},
-            "drm_key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
-            "headers": {},
-            "drm_key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
-          },
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 7
-      },
-      {
-        "title": "Kansas City Chiefs vs New York Jets",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "kansas-city-chiefs-vs-new-york-jets",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kansas City Chiefs",
-            "flag": "https://img.sofascore.com/api/v1/team/4422/image"
-          },
-          "team_b": {
-            "name": "New York Jets",
-            "flag": "https://img.sofascore.com/api/v1/team/4427/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4422/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ehx0igo3ga/out/v1/b6c4c4f810984a5097d7c4ef7de42e18/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ehx0igo3ga/out/v1/b6c4c4f810984a5097d7c4ef7de42e18/cenc.mpd",
-            "headers": {},
-            "drm_key": "5b50a29e61a88975a5c86be7c51c0bc0:8eb66fdb6761304d125b95b03a840ae1"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59603/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59603/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59625/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59625/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59602/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59602/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Philadelphia Eagles vs New York Giants",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "philadelphia-eagles-vs-new-york-giants",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Philadelphia Eagles",
-            "flag": "https://img.sofascore.com/api/v1/team/4428/image"
-          },
-          "team_b": {
-            "name": "New York Giants",
-            "flag": "https://img.sofascore.com/api/v1/team/4426/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4428/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl0i1x3xdx/out/v1/86e550a55a7a4a5cbe7b863b3b435726/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl0i1x3xdx/out/v1/86e550a55a7a4a5cbe7b863b3b435726/cenc.mpd",
-            "headers": {},
-            "drm_key": "bd326e8451403c9e54ce60006d737b61:8355ac29f297ed469052cccfdeaa726e"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59638/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59638/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Indianapolis Colts vs Dallas Cowboys",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "indianapolis-colts-vs-dallas-cowboys",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Indianapolis Colts",
-            "flag": "https://img.sofascore.com/api/v1/team/4421/image"
-          },
-          "team_b": {
-            "name": "Dallas Cowboys",
-            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4421/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3fnzbb5b5f/out/v1/1d8ea6fed91d44789d94a59f1d75e10b/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3fnzbb5b5f/out/v1/1d8ea6fed91d44789d94a59f1d75e10b/cenc.mpd",
-            "headers": {},
-            "drm_key": "e8b9f85a440a23d6f8bdec8ee7c3a476:74a802cc5a153ee6651e8d54edb75e8d"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59610/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59610/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59624/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59624/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59611/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59611/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Miami Dolphins vs Detroit Lions",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "miami-dolphins-vs-detroit-lions",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Miami Dolphins",
-            "flag": "https://img.sofascore.com/api/v1/team/4287/image"
-          },
-          "team_b": {
-            "name": "Detroit Lions",
-            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4287/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/irtroleutj/out/v1/f46efddca1284beb9cbaa65b98829403/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/irtroleutj/out/v1/f46efddca1284beb9cbaa65b98829403/cenc.mpd",
-            "headers": {},
-            "drm_key": "443318d9e0eae73cdc0ebd18365c7dcf:987a693511d2d60a2fda7a7777f85d0f"
-          },
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59626/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59626/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59618/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59618/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59617/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59617/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Washington Commanders vs Los Angeles Rams",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "washington-commanders-vs-los-angeles-rams",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Washington Commanders",
-            "flag": "https://img.sofascore.com/api/v1/team/4432/image"
-          },
-          "team_b": {
-            "name": "Los Angeles Rams",
-            "flag": "https://img.sofascore.com/api/v1/team/4387/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4432/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/thtfvk4jpv/out/v1/b6ede061cd8b4751b8d9b1ba75d3926c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/thtfvk4jpv/out/v1/b6ede061cd8b4751b8d9b1ba75d3926c/cenc.mpd",
-            "headers": {},
-            "drm_key": "c8d6f2e45853bf63c8ab5a8847e65848:24337c3810c69c3f4dddf40313dd724c"
-          },
-          {
-            "channel_name": "SKY SPORT DE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ecaigwgyua/out/v1/2ee814e65dda404693ce51fb41bd53a8/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ecaigwgyua/out/v1/2ee814e65dda404693ce51fb41bd53a8/cenc.mpd",
-            "headers": {},
-            "drm_key": "6143636ed31683e00c86c4e1db64fcbf:bf6b251177b6b056366150d2ee8e40ad"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Carolina Panthers vs Denver Broncos",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "carolina-panthers-vs-denver-broncos",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Carolina Panthers",
-            "flag": "https://img.sofascore.com/api/v1/team/4415/image"
-          },
-          "team_b": {
-            "name": "Denver Broncos",
-            "flag": "https://img.sofascore.com/api/v1/team/4418/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4415/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t7vnogp2bl/out/v1/ba95b6795bbc4f8fa3959b1fb79e1902/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t7vnogp2bl/out/v1/ba95b6795bbc4f8fa3959b1fb79e1902/cenc.mpd",
-            "headers": {},
-            "drm_key": "28fa6eb7d698c9e16d54b130459e9f29:3e3614f2d0d7fbe8da1f8381f55c7c13"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59613/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59613/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59628/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59628/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59612/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59612/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "New Orleans Saints vs Cleveland Browns",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "new-orleans-saints-vs-cleveland-browns",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/08 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Orleans Saints",
-            "flag": "https://img.sofascore.com/api/v1/team/4425/image"
-          },
-          "team_b": {
-            "name": "Cleveland Browns",
-            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4425/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cdy1wbszpf/out/v1/191e81cbc1114092b5425375049500b1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cdy1wbszpf/out/v1/191e81cbc1114092b5425375049500b1/cenc.mpd",
-            "headers": {},
-            "drm_key": "0d5116ab55295ab050fc243d6d8ec0b6:8e4d33b3330d78d87abad9af742905cb"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59609/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59609/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59627/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59627/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59608/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59608/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Los Angeles Chargers vs Houston Texans",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-chargers-vs-houston-texans",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 03:05:00 AM",
-          "end_time_bst": "Nov 09, 2026, 06:05:00 AM",
-          "raw_start_utc": "2026/11/08 21:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Chargers",
-            "flag": "https://img.sofascore.com/api/v1/team/4429/image"
-          },
-          "team_b": {
-            "name": "Houston Texans",
-            "flag": "https://img.sofascore.com/api/v1/team/4324/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4429/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59660/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59660/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/59660?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/59660?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "New England Patriots vs Green Bay Packers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "new-england-patriots-vs-green-bay-packers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 03:25:00 AM",
-          "end_time_bst": "Nov 09, 2026, 06:25:00 AM",
-          "raw_start_utc": "2026/11/08 21:25:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New England Patriots",
-            "flag": "https://img.sofascore.com/api/v1/team/4424/image"
-          },
-          "team_b": {
-            "name": "Green Bay Packers",
-            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4424/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vjlgwhzkyf/out/v1/5c9c6c8e9e4b444f926e776e2e9a2f19/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vjlgwhzkyf/out/v1/5c9c6c8e9e4b444f926e776e2e9a2f19/cenc.mpd",
-            "headers": {},
-            "drm_key": "82b24e42a1a7d3b7cb2be596c4d14930:dac363fb69f6afdcc8d2d19e5211b5b4"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "San Francisco 49ers vs Las Vegas Raiders",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "san-francisco-49ers-vs-las-vegas-raiders",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 03:25:00 AM",
-          "end_time_bst": "Nov 09, 2026, 06:25:00 AM",
-          "raw_start_utc": "2026/11/08 21:25:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "San Francisco 49ers",
-            "flag": "https://img.sofascore.com/api/v1/team/4389/image"
-          },
-          "team_b": {
-            "name": "Las Vegas Raiders",
-            "flag": "https://img.sofascore.com/api/v1/team/4390/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4389/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Seattle Seahawks vs Arizona Cardinals",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "seattle-seahawks-vs-arizona-cardinals",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 03:25:00 AM",
-          "end_time_bst": "Nov 09, 2026, 06:25:00 AM",
-          "raw_start_utc": "2026/11/08 21:25:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Seattle Seahawks",
-            "flag": "https://img.sofascore.com/api/v1/team/4430/image"
-          },
-          "team_b": {
-            "name": "Arizona Cardinals",
-            "flag": "https://img.sofascore.com/api/v1/team/4412/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4430/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/59661/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/59661/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/59661?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/59661?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Chicago Bears vs Tampa Bay Buccaneers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "chicago-bears-vs-tampa-bay-buccaneers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 07:20:00 AM",
-          "end_time_bst": "Nov 09, 2026, 10:20:00 AM",
-          "raw_start_utc": "2026/11/09 01:20:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Chicago Bears",
-            "flag": "https://img.sofascore.com/api/v1/team/4391/image"
-          },
-          "team_b": {
-            "name": "Tampa Bay Buccaneers",
-            "flag": "https://img.sofascore.com/api/v1/team/4388/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4391/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HP3JXT6M.mpd",
-            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HP3JXT6M.mpd",
-            "headers": {},
-            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HP3JXT6M"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Smack Down",
