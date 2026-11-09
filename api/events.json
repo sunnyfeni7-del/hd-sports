@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T15:08:30.625216+00:00",
+  "last_updated": "2026-11-09T19:19:33.856438+00:00",
   "event_count": 40,
   "events": {
     "events": [
@@ -74,6 +74,80 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "CE Sabadell vs Real Sociedad B",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ce-sabadell-vs-real-sociedad-b",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/09 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CE Sabadell",
+            "flag": "https://img.sofascore.com/api/v1/team/24335/image"
+          },
+          "team_b": {
+            "name": "Real Sociedad B",
+            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/24335/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Plymouth Parkway vs Berkhamsted Town",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "plymouth-parkway-vs-berkhamsted-town",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/09 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Plymouth Parkway",
+            "flag": "https://img.sofascore.com/api/v1/team/80011/image"
+          },
+          "team_b": {
+            "name": "Berkhamsted Town",
+            "flag": "https://img.sofascore.com/api/v1/team/231/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/80011/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -915,80 +989,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/187746/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "CE Sabadell vs Real Sociedad B",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ce-sabadell-vs-real-sociedad-b",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
-          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
-          "raw_start_utc": "2026/11/09 19:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CE Sabadell",
-            "flag": "https://img.sofascore.com/api/v1/team/24335/image"
-          },
-          "team_b": {
-            "name": "Real Sociedad B",
-            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24335/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Plymouth Parkway vs Berkhamsted Town",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "plymouth-parkway-vs-berkhamsted-town",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
-          "end_time_bst": "Nov 10, 2026, 03:50:00 AM",
-          "raw_start_utc": "2026/11/09 19:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Plymouth Parkway",
-            "flag": "https://img.sofascore.com/api/v1/team/80011/image"
-          },
-          "team_b": {
-            "name": "Berkhamsted Town",
-            "flag": "https://img.sofascore.com/api/v1/team/231/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/80011/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Bangladesh vs Sri Lanka",
