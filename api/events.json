@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T07:26:30.212665+00:00",
-  "event_count": 38,
+  "last_updated": "2026-11-09T07:51:36.186833+00:00",
+  "event_count": 43,
   "events": {
     "events": [
       {
@@ -1161,8 +1161,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/24335/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Plymouth Parkway vs Berkhamsted Town",
@@ -1188,8 +1197,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/80011/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Bangladesh vs Sri Lanka",
@@ -1891,6 +1911,141 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4423/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Hobart Hurricanes Women vs Adelaide Strikers Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "hobart-hurricanes-women-vs-adelaide-strikers-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 02:10:00 PM",
+          "end_time_bst": "Nov 10, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/11/10 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hobart Hurricanes Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
+          },
+          "team_b": {
+            "name": "Adelaide Strikers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274888/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274885/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Perth Scorchers Women vs Sydney Thunder Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "perth-scorchers-women-vs-sydney-thunder-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 11, 2026, 02:10:00 PM",
+          "end_time_bst": "Nov 11, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/11/11 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Perth Scorchers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274890/image"
+          },
+          "team_b": {
+            "name": "Sydney Thunder Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274889/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274890/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "India Under-19 vs United Arab Emirates Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "india-under-19-vs-united-arab-emirates-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 10, 2026, 07:30:57 PM",
+          "raw_start_utc": "2026/11/10 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213112/image"
+          },
+          "team_b": {
+            "name": "United Arab Emirates Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/300266/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213112/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Pakistan Under-19 vs Nepal Under-19",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "pakistan-under-19-vs-nepal-under-19",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 10, 2026, 07:30:34 PM",
+          "raw_start_utc": "2026/11/10 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakistan Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213104/image"
+          },
+          "team_b": {
+            "name": "Nepal Under-19",
+            "flag": "https://img.sofascore.com/api/v1/team/213113/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/213104/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "South Africa vs Bangladesh",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "south-africa-vs-bangladesh",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 02:00:00 PM",
+          "end_time_bst": "Nov 15, 2026, 10:00:43 PM",
+          "raw_start_utc": "2026/11/15 08:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "South Africa",
+            "flag": "https://img.sofascore.com/api/v1/team/187747/image"
+          },
+          "team_b": {
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187747/image",
         "channels": [],
         "total_channels": 0
       }
