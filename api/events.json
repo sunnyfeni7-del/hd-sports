@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T03:40:33.977426+00:00",
-  "event_count": 16,
+  "last_updated": "2026-11-09T03:45:36.370005+00:00",
+  "event_count": 17,
   "events": {
     "events": [
       {
@@ -515,6 +515,102 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "UFC LIVE",
+        "sport": "Boxing",
+        "sub_category": "Boxing",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ufc-live",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 04:00:57 AM",
+          "end_time_bst": "Nov 15, 2026, 11:55:05 AM",
+          "raw_start_utc": "2026/11/14 22:00:57 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "C. Gane",
+            "flag": "https://img.sofascore.com/api/v1/team/461602/image"
+          },
+          "team_b": {
+            "name": "J. Hokit",
+            "flag": "https://img.sofascore.com/api/v1/team/493385/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/461602/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59518/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59518/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "UFC LIVE - AQ",
+            "stream_type": "HLS",
+            "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
+            "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59519/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59519/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.192/hls/FEEEEQ.m3u8?",
+            "raw_link": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SportsNet - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b"
+          },
+          {
+            "channel_name": "UFC TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+            "headers": {},
+            "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
+          }
+        ],
+        "total_channels": 7
       },
       {
         "title": "New Zealand vs India",
