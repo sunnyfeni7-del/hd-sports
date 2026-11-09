@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T05:46:03.495359+00:00",
-  "event_count": 16,
+  "last_updated": "2026-11-09T06:21:11.398316+00:00",
+  "event_count": 37,
   "events": {
     "events": [
       {
@@ -55,8 +55,8 @@
           {
             "channel_name": "FANCODE - IN ",
             "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
@@ -1176,6 +1176,682 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/80011/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bangladesh vs Sri Lanka",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bangladesh-vs-sri-lanka",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 11, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 11, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/11 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/6080/image"
+          },
+          "team_b": {
+            "name": "Sri Lanka",
+            "flag": "https://img.sofascore.com/api/v1/team/23487/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6080/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "India vs Maldives",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "india-vs-maldives",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 11, 2026, 03:30:00 PM",
+          "end_time_bst": "Nov 11, 2026, 05:50:00 PM",
+          "raw_start_utc": "2026/11/11 09:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
+          },
+          "team_b": {
+            "name": "Maldives",
+            "flag": "https://img.sofascore.com/api/v1/team/6911/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4828/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Vietnam vs Chinese Taipei",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "vietnam-vs-chinese-taipei",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 11, 2026, 06:00:00 PM",
+          "end_time_bst": "Nov 11, 2026, 08:20:00 PM",
+          "raw_start_utc": "2026/11/11 12:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Vietnam",
+            "flag": "https://img.sofascore.com/api/v1/team/7050/image"
+          },
+          "team_b": {
+            "name": "Chinese Taipei",
+            "flag": "https://img.sofascore.com/api/v1/team/5937/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7050/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "New Zealand vs India",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "new-zealand-vs-india",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 12:00:00 PM",
+          "end_time_bst": "Nov 12, 2026, 02:20:00 PM",
+          "raw_start_utc": "2026/11/12 06:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand",
+            "flag": "https://img.sofascore.com/api/v1/team/4784/image"
+          },
+          "team_b": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4784/image",
+        "channels": [
+          {
+            "channel_name": "PRIME ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cqbd0spknz/out/v1/71f66b096687482b8139a87814657aee/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cqbd0spknz/out/v1/71f66b096687482b8139a87814657aee/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d6fa7afe010c5fd6a05338599da7158f:865584ea64ec125cd6524ab3fb7d0e80"
+          },
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1xyi7lfzjb/out/v1/c2421551360249a1a4ea2ea8c8a7c1ad/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1xyi7lfzjb/out/v1/c2421551360249a1a4ea2ea8c8a7c1ad/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d1be89e5a60d67f753be9b35a803c8b9:f8e35aafae8c3f3dd92dac7be4642a8b"
+          },
+          {
+            "channel_name": "PRIME HINDI - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kuptqxvclu/out/v1/5f434a56da684ce58ef04a955faeb1d7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kuptqxvclu/out/v1/5f434a56da684ce58ef04a955faeb1d7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "8e3eef73bb953c9da96600b47e2190d1:f1dbf72267c0bb24aa5fa2ab61987df8"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iukkxk78gp/out/v1/4f9f877fe4ff45e3b19e08b4eeee2f42/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iukkxk78gp/out/v1/4f9f877fe4ff45e3b19e08b4eeee2f42/cenc.mpd",
+            "headers": {},
+            "drm_key": "5718f40a4901526a597012cc242b4c4a:6d47e18a26287fa2a4e641901f07e50f"
+          },
+          {
+            "channel_name": "SonyLiv - English",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/Cricodi_0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/Cricodi_0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - Hindi",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/Cricodi_0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/Cricodi_0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/Cricodi_0611/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/Cricodi_0611/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/Cricodi_0611/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/Cricodi_0611/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/Cricodi_0611/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/Cricodi_0611/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 10
+      },
+      {
+        "title": "Uzbekistan vs Russia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "uzbekistan-vs-russia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/12 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Uzbekistan",
+            "flag": "https://img.sofascore.com/api/v1/team/4723/image"
+          },
+          "team_b": {
+            "name": "Russia",
+            "flag": "https://img.sofascore.com/api/v1/team/4694/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4723/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Lithuania vs Suriname",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "lithuania-vs-suriname",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/12 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lithuania",
+            "flag": "https://img.sofascore.com/api/v1/team/4776/image"
+          },
+          "team_b": {
+            "name": "Suriname",
+            "flag": "https://img.sofascore.com/api/v1/team/21822/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4776/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Malta vs Eswatini",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "malta-vs-eswatini",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 13, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/12 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Malta",
+            "flag": "https://img.sofascore.com/api/v1/team/4483/image"
+          },
+          "team_b": {
+            "name": "Eswatini",
+            "flag": "https://img.sofascore.com/api/v1/team/4733/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4483/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Ghana vs Somalia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ghana-vs-somalia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/12 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ghana",
+            "flag": "https://img.sofascore.com/api/v1/team/4764/image"
+          },
+          "team_b": {
+            "name": "Somalia",
+            "flag": "https://img.sofascore.com/api/v1/team/23472/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4764/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "DR Congo vs Sierra Leone",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "dr-congo-vs-sierra-leone",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "DR Congo",
+            "flag": "https://img.sofascore.com/api/v1/team/4823/image"
+          },
+          "team_b": {
+            "name": "Sierra Leone",
+            "flag": "https://img.sofascore.com/api/v1/team/4737/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4823/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Madagascar vs Guinea-Bissau",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "madagascar-vs-guinea-bissau",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Madagascar",
+            "flag": "https://img.sofascore.com/api/v1/team/8035/image"
+          },
+          "team_b": {
+            "name": "Guinea-Bissau",
+            "flag": "https://img.sofascore.com/api/v1/team/23478/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/8035/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Guinea vs Eritrea",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "guinea-vs-eritrea",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Guinea",
+            "flag": "https://img.sofascore.com/api/v1/team/4826/image"
+          },
+          "team_b": {
+            "name": "Eritrea",
+            "flag": "https://img.sofascore.com/api/v1/team/8041/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4826/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Turkiye vs Belgium",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "turkiye-vs-belgium",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/12 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Türkiye",
+            "flag": "https://img.sofascore.com/api/v1/team/4700/image"
+          },
+          "team_b": {
+            "name": "Belgium",
+            "flag": "https://img.sofascore.com/api/v1/team/4717/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4700/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Czechia vs Spain",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "czechia-vs-spain",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Czechia",
+            "flag": "https://img.sofascore.com/api/v1/team/4714/image"
+          },
+          "team_b": {
+            "name": "Spain",
+            "flag": "https://img.sofascore.com/api/v1/team/4698/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4714/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "England vs Croatia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "england-vs-croatia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "England",
+            "flag": "https://img.sofascore.com/api/v1/team/4713/image"
+          },
+          "team_b": {
+            "name": "Croatia",
+            "flag": "https://img.sofascore.com/api/v1/team/4715/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4713/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Italy vs France",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "italy-vs-france",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Italy",
+            "flag": "https://img.sofascore.com/api/v1/team/4707/image"
+          },
+          "team_b": {
+            "name": "France",
+            "flag": "https://img.sofascore.com/api/v1/team/4481/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4707/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Armenia vs Cyprus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "armenia-vs-cyprus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/12 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Armenia",
+            "flag": "https://img.sofascore.com/api/v1/team/4740/image"
+          },
+          "team_b": {
+            "name": "Cyprus",
+            "flag": "https://img.sofascore.com/api/v1/team/4482/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4740/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Albania vs Finland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "albania-vs-finland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Albania",
+            "flag": "https://img.sofascore.com/api/v1/team/4690/image"
+          },
+          "team_b": {
+            "name": "Finland",
+            "flag": "https://img.sofascore.com/api/v1/team/4712/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4690/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "San Marino vs Belarus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "san-marino-vs-belarus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "San Marino",
+            "flag": "https://img.sofascore.com/api/v1/team/4833/image"
+          },
+          "team_b": {
+            "name": "Belarus",
+            "flag": "https://img.sofascore.com/api/v1/team/4743/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4833/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Montenegro vs Latvia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "montenegro-vs-latvia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Montenegro",
+            "flag": "https://img.sofascore.com/api/v1/team/7139/image"
+          },
+          "team_b": {
+            "name": "Latvia",
+            "flag": "https://img.sofascore.com/api/v1/team/4706/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7139/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Japan vs Brazil",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "japan-vs-brazil",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 04:15:00 PM",
+          "end_time_bst": "Nov 14, 2026, 06:35:00 PM",
+          "raw_start_utc": "2026/11/14 10:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Japan",
+            "flag": "https://img.sofascore.com/api/v1/team/4770/image"
+          },
+          "team_b": {
+            "name": "Brazil",
+            "flag": "https://img.sofascore.com/api/v1/team/4748/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4770/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Argentina vs Uruguay",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "argentina-vs-uruguay",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 05:00:00 AM",
+          "end_time_bst": "Nov 14, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/11/13 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Argentina",
+            "flag": "https://img.sofascore.com/api/v1/team/4819/image"
+          },
+          "team_b": {
+            "name": "Uruguay",
+            "flag": "https://img.sofascore.com/api/v1/team/4725/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4819/image",
         "channels": [],
         "total_channels": 0
       }
