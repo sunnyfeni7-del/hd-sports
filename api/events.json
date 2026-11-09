@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T07:51:36.186833+00:00",
-  "event_count": 43,
+  "last_updated": "2026-11-09T11:52:39.246719+00:00",
+  "event_count": 40,
   "events": {
     "events": [
       {
@@ -67,99 +67,6 @@
         "total_channels": 4
       },
       {
-        "title": "Bangladesh vs West Indies",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bangladesh-vs-west-indies",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 09:30:02 AM",
-          "end_time_bst": "Nov 09, 2026, 06:00:10 PM",
-          "raw_start_utc": "2026/11/09 03:30:02 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-          },
-          "team_b": {
-            "name": "West Indies",
-            "flag": "https://img.sofascore.com/api/v1/team/187760/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187744/image",
-        "channels": [
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?",
-            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?|Referer=https://tapmad.com/",
-            "headers": {
-              "Referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
-            "raw_link": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-            "headers": {},
-            "drm_key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?|Referer=https://tapmad.com/",
-            "headers": {
-              "Referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "T SPORTS - LQ",
-            "stream_type": "HLS",
-            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458446842_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458446842_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 7
-      },
-      {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -168,9 +75,9 @@
         "slug": "npl-nepal-premier-league",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 12:45:25 PM",
+          "start_time_bst": "Nov 09, 2026, 05:15:45 PM",
           "end_time_bst": "Nov 09, 2026, 09:15:35 PM",
-          "raw_start_utc": "2026/11/09 06:45:25 +0000"
+          "raw_start_utc": "2026/11/09 11:15:45 +0000"
         },
         "teams": {
           "team_a": {
@@ -220,234 +127,6 @@
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Pakistan vs Sri Lanka",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "pakistan-vs-sri-lanka",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 07:00:04 PM",
-          "raw_start_utc": "2026/11/09 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pakistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187754/image"
-          },
-          "team_b": {
-            "name": "Sri Lanka",
-            "flag": "https://img.sofascore.com/api/v1/team/187756/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
-            "headers": {},
-            "drm_key": "71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
-            "headers": {},
-            "drm_key": "71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW HD",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "headers": {},
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          },
-          {
-            "channel_name": "TAPMAD HD",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "PTV SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/D222.m3u8",
-            "raw_link": "http://193.47.62.41/hls/D222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 7
-      },
-      {
-        "title": "Sri Lanka Under-19 vs Afghanistan Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "sri-lanka-under-19-vs-afghanistan-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 07:30:40 PM",
-          "raw_start_utc": "2026/11/09 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sri Lanka Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213106/image"
-          },
-          "team_b": {
-            "name": "Afghanistan Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213103/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213106/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd",
-            "headers": {},
-            "drm_key": "94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432"
-          },
-          {
-            "channel_name": "SonyLiv PRIME - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lmd0oo0ics/out/v1/a58b8300d49c4d28b80c38c6a1de142d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lmd0oo0ics/out/v1/a58b8300d49c4d28b80c38c6a1de142d/cenc.mpd",
-            "headers": {},
-            "drm_key": "ef8ec3d7781779ed00ee749237c093c4:f6dd88b99050c805e2e84e5005169300"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd",
-            "headers": {},
-            "drm_key": "94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432"
-          },
-          {
-            "channel_name": "TEN SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Criclive0911/ENG/std_lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "ffb60155174015ded1320c80619f6bb3-1794198603263"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Bangladesh Under-19 vs Malaysia Under-19",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bangladesh-under-19-vs-malaysia-under-19",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 09, 2026, 07:30:20 PM",
-          "raw_start_utc": "2026/11/09 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/213099/image"
-          },
-          "team_b": {
-            "name": "Malaysia Under-19",
-            "flag": "https://img.sofascore.com/api/v1/team/505670/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213099/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd",
-            "headers": {},
-            "drm_key": "73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d"
-          },
-          {
-            "channel_name": "SonyLiv PRIME - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mipdvyxmgk/out/v1/5b1fe1ff59024887a998945d1fcef329/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mipdvyxmgk/out/v1/5b1fe1ff59024887a998945d1fcef329/cenc.mpd",
-            "headers": {},
-            "drm_key": "95903984c253e3fd47b112b72166caea:1283b49097f2481707da62f95b1d02ca"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd",
-            "headers": {},
-            "drm_key": "73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d"
-          },
-          {
-            "channel_name": "SonyLiv",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Criclive0911/ENG/std_lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "ffb60155174015ded1320c80619f6bb3-1794198603263"
             },
             "drm_key": null
           }
@@ -1057,6 +736,96 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Pakistan vs Sri Lanka",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "pakistan-vs-sri-lanka",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 10:30:05 AM",
+          "end_time_bst": "Nov 10, 2026, 07:00:11 PM",
+          "raw_start_utc": "2026/11/10 04:30:05 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187754/image"
+          },
+          "team_b": {
+            "name": "Sri Lanka",
+            "flag": "https://img.sofascore.com/api/v1/team/187756/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
+            "headers": {},
+            "drm_key": "71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
+            "headers": {},
+            "drm_key": "71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW HD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "headers": {},
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "TAPMAD HD",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "PTV SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/D222.m3u8",
+            "raw_link": "http://193.47.62.41/hls/D222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 7
       },
       {
         "title": "Abu Dhabi T10 League",
