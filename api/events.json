@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T16:14:54.889202+00:00",
-  "event_count": 35,
+  "last_updated": "2026-11-10T17:30:15.768915+00:00",
+  "event_count": 37,
   "events": {
     "events": [
       {
@@ -74,6 +74,102 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Real Madrid vs Paris FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-madrid-vs-paris-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 11, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/10 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/305051/image"
+          },
+          "team_b": {
+            "name": "Paris FC",
+            "flag": "https://img.sofascore.com/api/v1/team/264964/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/305051/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v14ekwga2u/out/v1/f6095723f19549f6b84c5d9809a0f0b3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v14ekwga2u/out/v1/f6095723f19549f6b84c5d9809a0f0b3/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f201a6e86e8a486e2c48d796c2de78e0:9dbe7adfd1776760c0e6dd67ecf92030"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "BK Hacken FF vs Chelsea FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bk-hacken-ff-vs-chelsea-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 11, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/10 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "BK Häcken FF",
+            "flag": "https://img.sofascore.com/api/v1/team/1889/image"
+          },
+          "team_b": {
+            "name": "Chelsea FC",
+            "flag": "https://img.sofascore.com/api/v1/team/66768/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1889/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kczwedhkgn/out/v1/48b48cc0d1e24cb4b26fd8c23961a647/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kczwedhkgn/out/v1/48b48cc0d1e24cb4b26fd8c23961a647/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "9c559d07ccfd1b2024558710893333f5:d0dbaa1c429b5a01ea1d46c22368769d"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+          },
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
