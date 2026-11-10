@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T06:22:19.295994+00:00",
+  "last_updated": "2026-11-10T07:57:41.846663+00:00",
   "event_count": 37,
   "events": {
     "events": [
@@ -84,6 +84,79 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Hobart Hurricanes Women vs Adelaide Strikers Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "hobart-hurricanes-women-vs-adelaide-strikers-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 10, 2026, 02:10:00 PM",
+          "end_time_bst": "Nov 10, 2026, 06:10:00 PM",
+          "raw_start_utc": "2026/11/10 08:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Hobart Hurricanes Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
+          },
+          "team_b": {
+            "name": "Adelaide Strikers Women",
+            "flag": "https://img.sofascore.com/api/v1/team/274888/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/274885/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sbxu1x8clv/out/v1/4d52c855ebce45dfbfef870bb8c13f59/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sbxu1x8clv/out/v1/4d52c855ebce45dfbfef870bb8c13f59/cenc.mpd",
+            "headers": {},
+            "drm_key": "0a1682a8f89aa5ff24dce0370f43ef40:dc9bc4cfccf500ee22395bb3ffeff882"
+          },
+          {
+            "channel_name": "SKY CRICKET - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sbxu1x8clv/out/v1/4d52c855ebce45dfbfef870bb8c13f59/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sbxu1x8clv/out/v1/4d52c855ebce45dfbfef870bb8c13f59/cenc.mpd",
+            "headers": {},
+            "drm_key": "0a1682a8f89aa5ff24dce0370f43ef40:dc9bc4cfccf500ee22395bb3ffeff882"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
       },
       {
         "title": "India Under-19 vs United Arab Emirates Under-19",
@@ -1667,33 +1740,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4819/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Hobart Hurricanes Women vs Adelaide Strikers Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "hobart-hurricanes-women-vs-adelaide-strikers-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 10, 2026, 02:10:00 PM",
-          "end_time_bst": "Nov 10, 2026, 06:10:00 PM",
-          "raw_start_utc": "2026/11/10 08:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Hobart Hurricanes Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274885/image"
-          },
-          "team_b": {
-            "name": "Adelaide Strikers Women",
-            "flag": "https://img.sofascore.com/api/v1/team/274888/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/274885/image",
         "channels": [],
         "total_channels": 0
       },
