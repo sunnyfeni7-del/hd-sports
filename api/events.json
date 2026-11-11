@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-11T13:45:12.879446+00:00",
-  "event_count": 34,
+  "last_updated": "2026-11-11T14:00:19.155846+00:00",
+  "event_count": 33,
   "events": {
     "events": [
       {
@@ -55,7 +55,15 @@
             "drm_key": "1e9def1e0c216818e8edc06ce10d25c9:4743d779da68303948a6e7e18fc77056"
           },
           {
-            "channel_name": "MYCO LIVE HD",
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "MYCO HD",
             "stream_type": "HLS",
             "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
             "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/",
@@ -63,67 +71,65 @@
               "referer": "https://myco.io/"
             },
             "drm_key": null
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
           }
         ],
         "total_channels": 5
       },
       {
-        "title": "Vietnam vs Chinese Taipei",
+        "title": "Bangladesh vs Sri Lanka",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "vietnam-vs-chinese-taipei",
+        "slug": "bangladesh-vs-sri-lanka",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 11, 2026, 06:00:00 PM",
-          "end_time_bst": "Nov 11, 2026, 08:20:00 PM",
-          "raw_start_utc": "2026/11/11 12:00:00 +0000"
+          "start_time_bst": "Nov 11, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 11, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/11 14:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Vietnam",
-            "flag": "https://img.sofascore.com/api/v1/team/7050/image"
+            "name": "Bangladesh",
+            "flag": "https://img.sofascore.com/api/v1/team/6080/image"
           },
           "team_b": {
-            "name": "Chinese Taipei",
-            "flag": "https://img.sofascore.com/api/v1/team/5937/image"
+            "name": "Sri Lanka",
+            "flag": "https://img.sofascore.com/api/v1/team/23487/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/7050/image",
+        "logo": "https://img.sofascore.com/api/v1/team/6080/image",
         "channels": [
           {
-            "channel_name": "HD SERVER ",
+            "channel_name": "MYCO - AQ",
             "stream_type": "HLS",
-            "url": "https://live1.quickscoreboardz.com/live/channel5/playlist.m3u8?wsSecret=6bbc35c49997ac0c4c9486b6f5c2a614&wsABSTime=1794441219?",
-            "raw_link": "https://live1.quickscoreboardz.com/live/channel5/playlist.m3u8?wsSecret=6bbc35c49997ac0c4c9486b6f5c2a614&wsABSTime=1794441219?|Referer=https://xlz.domainkqt.cc/",
+            "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+            "headers": {
+              "referer": "https://myco.io/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
           },
           {
-            "channel_name": "LOW SERVER ",
+            "channel_name": "T SPORTS HD",
             "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/pyyy.m3u8",
-            "raw_link": "http://193.47.62.50/hls/pyyy.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
+            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "headers": {},
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -943,33 +949,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187746/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Bangladesh vs Sri Lanka",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bangladesh-vs-sri-lanka",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 11, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 11, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/11 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh",
-            "flag": "https://img.sofascore.com/api/v1/team/6080/image"
-          },
-          "team_b": {
-            "name": "Sri Lanka",
-            "flag": "https://img.sofascore.com/api/v1/team/23487/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6080/image",
         "channels": [],
         "total_channels": 0
       },
