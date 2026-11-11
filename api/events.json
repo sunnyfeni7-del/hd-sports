@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T07:58:48.741899+00:00",
+  "last_updated": "2026-11-11T09:19:07.216358+00:00",
   "event_count": 36,
   "events": {
     "events": [
@@ -86,6 +86,54 @@
         "total_channels": 6
       },
       {
+        "title": "India vs Maldives",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "india-vs-maldives",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 11, 2026, 03:30:00 PM",
+          "end_time_bst": "Nov 11, 2026, 05:50:00 PM",
+          "raw_start_utc": "2026/11/11 09:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
+          },
+          "team_b": {
+            "name": "Maldives",
+            "flag": "https://img.sofascore.com/api/v1/team/6911/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4828/image",
+        "channels": [
+          {
+            "channel_name": "MYCO - AQ",
+            "stream_type": "HLS",
+            "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+            "headers": {
+              "referer": "https://myco.io/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "Perth Scorchers Women vs Sydney Thunder Women",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -113,10 +161,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lhdal9buc7/out/v1/8bc185a9052e4f0b911f5a26bf2e907d/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lhdal9buc7/out/v1/8bc185a9052e4f0b911f5a26bf2e907d/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd",
             "headers": {},
-            "drm_key": "41b0e855ff51711a08ab8e4ccf1d0ba1:e849d0113e5fe023ff48664f3dc76b02"
+            "drm_key": "21ef535c5597589225d278308c2a5c93:a4a38ac31294c388aaec39cab4aae93a"
           },
           {
             "channel_name": "SKY CRICKET - AQ",
@@ -131,13 +179,33 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd",
             "headers": {},
+            "drm_key": "21ef535c5597589225d278308c2a5c93:a4a38ac31294c388aaec39cab4aae93a"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
+            "headers": {
+              "Referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW HD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
             "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "Formula 1",
@@ -974,33 +1042,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/6080/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "India vs Maldives",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "india-vs-maldives",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 11, 2026, 03:30:00 PM",
-          "end_time_bst": "Nov 11, 2026, 05:50:00 PM",
-          "raw_start_utc": "2026/11/11 09:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
-          },
-          "team_b": {
-            "name": "Maldives",
-            "flag": "https://img.sofascore.com/api/v1/team/6911/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4828/image",
         "channels": [],
         "total_channels": 0
       },
