@@ -1,56 +1,8 @@
 {
-  "last_updated": "2026-11-12T19:49:15.347066+00:00",
-  "event_count": 36,
+  "last_updated": "2026-11-12T19:59:17.832899+00:00",
+  "event_count": 31,
   "events": {
     "events": [
-      {
-        "title": "Malta vs Eswatini",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "malta-vs-eswatini",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 13, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/12 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Malta",
-            "flag": "https://img.sofascore.com/api/v1/team/4483/image"
-          },
-          "team_b": {
-            "name": "Eswatini",
-            "flag": "https://img.sofascore.com/api/v1/team/4733/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4483/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g5l5tyyxyx/out/v1/6cc87968a1d5484c9beeb7041c3f9371/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g5l5tyyxyx/out/v1/6cc87968a1d5484c9beeb7041c3f9371/cenc.mpd",
-            "headers": {},
-            "drm_key": "e433b72b04b06443f8f24794d88131e7:1dd12c46939c3027d9efd66a6330e3f3"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333A.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
       {
         "title": "Czechia vs Spain",
         "sport": "Football",
@@ -95,9 +47,29 @@
               "Referer": "https://gooz.aapmains.net"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv (ASIA)",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "England vs Croatia",
@@ -125,7 +97,7 @@
         "logo": "https://img.sofascore.com/api/v1/team/4713/image",
         "channels": [
           {
-            "channel_name": "beIN ENGLISH FHD",
+            "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -243,9 +215,39 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "FOX SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59882/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59882/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518078.m3u8?txSecret=cd989d368e45542bb36885c5245e1528&txTime=6AF62ACD",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518078.m3u8?txSecret=cd989d368e45542bb36885c5245e1528&txTime=6AF62ACD|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 6
       },
       {
         "title": "Albania vs Finland",
@@ -281,9 +283,41 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518081.m3u8?txSecret=4dc860409fc2161f391db8d795912cc9&txTime=6AF62B06",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518081.m3u8?txSecret=4dc860409fc2161f391db8d795912cc9&txTime=6AF62B06|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/RVVVmaster.m3u8",
+            "raw_link": "http://193.47.62.41/hls/RVVVmaster.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "San Marino vs Belarus",
@@ -424,126 +458,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "calvo-sotelo-puertollano-vs-albacete-balompie",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 13, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/12 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Calvo Sotelo Puertollano",
-            "flag": "https://img.sofascore.com/api/v1/team/295639/image"
-          },
-          "team_b": {
-            "name": "Albacete Balompié",
-            "flag": "https://img.sofascore.com/api/v1/team/2848/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/295639/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "CD Tarancon vs Levante UD",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cd-tarancon-vs-levante-ud",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/12 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Tarancón",
-            "flag": "https://img.sofascore.com/api/v1/team/293881/image"
-          },
-          "team_b": {
-            "name": "Levante UD",
-            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/293881/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333AAAAQQQQAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333AAAAQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "CDA Navalcarnero vs Real Betis",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cda-navalcarnero-vs-real-betis",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/12 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CDA Navalcarnero",
-            "flag": "https://img.sofascore.com/api/v1/team/24352/image"
-          },
-          "team_b": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24352/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333AAAAQQQQAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333AAAAQQQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Benin vs Central African Republic",
@@ -816,53 +730,35 @@
         "total_channels": 4
       },
       {
-        "title": "Futbol Club Barcelona vs Arsenal",
+        "title": "Benfica vs FK Austria Wien",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "futbol-club-barcelona-vs-arsenal",
+        "slug": "benfica-vs-fk-austria-wien",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 13, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/12 17:45:00 +0000"
+          "start_time_bst": "Nov 13, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/12 20:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Fútbol Club Barcelona",
-            "flag": "https://img.sofascore.com/api/v1/team/77889/image"
+            "name": "Benfica",
+            "flag": "https://img.sofascore.com/api/v1/team/297853/image"
           },
           "team_b": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/26243/image"
+            "name": "FK Austria Wien",
+            "flag": "https://img.sofascore.com/api/v1/team/229911/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/77889/image",
+        "logo": "https://img.sofascore.com/api/v1/team/297853/image",
         "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eat53lihtk/out/v1/bad04cf10c3540cba411b006724a8d0c/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eat53lihtk/out/v1/bad04cf10c3540cba411b006724a8d0c/cenc.mpd",
-            "headers": {},
-            "drm_key": "6156ce2089ed6da0174588694057c21f:4a9f4027837a4380c293f48f33583d30"
-          },
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333AA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/RVVVAAAAmaster.m3u8",
+            "raw_link": "http://193.47.62.41/hls/RVVVAAAAmaster.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -871,7 +767,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1717,33 +1613,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187747/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Benfica vs FK Austria Wien",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "benfica-vs-fk-austria-wien",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/12 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Benfica",
-            "flag": "https://img.sofascore.com/api/v1/team/297853/image"
-          },
-          "team_b": {
-            "name": "FK Austria Wien",
-            "flag": "https://img.sofascore.com/api/v1/team/229911/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/297853/image",
         "channels": [],
         "total_channels": 0
       },
