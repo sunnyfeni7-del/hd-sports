@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T15:48:09.270263+00:00",
+  "last_updated": "2026-11-12T16:08:17.649914+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -175,9 +175,151 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/GGGGAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/GGGGAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
+      },
+      {
+        "title": "Madagascar vs Guinea-Bissau",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "madagascar-vs-guinea-bissau",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Madagascar",
+            "flag": "https://img.sofascore.com/api/v1/team/8035/image"
+          },
+          "team_b": {
+            "name": "Guinea-Bissau",
+            "flag": "https://img.sofascore.com/api/v1/team/23478/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/8035/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4642729.m3u8?txSecret=48a079fe4408e07b5a964f09ff37db8c&txTime=6AF5F7FD",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4642729.m3u8?txSecret=48a079fe4408e07b5a964f09ff37db8c&txTime=6AF5F7FD|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/GGGGAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/GGGGAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Equatorial Guinea vs Zimbabwe",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "equatorial-guinea-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Equatorial Guinea",
+            "flag": "https://img.sofascore.com/api/v1/team/8032/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/4719/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/8032/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4642741.m3u8?txSecret=6bb1fc6644ad2ec3bd1b90e4f2d79630&txTime=6AF5F73F",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4642741.m3u8?txSecret=6bb1fc6644ad2ec3bd1b90e4f2d79630&txTime=6AF5F73F|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/GGGGA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/GGGGA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1000,33 +1142,6 @@
         "total_channels": 0
       },
       {
-        "title": "Madagascar vs Guinea-Bissau",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "madagascar-vs-guinea-bissau",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/12 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Madagascar",
-            "flag": "https://img.sofascore.com/api/v1/team/8035/image"
-          },
-          "team_b": {
-            "name": "Guinea-Bissau",
-            "flag": "https://img.sofascore.com/api/v1/team/23478/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/8035/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Guinea vs Eritrea",
         "sport": "Football",
         "sub_category": "Football",
@@ -1035,9 +1150,9 @@
         "slug": "guinea-vs-eritrea",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/12 16:00:00 +0000"
+          "start_time_bst": "Nov 12, 2026, 11:00:01 PM",
+          "end_time_bst": "Nov 13, 2026, 01:00:07 AM",
+          "raw_start_utc": "2026/11/12 17:00:01 +0000"
         },
         "teams": {
           "team_a": {
@@ -1050,8 +1165,41 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4826/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4642737.m3u8?txSecret=137499192f6d400dd8bf072328e9be6d&txTime=6AF5F7AC",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4642737.m3u8?txSecret=137499192f6d400dd8bf072328e9be6d&txTime=6AF5F7AC|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/GGGGAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/GGGGAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Turkiye vs Belgium",
@@ -1460,33 +1608,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/24352/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Equatorial Guinea vs Zimbabwe",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "equatorial-guinea-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 13, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/12 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Equatorial Guinea",
-            "flag": "https://img.sofascore.com/api/v1/team/8032/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/4719/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/8032/image",
         "channels": [],
         "total_channels": 0
       },
