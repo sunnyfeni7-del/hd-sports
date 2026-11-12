@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T19:34:10.932924+00:00",
+  "last_updated": "2026-11-12T19:49:15.347066+00:00",
   "event_count": 36,
   "events": {
     "events": [
@@ -50,6 +50,380 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Czechia vs Spain",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "czechia-vs-spain",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Czechia",
+            "flag": "https://img.sofascore.com/api/v1/team/4714/image"
+          },
+          "team_b": {
+            "name": "Spain",
+            "flag": "https://img.sofascore.com/api/v1/team/4698/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4714/image",
+        "channels": [
+          {
+            "channel_name": "TVE La 1 FHD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54"
+          },
+          {
+            "channel_name": "FOX SOCCER+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59885/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59885/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "England vs Croatia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "england-vs-croatia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "England",
+            "flag": "https://img.sofascore.com/api/v1/team/4713/image"
+          },
+          "team_b": {
+            "name": "Croatia",
+            "flag": "https://img.sofascore.com/api/v1/team/4715/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4713/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH FHD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "ITV SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59879/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59879/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518080.m3u8?txSecret=5a99ae96f0dd08588c674dccb3922af6&txTime=6AF62AAA",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518080.m3u8?txSecret=5a99ae96f0dd08588c674dccb3922af6&txTime=6AF62AAA|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/e2fefd1f-0c53-461c-9e8b-8780f63f0874.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/e2fefd1f-0c53-461c-9e8b-8780f63f0874.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
+      },
+      {
+        "title": "Italy vs France",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "italy-vs-france",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Italy",
+            "flag": "https://img.sofascore.com/api/v1/team/4707/image"
+          },
+          "team_b": {
+            "name": "France",
+            "flag": "https://img.sofascore.com/api/v1/team/4481/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4707/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
+          },
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Albania vs Finland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "albania-vs-finland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Albania",
+            "flag": "https://img.sofascore.com/api/v1/team/4690/image"
+          },
+          "team_b": {
+            "name": "Finland",
+            "flag": "https://img.sofascore.com/api/v1/team/4712/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4690/image",
+        "channels": [
+          {
+            "channel_name": "FUBO NETWORK FHD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "San Marino vs Belarus",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "san-marino-vs-belarus",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "San Marino",
+            "flag": "https://img.sofascore.com/api/v1/team/4833/image"
+          },
+          "team_b": {
+            "name": "Belarus",
+            "flag": "https://img.sofascore.com/api/v1/team/4743/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4833/image",
+        "channels": [
+          {
+            "channel_name": "DAZN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59878/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59878/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2005444/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2005444/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/CCEEEmaster.m3u8",
+            "raw_link": "http://193.47.62.41/hls/CCEEEmaster.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Montenegro vs Latvia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "montenegro-vs-latvia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/12 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Montenegro",
+            "flag": "https://img.sofascore.com/api/v1/team/7139/image"
+          },
+          "team_b": {
+            "name": "Latvia",
+            "flag": "https://img.sofascore.com/api/v1/team/4706/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7139/image",
+        "channels": [
+          {
+            "channel_name": "DAZN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59884/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59884/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/CCEEEAmaster.m3u8",
+            "raw_link": "http://193.47.62.41/hls/CCEEEAmaster.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
@@ -1262,168 +1636,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187746/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Czechia vs Spain",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "czechia-vs-spain",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Czechia",
-            "flag": "https://img.sofascore.com/api/v1/team/4714/image"
-          },
-          "team_b": {
-            "name": "Spain",
-            "flag": "https://img.sofascore.com/api/v1/team/4698/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4714/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "England vs Croatia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "england-vs-croatia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "England",
-            "flag": "https://img.sofascore.com/api/v1/team/4713/image"
-          },
-          "team_b": {
-            "name": "Croatia",
-            "flag": "https://img.sofascore.com/api/v1/team/4715/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4713/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Italy vs France",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": true,
-        "slug": "italy-vs-france",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Italy",
-            "flag": "https://img.sofascore.com/api/v1/team/4707/image"
-          },
-          "team_b": {
-            "name": "France",
-            "flag": "https://img.sofascore.com/api/v1/team/4481/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4707/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Albania vs Finland",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "albania-vs-finland",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Albania",
-            "flag": "https://img.sofascore.com/api/v1/team/4690/image"
-          },
-          "team_b": {
-            "name": "Finland",
-            "flag": "https://img.sofascore.com/api/v1/team/4712/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4690/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "San Marino vs Belarus",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "san-marino-vs-belarus",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "San Marino",
-            "flag": "https://img.sofascore.com/api/v1/team/4833/image"
-          },
-          "team_b": {
-            "name": "Belarus",
-            "flag": "https://img.sofascore.com/api/v1/team/4743/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4833/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Montenegro vs Latvia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "montenegro-vs-latvia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 13, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/12 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Montenegro",
-            "flag": "https://img.sofascore.com/api/v1/team/7139/image"
-          },
-          "team_b": {
-            "name": "Latvia",
-            "flag": "https://img.sofascore.com/api/v1/team/4706/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7139/image",
         "channels": [],
         "total_channels": 0
       },
