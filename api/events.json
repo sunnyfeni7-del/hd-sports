@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T17:18:36.907916+00:00",
+  "last_updated": "2026-11-12T17:33:37.786412+00:00",
   "event_count": 43,
   "events": {
     "events": [
@@ -37,6 +37,16 @@
             "drm_key": "72fe7d3d699cc3cfa46e403efc2dbd4e:a4fa5671beff9f6b1d3b66320fc23897"
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4667164.m3u8?txSecret=c2c9cfb381ff232fb3552908db707961&txTime=6AF609DB",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4667164.m3u8?txSecret=c2c9cfb381ff232fb3552908db707961&txTime=6AF609DB|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/EEEE.m3u8",
@@ -49,7 +59,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Malta vs Eswatini",
@@ -77,6 +87,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4483/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g5l5tyyxyx/out/v1/6cc87968a1d5484c9beeb7041c3f9371/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g5l5tyyxyx/out/v1/6cc87968a1d5484c9beeb7041c3f9371/cenc.mpd",
+            "headers": {},
+            "drm_key": "e433b72b04b06443f8f24794d88131e7:1dd12c46939c3027d9efd66a6330e3f3"
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/V333A.m3u8",
@@ -89,7 +107,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "DR Congo vs Sierra Leone",
@@ -341,6 +359,36 @@
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
           },
           {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "FOX SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59876/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59876/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8?",
+            "raw_link": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8?|Referer=https://tapmad.com/",
+            "headers": {
+              "Referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/Footlive1211/ENG/std_lrh-800300010.m3u8",
@@ -350,6 +398,16 @@
               "Referer": "https://www.sonyliv.com/",
               "Origin": "https://www.sonyliv.com",
               "x-playback-session-id": "b89c39cde708ad19bc371e87f38fbb0d-1794501003595"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518077.m3u8?txSecret=0885f45a94cfd1ca9e4ccd745aadc7fe&txTime=6AF60774",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518077.m3u8?txSecret=0885f45a94cfd1ca9e4ccd745aadc7fe&txTime=6AF60774|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
             },
             "drm_key": null
           },
@@ -374,7 +432,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 8
+        "total_channels": 12
       },
       {
         "title": "Armenia vs Cyprus",
@@ -436,6 +494,36 @@
             "drm_key": "fb2f6053cd382eb138d7c8f0dfa461e2:94eae87ba9e0eb456dcb0a3f2debd0df"
           },
           {
+            "channel_name": "SPORT 2 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "FOX SOCCER+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59877/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59877/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?|Referer=https://tapmad.com/",
+            "headers": {
+              "Referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv",
             "stream_type": "HLS",
             "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive1211/ENG/std_lrh-800300010.m3u8",
@@ -445,6 +533,16 @@
               "Referer": "https://www.sonyliv.com/",
               "Origin": "https://www.sonyliv.com",
               "x-playback-session-id": "3fb152fd6fe1cd7dd4b80a115e43e0cf-1794502203829"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518083.m3u8?txSecret=9d8db7dd11a2cb8d7edc6d74f311861e&txTime=6AF60823",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518083.m3u8?txSecret=9d8db7dd11a2cb8d7edc6d74f311861e&txTime=6AF60823|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
             },
             "drm_key": null
           },
@@ -469,7 +567,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 11
       },
       {
         "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
@@ -561,6 +659,64 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/GGGGA.m3u8",
             "raw_link": "http://193.47.62.44/hls/GGGGA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Futbol Club Barcelona vs Arsenal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "futbol-club-barcelona-vs-arsenal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 13, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/12 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fútbol Club Barcelona",
+            "flag": "https://img.sofascore.com/api/v1/team/77889/image"
+          },
+          "team_b": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/26243/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/77889/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eat53lihtk/out/v1/bad04cf10c3540cba411b006724a8d0c/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eat53lihtk/out/v1/bad04cf10c3540cba411b006724a8d0c/cenc.mpd",
+            "headers": {},
+            "drm_key": "6156ce2089ed6da0174588694057c21f:4a9f4027837a4380c293f48f33583d30"
+          },
+          {
+            "channel_name": "CBS SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/V333AA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/V333AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1741,56 +1897,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/4739/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Futbol Club Barcelona vs Arsenal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "futbol-club-barcelona-vs-arsenal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 13, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/12 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Fútbol Club Barcelona",
-            "flag": "https://img.sofascore.com/api/v1/team/77889/image"
-          },
-          "team_b": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/26243/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/77889/image",
-        "channels": [
-          {
-            "channel_name": "CBS SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/V333AA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/V333AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Benfica vs FK Austria Wien",
