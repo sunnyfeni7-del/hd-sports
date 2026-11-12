@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-12T19:59:17.832899+00:00",
-  "event_count": 31,
+  "last_updated": "2026-11-12T20:19:36.360571+00:00",
+  "event_count": 41,
   "events": {
     "events": [
       {
@@ -29,7 +29,7 @@
         "logo": "https://img.sofascore.com/api/v1/team/4714/image",
         "channels": [
           {
-            "channel_name": "TVE La 1 FHD",
+            "channel_name": "TVE La 1 - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -49,7 +49,7 @@
             "drm_key": null
           },
           {
-            "channel_name": "HD SERVER",
+            "channel_name": "CRICFy LIVE ",
             "stream_type": "HLS",
             "url": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5",
             "raw_link": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5|Referer=https://player.on8on8.com/",
@@ -59,7 +59,7 @@
             "drm_key": null
           },
           {
-            "channel_name": "SonyLiv (ASIA)",
+            "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
             "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014|User-Agent=Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36",
@@ -67,9 +67,33 @@
               "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/4d6b1628-9a18-4c59-b149-17048ce4f7f4.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/4d6b1628-9a18-4c59-b149-17048ce4f7f4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/FMMMAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/FMMMAAAA.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 6
       },
       {
         "title": "England vs Croatia",
@@ -157,9 +181,21 @@
               "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/FMMMAAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/FMMMAAAAA.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 7
       },
       {
         "title": "Italy vs France",
@@ -207,7 +243,7 @@
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
           },
           {
-            "channel_name": "SPORT 1 CZ - AQ",
+            "channel_name": "SPORT 2 CZ - AQ",
             "stream_type": "DASH",
             "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
             "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -245,9 +281,29 @@
               "User-Agent": "Mozilla/5.0 (Linux; Android 13; sdk_gphone_x86_64 Build/TE1A.220922.033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live01-cn-ali.xqnbu.com/live/99429832_tsc.m3u8",
+            "raw_link": "https://live01-cn-ali.xqnbu.com/live/99429832_tsc.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/FMMMAAAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/FMMMAAAAAA.m3u8|referer=http://www.fawanews.sc/&origin=http://www.fawanews.sc&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "headers": {
+              "referer": "http://www.fawanews.sc/",
+              "origin": "http://www.fawanews.sc",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 8
       },
       {
         "title": "Albania vs Finland",
@@ -355,6 +411,16 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518082.m3u8?txSecret=6177b27e7e01b44821193da3d7cac20d&txTime=6AF62CE7",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518082.m3u8?txSecret=6177b27e7e01b44821193da3d7cac20d&txTime=6AF62CE7|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
@@ -387,7 +453,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Montenegro vs Latvia",
@@ -425,6 +491,16 @@
             "drm_key": null
           },
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518084.m3u8?txSecret=be146b16b8d490d372b168aed0c36584&txTime=6AF62D1A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518084.m3u8?txSecret=be146b16b8d490d372b168aed0c36584&txTime=6AF62D1A|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER ",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
@@ -457,7 +533,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Benin vs Central African Republic",
@@ -1994,6 +2070,276 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Andorra vs Gibraltar",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "andorra-vs-gibraltar",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Andorra",
+            "flag": "https://img.sofascore.com/api/v1/team/4818/image"
+          },
+          "team_b": {
+            "name": "Gibraltar",
+            "flag": "https://img.sofascore.com/api/v1/team/129264/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4818/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Liechtenstein vs Azerbaijan",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "liechtenstein-vs-azerbaijan",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Liechtenstein",
+            "flag": "https://img.sofascore.com/api/v1/team/4830/image"
+          },
+          "team_b": {
+            "name": "Azerbaijan",
+            "flag": "https://img.sofascore.com/api/v1/team/4742/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4830/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Netherlands vs Greece",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "netherlands-vs-greece",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Netherlands",
+            "flag": "https://img.sofascore.com/api/v1/team/4705/image"
+          },
+          "team_b": {
+            "name": "Greece",
+            "flag": "https://img.sofascore.com/api/v1/team/4710/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4705/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Serbia vs Germany",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "serbia-vs-germany",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Serbia",
+            "flag": "https://img.sofascore.com/api/v1/team/6355/image"
+          },
+          "team_b": {
+            "name": "Germany",
+            "flag": "https://img.sofascore.com/api/v1/team/4711/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6355/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Scotland vs North Macedonia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "scotland-vs-north-macedonia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Scotland",
+            "flag": "https://img.sofascore.com/api/v1/team/4695/image"
+          },
+          "team_b": {
+            "name": "North Macedonia",
+            "flag": "https://img.sofascore.com/api/v1/team/4777/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4695/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Slovenia vs Switzerland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "slovenia-vs-switzerland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Slovenia",
+            "flag": "https://img.sofascore.com/api/v1/team/4484/image"
+          },
+          "team_b": {
+            "name": "Switzerland",
+            "flag": "https://img.sofascore.com/api/v1/team/4699/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4484/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Moldova vs Kazakhstan",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "moldova-vs-kazakhstan",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 14, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/13 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Moldova",
+            "flag": "https://img.sofascore.com/api/v1/team/4782/image"
+          },
+          "team_b": {
+            "name": "Kazakhstan",
+            "flag": "https://img.sofascore.com/api/v1/team/4772/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4782/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Bulgaria vs Iceland",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bulgaria-vs-iceland",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bulgaria",
+            "flag": "https://img.sofascore.com/api/v1/team/4716/image"
+          },
+          "team_b": {
+            "name": "Iceland",
+            "flag": "https://img.sofascore.com/api/v1/team/4708/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4716/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Luxembourg vs Estonia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "luxembourg-vs-estonia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Luxembourg",
+            "flag": "https://img.sofascore.com/api/v1/team/4478/image"
+          },
+          "team_b": {
+            "name": "Estonia",
+            "flag": "https://img.sofascore.com/api/v1/team/4759/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4478/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Slovakia vs Faroe Islands",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "slovakia-vs-faroe-islands",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/13 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Slovakia",
+            "flag": "https://img.sofascore.com/api/v1/team/4697/image"
+          },
+          "team_b": {
+            "name": "Faroe Islands",
+            "flag": "https://img.sofascore.com/api/v1/team/4760/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4697/image",
+        "channels": [],
+        "total_channels": 0
       }
     ]
   }
