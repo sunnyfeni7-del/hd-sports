@@ -1,61 +1,127 @@
 {
-  "last_updated": "2026-11-12T14:47:51.491668+00:00",
+  "last_updated": "2026-11-12T15:07:55.405943+00:00",
   "event_count": 44,
   "events": {
     "events": [
       {
-        "title": "NPL Nepal Premier League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
+        "title": "Uzbekistan vs Russia",
+        "sport": "Football",
+        "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "npl-nepal-premier-league",
+        "slug": "uzbekistan-vs-russia",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 05:15:38 PM",
-          "end_time_bst": "Nov 12, 2026, 09:15:14 PM",
-          "raw_start_utc": "2026/11/12 11:15:38 +0000"
+          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/12 15:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+            "name": "Uzbekistan",
+            "flag": "https://img.sofascore.com/api/v1/team/4723/image"
           },
           "team_b": {
-            "name": "NPL",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+            "name": "Russia",
+            "flag": "https://img.sofascore.com/api/v1/team/4694/image"
           }
         },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "logo": "https://img.sofascore.com/api/v1/team/4723/image",
         "channels": [
           {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "STAR SPORTS HD",
+            "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-            "raw_link": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-            "headers": {},
+            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
-            "channel_name": "FANCODE - IN",
+            "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
-            "raw_link": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
-            "headers": {},
+            "url": "http://193.47.62.41/hls/FF444A.m3u8",
+            "raw_link": "http://193.47.62.41/hls/FF444A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 2
+      },
+      {
+        "title": "Ghana vs Somalia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ghana-vs-somalia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/12 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ghana",
+            "flag": "https://img.sofascore.com/api/v1/team/4764/image"
+          },
+          "team_b": {
+            "name": "Somalia",
+            "flag": "https://img.sofascore.com/api/v1/team/23472/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4764/image",
+        "channels": [
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+          },
+          {
+            "channel_name": "beIN SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/sd-1-4642738.m3u8?txSecret=2c99896f3129522ec25a93e6fb26417a&txTime=6AF5E8C5",
+            "raw_link": "https://live.vivo155.com/live/sd-1-4642738.m3u8?txSecret=2c99896f3129522ec25a93e6fb26417a&txTime=6AF5E8C5|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/GGGG.m3u8",
+            "raw_link": "http://193.47.62.44/hls/GGGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Formula 1",
@@ -589,6 +655,60 @@
         "total_channels": 4
       },
       {
+        "title": "NPL Nepal Premier League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "npl-nepal-premier-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 12:45:19 PM",
+          "end_time_bst": "Nov 13, 2026, 09:15:12 PM",
+          "raw_start_utc": "2026/11/13 06:45:19 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          },
+          "team_b": {
+            "name": "NPL",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+        "channels": [
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "STAR SPORTS HD",
+            "stream_type": "HLS",
+            "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
+            "raw_link": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN",
+            "stream_type": "HLS",
+            "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
+            "raw_link": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
         "title": "Pakistan vs Sri Lanka",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -770,33 +890,6 @@
         "total_channels": 0
       },
       {
-        "title": "Uzbekistan vs Russia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "uzbekistan-vs-russia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/12 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Uzbekistan",
-            "flag": "https://img.sofascore.com/api/v1/team/4723/image"
-          },
-          "team_b": {
-            "name": "Russia",
-            "flag": "https://img.sofascore.com/api/v1/team/4694/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4723/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Lithuania vs Suriname",
         "sport": "Football",
         "sub_category": "Football",
@@ -847,33 +940,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4483/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Ghana vs Somalia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ghana-vs-somalia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 12, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 12, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/12 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ghana",
-            "flag": "https://img.sofascore.com/api/v1/team/4764/image"
-          },
-          "team_b": {
-            "name": "Somalia",
-            "flag": "https://img.sofascore.com/api/v1/team/23472/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4764/image",
         "channels": [],
         "total_channels": 0
       },
