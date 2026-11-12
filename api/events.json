@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T17:33:37.786412+00:00",
+  "last_updated": "2026-11-12T17:48:42.059519+00:00",
   "event_count": 43,
   "events": {
     "events": [
@@ -599,6 +599,86 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/V333.m3u8",
             "raw_link": "http://193.47.62.55/hls/V333.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "CD Tarancon vs Levante UD",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-tarancon-vs-levante-ud",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/12 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Tarancón",
+            "flag": "https://img.sofascore.com/api/v1/team/293881/image"
+          },
+          "team_b": {
+            "name": "Levante UD",
+            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/293881/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/V333AAAAQQQQAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/V333AAAAQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "CDA Navalcarnero vs Real Betis",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cda-navalcarnero-vs-real-betis",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
+          "raw_start_utc": "2026/11/12 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CDA Navalcarnero",
+            "flag": "https://img.sofascore.com/api/v1/team/24352/image"
+          },
+          "team_b": {
+            "name": "Real Betis",
+            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/24352/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/V333AAAAQQQQAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/V333AAAAQQQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1733,60 +1813,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187747/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Tarancon vs Levante UD",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-tarancon-vs-levante-ud",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/12 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Tarancón",
-            "flag": "https://img.sofascore.com/api/v1/team/293881/image"
-          },
-          "team_b": {
-            "name": "Levante UD",
-            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/293881/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CDA Navalcarnero vs Real Betis",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cda-navalcarnero-vs-real-betis",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 02:20:00 AM",
-          "raw_start_utc": "2026/11/12 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CDA Navalcarnero",
-            "flag": "https://img.sofascore.com/api/v1/team/24352/image"
-          },
-          "team_b": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24352/image",
         "channels": [],
         "total_channels": 0
       },
