@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T19:30:46.232698+00:00",
+  "last_updated": "2026-11-13T19:45:52.019658+00:00",
   "event_count": 60,
   "events": {
     "events": [
@@ -29,6 +29,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4818/image",
         "channels": [
           {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/E777AAA.m3u8",
@@ -41,7 +49,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Liechtenstein vs Azerbaijan",
@@ -69,6 +77,34 @@
         "logo": "https://img.sofascore.com/api/v1/team/4830/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518095.m3u8?txSecret=f35f9d79edd0bae07edbbdd7a3f98ce5&txTime=6AF77C50",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518095.m3u8?txSecret=f35f9d79edd0bae07edbbdd7a3f98ce5&txTime=6AF77C50|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/E777AAAA.m3u8",
@@ -81,7 +117,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "Netherlands vs Greece",
@@ -215,11 +251,41 @@
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           },
           {
+            "channel_name": "NATIONS LEAGUE HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59947/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59947/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518086.m3u8?txSecret=6afb8be749bd528624d0198e4c0d19cc&txTime=6AF77BC6",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518086.m3u8?txSecret=6afb8be749bd528624d0198e4c0d19cc&txTime=6AF77BC6|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
@@ -235,7 +301,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 9
       },
       {
         "title": "Scotland vs North Macedonia",
@@ -263,11 +329,41 @@
         "logo": "https://img.sofascore.com/api/v1/team/4695/image",
         "channels": [
           {
+            "channel_name": "FOX SOCCER+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59945/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59945/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518087.m3u8?txSecret=e1f38adfa76b8fa23d3262e50d213f24&txTime=6AF77C23",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518087.m3u8?txSecret=e1f38adfa76b8fa23d3262e50d213f24&txTime=6AF77C23|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
@@ -283,7 +379,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 5
       },
       {
         "title": "Slovenia vs Switzerland",
@@ -359,11 +455,31 @@
         "logo": "https://img.sofascore.com/api/v1/team/4716/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518093.m3u8?txSecret=3ea3379b7e5a74bd968f36dd4b36da7e&txTime=6AF77CD5",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518093.m3u8?txSecret=3ea3379b7e5a74bd968f36dd4b36da7e&txTime=6AF77CD5|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120302/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120302/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
@@ -379,7 +495,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Luxembourg vs Estonia",
@@ -455,11 +571,31 @@
         "logo": "https://img.sofascore.com/api/v1/team/4697/image",
         "channels": [
           {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.vivo155.com/live/hd-en-1-4518090.m3u8?txSecret=36c6589ae8e81b9923acd27f0e6915b3&txTime=6AF77C8A",
+            "raw_link": "https://live.vivo155.com/live/hd-en-1-4518090.m3u8?txSecret=36c6589ae8e81b9923acd27f0e6915b3&txTime=6AF77C8A|Referer=https://player.on8on8.com/",
+            "headers": {
+              "Referer": "https://player.on8on8.com/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "SonyLiv ",
             "stream_type": "HLS",
             "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
             "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
             "drm_key": null
           },
           {
@@ -475,7 +611,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Egypt vs Malawi",
@@ -596,6 +732,96 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "Morocco vs Niger",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "morocco-vs-niger",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/13 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Morocco",
+            "flag": "https://img.sofascore.com/api/v1/team/4778/image"
+          },
+          "team_b": {
+            "name": "Niger",
+            "flag": "https://img.sofascore.com/api/v1/team/8031/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4778/image",
+        "channels": [
+          {
+            "channel_name": "beIN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/GPPPAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/GPPPAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Salamanca UDS vs Celta Vigo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "salamanca-uds-vs-celta-vigo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 14, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/13 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Salamanca UDS",
+            "flag": "https://img.sofascore.com/api/v1/team/263916/image"
+          },
+          "team_b": {
+            "name": "Celta Vigo",
+            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/263916/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/EBBBAAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/EBBBAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Leganes vs Burgos Club de Futbol",
@@ -1923,96 +2149,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/4790/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Morocco vs Niger",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "morocco-vs-niger",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 14, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/13 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Morocco",
-            "flag": "https://img.sofascore.com/api/v1/team/4778/image"
-          },
-          "team_b": {
-            "name": "Niger",
-            "flag": "https://img.sofascore.com/api/v1/team/8031/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4778/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/GPPPAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/GPPPAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Salamanca UDS vs Celta Vigo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "salamanca-uds-vs-celta-vigo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 14, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/13 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Salamanca UDS",
-            "flag": "https://img.sofascore.com/api/v1/team/263916/image"
-          },
-          "team_b": {
-            "name": "Celta Vigo",
-            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263916/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/EBBBAAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/EBBBAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Bangladesh vs Pakistan",
