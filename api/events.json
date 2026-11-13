@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-13T16:50:13.584869+00:00",
-  "event_count": 51,
+  "last_updated": "2026-11-13T17:05:09.284790+00:00",
+  "event_count": 47,
   "events": {
     "events": [
       {
@@ -109,50 +109,40 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Saudi Arabia vs South Korea",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "saudi-arabia-vs-south-korea",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 13, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/13 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Saudi Arabia",
-            "flag": "https://img.sofascore.com/api/v1/team/4834/image"
           },
-          "team_b": {
-            "name": "South Korea",
-            "flag": "https://img.sofascore.com/api/v1/team/4735/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4834/image",
-        "channels": [
           {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "FOX SOCCER+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/59938/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/59938/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794631572~acl=/*~id=47260986229254277328438290907585~hmac=a579be06592098bfaa39a315c2265f55ef1ffc30cd9b01e513354ab4eb39d154",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794631572~acl=/*~id=47260986229254277328438290907585~hmac=a579be06592098bfaa39a315c2265f55ef1ffc30cd9b01e513354ab4eb39d154",
+            "headers": {},
             "drm_key": null
           },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BBBBAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BBBBAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/GYGYGYAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GYGYGYAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -161,147 +151,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
-      },
-      {
-        "title": "Qatar vs Australia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "qatar-vs-australia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:45:00 PM",
-          "end_time_bst": "Nov 13, 2026, 11:05:00 PM",
-          "raw_start_utc": "2026/11/13 14:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Qatar",
-            "flag": "https://img.sofascore.com/api/v1/team/4792/image"
-          },
-          "team_b": {
-            "name": "Australia",
-            "flag": "https://img.sofascore.com/api/v1/team/4741/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4792/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BBBBAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BBBBAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Iraq vs Lebanon",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "iraq-vs-lebanon",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 13, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/13 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Iraq",
-            "flag": "https://img.sofascore.com/api/v1/team/4767/image"
-          },
-          "team_b": {
-            "name": "Lebanon",
-            "flag": "https://img.sofascore.com/api/v1/team/4774/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4767/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BBBBAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BBBBAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "United Arab Emirates vs Honduras",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "united-arab-emirates-vs-honduras",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:10:00 PM",
-          "end_time_bst": "Nov 13, 2026, 10:30:00 PM",
-          "raw_start_utc": "2026/11/13 14:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "United Arab Emirates",
-            "flag": "https://img.sofascore.com/api/v1/team/4727/image"
-          },
-          "team_b": {
-            "name": "Honduras",
-            "flag": "https://img.sofascore.com/api/v1/team/4827/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4727/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BBBBA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BBBBA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
+        "total_channels": 5
       },
       {
         "title": "Kuwait vs Syria",
@@ -329,6 +179,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/5368/image",
         "channels": [
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel23.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel23.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/WAWAWAAA.m3u8",
@@ -341,7 +201,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Burkina Faso vs Mauritania",
@@ -419,6 +279,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/4753/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/ZAZAZA.m3u8",
@@ -431,7 +301,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Gabon vs Lesotho",
@@ -459,6 +329,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/4761/image",
         "channels": [
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/ZAZAZAA.m3u8",
@@ -471,7 +351,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Nigeria vs Tanzania",
