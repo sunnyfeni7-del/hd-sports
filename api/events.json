@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T01:00:43.507978+00:00",
+  "last_updated": "2026-11-13T01:45:47.325429+00:00",
   "event_count": 41,
   "events": {
     "events": [
@@ -844,6 +844,133 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "New Zealand vs India",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-zealand-vs-india",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 08:00:00 AM",
+          "end_time_bst": "Nov 13, 2026, 05:00:19 PM",
+          "raw_start_utc": "2026/11/13 02:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand",
+            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
+          },
+          "team_b": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "HLS",
+            "url": "o",
+            "raw_link": "o",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "PRIME HINDI - AQ",
+            "stream_type": "HLS",
+            "url": "o",
+            "raw_link": "o",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "HLS",
+            "url": "o",
+            "raw_link": "o",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpcha075/cricodi_1211-eng-1-ts-hls/std-lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpcha075/cricodi_1211-eng-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchc857/cricodi_1211-hin-1-ts-hls/std-lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchc857/cricodi_1211-hin-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchb9e7/cricodi_1211-tam-1-ts-hls/std-lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchb9e7/cricodi_1211-tam-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpch8872/cricodi_1211-tel-1-ts-hls/std-lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpch8872/cricodi_1211-tel-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpche169/cricodi_1211-kan-1-ts-hls/std-lrh-800300010.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpche169/cricodi_1211-kan-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 9
       },
       {
         "title": "New York Giants vs Washington Commanders",
@@ -1835,133 +1962,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "New Zealand vs India",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-zealand-vs-india",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:00:00 AM",
-          "end_time_bst": "Nov 13, 2026, 05:00:19 PM",
-          "raw_start_utc": "2026/11/13 02:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Zealand",
-            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
-          },
-          "team_b": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "HLS",
-            "url": "o",
-            "raw_link": "o",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "PRIME HINDI - AQ",
-            "stream_type": "HLS",
-            "url": "o",
-            "raw_link": "o",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "HLS",
-            "url": "o",
-            "raw_link": "o",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - ENG",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpcha075/cricodi_1211-eng-1-ts-hls/std-lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpcha075/cricodi_1211-eng-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - HIN",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchc857/cricodi_1211-hin-1-ts-hls/std-lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchc857/cricodi_1211-hin-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TAM",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchb9e7/cricodi_1211-tam-1-ts-hls/std-lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchb9e7/cricodi_1211-tam-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TEL",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpch8872/cricodi_1211-tel-1-ts-hls/std-lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpch8872/cricodi_1211-tel-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - KAN",
-            "stream_type": "HLS",
-            "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpche169/cricodi_1211-kan-1-ts-hls/std-lrh-800300010.m3u8",
-            "raw_link": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpche169/cricodi_1211-kan-1-ts-hls/std-lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=2078416d138312e6d9e75f2c2e9e7046-1794478204787",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-              "Referer": "https://www.sonyliv.com/",
-              "Origin": "https://www.sonyliv.com",
-              "x-playback-session-id": "2078416d138312e6d9e75f2c2e9e7046-1794478204787"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 9
       },
       {
         "title": "Scotland Women vs Sri Lanka Women",
