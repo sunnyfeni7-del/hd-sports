@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T14:19:23.151628+00:00",
+  "last_updated": "2026-11-13T14:34:28.004866+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -115,6 +115,56 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/BBBBAA.m3u8",
             "raw_link": "http://193.47.62.41/hls/BBBBAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Qatar vs Australia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "qatar-vs-australia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 08:45:00 PM",
+          "end_time_bst": "Nov 13, 2026, 11:05:00 PM",
+          "raw_start_utc": "2026/11/13 14:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Qatar",
+            "flag": "https://img.sofascore.com/api/v1/team/4792/image"
+          },
+          "team_b": {
+            "name": "Australia",
+            "flag": "https://img.sofascore.com/api/v1/team/4741/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4792/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/BBBBAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/BBBBAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1833,33 +1883,6 @@
         "total_channels": 0
       },
       {
-        "title": "Qatar vs Australia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "qatar-vs-australia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:45:00 PM",
-          "end_time_bst": "Nov 13, 2026, 11:05:00 PM",
-          "raw_start_utc": "2026/11/13 14:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Qatar",
-            "flag": "https://img.sofascore.com/api/v1/team/4792/image"
-          },
-          "team_b": {
-            "name": "Australia",
-            "flag": "https://img.sofascore.com/api/v1/team/4741/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4792/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Iraq vs Lebanon",
         "sport": "Football",
         "sub_category": "Football",
@@ -1883,8 +1906,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4767/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/BBBBAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/BBBBAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Kuwait vs Syria",
