@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T13:44:11.742173+00:00",
+  "last_updated": "2026-11-13T13:59:15.700574+00:00",
   "event_count": 55,
   "events": {
     "events": [
@@ -66,9 +66,9 @@
         "slug": "abu-dhabi-t10-league",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 05:30:23 PM",
+          "start_time_bst": "Nov 13, 2026, 07:45:10 PM",
           "end_time_bst": "Nov 13, 2026, 11:55:28 PM",
-          "raw_start_utc": "2026/11/13 11:30:23 +0000"
+          "raw_start_utc": "2026/11/13 13:45:10 +0000"
         },
         "teams": {
           "team_a": {
@@ -85,10 +85,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9uj3jxdjfn/out/v1/3fc10f2273a2423caac423e66ff23f41/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9uj3jxdjfn/out/v1/3fc10f2273a2423caac423e66ff23f41/cenc.mpd",
             "headers": {},
-            "drm_key": "04afa3786bfbdb25de7c3ea3f5090f4c:f368f03d7c9c82af023ffcd99e533998"
+            "drm_key": "2764047e84649b6654bdde1b3a11bacf:de670189df371c5a846531de6c70b8d5"
           },
           {
             "channel_name": "PREMIER SPORTS - AQ",
@@ -103,10 +103,10 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9uj3jxdjfn/out/v1/3fc10f2273a2423caac423e66ff23f41/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9uj3jxdjfn/out/v1/3fc10f2273a2423caac423e66ff23f41/cenc.mpd",
             "headers": {},
-            "drm_key": "04afa3786bfbdb25de7c3ea3f5090f4c:f368f03d7c9c82af023ffcd99e533998"
+            "drm_key": "2764047e84649b6654bdde1b3a11bacf:de670189df371c5a846531de6c70b8d5"
           },
           {
             "channel_name": "A SPORTS HD",
@@ -190,6 +190,56 @@
           }
         ],
         "total_channels": 3
+      },
+      {
+        "title": "United Arab Emirates vs Honduras",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "united-arab-emirates-vs-honduras",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 13, 2026, 08:10:00 PM",
+          "end_time_bst": "Nov 13, 2026, 10:30:00 PM",
+          "raw_start_utc": "2026/11/13 14:10:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "United Arab Emirates",
+            "flag": "https://img.sofascore.com/api/v1/team/4727/image"
+          },
+          "team_b": {
+            "name": "Honduras",
+            "flag": "https://img.sofascore.com/api/v1/team/4827/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4727/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/BBBBA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/BBBBA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Mozambique vs Ethiopia",
@@ -1876,46 +1926,6 @@
         "total_channels": 0
       },
       {
-        "title": "United Arab Emirates vs Honduras",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "united-arab-emirates-vs-honduras",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:10:00 PM",
-          "end_time_bst": "Nov 13, 2026, 10:30:00 PM",
-          "raw_start_utc": "2026/11/13 14:10:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "United Arab Emirates",
-            "flag": "https://img.sofascore.com/api/v1/team/4727/image"
-          },
-          "team_b": {
-            "name": "Honduras",
-            "flag": "https://img.sofascore.com/api/v1/team/4827/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4727/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/BBBBA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/BBBBA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Kuwait vs Syria",
         "sport": "Football",
         "sub_category": "Football",
@@ -1924,9 +1934,9 @@
         "slug": "kuwait-vs-syria",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 13, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 13, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/13 14:00:00 +0000"
+          "start_time_bst": "Nov 13, 2026, 10:30:05 PM",
+          "end_time_bst": "Nov 14, 2026, 12:30:10 AM",
+          "raw_start_utc": "2026/11/13 16:30:05 +0000"
         },
         "teams": {
           "team_a": {
