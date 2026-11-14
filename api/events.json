@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-14T14:47:27.967420+00:00",
-  "event_count": 40,
+  "last_updated": "2026-11-14T14:52:17.909070+00:00",
+  "event_count": 36,
   "events": {
     "events": [
       {
@@ -1753,114 +1753,6 @@
         "total_channels": 0
       },
       {
-        "title": "Milton Keynes Dons vs Burton Albion",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "milton-keynes-dons-vs-burton-albion",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/14 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Milton Keynes Dons",
-            "flag": "https://img.sofascore.com/api/v1/team/4/image"
-          },
-          "team_b": {
-            "name": "Burton Albion",
-            "flag": "https://img.sofascore.com/api/v1/team/134/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sheffield Wednesday vs Plymouth Argyle",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sheffield-wednesday-vs-plymouth-argyle",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/14 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sheffield Wednesday",
-            "flag": "https://img.sofascore.com/api/v1/team/12/image"
-          },
-          "team_b": {
-            "name": "Plymouth Argyle",
-            "flag": "https://img.sofascore.com/api/v1/team/71/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/12/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Stockport County vs Reading",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "stockport-county-vs-reading",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/14 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Stockport County",
-            "flag": "https://img.sofascore.com/api/v1/team/10/image"
-          },
-          "team_b": {
-            "name": "Reading",
-            "flag": "https://img.sofascore.com/api/v1/team/28/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/10/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Wigan Athletic vs Barnsley",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "wigan-athletic-vs-barnsley",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/14 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Wigan Athletic",
-            "flag": "https://img.sofascore.com/api/v1/team/49/image"
-          },
-          "team_b": {
-            "name": "Barnsley",
-            "flag": "https://img.sofascore.com/api/v1/team/23/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/49/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Real Sociedad B vs Sporting Gijon",
         "sport": "Football",
         "sub_category": "Football",
@@ -1892,9 +1784,21 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/BEEEAAAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/BEEEAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Almeria vs FC Andorra",
