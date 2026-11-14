@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T17:12:54.546462+00:00",
+  "last_updated": "2026-11-14T17:18:05.255006+00:00",
   "event_count": 32,
   "events": {
     "events": [
@@ -242,6 +242,94 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Almeria vs FC Andorra",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "almeria-vs-fc-andorra",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 15, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/14 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Almería",
+            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
+          },
+          "team_b": {
+            "name": "FC Andorra",
+            "flag": "https://img.sofascore.com/api/v1/team/324871/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2858/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Mallorca vs Cordoba",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "mallorca-vs-cordoba",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 15, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/14 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Mallorca",
+            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
+          },
+          "team_b": {
+            "name": "Córdoba",
+            "flag": "https://img.sofascore.com/api/v1/team/2850/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2826/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Uganda vs Botswana",
@@ -1681,94 +1769,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/53/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Almeria vs FC Andorra",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "almeria-vs-fc-andorra",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 15, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/14 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Almería",
-            "flag": "https://img.sofascore.com/api/v1/team/2858/image"
-          },
-          "team_b": {
-            "name": "FC Andorra",
-            "flag": "https://img.sofascore.com/api/v1/team/324871/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2858/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Mallorca vs Cordoba",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "mallorca-vs-cordoba",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 15, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/14 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Mallorca",
-            "flag": "https://img.sofascore.com/api/v1/team/2826/image"
-          },
-          "team_b": {
-            "name": "Córdoba",
-            "flag": "https://img.sofascore.com/api/v1/team/2850/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2826/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8",
-            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Real Oviedo vs Girona FC",
