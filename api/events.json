@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-14T16:47:48.260891+00:00",
-  "event_count": 33,
+  "last_updated": "2026-11-14T17:12:54.546462+00:00",
+  "event_count": 32,
   "events": {
     "events": [
       {
@@ -129,6 +129,26 @@
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           },
           {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094587/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2094587/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/p-d8baf4c5767d492d943102db9d02b7ca.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/p-d8baf4c5767d492d943102db9d02b7ca.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/PPPPA.m3u8",
@@ -141,7 +161,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 6
       },
       {
         "title": "Georgia vs Hungary",
@@ -189,6 +209,26 @@
             "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
           },
           {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2018457/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2018457/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/p-fec29b5ecce748a0a9260937bde1530f.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/p-fec29b5ecce748a0a9260937bde1530f.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/PPPP.m3u8",
@@ -201,55 +241,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
-      },
-      {
-        "title": "Real Sociedad B vs Sporting Gijon",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "real-sociedad-b-vs-sporting-gijon",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/14 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Sociedad B",
-            "flag": "https://img.sofascore.com/api/v1/team/24360/image"
-          },
-          "team_b": {
-            "name": "Sporting Gijón",
-            "flag": "https://img.sofascore.com/api/v1/team/2852/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/24360/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.59/hls/BEEEAAAAA.m3u8",
-            "raw_link": "http://193.47.62.59/hls/BEEEAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
+        "total_channels": 5
       },
       {
         "title": "Uganda vs Botswana",
@@ -297,6 +289,18 @@
             "drm_key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
           },
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/p-d63c89d1469d40618905a319561b159e.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/p-d63c89d1469d40618905a319561b159e.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/bbbbAAAA.m3u8",
@@ -309,7 +313,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Formula 1",
@@ -1702,8 +1706,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2858/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Mallorca vs Cordoba",
@@ -1737,9 +1754,21 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Real Oviedo vs Girona FC",
