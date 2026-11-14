@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T07:59:20.679956+00:00",
+  "last_updated": "2026-11-14T08:49:26.688897+00:00",
   "event_count": 42,
   "events": {
     "events": [
@@ -243,6 +243,44 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "India vs Bhutan",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "india-vs-bhutan",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 03:00:00 PM",
+          "end_time_bst": "Nov 14, 2026, 05:20:00 PM",
+          "raw_start_utc": "2026/11/14 09:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
+          },
+          "team_b": {
+            "name": "Bhutan",
+            "flag": "https://img.sofascore.com/api/v1/team/191564/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4828/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1265,44 +1303,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/6080/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "India vs Bhutan",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "india-vs-bhutan",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 03:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 05:20:00 PM",
-          "raw_start_utc": "2026/11/14 09:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
-          },
-          "team_b": {
-            "name": "Bhutan",
-            "flag": "https://img.sofascore.com/api/v1/team/191564/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4828/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Pakistan Women vs Netherlands Women",
