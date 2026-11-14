@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T11:50:12.809848+00:00",
+  "last_updated": "2026-11-14T12:15:25.069001+00:00",
   "event_count": 44,
   "events": {
     "events": [
@@ -228,21 +228,21 @@
             "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
           },
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
+            "raw_link": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
             "stream_type": "HLS",
             "url": "https://live.vivo155.com/live/sd-1-4650133.m3u8?txSecret=db34d925c087279a184f9f45bfef895b&txTime=6AF85BB1",
             "raw_link": "https://live.vivo155.com/live/sd-1-4650133.m3u8?txSecret=db34d925c087279a184f9f45bfef895b&txTime=6AF85BB1|Referer=https://player.on8on8.com/",
             "headers": {
               "Referer": "https://player.on8on8.com/"
             },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy FAST",
-            "stream_type": "HLS",
-            "url": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
-            "raw_link": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
-            "headers": {},
             "drm_key": null
           },
           {
@@ -270,92 +270,6 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/SASASABAA.m3u8",
             "raw_link": "http://193.47.62.50/hls/SASASABAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
-      },
-      {
-        "title": "WBBL Women Big Bash League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bbl-women-big-bash-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 02:10:54 PM",
-          "end_time_bst": "Nov 14, 2026, 06:00:17 PM",
-          "raw_start_utc": "2026/11/14 08:10:54 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "WBBL",
-            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
-          },
-          "team_b": {
-            "name": "WBBL",
-            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
-          }
-        },
-        "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
-            "headers": {},
-            "drm_key": "fc4968fb4dec837fa5be62f9c463cf04:0b7d70bbf114543bc92193021ccc0b23"
-          },
-          {
-            "channel_name": "SKY CRICKET - AQ",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
-            "headers": {},
-            "drm_key": "fc4968fb4dec837fa5be62f9c463cf04:0b7d70bbf114543bc92193021ccc0b23"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
-            "headers": {
-              "Referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW HD",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/VFFF.m3u8",
-            "raw_link": "http://193.47.62.55/hls/VFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -534,6 +448,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/5937/image",
         "channels": [
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/KUUUAA.m3u8",
@@ -546,7 +470,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1232,6 +1156,92 @@
         "logo": "https://img.sofascore.com/api/v1/team/187747/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "WBBL Women Big Bash League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bbl-women-big-bash-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 06:00:31 AM",
+          "end_time_bst": "Nov 15, 2026, 10:00:35 AM",
+          "raw_start_utc": "2026/11/15 00:00:31 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "WBBL",
+            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
+          },
+          "team_b": {
+            "name": "WBBL",
+            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
+          }
+        },
+        "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
+            "headers": {},
+            "drm_key": "fc4968fb4dec837fa5be62f9c463cf04:0b7d70bbf114543bc92193021ccc0b23"
+          },
+          {
+            "channel_name": "SKY CRICKET - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hvu7hcu7jb/out/v1/7b0a48f368404321a8ce552b7a092d91/cenc.mpd",
+            "headers": {},
+            "drm_key": "fc4968fb4dec837fa5be62f9c463cf04:0b7d70bbf114543bc92193021ccc0b23"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
+            "headers": {
+              "Referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW HD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/VFFF.m3u8",
+            "raw_link": "http://193.47.62.55/hls/VFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "New Zealand vs India",
