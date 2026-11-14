@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T21:49:08.744770+00:00",
+  "last_updated": "2026-11-14T23:19:31.967829+00:00",
   "event_count": 42,
   "events": {
     "events": [
@@ -809,6 +809,44 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Chapecoense vs Vasco da Gama",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "chapecoense-vs-vasco-da-gama",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 05:30:00 AM",
+          "end_time_bst": "Nov 15, 2026, 07:50:00 AM",
+          "raw_start_utc": "2026/11/14 23:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Chapecoense",
+            "flag": "https://img.sofascore.com/api/v1/team/21845/image"
+          },
+          "team_b": {
+            "name": "Vasco da Gama",
+            "flag": "https://img.sofascore.com/api/v1/team/1974/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/21845/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
           }
         ],
         "total_channels": 1
@@ -2350,44 +2388,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/47321/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Chapecoense vs Vasco da Gama",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "chapecoense-vs-vasco-da-gama",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 05:30:00 AM",
-          "end_time_bst": "Nov 15, 2026, 07:50:00 AM",
-          "raw_start_utc": "2026/11/14 23:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Chapecoense",
-            "flag": "https://img.sofascore.com/api/v1/team/21845/image"
-          },
-          "team_b": {
-            "name": "Vasco da Gama",
-            "flag": "https://img.sofascore.com/api/v1/team/1974/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21845/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-          }
-        ],
-        "total_channels": 1
       }
     ]
   }
