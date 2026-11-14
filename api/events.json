@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T08:49:26.688897+00:00",
+  "last_updated": "2026-11-14T10:04:46.314524+00:00",
   "event_count": 42,
   "events": {
     "events": [
@@ -60,6 +60,76 @@
             "headers": {
               "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
               "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Japan vs Brazil",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "japan-vs-brazil",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 04:15:00 PM",
+          "end_time_bst": "Nov 14, 2026, 06:35:00 PM",
+          "raw_start_utc": "2026/11/14 10:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Japan",
+            "flag": "https://img.sofascore.com/api/v1/team/4770/image"
+          },
+          "team_b": {
+            "name": "Brazil",
+            "flag": "https://img.sofascore.com/api/v1/team/4748/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4770/image",
+        "channels": [
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+          },
+          {
+            "channel_name": "SporTV BR - ALT",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/SASASABAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/SASASABAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
           }
@@ -270,6 +340,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4828/image",
         "channels": [
           {
+            "channel_name": "BTV BD - AQ",
+            "stream_type": "HLS",
+            "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
+            "raw_link": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
             "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
@@ -278,9 +356,43 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "MyCO - AQ",
+            "stream_type": "HLS",
+            "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+            "headers": {
+              "referer": "https://myco.io/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "T SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "raw_link": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1794650288-0-0-c84e283d6670dae79c28ad58d5c2f1d8",
+            "raw_link": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1794650288-0-0-c84e283d6670dae79c28ad58d5c2f1d8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "VETO TV - IN",
+            "stream_type": "HLS",
+            "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
+            "raw_link": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
+            "headers": {},
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
@@ -1065,44 +1177,6 @@
           }
         ],
         "total_channels": 9
-      },
-      {
-        "title": "Japan vs Brazil",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "japan-vs-brazil",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 04:15:00 PM",
-          "end_time_bst": "Nov 14, 2026, 06:35:00 PM",
-          "raw_start_utc": "2026/11/14 10:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Japan",
-            "flag": "https://img.sofascore.com/api/v1/team/4770/image"
-          },
-          "team_b": {
-            "name": "Brazil",
-            "flag": "https://img.sofascore.com/api/v1/team/4748/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4770/image",
-        "channels": [
-          {
-            "channel_name": "SporTV BR - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "South Africa vs Bangladesh",
