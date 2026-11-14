@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T13:20:36.997808+00:00",
+  "last_updated": "2026-11-14T13:45:44.118784+00:00",
   "event_count": 44,
   "events": {
     "events": [
@@ -66,9 +66,9 @@
         "slug": "abu-dhabi-t10-league",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 05:30:53 PM",
+          "start_time_bst": "Nov 14, 2026, 07:45:40 PM",
           "end_time_bst": "Nov 14, 2026, 11:55:56 PM",
-          "raw_start_utc": "2026/11/14 11:30:53 +0000"
+          "raw_start_utc": "2026/11/14 13:45:40 +0000"
         },
         "teams": {
           "team_a": {
@@ -85,10 +85,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qu4sfeik4v/out/v1/5e68b5b688b547cdb087eb4c7f34a512/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qu4sfeik4v/out/v1/5e68b5b688b547cdb087eb4c7f34a512/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k5yg9k44sh/out/v1/b111c9899c3d489c819ba8bddc1e258f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k5yg9k44sh/out/v1/b111c9899c3d489c819ba8bddc1e258f/cenc.mpd",
             "headers": {},
-            "drm_key": "b5cbb452aa747899eec0423039edd4a1:ef75fa617bda5097c77888502c656b07"
+            "drm_key": "c9416419990931400d04e62d657c0cc8:7aa33c302380249e86295685656c2a97"
           },
           {
             "channel_name": "PREMIER SPORTS - AQ",
@@ -103,10 +103,10 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qu4sfeik4v/out/v1/5e68b5b688b547cdb087eb4c7f34a512/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qu4sfeik4v/out/v1/5e68b5b688b547cdb087eb4c7f34a512/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/k5yg9k44sh/out/v1/b111c9899c3d489c819ba8bddc1e258f/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/k5yg9k44sh/out/v1/b111c9899c3d489c819ba8bddc1e258f/cenc.mpd",
             "headers": {},
-            "drm_key": "b5cbb452aa747899eec0423039edd4a1:ef75fa617bda5097c77888502c656b07"
+            "drm_key": "c9416419990931400d04e62d657c0cc8:7aa33c302380249e86295685656c2a97"
           },
           {
             "channel_name": "A SPORTS HD",
@@ -220,6 +220,56 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Kosovo vs Israel",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "kosovo-vs-israel",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 14, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 14, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/14 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Kosovo",
+            "flag": "https://img.sofascore.com/api/v1/team/154426/image"
+          },
+          "team_b": {
+            "name": "Israel",
+            "flag": "https://img.sofascore.com/api/v1/team/4480/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/154426/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/SESESEAAA.m3u8",
+            "raw_link": "http://193.47.62.59/hls/SESESEAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Real Valladolid vs CD Castellon",
@@ -1655,44 +1705,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Kosovo vs Israel",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "kosovo-vs-israel",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/14 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kosovo",
-            "flag": "https://img.sofascore.com/api/v1/team/154426/image"
-          },
-          "team_b": {
-            "name": "Israel",
-            "flag": "https://img.sofascore.com/api/v1/team/4480/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/154426/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Georgia vs Hungary",
