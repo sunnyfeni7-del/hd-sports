@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T12:18:00.796811+00:00",
+  "last_updated": "2026-11-15T12:48:00.631868+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -389,6 +389,42 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "CD Tenerife vs AD Ceuta",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-tenerife-vs-ad-ceuta",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 15, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/15 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Tenerife",
+            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
+          },
+          "team_b": {
+            "name": "AD Ceuta",
+            "flag": "https://img.sofascore.com/api/v1/team/2869/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2822/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1506,42 +1542,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "CD Tenerife vs AD Ceuta",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-tenerife-vs-ad-ceuta",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 15, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/15 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Tenerife",
-            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
-          },
-          "team_b": {
-            "name": "AD Ceuta",
-            "flag": "https://img.sofascore.com/api/v1/team/2869/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2822/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Granada vs UD Las Palmas",
