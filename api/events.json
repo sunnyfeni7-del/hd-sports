@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T20:50:55.259574+00:00",
+  "last_updated": "2026-11-15T21:10:59.445741+00:00",
   "event_count": 50,
   "events": {
     "events": [
@@ -1386,6 +1386,42 @@
         "total_channels": 1
       },
       {
+        "title": "Dallas Cowboys vs San Francisco 49ers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "dallas-cowboys-vs-san-francisco-49ers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 03:25:00 AM",
+          "end_time_bst": "Nov 16, 2026, 06:25:00 AM",
+          "raw_start_utc": "2026/11/15 21:25:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Dallas Cowboys",
+            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
+          },
+          "team_b": {
+            "name": "San Francisco 49ers",
+            "flag": "https://img.sofascore.com/api/v1/team/4389/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4392/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQ6P3KP3.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQ6P3KP3.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HQ6P3KP3"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -2367,42 +2403,6 @@
           }
         ],
         "total_channels": 13
-      },
-      {
-        "title": "Dallas Cowboys vs San Francisco 49ers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "dallas-cowboys-vs-san-francisco-49ers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 03:25:00 AM",
-          "end_time_bst": "Nov 16, 2026, 06:25:00 AM",
-          "raw_start_utc": "2026/11/15 21:25:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dallas Cowboys",
-            "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-          },
-          "team_b": {
-            "name": "San Francisco 49ers",
-            "flag": "https://img.sofascore.com/api/v1/team/4389/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4392/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQ6P3KP3.mpd",
-            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQ6P3KP3.mpd",
-            "headers": {},
-            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HQ6P3KP3"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Cincinnati Bengals vs Pittsburgh Steelers",
