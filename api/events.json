@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-15T02:45:24.191974+00:00",
-  "event_count": 44,
+  "last_updated": "2026-11-15T03:10:28.608486+00:00",
+  "event_count": 43,
   "events": {
     "events": [
       {
@@ -108,92 +108,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "WBBL Women Big Bash League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bbl-women-big-bash-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 06:00:31 AM",
-          "end_time_bst": "Nov 15, 2026, 10:00:35 AM",
-          "raw_start_utc": "2026/11/15 00:00:31 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "WBBL",
-            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
-          },
-          "team_b": {
-            "name": "WBBL",
-            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
-          }
-        },
-        "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
-            "headers": {},
-            "drm_key": "b1f8a6b81514e5243cc85d00effcf384:697893a5e9dbc7916aedd1ac857737b2"
-          },
-          {
-            "channel_name": "SKY CRICKET - AQ",
-            "stream_type": "HLS",
-            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-            "headers": {
-              "user-agent": "Mozilla"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
-            "headers": {},
-            "drm_key": "b1f8a6b81514e5243cc85d00effcf384:697893a5e9dbc7916aedd1ac857737b2"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
-            "headers": {
-              "Referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "WILLOW HD",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/VFFF.m3u8",
-            "raw_link": "http://193.47.62.55/hls/VFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
       },
       {
         "title": "New Zealand vs India",
@@ -1030,10 +944,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
             "headers": {},
-            "drm_key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
+            "drm_key": "ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105"
           },
           {
             "channel_name": "FANCODE - AQ",
@@ -1048,10 +962,10 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
             "headers": {},
-            "drm_key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
+            "drm_key": "ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105"
           },
           {
             "channel_name": "EUROSPORT - AQ",
@@ -1136,6 +1050,92 @@
         "logo": "https://img.sofascore.com/api/v1/team/187747/image",
         "channels": [],
         "total_channels": 0
+      },
+      {
+        "title": "WBBL Women Big Bash League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "bbl-women-big-bash-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 02:10:29 PM",
+          "end_time_bst": "Nov 16, 2026, 06:00:34 PM",
+          "raw_start_utc": "2026/11/16 08:10:29 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "WBBL",
+            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
+          },
+          "team_b": {
+            "name": "WBBL",
+            "flag": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark"
+          }
+        },
+        "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
+            "headers": {},
+            "drm_key": "b1f8a6b81514e5243cc85d00effcf384:697893a5e9dbc7916aedd1ac857737b2"
+          },
+          {
+            "channel_name": "SKY CRICKET - AQ",
+            "stream_type": "HLS",
+            "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+            "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+            "headers": {
+              "user-agent": "Mozilla"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
+            "headers": {},
+            "drm_key": "b1f8a6b81514e5243cc85d00effcf384:697893a5e9dbc7916aedd1ac857737b2"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
+            "headers": {
+              "Referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "WILLOW HD",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/VFFF.m3u8",
+            "raw_link": "http://193.47.62.55/hls/VFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "Pakistan Women vs Netherlands Women",
@@ -1242,33 +1242,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/187806/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Swindon Town vs Grimsby Town",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "swindon-town-vs-grimsby-town",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 14, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 14, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/14 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Swindon Town",
-            "flag": "https://img.sofascore.com/api/v1/team/53/image"
-          },
-          "team_b": {
-            "name": "Grimsby Town",
-            "flag": "https://img.sofascore.com/api/v1/team/18/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/53/image",
         "channels": [],
         "total_channels": 0
       },
