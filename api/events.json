@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-15T17:19:12.983065+00:00",
-  "event_count": 35,
+  "last_updated": "2026-11-15T17:49:17.850396+00:00",
+  "event_count": 34,
   "events": {
     "events": [
       {
@@ -402,54 +402,6 @@
         "total_channels": 9
       },
       {
-        "title": "Granada vs UD Las Palmas",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "granada-vs-ud-las-palmas",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 15, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/15 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Granada",
-            "flag": "https://img.sofascore.com/api/v1/team/33779/image"
-          },
-          "team_b": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/33779/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/HMMMAAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/HMMMAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Eibar vs Cadiz",
         "sport": "Football",
         "sub_category": "Football",
@@ -624,6 +576,216 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Atlanta Falcons vs Kansas City Chiefs",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "atlanta-falcons-vs-kansas-city-chiefs",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/15 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Atlanta Falcons",
+            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
+          },
+          "team_b": {
+            "name": "Kansas City Chiefs",
+            "flag": "https://img.sofascore.com/api/v1/team/4422/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60182/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60182/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60164/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60164/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60163/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60163/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/VIIII.m3u8",
+            "raw_link": "http://193.47.62.44/hls/VIIII.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Cleveland Browns vs Houston Texans",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cleveland-browns-vs-houston-texans",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/15 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cleveland Browns",
+            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
+          },
+          "team_b": {
+            "name": "Houston Texans",
+            "flag": "https://img.sofascore.com/api/v1/team/4324/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4417/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60165/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60165/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60173/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60173/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60166/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60166/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/U777.m3u8",
+            "raw_link": "http://193.47.62.50/hls/U777.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Green Bay Packers vs Minnesota Vikings",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "green-bay-packers-vs-minnesota-vikings",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
+          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
+          "raw_start_utc": "2026/11/15 18:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Green Bay Packers",
+            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
+          },
+          "team_b": {
+            "name": "Minnesota Vikings",
+            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4420/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60183/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60183/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60155/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60155/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60156/load-playlist?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60156/load-playlist?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/U777AAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/U777AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Formula 1",
@@ -1778,87 +1940,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Atlanta Falcons vs Kansas City Chiefs",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "atlanta-falcons-vs-kansas-city-chiefs",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/15 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Atlanta Falcons",
-            "flag": "https://img.sofascore.com/api/v1/team/4393/image"
-          },
-          "team_b": {
-            "name": "Kansas City Chiefs",
-            "flag": "https://img.sofascore.com/api/v1/team/4422/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Cleveland Browns vs Houston Texans",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cleveland-browns-vs-houston-texans",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/15 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cleveland Browns",
-            "flag": "https://img.sofascore.com/api/v1/team/4417/image"
-          },
-          "team_b": {
-            "name": "Houston Texans",
-            "flag": "https://img.sofascore.com/api/v1/team/4324/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4417/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Green Bay Packers vs Minnesota Vikings",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "green-bay-packers-vs-minnesota-vikings",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 12:00:00 AM",
-          "end_time_bst": "Nov 16, 2026, 03:00:00 AM",
-          "raw_start_utc": "2026/11/15 18:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Green Bay Packers",
-            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-          },
-          "team_b": {
-            "name": "Minnesota Vikings",
-            "flag": "https://img.sofascore.com/api/v1/team/4423/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4420/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Indianapolis Colts vs Miami Dolphins",
