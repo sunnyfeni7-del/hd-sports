@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T02:25:17.195600+00:00",
+  "last_updated": "2026-11-15T02:45:24.191974+00:00",
   "event_count": 44,
   "events": {
     "events": [
@@ -308,6 +308,56 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "New Zealand vs India Football",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-zealand-vs-india-football",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 09:00:00 AM",
+          "end_time_bst": "Nov 15, 2026, 11:20:00 AM",
+          "raw_start_utc": "2026/11/15 03:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand",
+            "flag": "https://img.sofascore.com/api/v1/team/4784/image"
+          },
+          "team_b": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4784/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/SSSSAAAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.55/hls/SSSSAAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -1221,56 +1271,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/53/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "New Zealand vs India Football",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-zealand-vs-india-football",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 09:00:00 AM",
-          "end_time_bst": "Nov 15, 2026, 11:20:00 AM",
-          "raw_start_utc": "2026/11/15 03:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Zealand",
-            "flag": "https://img.sofascore.com/api/v1/team/4784/image"
-          },
-          "team_b": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/4828/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4784/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-            "raw_link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/SSSSAAAAAAQ.m3u8",
-            "raw_link": "http://193.47.62.55/hls/SSSSAAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Cyprus vs Montenegro",
