@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T04:45:53.373801+00:00",
+  "last_updated": "2026-11-15T05:46:10.550075+00:00",
   "event_count": 43,
   "events": {
     "events": [
@@ -108,6 +108,69 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Afghanistan vs Zimbabwe",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "afghanistan-vs-zimbabwe",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 12:00:52 PM",
+          "end_time_bst": "Nov 15, 2026, 08:00:55 PM",
+          "raw_start_utc": "2026/11/15 06:00:52 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Afghanistan",
+            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe",
+            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
+            "headers": {},
+            "drm_key": "9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
+            "headers": {},
+            "drm_key": "9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - IN ",
+            "stream_type": "HLS",
+            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
+            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+            "headers": {
+              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+              "Referer": "https://fancode.com/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Australia vs England",
@@ -342,6 +405,90 @@
           }
         ],
         "total_channels": 13
+      },
+      {
+        "title": "Pakistan Women vs Netherlands Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "pakistan-women-vs-netherlands-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 15, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/15 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Pakistan Women",
+            "flag": "https://img.sofascore.com/api/v1/team/187808/image"
+          },
+          "team_b": {
+            "name": "Netherlands Women",
+            "flag": "https://img.sofascore.com/api/v1/team/417753/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187808/image",
+        "channels": [
+          {
+            "channel_name": "ICC TV - AQ",
+            "stream_type": "DASH",
+            "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794746954~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=1bbefebe7c8bfa5924713a1f017cea6a4aca1d11982804278024ba67d7f7327f/manifest.mpd?vcfilter=4db2fe0f-df2f-4bd1-a899-32148564ef76",
+            "raw_link": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794746954~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=1bbefebe7c8bfa5924713a1f017cea6a4aca1d11982804278024ba67d7f7327f/manifest.mpd?vcfilter=4db2fe0f-df2f-4bd1-a899-32148564ef76|user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+            },
+            "drm_key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+          },
+          {
+            "channel_name": "TAMASHA HD",
+            "stream_type": "HLS",
+            "url": "https://cdn08khi-n.tamashaweb.com:8087/jazzauth/ICC-women-NT2026-abr/live/Wome-emerging-promo/chunks.m3u8?nimblesessionid=6161332&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA0OjQ2OjUzIEFNJmhhc2hfdmFsdWU9N1poQklFN0FacjVLTzIrVW9HeUNxQT09JnZhbGlkbWludXRlcz02MA==",
+            "raw_link": "https://cdn08khi-n.tamashaweb.com:8087/jazzauth/ICC-women-NT2026-abr/live/Wome-emerging-promo/chunks.m3u8?nimblesessionid=6161332&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA0OjQ2OjUzIEFNJmhhc2hfdmFsdWU9N1poQklFN0FacjVLTzIrVW9HeUNxQT09JnZhbGlkbWludXRlcz02MA==",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Thailand Women vs Zimbabwe Women",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "thailand-women-vs-zimbabwe-women",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
+          "end_time_bst": "Nov 15, 2026, 03:00:00 PM",
+          "raw_start_utc": "2026/11/15 05:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Thailand Women",
+            "flag": "https://img.sofascore.com/api/v1/team/446070/image"
+          },
+          "team_b": {
+            "name": "Zimbabwe Women",
+            "flag": "https://img.sofascore.com/api/v1/team/417062/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/446070/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794747162~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=703533e15aacdfe118bb0670a65b1bd8cb4a1fc5b474e004a57b98c852359c01/manifest.mpd?vcfilter=faf519ce-04cb-42eb-a76d-37a2444c8315",
+            "raw_link": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794747162~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=703533e15aacdfe118bb0670a65b1bd8cb4a1fc5b474e004a57b98c852359c01/manifest.mpd?vcfilter=faf519ce-04cb-42eb-a76d-37a2444c8315|user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+            },
+            "drm_key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "New Zealand vs India Football",
@@ -766,69 +913,6 @@
         "total_channels": 4
       },
       {
-        "title": "Afghanistan vs Zimbabwe",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "afghanistan-vs-zimbabwe",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 12:00:52 PM",
-          "end_time_bst": "Nov 15, 2026, 08:00:55 PM",
-          "raw_start_utc": "2026/11/15 06:00:52 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Afghanistan",
-            "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe",
-            "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
-            "headers": {},
-            "drm_key": "9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd",
-            "headers": {},
-            "drm_key": "9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - IN ",
-            "stream_type": "HLS",
-            "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
-            "raw_link": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-            "headers": {
-              "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-              "Referer": "https://fancode.com/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
         "title": "NPL Nepal Premier League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -1148,60 +1232,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "Pakistan Women vs Netherlands Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "pakistan-women-vs-netherlands-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 15, 2026, 03:00:00 PM",
-          "raw_start_utc": "2026/11/15 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pakistan Women",
-            "flag": "https://img.sofascore.com/api/v1/team/187808/image"
-          },
-          "team_b": {
-            "name": "Netherlands Women",
-            "flag": "https://img.sofascore.com/api/v1/team/417753/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187808/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Thailand Women vs Zimbabwe Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "thailand-women-vs-zimbabwe-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 15, 2026, 03:00:00 PM",
-          "raw_start_utc": "2026/11/15 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Thailand Women",
-            "flag": "https://img.sofascore.com/api/v1/team/446070/image"
-          },
-          "team_b": {
-            "name": "Zimbabwe Women",
-            "flag": "https://img.sofascore.com/api/v1/team/417062/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/446070/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Scotland Women vs United Arab Emirates Women",
