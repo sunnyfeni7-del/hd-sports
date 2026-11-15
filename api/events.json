@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T14:18:24.185495+00:00",
+  "last_updated": "2026-11-15T15:03:36.557540+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -552,6 +552,130 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Granada vs UD Las Palmas",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "granada-vs-ud-las-palmas",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 15, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/15 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Granada",
+            "flag": "https://img.sofascore.com/api/v1/team/33779/image"
+          },
+          "team_b": {
+            "name": "UD Las Palmas",
+            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/33779/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Detroit Lions vs New England Patriots",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "detroit-lions-vs-new-england-patriots",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 15, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 15, 2026, 11:30:00 PM",
+          "raw_start_utc": "2026/11/15 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Detroit Lions",
+            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
+          },
+          "team_b": {
+            "name": "New England Patriots",
+            "flag": "https://img.sofascore.com/api/v1/team/4424/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4419/image",
+        "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pwrdfli7tm/out/v1/e34552c7d03d4389b2c501b17bb08bbb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pwrdfli7tm/out/v1/e34552c7d03d4389b2c501b17bb08bbb/cenc.mpd",
+            "headers": {},
+            "drm_key": "3172ee620206d62857eee55b566e5f81:3bf5b7d1eef583f166000a0ba616ed1b"
+          },
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          },
+          {
+            "channel_name": "SKY TOP EVENT - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+          },
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60145/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60145/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy NFL",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60146/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60146/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/K555AAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/K555AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 6
       },
       {
         "title": "Formula 1",
@@ -1648,42 +1772,6 @@
         "total_channels": 4
       },
       {
-        "title": "Granada vs UD Las Palmas",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "granada-vs-ud-las-palmas",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 15, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/15 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Granada",
-            "flag": "https://img.sofascore.com/api/v1/team/33779/image"
-          },
-          "team_b": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/33779/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Eibar vs Cadiz",
         "sport": "Football",
         "sub_category": "Football",
@@ -1743,33 +1831,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/47321/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Detroit Lions vs New England Patriots",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "detroit-lions-vs-new-england-patriots",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 15, 2026, 11:30:00 PM",
-          "raw_start_utc": "2026/11/15 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Detroit Lions",
-            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
-          },
-          "team_b": {
-            "name": "New England Patriots",
-            "flag": "https://img.sofascore.com/api/v1/team/4424/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4419/image",
         "channels": [],
         "total_channels": 0
       },
