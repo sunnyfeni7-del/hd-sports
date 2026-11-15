@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T19:34:54.215080+00:00",
+  "last_updated": "2026-11-15T20:50:55.259574+00:00",
   "event_count": 50,
   "events": {
     "events": [
@@ -215,6 +215,14 @@
             "drm_key": "9c99e376ca072739ff5a424d2644321c:90c06edbb9465cb58d230501299cf559"
           },
           {
+            "channel_name": "PRIME VIDEO - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bebouklpnn/out/v1/afd41b1a05f541729c4e8a8f671a6a3b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bebouklpnn/out/v1/afd41b1a05f541729c4e8a8f671a6a3b/cenc.mpd",
+            "headers": {},
+            "drm_key": "3600cc1ba4192a18b3f6eeb13219c0fe:dd794a3d9f0a7802edca45b30cd09023"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
@@ -223,6 +231,34 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hwjlmyb59s/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hwjlmyb59s/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd",
+            "headers": {},
+            "drm_key": "e3f9cc220f9e73b355ae62bb40ba90fb:6e5f24e4e845e5d552a28787ff470d9d"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/d369fe60-50f0-4e9d-a225-30ec8d102829.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/d369fe60-50f0-4e9d-a225-30ec8d102829.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "LOW SERVER ",
@@ -237,7 +273,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 7
       },
       {
         "title": "Croatia vs Czechia",
@@ -265,6 +301,60 @@
         "logo": "https://img.sofascore.com/api/v1/team/4715/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2csfd49imd/out/v1/9dfa731721a4448db026417ddadd0ee8/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2csfd49imd/out/v1/9dfa731721a4448db026417ddadd0ee8/cenc.mpd",
+            "headers": {},
+            "drm_key": "f922eb47a1ba2d24816da9c8fdb0aba1:47854f2d7ed8ce4a65025603e2ea3b6b"
+          },
+          {
+            "channel_name": "PRIME VIDEO - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl5ausniat/out/v1/2cef55ba14124120af25d697c91fe486/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl5ausniat/out/v1/2cef55ba14124120af25d697c91fe486/cenc.mpd",
+            "headers": {},
+            "drm_key": "edd836bc0824ecbe942be493a60843b8:9788340d03514b59a986cadc1b6cb4e9"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ljtyc73ncu/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ljtyc73ncu/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+            "headers": {},
+            "drm_key": "61708c95b87c2a8b9773567ababb8b53:c6cab010bfaafe4c327671d33cef63b1"
+          },
+          {
+            "channel_name": "FOX SOCCER+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60198/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60198/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/17b041bb-0e08-418c-af9a-26cc42a84050.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/17b041bb-0e08-418c-af9a-26cc42a84050.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/KKKKA.m3u8",
@@ -277,7 +367,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 7
       },
       {
         "title": "France vs Turkiye",
@@ -313,6 +403,14 @@
             "drm_key": "2920c80cf0049c1a90fe34522eb62eff:b335f7c3a6b05ba96eaf05953b9f7b92"
           },
           {
+            "channel_name": "PRIME VIDEO - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7yrxcll7ms/out/v1/dbd120f7d0e849c0a6fa3062b148db73/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7yrxcll7ms/out/v1/dbd120f7d0e849c0a6fa3062b148db73/cenc.mpd",
+            "headers": {},
+            "drm_key": "44771cb414b1394a0f89a7c951744c8e:91d836ee7fe2650e08cfbb9c72ccccc0"
+          },
+          {
             "channel_name": "FOX SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
@@ -321,6 +419,14 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eommy1gias/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eommy1gias/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+            "headers": {},
+            "drm_key": "92754c4946ab8007c919a25d08394ae2:ea58831665208f64c781595cca9ddae7"
           },
           {
             "channel_name": "FOX SPORTS HD",
@@ -345,7 +451,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 6
       },
       {
         "title": "Spain vs England",
@@ -381,6 +487,14 @@
             "drm_key": "2d4040dccd613f280fd3f0918cfc8288:c2a6197e856f672dda686d74986998e4"
           },
           {
+            "channel_name": "PRIME VIDEO - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pfnsqfomlx/out/v1/f7e44627d00044f5a6d3bdaf6a279e19/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pfnsqfomlx/out/v1/f7e44627d00044f5a6d3bdaf6a279e19/cenc.mpd",
+            "headers": {},
+            "drm_key": "d568a08ab13f76b669f07683491edd61:2193f3a42079453f341e73cc8f228186"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -389,6 +503,14 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "VIX SPANISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5o9hdmdfrm/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5o9hdmdfrm/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+            "headers": {},
+            "drm_key": "7bc4236304752eaeab92f844412eebe8:2610dfd2072192991a8b66283d5840aa"
           },
           {
             "channel_name": "TVE La 1 - AQ",
@@ -431,6 +553,26 @@
             "drm_key": null
           },
           {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094588/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2094588/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/3ee6bb15-0a9e-4f51-96ec-335948942e0c.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/3ee6bb15-0a9e-4f51-96ec-335948942e0c.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/KKKKAAA.m3u8",
@@ -443,7 +585,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 7
+        "total_channels": 11
       },
       {
         "title": "Eibar vs Cadiz",
@@ -1170,6 +1312,78 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Arizona Cardinals vs Los Angeles Rams",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "arizona-cardinals-vs-los-angeles-rams",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 03:05:00 AM",
+          "end_time_bst": "Nov 16, 2026, 06:05:00 AM",
+          "raw_start_utc": "2026/11/15 21:05:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Arizona Cardinals",
+            "flag": "https://img.sofascore.com/api/v1/team/4412/image"
+          },
+          "team_b": {
+            "name": "Los Angeles Rams",
+            "flag": "https://img.sofascore.com/api/v1/team/4387/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4412/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL1P8ZZC.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL1P8ZZC.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HL1P8ZZC"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Las Vegas Raiders vs Seattle Seahawks",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "las-vegas-raiders-vs-seattle-seahawks",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 03:05:00 AM",
+          "end_time_bst": "Nov 16, 2026, 06:05:00 AM",
+          "raw_start_utc": "2026/11/15 21:05:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Las Vegas Raiders",
+            "flag": "https://img.sofascore.com/api/v1/team/4390/image"
+          },
+          "team_b": {
+            "name": "Seattle Seahawks",
+            "flag": "https://img.sofascore.com/api/v1/team/4430/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4390/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQK2GBMT.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQK2GBMT.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HQK2GBMT"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2153,78 +2367,6 @@
           }
         ],
         "total_channels": 13
-      },
-      {
-        "title": "Arizona Cardinals vs Los Angeles Rams",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "arizona-cardinals-vs-los-angeles-rams",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 03:05:00 AM",
-          "end_time_bst": "Nov 16, 2026, 06:05:00 AM",
-          "raw_start_utc": "2026/11/15 21:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Arizona Cardinals",
-            "flag": "https://img.sofascore.com/api/v1/team/4412/image"
-          },
-          "team_b": {
-            "name": "Los Angeles Rams",
-            "flag": "https://img.sofascore.com/api/v1/team/4387/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4412/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL1P8ZZC.mpd",
-            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HL1P8ZZC.mpd",
-            "headers": {},
-            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HL1P8ZZC"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Las Vegas Raiders vs Seattle Seahawks",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "las-vegas-raiders-vs-seattle-seahawks",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 03:05:00 AM",
-          "end_time_bst": "Nov 16, 2026, 06:05:00 AM",
-          "raw_start_utc": "2026/11/15 21:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Las Vegas Raiders",
-            "flag": "https://img.sofascore.com/api/v1/team/4390/image"
-          },
-          "team_b": {
-            "name": "Seattle Seahawks",
-            "flag": "https://img.sofascore.com/api/v1/team/4430/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4390/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQK2GBMT.mpd",
-            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HQK2GBMT.mpd",
-            "headers": {},
-            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HQK2GBMT"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Dallas Cowboys vs San Francisco 49ers",
