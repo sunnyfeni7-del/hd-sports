@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16T05:48:21.893347+00:00",
-  "event_count": 36,
+  "last_updated": "2026-11-16T05:58:24.718553+00:00",
+  "event_count": 32,
   "events": {
     "events": [
       {
@@ -171,118 +171,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "Bangladesh Women vs Netherlands Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "bangladesh-women-vs-netherlands-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 16, 2026, 03:00:00 PM",
-          "raw_start_utc": "2026/11/16 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bangladesh Women",
-            "flag": "https://img.sofascore.com/api/v1/team/187809/image"
-          },
-          "team_b": {
-            "name": "Netherlands Women",
-            "flag": "https://img.sofascore.com/api/v1/team/417753/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187809/image",
-        "channels": [
-          {
-            "channel_name": "ICC TV - AQ",
-            "stream_type": "DASH",
-            "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd",
-            "raw_link": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
-            },
-            "drm_key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-          },
-          {
-            "channel_name": "MYCO - AQ",
-            "stream_type": "HLS",
-            "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
-            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8|referer=https://myco.io/",
-            "headers": {
-              "referer": "https://myco.io/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "TAMASHA - AQ",
-            "stream_type": "HLS",
-            "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
-            "raw_link": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Zimbabwe Women vs Pakistan Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "zimbabwe-women-vs-pakistan-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 11:00:00 AM",
-          "end_time_bst": "Nov 16, 2026, 03:00:00 PM",
-          "raw_start_utc": "2026/11/16 05:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Zimbabwe Women",
-            "flag": "https://img.sofascore.com/api/v1/team/417062/image"
-          },
-          "team_b": {
-            "name": "Pakistan Women",
-            "flag": "https://img.sofascore.com/api/v1/team/187808/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/417062/image",
-        "channels": [
-          {
-            "channel_name": "ICC TV - AQ",
-            "stream_type": "DASH",
-            "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd",
-            "raw_link": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
-            },
-            "drm_key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-          },
-          {
-            "channel_name": "TAMASHA - AQ",
-            "stream_type": "HLS",
-            "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
-            "raw_link": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "MYCO - AQ",
-            "stream_type": "HLS",
-            "url": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8",
-            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8|referer=https://myco.io/",
-            "headers": {
-              "referer": "https://myco.io/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1076,10 +964,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mysvg9964s/out/v1/b7761cc505e84787832b2b55e90bbbf0/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
             "headers": {},
-            "drm_key": "b1f8a6b81514e5243cc85d00effcf384:697893a5e9dbc7916aedd1ac857737b2"
+            "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
           },
           {
             "channel_name": "SKY CRICKET - AQ",
@@ -1786,60 +1674,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4819/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Ireland Women vs Papua New Guinea Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ireland-women-vs-papua-new-guinea-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 03:15:00 PM",
-          "end_time_bst": "Nov 16, 2026, 07:15:00 PM",
-          "raw_start_utc": "2026/11/16 09:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ireland Women",
-            "flag": "https://img.sofascore.com/api/v1/team/213116/image"
-          },
-          "team_b": {
-            "name": "Papua New Guinea Women",
-            "flag": "https://img.sofascore.com/api/v1/team/453165/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/213116/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "United Arab Emirates Women vs Sri Lanka Women",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "united-arab-emirates-women-vs-sri-lanka-women",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 03:15:00 PM",
-          "end_time_bst": "Nov 16, 2026, 07:15:00 PM",
-          "raw_start_utc": "2026/11/16 09:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "United Arab Emirates Women",
-            "flag": "https://img.sofascore.com/api/v1/team/291494/image"
-          },
-          "team_b": {
-            "name": "Sri Lanka Women",
-            "flag": "https://img.sofascore.com/api/v1/team/187806/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/291494/image",
         "channels": [],
         "total_channels": 0
       }
