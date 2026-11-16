@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T21:10:59.445741+00:00",
+  "last_updated": "2026-11-16T01:07:06.566103+00:00",
   "event_count": 50,
   "events": {
     "events": [
@@ -1422,6 +1422,42 @@
         "total_channels": 1
       },
       {
+        "title": "Cincinnati Bengals vs Pittsburgh Steelers",
+        "sport": "American football",
+        "sub_category": "American football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cincinnati-bengals-vs-pittsburgh-steelers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 07:20:00 AM",
+          "end_time_bst": "Nov 16, 2026, 10:20:00 AM",
+          "raw_start_utc": "2026/11/16 01:20:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cincinnati Bengals",
+            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
+          },
+          "team_b": {
+            "name": "Pittsburgh Steelers",
+            "flag": "https://img.sofascore.com/api/v1/team/4345/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/4416/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLT1WMXD.mpd",
+            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLT1WMXD.mpd",
+            "headers": {},
+            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HLT1WMXD"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Formula 1",
         "sport": "Motorsport",
         "sub_category": "Motorsports",
@@ -2403,42 +2439,6 @@
           }
         ],
         "total_channels": 13
-      },
-      {
-        "title": "Cincinnati Bengals vs Pittsburgh Steelers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cincinnati-bengals-vs-pittsburgh-steelers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 16, 2026, 07:20:00 AM",
-          "end_time_bst": "Nov 16, 2026, 10:20:00 AM",
-          "raw_start_utc": "2026/11/16 01:20:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cincinnati Bengals",
-            "flag": "https://img.sofascore.com/api/v1/team/4416/image"
-          },
-          "team_b": {
-            "name": "Pittsburgh Steelers",
-            "flag": "https://img.sofascore.com/api/v1/team/4345/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4416/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLT1WMXD.mpd",
-            "raw_link": "https://primevideo.com.playfytvboss.online/ottb/live/dazncad/B0HLT1WMXD.mpd",
-            "headers": {},
-            "drm_key": "https://primevideo.com.playfytvboss.online/license/dazncad/?asin=B0HLT1WMXD"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Baltimore Ravens vs Los Angeles Chargers",
