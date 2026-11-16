@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16T02:02:22.486025+00:00",
-  "event_count": 38,
+  "last_updated": "2026-11-16T02:07:30.813471+00:00",
+  "event_count": 37,
   "events": {
     "events": [
       {
@@ -108,166 +108,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "Abu Dhabi T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "abu-dhabi-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 10:00:29 PM",
-          "end_time_bst": "Nov 15, 2026, 11:55:49 PM",
-          "raw_start_utc": "2026/11/15 16:00:29 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          },
-          "team_b": {
-            "name": "Abu Dhabi T10",
-            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
-            "headers": {},
-            "drm_key": "160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6"
-          },
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
-            "headers": {},
-            "drm_key": "160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6"
-          },
-          {
-            "channel_name": "A SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "MYCO HD",
-            "stream_type": "HLS",
-            "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
-            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/",
-            "headers": {
-              "referer": "https://myco.io/"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "Detroit Lions vs New England Patriots",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "detroit-lions-vs-new-england-patriots",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 15, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 15, 2026, 11:30:00 PM",
-          "raw_start_utc": "2026/11/15 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Detroit Lions",
-            "flag": "https://img.sofascore.com/api/v1/team/4419/image"
-          },
-          "team_b": {
-            "name": "New England Patriots",
-            "flag": "https://img.sofascore.com/api/v1/team/4424/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4419/image",
-        "channels": [
-          {
-            "channel_name": "NFL GAMEPASS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pwrdfli7tm/out/v1/e34552c7d03d4389b2c501b17bb08bbb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pwrdfli7tm/out/v1/e34552c7d03d4389b2c501b17bb08bbb/cenc.mpd",
-            "headers": {},
-            "drm_key": "3172ee620206d62857eee55b566e5f81:3bf5b7d1eef583f166000a0ba616ed1b"
-          },
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-          },
-          {
-            "channel_name": "SKY TOP EVENT - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-          },
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/60145/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/60145/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "CRICFy NFL",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/60146/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/60146/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/K555AAAAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/K555AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 6
       },
       {
         "title": "Cincinnati Bengals vs Pittsburgh Steelers",
@@ -947,6 +787,78 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "Abu Dhabi T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "abu-dhabi-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 16, 2026, 07:45:42 PM",
+          "end_time_bst": "Nov 16, 2026, 11:55:46 PM",
+          "raw_start_utc": "2026/11/16 13:45:42 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          },
+          "team_b": {
+            "name": "Abu Dhabi T10",
+            "flag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
+            "headers": {},
+            "drm_key": "160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6"
+          },
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd",
+            "headers": {},
+            "drm_key": "160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6"
+          },
+          {
+            "channel_name": "A SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/a-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "MYCO HD",
+            "stream_type": "HLS",
+            "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
+            "raw_link": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/",
+            "headers": {
+              "referer": "https://myco.io/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
       },
       {
         "title": "Australia vs England",
