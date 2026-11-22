@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T16:43:28.547710+00:00",
+  "last_updated": "2026-11-22T16:48:31.359237+00:00",
   "event_count": 49,
   "events": {
     "events": [
@@ -220,6 +220,14 @@
             "drm_key": "b8c395aaeb59affca7383e7e5b9af2af:28c98b32e70043d5906f403332756117"
           },
           {
+            "channel_name": "PEACOCK ES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q9nfns9xj4/out/v1/32f4ea3ea65a4e0389d95b5876e0c47a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q9nfns9xj4/out/v1/32f4ea3ea65a4e0389d95b5876e0c47a/cenc.mpd",
+            "headers": {},
+            "drm_key": "ba55e0bd939246e8a2d8225b16a5c484:29a2bb0e29a65943a7a81b4eaf33b0c8"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/60747/load-playlist-multi?",
@@ -254,7 +262,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 5
       },
       {
         "title": "Liverpool FC vs Manchester United",
@@ -355,6 +363,74 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "AC Milan vs Frosinone",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ac-milan-vs-frosinone",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 22, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 23, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/22 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Milan",
+            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+          },
+          "team_b": {
+            "name": "Frosinone",
+            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60750/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60750/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/5JJJA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/5JJJA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Real Racing Club vs Real Sociedad",
@@ -1997,60 +2073,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/1999/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "AC Milan vs Frosinone",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ac-milan-vs-frosinone",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 22, 2026, 11:00:00 PM",
-          "end_time_bst": "Nov 23, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/11/22 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AC Milan",
-            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
-          },
-          "team_b": {
-            "name": "Frosinone",
-            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2692/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "HLS",
-            "url": "pa",
-            "raw_link": "pa",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       },
       {
         "title": "Atalanta vs Inter",
