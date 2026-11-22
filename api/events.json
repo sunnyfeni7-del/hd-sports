@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T16:48:31.359237+00:00",
-  "event_count": 49,
+  "last_updated": "2026-11-22T17:08:38.283397+00:00",
+  "event_count": 48,
   "events": {
     "events": [
       {
@@ -390,6 +390,38 @@
         "logo": "https://img.sofascore.com/api/v1/team/2692/image",
         "channels": [
           {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kfmw2kcxgt/out/v1/79d59ef3086e4610a6a0871ec48825d7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kfmw2kcxgt/out/v1/79d59ef3086e4610a6a0871ec48825d7/cenc.mpd",
+            "headers": {},
+            "drm_key": "80440b0a632cd8c73b11efabdcb01791:485ab6a69a2127fbbc1471228f8a2971"
+          },
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yc9uf0buja/out/v1/3d9aaa12ac704db3a7d99ea17ffc61cc/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yc9uf0buja/out/v1/3d9aaa12ac704db3a7d99ea17ffc61cc/cenc.mpd",
+            "headers": {},
+            "drm_key": "292aaebdcf02a56bbce24488c316cd0f:3d1e46962393a2c83f2b2aff44531587"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0iznjnpj5d/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0iznjnpj5d/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd",
+            "headers": {},
+            "drm_key": "fdc96cbff6fb945389b2667491dabe7f:cb63a6882b2d7482910bf9e4eda27afa"
+          },
+          {
+            "channel_name": "PEACOCK ES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lnzqyet9qp/out/v1/a19f7306c3164e2da1aaebf1765a8297/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lnzqyet9qp/out/v1/a19f7306c3164e2da1aaebf1765a8297/cenc.mpd",
+            "headers": {},
+            "drm_key": "6ff0d50c84e94950f9798b755ceae62b:b37de38ea09f13397d55186589b519c7"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
@@ -418,6 +450,18 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/6c4088fe-695d-4e61-8d0f-24f9fdffb971.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/6c4088fe-695d-4e61-8d0f-24f9fdffb971.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/5JJJA.m3u8",
@@ -430,7 +474,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 4
+        "total_channels": 9
       },
       {
         "title": "Real Racing Club vs Real Sociedad",
@@ -871,46 +915,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Qatar U17 vs Egypt U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "qatar-u17-vs-egypt-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 22, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 22, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/22 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Qatar U17",
-            "flag": "https://img.sofascore.com/api/v1/team/468401/image"
-          },
-          "team_b": {
-            "name": "Egypt U17",
-            "flag": "https://img.sofascore.com/api/v1/team/216077/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/468401/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/QIIIQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/QIIIQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Uruguay U17 vs Haiti U17",
@@ -2326,8 +2330,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/24336/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/rararaA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/rararaA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Girona FC vs Eibar",
@@ -2361,9 +2378,21 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/rararaAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/rararaAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Burgos Club de Futbol vs Albacete Balompie",
