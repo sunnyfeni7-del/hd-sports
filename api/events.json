@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T17:53:46.078772+00:00",
-  "event_count": 43,
+  "last_updated": "2026-11-22T18:08:54.526300+00:00",
+  "event_count": 42,
   "events": {
     "events": [
       {
@@ -819,56 +819,6 @@
         "total_channels": 2
       },
       {
-        "title": "Trabzonspor vs Eyupspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "trabzonspor-vs-eyupspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 22, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 23, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/22 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Trabzonspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3051/image"
-          },
-          "team_b": {
-            "name": "Eyüpspor",
-            "flag": "https://img.sofascore.com/api/v1/team/7040/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3051/image",
-        "channels": [
-          {
-            "channel_name": "beIN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/diiiA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/diiiA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "France U17 vs Saudi Arabia U17",
         "sport": "Football",
         "sub_category": "Football",
@@ -944,6 +894,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4414/image",
         "channels": [
           {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1hhih4gq2l/out/v1/769a293b270648eaadbe2b636f443214/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1hhih4gq2l/out/v1/769a293b270648eaadbe2b636f443214/cenc.mpd",
+            "headers": {},
+            "drm_key": "71e77a87fd58a05f180693fa3ac827d0:f644da4a9f182d2d535a03712fbb27ac"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/60740/load-playlist?",
@@ -976,7 +934,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Carolina Panthers vs Baltimore Ravens",
@@ -1003,6 +961,14 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/4415/image",
         "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w15kzbsonh/out/v1/840ce66e5dc64c6b8131cb3898ab6a87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w15kzbsonh/out/v1/840ce66e5dc64c6b8131cb3898ab6a87/cenc.mpd",
+            "headers": {},
+            "drm_key": "954f06dde4df367aab8ee3e8bf216481:af3f0262e3588199c4c266664f47c893"
+          },
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
@@ -1036,7 +1002,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Chicago Bears vs New Orleans Saints",
@@ -1063,6 +1029,34 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/4391/image",
         "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/clj6jvey9w/out/v1/cf2b56f148d94783baffac6d522d808c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/clj6jvey9w/out/v1/cf2b56f148d94783baffac6d522d808c/cenc.mpd",
+            "headers": {},
+            "drm_key": "fb8819dded8f3f6da7c9eb0c326d2d56:b80874687ac428075b45d3abbeb13b9a"
+          },
+          {
+            "channel_name": "TSN SPORTS 1 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          },
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
@@ -1096,7 +1090,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 6
       },
       {
         "title": "Dallas Cowboys vs Tennessee Titans",
@@ -1123,6 +1117,14 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/4392/image",
         "channels": [
+          {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y0epmlrugn/out/v1/09944dc2b5ed4c69ba3c1a6ce9b3db56/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y0epmlrugn/out/v1/09944dc2b5ed4c69ba3c1a6ce9b3db56/cenc.mpd",
+            "headers": {},
+            "drm_key": "37e899aee50cc0e242f81602aa25d8bd:69c8c955a6d95fcf77b5d503b5e2d0a8"
+          },
           {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
@@ -1156,7 +1158,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 4
       },
       {
         "title": "Detroit Lions vs Tampa Bay Buccaneers",
@@ -1184,6 +1186,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4419/image",
         "channels": [
           {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sv1bx9yw5/out/v1/26b74e9137124b068661c7ef0737af55/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sv1bx9yw5/out/v1/26b74e9137124b068661c7ef0737af55/cenc.mpd",
+            "headers": {},
+            "drm_key": "cdb7927eb5f63195e53e9f51f9054918:6b584bcedb9c9c4932c344a71066aa22"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/60758/load-playlist?",
@@ -1206,7 +1216,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Kansas City Chiefs vs Arizona Cardinals",
@@ -1234,6 +1244,22 @@
         "logo": "https://img.sofascore.com/api/v1/team/4422/image",
         "channels": [
           {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttio4bxflg/out/v1/8819d87dce374e9a974f3d39df6a6b45/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttio4bxflg/out/v1/8819d87dce374e9a974f3d39df6a6b45/cenc.mpd",
+            "headers": {},
+            "drm_key": "0627a707c8e0b1edbe8a3e60ce588eec:a704610dcde9d30ee19c755eef97e459"
+          },
+          {
+            "channel_name": "SporTV BR - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+            "headers": {},
+            "drm_key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/60736/load-playlist?",
@@ -1256,7 +1282,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Philadelphia Eagles vs Pittsburgh Steelers",
@@ -1284,6 +1310,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/4428/image",
         "channels": [
           {
+            "channel_name": "NFL GAMEPASS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hnthscz7wu/out/v1/984951049868462bb8b8ce47f5b7fc0c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hnthscz7wu/out/v1/984951049868462bb8b8ce47f5b7fc0c/cenc.mpd",
+            "headers": {},
+            "drm_key": "a4edbec2f28306f846d6f94a42855741:85b4c4275bb060ed3b70327363c53dfd"
+          },
+          {
             "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/60744/load-playlist?",
@@ -1306,7 +1340,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
