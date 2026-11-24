@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T15:15:16.021498+00:00",
-  "event_count": 49,
+  "last_updated": "2026-11-24T15:30:21.573994+00:00",
+  "event_count": 48,
   "events": {
     "events": [
       {
@@ -404,54 +404,6 @@
         "total_channels": 2
       },
       {
-        "title": "Mexico U17 vs Cameroon U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "mexico-u17-vs-cameroon-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 07:30:00 PM",
-          "end_time_bst": "Nov 24, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/11/24 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Mexico U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22629/image"
-          },
-          "team_b": {
-            "name": "Cameroon U17",
-            "flag": "https://img.sofascore.com/api/v1/team/313112/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22629/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/S666.m3u8",
-            "raw_link": "http://193.47.62.41/hls/S666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Dominican Republic U17 vs Chile U17",
         "sport": "Football",
         "sub_category": "Football",
@@ -542,6 +494,46 @@
         "total_channels": 2
       },
       {
+        "title": "Algeria U17 vs Montenegro U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "algeria-u17-vs-montenegro-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 24, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 24, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/24 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Algeria U17",
+            "flag": "https://img.sofascore.com/api/v1/team/37321/image"
+          },
+          "team_b": {
+            "name": "Montenegro U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22631/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/37321/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KIKIKIAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KIKIKIAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Honduras U17 vs Colombia U17",
         "sport": "Football",
         "sub_category": "Football",
@@ -573,9 +565,31 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
             "headers": {},
             "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KIKIKIAAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KIKIKIAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1439,8 +1453,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/71044/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/F666A.m3u8",
+            "raw_link": "http://193.47.62.41/hls/F666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "BodGlimt vs LASK",
@@ -2007,8 +2034,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/264111/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/F666.m3u8",
+            "raw_link": "http://193.47.62.41/hls/F666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Al-Nassr vs Al-Sadd",
@@ -2034,33 +2074,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Algeria U17 vs Montenegro U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "algeria-u17-vs-montenegro-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 24, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/24 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Algeria U17",
-            "flag": "https://img.sofascore.com/api/v1/team/37321/image"
-          },
-          "team_b": {
-            "name": "Montenegro U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22631/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/37321/image",
         "channels": [],
         "total_channels": 0
       },
