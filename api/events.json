@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T19:31:25.769931+00:00",
+  "last_updated": "2026-11-24T19:46:38.797161+00:00",
   "event_count": 41,
   "events": {
     "events": [
@@ -226,6 +226,436 @@
           }
         ],
         "total_channels": 9
+      },
+      {
+        "title": "Arsenal vs Borussia Dortmund",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "arsenal-vs-borussia-dortmund",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Arsenal",
+            "flag": "https://img.sofascore.com/api/v1/team/42/image"
+          },
+          "team_b": {
+            "name": "Borussia Dortmund",
+            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/42/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60913/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60913/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/NP7ZdB3ATZWKa8Xh18uV-A/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/9SSSAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/9SSSAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 7
+      },
+      {
+        "title": "Como vs AEK Athens",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "como-vs-aek-athens",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Como",
+            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
+          },
+          "team_b": {
+            "name": "AEK Athens",
+            "flag": "https://img.sofascore.com/api/v1/team/3250/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2704/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60911/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60911/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/CTa-cJ59T027atEU9JPuiQ/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/CTa-cJ59T027atEU9JPuiQ/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/9SSSAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/9SSSAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 4
+      },
+      {
+        "title": "Feyenoord vs FC Porto",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "feyenoord-vs-fc-porto",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Feyenoord",
+            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
+          },
+          "team_b": {
+            "name": "FC Porto",
+            "flag": "https://img.sofascore.com/api/v1/team/3002/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2959/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60910/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60910/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/UKiUA0aFQROkIxGC-UjBzw/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/UKiUA0aFQROkIxGC-UjBzw/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/9SSSAAAAQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/9SSSAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Manchester City vs SSC Napoli",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "manchester-city-vs-ssc-napoli",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Manchester City",
+            "flag": "https://img.sofascore.com/api/v1/team/17/image"
+          },
+          "team_b": {
+            "name": "SSC Napoli",
+            "flag": "https://img.sofascore.com/api/v1/team/2714/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/17/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60924/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60924/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TNT SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60916/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60916/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/jIVNhfIrRHqtoYIcw8SMeQ/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/jIVNhfIrRHqtoYIcw8SMeQ/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/9SSSAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.59/hls/9SSSAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "Real Madrid vs PSV Eindhoven",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "real-madrid-vs-psv-eindhoven",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2829/image"
+          },
+          "team_b": {
+            "name": "PSV Eindhoven",
+            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2829/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60921/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60921/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TNT SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60920/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60920/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/i3W424xBTFmjSHum4gdPbA/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/i3W424xBTFmjSHum4gdPbA/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/G666A.m3u8",
+            "raw_link": "http://193.47.62.59/hls/G666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
+        "title": "SK Slovan Bratislava vs Real Betis",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sk-slovan-bratislava-vs-real-betis",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "ŠK Slovan Bratislava",
+            "flag": "https://img.sofascore.com/api/v1/team/2404/image"
+          },
+          "team_b": {
+            "name": "Real Betis",
+            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2404/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60919/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60919/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://dai.google.com/linear/hls/event/TRKUs9O6SpWT5_GjcESnRw/master.m3u8",
+            "raw_link": "https://dai.google.com/linear/hls/event/TRKUs9O6SpWT5_GjcESnRw/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/G666AA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/G666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Al-Nassr vs Al-Sadd",
@@ -596,6 +1026,66 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Wolverhampton vs Derby County",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "wolverhampton-vs-derby-county",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/24 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Wolverhampton",
+            "flag": "https://img.sofascore.com/api/v1/team/3/image"
+          },
+          "team_b": {
+            "name": "Derby County",
+            "flag": "https://img.sofascore.com/api/v1/team/27/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/2JJJAAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/2JJJAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1786,201 +2276,6 @@
         "total_channels": 2
       },
       {
-        "title": "Arsenal vs Borussia Dortmund",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": true,
-        "slug": "arsenal-vs-borussia-dortmund",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Arsenal",
-            "flag": "https://img.sofascore.com/api/v1/team/42/image"
-          },
-          "team_b": {
-            "name": "Borussia Dortmund",
-            "flag": "https://img.sofascore.com/api/v1/team/2673/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/42/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Como vs AEK Athens",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "como-vs-aek-athens",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Como",
-            "flag": "https://img.sofascore.com/api/v1/team/2704/image"
-          },
-          "team_b": {
-            "name": "AEK Athens",
-            "flag": "https://img.sofascore.com/api/v1/team/3250/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2704/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Feyenoord vs FC Porto",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "feyenoord-vs-fc-porto",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Feyenoord",
-            "flag": "https://img.sofascore.com/api/v1/team/2959/image"
-          },
-          "team_b": {
-            "name": "FC Porto",
-            "flag": "https://img.sofascore.com/api/v1/team/3002/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2959/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Manchester City vs SSC Napoli",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": true,
-        "slug": "manchester-city-vs-ssc-napoli",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Manchester City",
-            "flag": "https://img.sofascore.com/api/v1/team/17/image"
-          },
-          "team_b": {
-            "name": "SSC Napoli",
-            "flag": "https://img.sofascore.com/api/v1/team/2714/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/17/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Real Madrid vs PSV Eindhoven",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": true,
-        "slug": "real-madrid-vs-psv-eindhoven",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/2829/image"
-          },
-          "team_b": {
-            "name": "PSV Eindhoven",
-            "flag": "https://img.sofascore.com/api/v1/team/2952/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2829/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "SK Slovan Bratislava vs Real Betis",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sk-slovan-bratislava-vs-real-betis",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "ŠK Slovan Bratislava",
-            "flag": "https://img.sofascore.com/api/v1/team/2404/image"
-          },
-          "team_b": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2404/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Sabah FK vs FC Barcelona",
         "sport": "Football",
         "sub_category": "Football",
@@ -2293,66 +2588,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Wolverhampton vs Derby County",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "wolverhampton-vs-derby-county",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/24 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Wolverhampton",
-            "flag": "https://img.sofascore.com/api/v1/team/3/image"
-          },
-          "team_b": {
-            "name": "Derby County",
-            "flag": "https://img.sofascore.com/api/v1/team/27/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/2JJJAAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/2JJJAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
       }
     ]
   }
