@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T18:06:09.174951+00:00",
+  "last_updated": "2026-11-24T19:31:25.769931+00:00",
   "event_count": 41,
   "events": {
     "events": [
@@ -271,6 +271,28 @@
             "drm_key": null
           },
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=7e327b46e2e106f13e4a248d72c88119&wsABSTime=1795586819?",
+            "raw_link": "https://live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=7e327b46e2e106f13e4a248d72c88119&wsABSTime=1795586819?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "CRICFy FAST",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/1e42b8ef5bd4a55a259f0262e0a09a69550a1527579db599e51d398283128c9e.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/1e42b8ef5bd4a55a259f0262e0a09a69550a1527579db599e51d398283128c9e.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/7GGGAAAAAA.m3u8",
@@ -283,7 +305,297 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
+      },
+      {
+        "title": "Bristol City vs Wrexham",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bristol-city-vs-wrexham",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Bristol City",
+            "flag": "https://img.sofascore.com/api/v1/team/58/image"
+          },
+          "team_b": {
+            "name": "Wrexham",
+            "flag": "https://img.sofascore.com/api/v1/team/64/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/58/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/GTGTGT.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GTGTGT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Cardiff City vs Preston North End",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cardiff-city-vs-preston-north-end",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Cardiff City",
+            "flag": "https://img.sofascore.com/api/v1/team/61/image"
+          },
+          "team_b": {
+            "name": "Preston North End",
+            "flag": "https://img.sofascore.com/api/v1/team/21/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/61/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/GTGTGTQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GTGTGTQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Charlton Athletic vs Lincoln City",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "charlton-athletic-vs-lincoln-city",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Charlton Athletic",
+            "flag": "https://img.sofascore.com/api/v1/team/47/image"
+          },
+          "team_b": {
+            "name": "Lincoln City",
+            "flag": "https://img.sofascore.com/api/v1/team/92/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/47/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/GTGTGTQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GTGTGTQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Middlesbrough vs Swansea City",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "middlesbrough-vs-swansea-city",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Middlesbrough",
+            "flag": "https://img.sofascore.com/api/v1/team/36/image"
+          },
+          "team_b": {
+            "name": "Swansea City",
+            "flag": "https://img.sofascore.com/api/v1/team/74/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/36/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/GTGTGTQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GTGTGTQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Norwich City vs Queens Park Rangers",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "norwich-city-vs-queens-park-rangers",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Norwich City",
+            "flag": "https://img.sofascore.com/api/v1/team/263/image"
+          },
+          "team_b": {
+            "name": "Queens Park Rangers",
+            "flag": "https://img.sofascore.com/api/v1/team/1/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/263/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/GTGTGTQQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/GTGTGTQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Portsmouth vs West Ham United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "portsmouth-vs-west-ham-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Portsmouth",
+            "flag": "https://img.sofascore.com/api/v1/team/2/image"
+          },
+          "team_b": {
+            "name": "West Ham United",
+            "flag": "https://img.sofascore.com/api/v1/team/37/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60918/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60918/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/2JJJ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/2JJJ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Sheffield United vs Southampton",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sheffield-united-vs-southampton",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/24 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sheffield United",
+            "flag": "https://img.sofascore.com/api/v1/team/15/image"
+          },
+          "team_b": {
+            "name": "Southampton",
+            "flag": "https://img.sofascore.com/api/v1/team/45/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/15/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/2JJJA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/2JJJA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1478,7 +1790,7 @@
         "sport": "Football",
         "sub_category": "Football",
         "status": "Upcoming",
-        "is_hot": false,
+        "is_hot": true,
         "slug": "arsenal-vs-borussia-dortmund",
         "schedule": {
           "timezone": "BST (UTC+6)",
@@ -1570,7 +1882,7 @@
         "sport": "Football",
         "sub_category": "Football",
         "status": "Upcoming",
-        "is_hot": false,
+        "is_hot": true,
         "slug": "manchester-city-vs-ssc-napoli",
         "schedule": {
           "timezone": "BST (UTC+6)",
@@ -1608,7 +1920,7 @@
         "sport": "Football",
         "sub_category": "Football",
         "status": "Upcoming",
-        "is_hot": false,
+        "is_hot": true,
         "slug": "real-madrid-vs-psv-eindhoven",
         "schedule": {
           "timezone": "BST (UTC+6)",
@@ -1983,195 +2295,6 @@
         "total_channels": 2
       },
       {
-        "title": "Bristol City vs Wrexham",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bristol-city-vs-wrexham",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Bristol City",
-            "flag": "https://img.sofascore.com/api/v1/team/58/image"
-          },
-          "team_b": {
-            "name": "Wrexham",
-            "flag": "https://img.sofascore.com/api/v1/team/64/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/58/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Cardiff City vs Preston North End",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cardiff-city-vs-preston-north-end",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Cardiff City",
-            "flag": "https://img.sofascore.com/api/v1/team/61/image"
-          },
-          "team_b": {
-            "name": "Preston North End",
-            "flag": "https://img.sofascore.com/api/v1/team/21/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/61/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Charlton Athletic vs Lincoln City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "charlton-athletic-vs-lincoln-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Charlton Athletic",
-            "flag": "https://img.sofascore.com/api/v1/team/47/image"
-          },
-          "team_b": {
-            "name": "Lincoln City",
-            "flag": "https://img.sofascore.com/api/v1/team/92/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Middlesbrough vs Swansea City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "middlesbrough-vs-swansea-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Middlesbrough",
-            "flag": "https://img.sofascore.com/api/v1/team/36/image"
-          },
-          "team_b": {
-            "name": "Swansea City",
-            "flag": "https://img.sofascore.com/api/v1/team/74/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/36/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Norwich City vs Queens Park Rangers",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "norwich-city-vs-queens-park-rangers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Norwich City",
-            "flag": "https://img.sofascore.com/api/v1/team/263/image"
-          },
-          "team_b": {
-            "name": "Queens Park Rangers",
-            "flag": "https://img.sofascore.com/api/v1/team/1/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/263/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Portsmouth vs West Ham United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "portsmouth-vs-west-ham-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Portsmouth",
-            "flag": "https://img.sofascore.com/api/v1/team/2/image"
-          },
-          "team_b": {
-            "name": "West Ham United",
-            "flag": "https://img.sofascore.com/api/v1/team/37/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Sheffield United vs Southampton",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sheffield-united-vs-southampton",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 01:45:00 AM",
-          "end_time_bst": "Nov 25, 2026, 04:05:00 AM",
-          "raw_start_utc": "2026/11/24 19:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sheffield United",
-            "flag": "https://img.sofascore.com/api/v1/team/15/image"
-          },
-          "team_b": {
-            "name": "Southampton",
-            "flag": "https://img.sofascore.com/api/v1/team/45/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/15/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Wolverhampton vs Derby County",
         "sport": "Football",
         "sub_category": "Football",
@@ -2205,9 +2328,31 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60922/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/2JJJAAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/2JJJAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 3
       }
     ]
   }
