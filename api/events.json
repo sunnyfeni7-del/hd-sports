@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T13:34:45.985591+00:00",
-  "event_count": 55,
+  "last_updated": "2026-11-24T14:20:07.421543+00:00",
+  "event_count": 52,
   "events": {
     "events": [
       {
@@ -256,6 +256,104 @@
         "total_channels": 4
       },
       {
+        "title": "ILT International League T20",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ilt-international-league-t20",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 24, 2026, 08:30:56 PM",
+          "end_time_bst": "Nov 25, 2026, 12:30:00 AM",
+          "raw_start_utc": "2026/11/24 14:30:56 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "ILT T20",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10"
+          },
+          "team_b": {
+            "name": "ILT T20",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
+            "headers": {},
+            "drm_key": "64dc1d4bb91d3450b9d4ae4a0726d637:ce8b3415503515323800502c4cd46037"
+          },
+          {
+            "channel_name": "FANCODE - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
+            "headers": {},
+            "drm_key": "64dc1d4bb91d3450b9d4ae4a0726d637:ce8b3415503515323800502c4cd46037"
+          },
+          {
+            "channel_name": "UNITE8 HIN HD",
+            "stream_type": "HLS",
+            "url": "http://103.205.132.29:8081/Unite8-sports-1/index.m3u8",
+            "raw_link": "http://103.205.132.29:8081/Unite8-sports-1/index.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "FANCODE - LQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+          },
+          {
+            "channel_name": "ZEE ZEST - IN",
+            "stream_type": "DASH",
+            "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
+            "raw_link": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
+            "headers": {},
+            "drm_key": "ffa2f9e64ca542f9a13f6ebc11292468:ac0b546c754884618e5b2c2c986e4735"
+          },
+          {
+            "channel_name": "UNITE8 SPORTS - IN",
+            "stream_type": "DASH",
+            "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
+            "raw_link": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
+            "headers": {},
+            "drm_key": "d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
+          }
+        ],
+        "total_channels": 8
+      },
+      {
         "title": "Italia T10 League",
         "sport": "Cricket",
         "sub_category": "Cricket",
@@ -300,151 +398,45 @@
         "total_channels": 2
       },
       {
-        "title": "Cong An Ha Noi vs Vissel Kobe",
+        "title": "East Bengal FC vs Al-Hussein Irbid",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "cong-an-ha-noi-vs-vissel-kobe",
+        "slug": "east-bengal-fc-vs-al-hussein-irbid",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 24, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/24 12:15:00 +0000"
+          "start_time_bst": "Nov 24, 2026, 07:45:00 PM",
+          "end_time_bst": "Nov 24, 2026, 10:05:00 PM",
+          "raw_start_utc": "2026/11/24 13:45:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Công An Hà Nội",
-            "flag": "https://img.sofascore.com/api/v1/team/193616/image"
+            "name": "East Bengal FC",
+            "flag": "https://img.sofascore.com/api/v1/team/40655/image"
           },
           "team_b": {
-            "name": "Vissel Kobe",
-            "flag": "https://img.sofascore.com/api/v1/team/3146/image"
+            "name": "Al-Hussein Irbid",
+            "flag": "https://img.sofascore.com/api/v1/team/117204/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/193616/image",
+        "logo": "https://img.sofascore.com/api/v1/team/40655/image",
         "channels": [
           {
             "channel_name": "HD SERVER",
             "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/c0e670b5e25255d6e81fdfeb04c42dee9a5dd4e0fcc1d48f571beecdafd308aa.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/c0e670b5e25255d6e81fdfeb04c42dee9a5dd4e0fcc1d48f571beecdafd308aa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "https://live200.kravonstreamdelivery.com/live/channel16.m3u8?",
+            "raw_link": "https://live200.kravonstreamdelivery.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
             "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
+              "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
           },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KIKIKI.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KIKIKI.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Ratchaburi vs Johor Darul Tazim",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ratchaburi-vs-johor-darul-tazim",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 24, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/24 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ratchaburi",
-            "flag": "https://img.sofascore.com/api/v1/team/85743/image"
-          },
-          "team_b": {
-            "name": "Johor Darul Ta'zim",
-            "flag": "https://img.sofascore.com/api/v1/team/3327/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/85743/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/980a500962b483d056ad82cfab0a1394e8974710dd32d9dbee09d10d189f01d5.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/980a500962b483d056ad82cfab0a1394e8974710dd32d9dbee09d10d189f01d5.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KIKIKIA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KIKIKIA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Shanghai Port vs Buriram United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "shanghai-port-vs-buriram-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 24, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/24 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Shanghai Port",
-            "flag": "https://img.sofascore.com/api/v1/team/41537/image"
-          },
-          "team_b": {
-            "name": "Buriram United",
-            "flag": "https://img.sofascore.com/api/v1/team/34218/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/41537/image",
-        "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/46c0f1783d396d99e5f9ae9fb9e21d2b703060cdc8843bd3cefaeafd0950eaac.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/46c0f1783d396d99e5f9ae9fb9e21d2b703060cdc8843bd3cefaeafd0950eaac.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KIKIKIAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KIKIKIAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/S666A.m3u8",
+            "raw_link": "http://193.47.62.41/hls/S666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -632,6 +624,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Dominican Republic U17 vs Chile U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "dominican-republic-u17-vs-chile-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 24, 2026, 08:30:00 PM",
+          "end_time_bst": "Nov 24, 2026, 10:50:00 PM",
+          "raw_start_utc": "2026/11/24 14:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Dominican Republic U17",
+            "flag": "https://img.sofascore.com/api/v1/team/316489/image"
+          },
+          "team_b": {
+            "name": "Chile U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48830/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/316489/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/S666AAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/S666AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1428,131 +1460,6 @@
         "total_channels": 12
       },
       {
-        "title": "ILT International League T20",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ilt-international-league-t20",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 08:30:56 PM",
-          "end_time_bst": "Nov 25, 2026, 12:30:00 AM",
-          "raw_start_utc": "2026/11/24 14:30:56 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "ILT T20",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10"
-          },
-          "team_b": {
-            "name": "ILT T20",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6f3IJM3zVoiU45GX2IhNPDjAyupyyFamzZwFnB5D6w&s=10",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
-            "headers": {},
-            "drm_key": "64dc1d4bb91d3450b9d4ae4a0726d637:ce8b3415503515323800502c4cd46037"
-          },
-          {
-            "channel_name": "FANCODE - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bcjujmrzz8/out/v1/96349312752b430f8b8b3733b0841b41/cenc.mpd",
-            "headers": {},
-            "drm_key": "64dc1d4bb91d3450b9d4ae4a0726d637:ce8b3415503515323800502c4cd46037"
-          },
-          {
-            "channel_name": "UNITE8 HIN HD",
-            "stream_type": "HLS",
-            "url": "http://103.205.132.29:8081/Unite8-sports-1/index.m3u8",
-            "raw_link": "http://103.205.132.29:8081/Unite8-sports-1/index.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "FANCODE - LQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-          },
-          {
-            "channel_name": "ZEE ZEST - IN",
-            "stream_type": "DASH",
-            "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
-            "raw_link": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
-            "headers": {},
-            "drm_key": "ffa2f9e64ca542f9a13f6ebc11292468:ac0b546c754884618e5b2c2c986e4735"
-          },
-          {
-            "channel_name": "UNITE8 SPORTS - IN",
-            "stream_type": "DASH",
-            "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
-            "raw_link": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
-            "headers": {},
-            "drm_key": "d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
-          }
-        ],
-        "total_channels": 8
-      },
-      {
-        "title": "East Bengal FC vs Al-Hussein Irbid",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "east-bengal-fc-vs-al-hussein-irbid",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 24, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/24 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "East Bengal FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40655/image"
-          },
-          "team_b": {
-            "name": "Al-Hussein Irbid",
-            "flag": "https://img.sofascore.com/api/v1/team/117204/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/40655/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Al Seeb SC vs Al-Shorta",
         "sport": "Football",
         "sub_category": "Football",
@@ -2171,33 +2078,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Dominican Republic U17 vs Chile U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "dominican-republic-u17-vs-chile-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 24, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/24 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dominican Republic U17",
-            "flag": "https://img.sofascore.com/api/v1/team/316489/image"
-          },
-          "team_b": {
-            "name": "Chile U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48830/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/316489/image",
         "channels": [],
         "total_channels": 0
       },
