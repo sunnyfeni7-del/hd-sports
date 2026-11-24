@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T16:20:38.926671+00:00",
-  "event_count": 47,
+  "last_updated": "2026-11-24T16:40:43.927946+00:00",
+  "event_count": 46,
   "events": {
     "events": [
       {
@@ -167,6 +167,18 @@
         "logo": "https://img.sofascore.com/api/v1/team/264111/image",
         "channels": [
           {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/9d8bde3962a43206c7607927ad479c75e4656e0e66d005c82f21a8ca8a1d72c7.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/9d8bde3962a43206c7607927ad479c75e4656e0e66d005c82f21a8ca8a1d72c7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/F666.m3u8",
@@ -179,47 +191,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
-      },
-      {
-        "title": "Dominican Republic U17 vs Chile U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "dominican-republic-u17-vs-chile-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 08:30:00 PM",
-          "end_time_bst": "Nov 24, 2026, 10:50:00 PM",
-          "raw_start_utc": "2026/11/24 14:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Dominican Republic U17",
-            "flag": "https://img.sofascore.com/api/v1/team/316489/image"
-          },
-          "team_b": {
-            "name": "Chile U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48830/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/316489/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/S666AAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/S666AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Brazil U17 vs Tanzania U17",
