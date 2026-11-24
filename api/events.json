@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T15:40:27.235096+00:00",
-  "event_count": 48,
+  "last_updated": "2026-11-24T15:45:27.871117+00:00",
+  "event_count": 47,
   "events": {
     "events": [
       {
@@ -194,45 +194,35 @@
         "total_channels": 8
       },
       {
-        "title": "East Bengal FC vs Al-Hussein Irbid",
+        "title": "Al Seeb SC vs Al-Shorta",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "east-bengal-fc-vs-al-hussein-irbid",
+        "slug": "al-seeb-sc-vs-al-shorta",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 24, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/24 13:45:00 +0000"
+          "start_time_bst": "Nov 24, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 25, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/24 16:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "East Bengal FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40655/image"
+            "name": "Al Seeb SC",
+            "flag": "https://img.sofascore.com/api/v1/team/71044/image"
           },
           "team_b": {
-            "name": "Al-Hussein Irbid",
-            "flag": "https://img.sofascore.com/api/v1/team/117204/image"
+            "name": "Al-Shorta",
+            "flag": "https://img.sofascore.com/api/v1/team/61532/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/40655/image",
+        "logo": "https://img.sofascore.com/api/v1/team/71044/image",
         "channels": [
-          {
-            "channel_name": "HD SERVER",
-            "stream_type": "HLS",
-            "url": "https://live200.kravonstreamdelivery.com/live/channel16.m3u8?",
-            "raw_link": "https://live200.kravonstreamdelivery.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
-            "headers": {
-              "Referer": "https://xlz.domainkqt.cc/"
-            },
-            "drm_key": null
-          },
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/S666A.m3u8",
-            "raw_link": "http://193.47.62.41/hls/S666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/F666A.m3u8",
+            "raw_link": "http://193.47.62.41/hls/F666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -241,7 +231,47 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 1
+      },
+      {
+        "title": "Shabab Al-Ahli Dubai vs Al-Qadsiah",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "shabab-al-ahli-dubai-vs-al-qadsiah",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 24, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 25, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/24 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Shabab Al-Ahli Dubai",
+            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
+          },
+          "team_b": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/264111/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/F666.m3u8",
+            "raw_link": "http://193.47.62.41/hls/F666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Dominican Republic U17 vs Chile U17",
@@ -359,7 +389,7 @@
         "logo": "https://img.sofascore.com/api/v1/team/37321/image",
         "channels": [
           {
-            "channel_name": "CRICFy LIVE",
+            "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/KIKIKIAAAA.m3u8",
             "raw_link": "http://193.47.62.41/hls/KIKIKIAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -1430,46 +1460,6 @@
         "total_channels": 2
       },
       {
-        "title": "Al Seeb SC vs Al-Shorta",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-seeb-sc-vs-al-shorta",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/24 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Seeb SC",
-            "flag": "https://img.sofascore.com/api/v1/team/71044/image"
-          },
-          "team_b": {
-            "name": "Al-Shorta",
-            "flag": "https://img.sofascore.com/api/v1/team/61532/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/71044/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/F666A.m3u8",
-            "raw_link": "http://193.47.62.41/hls/F666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "BodGlimt vs LASK",
         "sport": "Football",
         "sub_category": "Football",
@@ -2009,46 +1999,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/36360/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Shabab Al-Ahli Dubai vs Al-Qadsiah",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "shabab-al-ahli-dubai-vs-al-qadsiah",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 24, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/24 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Shabab Al-Ahli Dubai",
-            "flag": "https://img.sofascore.com/api/v1/team/264111/image"
-          },
-          "team_b": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/264111/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/F666.m3u8",
-            "raw_link": "http://193.47.62.41/hls/F666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Al-Nassr vs Al-Sadd",
