@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T13:19:30.308393+00:00",
+  "last_updated": "2026-11-25T13:34:35.459560+00:00",
   "event_count": 43,
   "events": {
     "events": [
@@ -88,6 +88,46 @@
         "total_channels": 1
       },
       {
+        "title": "Nasaf Qarshi vs Al Khaldiya",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "nasaf-qarshi-vs-al-khaldiya",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 07:45:00 PM",
+          "end_time_bst": "Nov 25, 2026, 10:05:00 PM",
+          "raw_start_utc": "2026/11/25 13:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Nasaf Qarshi",
+            "flag": "https://img.sofascore.com/api/v1/team/34017/image"
+          },
+          "team_b": {
+            "name": "Al Khaldiya",
+            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34017/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/IIIIAAA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IIIIAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Uganda U17 vs New Caledonia U17",
         "sport": "Football",
         "sub_category": "Football",
@@ -121,9 +161,21 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/IIIIA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IIIIA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Ecuador U17 vs South Korea U17",
@@ -167,9 +219,59 @@
               "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/IIII.m3u8",
+            "raw_link": "http://193.47.62.55/hls/IIII.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
+      },
+      {
+        "title": "Haiti U17 vs Saudi Arabia U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "haiti-u17-vs-saudi-arabia-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 07:30:00 PM",
+          "end_time_bst": "Nov 25, 2026, 09:50:00 PM",
+          "raw_start_utc": "2026/11/25 13:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Haiti U17",
+            "flag": "https://img.sofascore.com/api/v1/team/190706/image"
+          },
+          "team_b": {
+            "name": "Saudi Arabia U17",
+            "flag": "https://img.sofascore.com/api/v1/team/468403/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/190706/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel10.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel10.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Uruguay U17 vs France U17",
@@ -1683,33 +1785,6 @@
         "total_channels": 1
       },
       {
-        "title": "Nasaf Qarshi vs Al Khaldiya",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "nasaf-qarshi-vs-al-khaldiya",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 25, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/25 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Nasaf Qarshi",
-            "flag": "https://img.sofascore.com/api/v1/team/34017/image"
-          },
-          "team_b": {
-            "name": "Al Khaldiya",
-            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34017/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Al Faisaly SC vs Al-Rayyan",
         "sport": "Football",
         "sub_category": "Football",
@@ -1841,33 +1916,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/56021/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Haiti U17 vs Saudi Arabia U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "haiti-u17-vs-saudi-arabia-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 07:30:00 PM",
-          "end_time_bst": "Nov 25, 2026, 09:50:00 PM",
-          "raw_start_utc": "2026/11/25 13:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Haiti U17",
-            "flag": "https://img.sofascore.com/api/v1/team/190706/image"
-          },
-          "team_b": {
-            "name": "Saudi Arabia U17",
-            "flag": "https://img.sofascore.com/api/v1/team/468403/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/190706/image",
         "channels": [],
         "total_channels": 0
       },
