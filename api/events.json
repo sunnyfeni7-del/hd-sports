@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T17:20:35.801065+00:00",
+  "last_updated": "2026-11-25T17:30:40.820154+00:00",
   "event_count": 35,
   "events": {
     "events": [
@@ -100,6 +100,187 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Sabah FK vs FC Barcelona",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": true,
+        "slug": "sabah-fk-vs-fc-barcelona",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 26, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/25 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Sabah FK",
+            "flag": "https://img.sofascore.com/api/v1/team/267828/image"
+          },
+          "team_b": {
+            "name": "FC Barcelona",
+            "flag": "https://img.sofascore.com/api/v1/team/2817/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/267828/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "headers": {},
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "TNT BRASIL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/KKKKA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/KKKKA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/footlive2511/ENG/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/footlive2511/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=39417a9c21ba0ca210840959b4d0fe8b-1795626864032",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "39417a9c21ba0ca210840959b4d0fe8b-1795626864032"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/footlive2511/HIN/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/footlive2511/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=39417a9c21ba0ca210840959b4d0fe8b-1795626864032",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "39417a9c21ba0ca210840959b4d0fe8b-1795626864032"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/footlive2511/TAM/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/footlive2511/TAM/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=39417a9c21ba0ca210840959b4d0fe8b-1795626864032",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "39417a9c21ba0ca210840959b4d0fe8b-1795626864032"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022317/footlive2511/TEL/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022317/footlive2511/TEL/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=39417a9c21ba0ca210840959b4d0fe8b-1795626864032",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "39417a9c21ba0ca210840959b4d0fe8b-1795626864032"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/footlive2511/KAN/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/footlive2511/KAN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=39417a9c21ba0ca210840959b4d0fe8b-1795626864032",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "39417a9c21ba0ca210840959b4d0fe8b-1795626864032"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 8
+      },
+      {
+        "title": "SK Slavia Praha vs Villarreal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sk-slavia-praha-vs-villarreal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 11:45:00 PM",
+          "end_time_bst": "Nov 26, 2026, 02:05:00 AM",
+          "raw_start_utc": "2026/11/25 17:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SK Slavia Praha",
+            "flag": "https://img.sofascore.com/api/v1/team/2216/image"
+          },
+          "team_b": {
+            "name": "Villarreal",
+            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2216/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/60995/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/60995/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/KKKK.m3u8",
+            "raw_link": "http://193.47.62.50/hls/KKKK.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Al Faisaly SC vs Al-Rayyan",
@@ -1456,79 +1637,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Sabah FK vs FC Barcelona",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": true,
-        "slug": "sabah-fk-vs-fc-barcelona",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 26, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/25 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sabah FK",
-            "flag": "https://img.sofascore.com/api/v1/team/267828/image"
-          },
-          "team_b": {
-            "name": "FC Barcelona",
-            "flag": "https://img.sofascore.com/api/v1/team/2817/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/267828/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "headers": {},
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "TNT BRASIL - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "SK Slavia Praha vs Villarreal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sk-slavia-praha-vs-villarreal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 26, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/25 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SK Slavia Praha",
-            "flag": "https://img.sofascore.com/api/v1/team/2216/image"
-          },
-          "team_b": {
-            "name": "Villarreal",
-            "flag": "https://img.sofascore.com/api/v1/team/2819/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2216/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Atletico Madrid vs Viking FK",
