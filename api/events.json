@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-25T15:50:12.077871+00:00",
-  "event_count": 38,
+  "last_updated": "2026-11-25T16:00:13.234924+00:00",
+  "event_count": 37,
   "events": {
     "events": [
       {
@@ -100,46 +100,6 @@
           }
         ],
         "total_channels": 8
-      },
-      {
-        "title": "Nasaf Qarshi vs Al Khaldiya",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "nasaf-qarshi-vs-al-khaldiya",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 07:45:00 PM",
-          "end_time_bst": "Nov 25, 2026, 10:05:00 PM",
-          "raw_start_utc": "2026/11/25 13:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Nasaf Qarshi",
-            "flag": "https://img.sofascore.com/api/v1/team/34017/image"
-          },
-          "team_b": {
-            "name": "Al Khaldiya",
-            "flag": "https://img.sofascore.com/api/v1/team/371631/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34017/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.55/hls/IIIIAAA.m3u8",
-            "raw_link": "http://193.47.62.55/hls/IIIIAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Al Faisaly SC vs Al-Rayyan",
@@ -1582,7 +1542,7 @@
         "sport": "Football",
         "sub_category": "Football",
         "status": "Upcoming",
-        "is_hot": false,
+        "is_hot": true,
         "slug": "sabah-fk-vs-fc-barcelona",
         "schedule": {
           "timezone": "BST (UTC+6)",
