@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-25T11:28:55.003902+00:00",
-  "event_count": 45,
+  "last_updated": "2026-11-25T12:04:07.589851+00:00",
+  "event_count": 43,
   "events": {
     "events": [
       {
@@ -96,75 +96,35 @@
         "total_channels": 7
       },
       {
-        "title": "Gamba Osaka vs Port FC",
+        "title": "Persib Bandung vs FC Seoul",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "gamba-osaka-vs-port-fc",
+        "slug": "persib-bandung-vs-fc-seoul",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/25 10:00:00 +0000"
+          "start_time_bst": "Nov 25, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 25, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/25 12:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Gamba Osaka",
-            "flag": "https://img.sofascore.com/api/v1/team/3138/image"
+            "name": "Persib Bandung",
+            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
           },
           "team_b": {
-            "name": "Port FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40661/image"
+            "name": "FC Seoul",
+            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/3138/image",
+        "logo": "https://img.sofascore.com/api/v1/team/64289/image",
         "channels": [
           {
-            "channel_name": "LOW SERVER",
+            "channel_name": "CRICFy LIVE",
             "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/ZTTT.m3u8",
-            "raw_link": "http://193.47.62.50/hls/ZTTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "kashima-antlers-vs-jeonbuk-hyundai-motors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/25 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kashima Antlers",
-            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
-          },
-          "team_b": {
-            "name": "Jeonbuk Hyundai Motors",
-            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3134/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/ZTTTA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/ZTTTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.50/hls/ZTTTAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/ZTTTAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1581,33 +1541,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Persib Bandung vs FC Seoul",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "persib-bandung-vs-fc-seoul",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 25, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/25 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Persib Bandung",
-            "flag": "https://img.sofascore.com/api/v1/team/64289/image"
-          },
-          "team_b": {
-            "name": "FC Seoul",
-            "flag": "https://img.sofascore.com/api/v1/team/7646/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/64289/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Nasaf Qarshi vs Al Khaldiya",
