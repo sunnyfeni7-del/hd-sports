@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T09:48:31.318379+00:00",
+  "last_updated": "2026-11-25T10:48:44.982620+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -186,6 +186,130 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "Italia T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "italia-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 05:00:00 PM",
+          "end_time_bst": "Nov 25, 2026, 09:15:04 PM",
+          "raw_start_utc": "2026/11/25 11:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          },
+          "team_b": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "channels": [
+          {
+            "channel_name": "UNBEATEN - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "headers": {},
+            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+          },
+          {
+            "channel_name": " SandBrix HD",
+            "stream_type": "HLS",
+            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Gamba Osaka vs Port FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "gamba-osaka-vs-port-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
+          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
+          "raw_start_utc": "2026/11/25 10:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Gamba Osaka",
+            "flag": "https://img.sofascore.com/api/v1/team/3138/image"
+          },
+          "team_b": {
+            "name": "Port FC",
+            "flag": "https://img.sofascore.com/api/v1/team/40661/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3138/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/ZTTT.m3u8",
+            "raw_link": "http://193.47.62.50/hls/ZTTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "kashima-antlers-vs-jeonbuk-hyundai-motors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
+          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
+          "raw_start_utc": "2026/11/25 10:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Kashima Antlers",
+            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
+          },
+          "team_b": {
+            "name": "Jeonbuk Hyundai Motors",
+            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3134/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/ZTTTA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/ZTTTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1158,50 +1282,6 @@
         "total_channels": 8
       },
       {
-        "title": "Italia T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "italia-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 05:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 09:15:04 PM",
-          "raw_start_utc": "2026/11/25 11:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          },
-          "team_b": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "channels": [
-          {
-            "channel_name": "UNBEATEN - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "headers": {},
-            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-          },
-          {
-            "channel_name": " SandBrix HD",
-            "stream_type": "HLS",
-            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Sabah FK vs FC Barcelona",
         "sport": "Football",
         "sub_category": "Football",
@@ -1688,60 +1768,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/56021/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Gamba Osaka vs Port FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "gamba-osaka-vs-port-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/25 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Gamba Osaka",
-            "flag": "https://img.sofascore.com/api/v1/team/3138/image"
-          },
-          "team_b": {
-            "name": "Port FC",
-            "flag": "https://img.sofascore.com/api/v1/team/40661/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3138/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "kashima-antlers-vs-jeonbuk-hyundai-motors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 04:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 06:20:00 PM",
-          "raw_start_utc": "2026/11/25 10:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Kashima Antlers",
-            "flag": "https://img.sofascore.com/api/v1/team/3134/image"
-          },
-          "team_b": {
-            "name": "Jeonbuk Hyundai Motors",
-            "flag": "https://img.sofascore.com/api/v1/team/6908/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3134/image",
         "channels": [],
         "total_channels": 0
       },
