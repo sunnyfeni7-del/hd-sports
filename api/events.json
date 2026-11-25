@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T12:04:07.589851+00:00",
+  "last_updated": "2026-11-25T12:19:15.553058+00:00",
   "event_count": 43,
   "events": {
     "events": [
@@ -131,6 +131,42 @@
               "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Ecuador U17 vs South Korea U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ecuador-u17-vs-south-korea-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 06:30:00 PM",
+          "end_time_bst": "Nov 25, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/11/25 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ecuador U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48835/image"
+          },
+          "team_b": {
+            "name": "South Korea U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22652/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/48835/image",
+        "channels": [
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+            "headers": {},
+            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
           }
         ],
         "total_channels": 1
@@ -1730,42 +1766,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/1077159/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Ecuador U17 vs South Korea U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ecuador-u17-vs-south-korea-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 25, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/25 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ecuador U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48835/image"
-          },
-          "team_b": {
-            "name": "South Korea U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22652/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/48835/image",
-        "channels": [
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
-            "headers": {},
-            "drm_key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Haiti U17 vs Saudi Arabia U17",
