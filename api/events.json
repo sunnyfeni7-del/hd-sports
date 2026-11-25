@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T10:48:44.982620+00:00",
+  "last_updated": "2026-11-25T11:24:00.679303+00:00",
   "event_count": 45,
   "events": {
     "events": [
@@ -186,50 +186,6 @@
           }
         ],
         "total_channels": 7
-      },
-      {
-        "title": "Italia T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "italia-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 05:00:00 PM",
-          "end_time_bst": "Nov 25, 2026, 09:15:04 PM",
-          "raw_start_utc": "2026/11/25 11:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          },
-          "team_b": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "channels": [
-          {
-            "channel_name": "UNBEATEN - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "headers": {},
-            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-          },
-          {
-            "channel_name": " SandBrix HD",
-            "stream_type": "HLS",
-            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Gamba Osaka vs Port FC",
@@ -1280,6 +1236,50 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "Italia T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "italia-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 07:15:19 PM",
+          "end_time_bst": "Nov 25, 2026, 09:15:04 PM",
+          "raw_start_utc": "2026/11/25 13:15:19 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          },
+          "team_b": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "channels": [
+          {
+            "channel_name": "UNBEATEN - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "headers": {},
+            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+          },
+          {
+            "channel_name": " SandBrix HD",
+            "stream_type": "HLS",
+            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Sabah FK vs FC Barcelona",
