@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T14:44:54.728406+00:00",
+  "last_updated": "2026-11-25T15:20:12.831355+00:00",
   "event_count": 40,
   "events": {
     "events": [
@@ -338,6 +338,102 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Australia U17 vs Mozambique U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "australia-u17-vs-mozambique-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 25, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/25 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Australia U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22578/image"
+          },
+          "team_b": {
+            "name": "Mozambique U17",
+            "flag": "https://img.sofascore.com/api/v1/team/1126751/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22578/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/WAWAWA.m3u8",
+            "raw_link": "http://193.47.62.55/hls/WAWAWA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Denmark U17 vs Argentina U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "denmark-u17-vs-argentina-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 25, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 25, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/25 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Denmark U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22597/image"
+          },
+          "team_b": {
+            "name": "Argentina U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22576/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22597/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+            "headers": {},
+            "drm_key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.55/hls/lololoaaaaqq.m3u8",
+            "raw_link": "http://193.47.62.55/hls/lololoaaaaqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
       },
       {
         "title": "Formula 1",
@@ -1874,77 +1970,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/56021/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Australia U17 vs Mozambique U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "australia-u17-vs-mozambique-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 25, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/25 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Australia U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22578/image"
-          },
-          "team_b": {
-            "name": "Mozambique U17",
-            "flag": "https://img.sofascore.com/api/v1/team/1126751/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22578/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Denmark U17 vs Argentina U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "denmark-u17-vs-argentina-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 25, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 25, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/25 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Denmark U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22597/image"
-          },
-          "team_b": {
-            "name": "Argentina U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22576/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22597/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          },
-          {
-            "channel_name": "D SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-            "headers": {},
-            "drm_key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Atletico Mineiro vs Corinthians",
