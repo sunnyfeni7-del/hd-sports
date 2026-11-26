@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T12:45:19.858294+00:00",
+  "last_updated": "2026-11-26T13:05:33.297089+00:00",
   "event_count": 68,
   "events": {
     "events": [
@@ -136,6 +136,50 @@
         "total_channels": 13
       },
       {
+        "title": "Italia T10 League",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "italia-t10-league",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 07:15:31 PM",
+          "end_time_bst": "Nov 26, 2026, 09:15:31 PM",
+          "raw_start_utc": "2026/11/26 13:15:31 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          },
+          "team_b": {
+            "name": "Italia T10",
+            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
+          }
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "channels": [
+          {
+            "channel_name": "UNBEATEN - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "headers": {},
+            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+          },
+          {
+            "channel_name": " SandBrix HD",
+            "stream_type": "HLS",
+            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "New Zealand U17 vs Belgium U17",
         "sport": "Football",
         "sub_category": "Football",
@@ -167,6 +211,54 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
             "headers": {},
             "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel16.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Vietnam U17 vs Mali U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "vietnam-u17-vs-mali-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 26, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/26 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Vietnam U17",
+            "flag": "https://img.sofascore.com/api/v1/team/468404/image"
+          },
+          "team_b": {
+            "name": "Mali U17",
+            "flag": "https://img.sofascore.com/api/v1/team/203876/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/468404/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel1.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
           }
         ],
         "total_channels": 1
@@ -1354,50 +1446,6 @@
         "total_channels": 8
       },
       {
-        "title": "Italia T10 League",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "italia-t10-league",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 07:15:31 PM",
-          "end_time_bst": "Nov 26, 2026, 09:15:31 PM",
-          "raw_start_utc": "2026/11/26 13:15:31 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          },
-          "team_b": {
-            "name": "Italia T10",
-            "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10"
-          }
-        },
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "channels": [
-          {
-            "channel_name": "UNBEATEN - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "headers": {},
-            "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-          },
-          {
-            "channel_name": " SandBrix HD",
-            "stream_type": "HLS",
-            "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "raw_link": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "Besiktas JK vs Hapoel Beer Sheva",
         "sport": "Football",
         "sub_category": "Football",
@@ -2507,33 +2555,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/37946/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Vietnam U17 vs Mali U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "vietnam-u17-vs-mali-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 26, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/26 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Vietnam U17",
-            "flag": "https://img.sofascore.com/api/v1/team/468404/image"
-          },
-          "team_b": {
-            "name": "Mali U17",
-            "flag": "https://img.sofascore.com/api/v1/team/203876/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/468404/image",
         "channels": [],
         "total_channels": 0
       },
