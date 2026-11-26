@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T18:17:01.495122+00:00",
-  "event_count": 53,
+  "last_updated": "2026-11-26T18:42:11.638324+00:00",
+  "event_count": 79,
   "events": {
     "events": [
       {
@@ -2883,8 +2883,49 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4414/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS 1 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          },
+          {
+            "channel_name": "TSN SPORTS 4 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
+          },
+          {
+            "channel_name": "TSN SPORTS 5 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Pittsburgh Steelers vs Denver Broncos",
@@ -2910,6 +2951,708 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4345/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Al-Kholood vs Al-Khaleej",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "al-kholood-vs-al-khaleej",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 27, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/27 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Kholood",
+            "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+          },
+          "team_b": {
+            "name": "Al-Khaleej",
+            "flag": "https://img.sofascore.com/api/v1/team/167228/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/269199/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Al-Qadsiah vs Al-Fayha",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "al-qadsiah-vs-al-fayha",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 08:20:00 PM",
+          "end_time_bst": "Nov 27, 2026, 10:40:00 PM",
+          "raw_start_utc": "2026/11/27 14:20:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          },
+          "team_b": {
+            "name": "Al-Fayha",
+            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Al-Ittihad vs Neom SC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "al-ittihad-vs-neom-sc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/27 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ittihad",
+            "flag": "https://img.sofascore.com/api/v1/team/34315/image"
+          },
+          "team_b": {
+            "name": "Neom SC",
+            "flag": "https://img.sofascore.com/api/v1/team/530631/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34315/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "VfL Bochum 1848 vs Darmstadt 98",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "vfl-bochum-1848-vs-darmstadt-98",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/27 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "VfL Bochum 1848",
+            "flag": "https://img.sofascore.com/api/v1/team/2542/image"
+          },
+          "team_b": {
+            "name": "Darmstadt 98",
+            "flag": "https://img.sofascore.com/api/v1/team/2576/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2542/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "1. FC Heidenheim vs 1. FC Nurnberg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "1-fc-heidenheim-vs-1-fc-nurnberg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/27 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "1. FC Heidenheim",
+            "flag": "https://img.sofascore.com/api/v1/team/5885/image"
+          },
+          "team_b": {
+            "name": "1. FC Nürnberg",
+            "flag": "https://img.sofascore.com/api/v1/team/2523/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5885/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Alanyaspor vs Konyaspor",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "alanyaspor-vs-konyaspor",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/27 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Alanyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
+          },
+          "team_b": {
+            "name": "Konyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Caykur Rizespor vs Kasmpasa",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "caykur-rizespor-vs-kasmpasa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/27 17:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Çaykur Rizespor",
+            "flag": "https://img.sofascore.com/api/v1/team/3064/image"
+          },
+          "team_b": {
+            "name": "Kasımpaşa",
+            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3064/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Colombia U17 vs Serbia U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "colombia-u17-vs-serbia-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/27 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Colombia U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22592/image"
+          },
+          "team_b": {
+            "name": "Serbia U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22478/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22592/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Honduras U17 vs Japan U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "honduras-u17-vs-japan-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/27 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Honduras U17",
+            "flag": "https://img.sofascore.com/api/v1/team/7764/image"
+          },
+          "team_b": {
+            "name": "Japan U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22618/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/7764/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Costa Rica U17 vs Brazil U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "costa-rica-u17-vs-brazil-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/27 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Costa Rica U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22593/image"
+          },
+          "team_b": {
+            "name": "Brazil U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22586/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22593/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Ireland U17 vs Tanzania U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "ireland-u17-vs-tanzania-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/27 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ireland U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22476/image"
+          },
+          "team_b": {
+            "name": "Tanzania U17",
+            "flag": "https://img.sofascore.com/api/v1/team/1231931/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22476/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Algeria U17 vs Dominican Republic U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "algeria-u17-vs-dominican-republic-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/27 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Algeria U17",
+            "flag": "https://img.sofascore.com/api/v1/team/37321/image"
+          },
+          "team_b": {
+            "name": "Dominican Republic U17",
+            "flag": "https://img.sofascore.com/api/v1/team/316489/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/37321/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Montenegro U17 vs Chile U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "montenegro-u17-vs-chile-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/27 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Montenegro U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22631/image"
+          },
+          "team_b": {
+            "name": "Chile U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48830/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22631/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Romania U17 vs Cameroon U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "romania-u17-vs-cameroon-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/27 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Romania U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22645/image"
+          },
+          "team_b": {
+            "name": "Cameroon U17",
+            "flag": "https://img.sofascore.com/api/v1/team/313112/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22645/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Venezuela U17 vs Mexico U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "venezuela-u17-vs-mexico-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/27 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Venezuela U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48841/image"
+          },
+          "team_b": {
+            "name": "Mexico U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22629/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/48841/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "SV Werder Bremen vs Borussia Mgladbach",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "sv-werder-bremen-vs-borussia-mgladbach",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 28, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/27 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SV Werder Bremen",
+            "flag": "https://img.sofascore.com/api/v1/team/2534/image"
+          },
+          "team_b": {
+            "name": "Borussia M'gladbach",
+            "flag": "https://img.sofascore.com/api/v1/team/2527/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2534/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Nottingham Forest vs Chelsea",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "nottingham-forest-vs-chelsea",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/27 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Nottingham Forest",
+            "flag": "https://img.sofascore.com/api/v1/team/14/image"
+          },
+          "team_b": {
+            "name": "Chelsea",
+            "flag": "https://img.sofascore.com/api/v1/team/38/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/14/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Fluminense vs Cruzeiro",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fluminense-vs-cruzeiro",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 05:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/11/27 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Fluminense",
+            "flag": "https://img.sofascore.com/api/v1/team/1961/image"
+          },
+          "team_b": {
+            "name": "Cruzeiro",
+            "flag": "https://img.sofascore.com/api/v1/team/1954/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1961/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Venezia vs Bologna",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "venezia-vs-bologna",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/27 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Venezia",
+            "flag": "https://img.sofascore.com/api/v1/team/2688/image"
+          },
+          "team_b": {
+            "name": "Bologna",
+            "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2688/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Levante UD vs Real Racing Club",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "levante-ud-vs-real-racing-club",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/27 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Levante UD",
+            "flag": "https://img.sofascore.com/api/v1/team/2849/image"
+          },
+          "team_b": {
+            "name": "Real Racing Club",
+            "flag": "https://img.sofascore.com/api/v1/team/2835/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2849/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Stade Brestois vs Paris FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "stade-brestois-vs-paris-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 01:45:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:05:00 AM",
+          "raw_start_utc": "2026/11/27 19:45:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Stade Brestois",
+            "flag": "https://img.sofascore.com/api/v1/team/1715/image"
+          },
+          "team_b": {
+            "name": "Paris FC",
+            "flag": "https://img.sofascore.com/api/v1/team/6070/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1715/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Southampton vs Middlesbrough",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "southampton-vs-middlesbrough",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/27 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Southampton",
+            "flag": "https://img.sofascore.com/api/v1/team/45/image"
+          },
+          "team_b": {
+            "name": "Middlesbrough",
+            "flag": "https://img.sofascore.com/api/v1/team/36/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/45/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Columbus Crew vs Inter Miami CF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "columbus-crew-vs-inter-miami-cf",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 09:20:00 AM",
+          "raw_start_utc": "2026/11/28 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Columbus Crew",
+            "flag": "https://img.sofascore.com/api/v1/team/2504/image"
+          },
+          "team_b": {
+            "name": "Inter Miami CF",
+            "flag": "https://img.sofascore.com/api/v1/team/337602/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2504/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "FC Groningen vs Willem II Tilburg",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "fc-groningen-vs-willem-ii-tilburg",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 01:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 03:20:00 AM",
+          "raw_start_utc": "2026/11/27 19:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Groningen",
+            "flag": "https://img.sofascore.com/api/v1/team/2951/image"
+          },
+          "team_b": {
+            "name": "Willem II Tilburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2961/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2951/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "CS Maritimo vs CD Nacional",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "cs-maritimo-vs-cd-nacional",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 02:15:00 AM",
+          "end_time_bst": "Nov 28, 2026, 04:35:00 AM",
+          "raw_start_utc": "2026/11/27 20:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CS Marítimo",
+            "flag": "https://img.sofascore.com/api/v1/team/3007/image"
+          },
+          "team_b": {
+            "name": "CD Nacional",
+            "flag": "https://img.sofascore.com/api/v1/team/3013/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3007/image",
+        "channels": [],
+        "total_channels": 0
+      },
+      {
+        "title": "Leganes vs CE Sabadell",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "leganes-vs-ce-sabadell",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 01:30:00 AM",
+          "end_time_bst": "Nov 28, 2026, 03:50:00 AM",
+          "raw_start_utc": "2026/11/27 19:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Leganés",
+            "flag": "https://img.sofascore.com/api/v1/team/2845/image"
+          },
+          "team_b": {
+            "name": "CE Sabadell",
+            "flag": "https://img.sofascore.com/api/v1/team/24335/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2845/image",
         "channels": [],
         "total_channels": 0
       }
