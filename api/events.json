@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T15:06:09.377806+00:00",
+  "last_updated": "2026-11-26T15:16:11.510993+00:00",
   "event_count": 63,
   "events": {
     "events": [
@@ -232,6 +232,52 @@
           }
         ],
         "total_channels": 8
+      },
+      {
+        "title": "FC Kairat Almaty vs Mjallby AIF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-kairat-almaty-vs-mjallby-aif",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 26, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/26 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Kairat Almaty",
+            "flag": "https://img.sofascore.com/api/v1/team/5172/image"
+          },
+          "team_b": {
+            "name": "Mjällby AIF",
+            "flag": "https://img.sofascore.com/api/v1/team/1783/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/5172/image",
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "SPORT 2 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Jamaica U17 vs Cote dIvoire U17",
@@ -1958,52 +2004,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "FC Kairat Almaty vs Mjallby AIF",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-kairat-almaty-vs-mjallby-aif",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 26, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/26 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Kairat Almaty",
-            "flag": "https://img.sofascore.com/api/v1/team/5172/image"
-          },
-          "team_b": {
-            "name": "Mjällby AIF",
-            "flag": "https://img.sofascore.com/api/v1/team/1783/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/5172/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "SPORT 2 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "AFC Ajax vs FC Thun",
