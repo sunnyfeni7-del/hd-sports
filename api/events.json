@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T17:06:38.390685+00:00",
+  "last_updated": "2026-11-26T17:16:43.363686+00:00",
   "event_count": 57,
   "events": {
     "events": [
@@ -393,6 +393,46 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "Al Faisaly vs Diriyah",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-faisaly-vs-diriyah",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 27, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/26 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al Faisaly",
+            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
+          },
+          "team_b": {
+            "name": "Diriyah",
+            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56035/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/HJJJAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/HJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1529,6 +1569,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/3245/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7trjjhz4cw/out/v1/5ed589ba1a254e7ca2afbbd3c2918276/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7trjjhz4cw/out/v1/5ed589ba1a254e7ca2afbbd3c2918276/cenc.mpd",
+            "headers": {},
+            "drm_key": "f6dc5990f9707bccc5b7d7fc44387ee1:0b0724f8d461d0198a93d95291f75b4d"
+          },
+          {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
@@ -1547,7 +1595,7 @@
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "Red Bull Salzburg vs FC Ararat-Armenia",
@@ -1573,8 +1621,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2046/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4v9zavrrq/out/v1/b9eadbd704274095b943c5f08e333fd7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4v9zavrrq/out/v1/b9eadbd704274095b943c5f08e333fd7/cenc.mpd",
+            "headers": {},
+            "drm_key": "56db58581457bc29323829704e03eb9c:8492ac31e4cc01715f635d9046cae882"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Royale Union Saint-Gilloise vs Lech Poznan",
@@ -1600,8 +1657,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4860/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/doyaxpiwbe/out/v1/ddd22fa28ba242968746d12bb8c158e3/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/doyaxpiwbe/out/v1/ddd22fa28ba242968746d12bb8c158e3/cenc.mpd",
+            "headers": {},
+            "drm_key": "0cb0c9c77a3bb7e09dd153a0637a5473:dd1a85d4abd117a18a75288a1ab1d224"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FC Viktoria Plzen vs Benfica",
@@ -1627,8 +1693,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4502/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzht6ofixj/out/v1/43c9ed6bc1734cae8de703e86e965561/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzht6ofixj/out/v1/43c9ed6bc1734cae8de703e86e965561/cenc.mpd",
+            "headers": {},
+            "drm_key": "a9a9c367f230f52c8672bd967f6ff55f:62fad5d40618e35416328f8e81527d90"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Ferencvaros TC vs NK Celje",
@@ -2221,8 +2296,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/171626/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyfcv7ruof/out/v1/a6ea7f29aa204b159e9c517ae78762e7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyfcv7ruof/out/v1/a6ea7f29aa204b159e9c517ae78762e7/cenc.mpd",
+            "headers": {},
+            "drm_key": "2a68df24ec78920e6aece0d131aeaf75:b91bf889803ea4ed78ae40286e9c34e8"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FK Borac Banja Luka vs Atalanta",
@@ -2452,46 +2536,6 @@
         "total_channels": 0
       },
       {
-        "title": "Al Faisaly vs Diriyah",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-faisaly-vs-diriyah",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 27, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/26 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al Faisaly",
-            "flag": "https://img.sofascore.com/api/v1/team/56035/image"
-          },
-          "team_b": {
-            "name": "Diriyah",
-            "flag": "https://img.sofascore.com/api/v1/team/853574/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56035/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/HJJJAAAA.m3u8",
-            "raw_link": "http://193.47.62.50/hls/HJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Sao Paulo vs Remo",
         "sport": "Football",
         "sub_category": "Football",
@@ -2542,8 +2586,49 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/4419/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TSN SPORTS 1 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          {
+            "channel_name": "TSN SPORTS 3 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+          },
+          {
+            "channel_name": "TSN SPORTS 4 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
+          },
+          {
+            "channel_name": "TSN SPORTS 5 - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 4
       },
       {
         "title": "Dallas Cowboys vs Philadelphia Eagles",
