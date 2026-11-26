@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T12:10:07.351355+00:00",
+  "last_updated": "2026-11-26T12:45:19.858294+00:00",
   "event_count": 68,
   "events": {
     "events": [
@@ -136,6 +136,42 @@
         "total_channels": 13
       },
       {
+        "title": "New Zealand U17 vs Belgium U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-zealand-u17-vs-belgium-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 26, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/26 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22634/image"
+          },
+          "team_b": {
+            "name": "Belgium U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22583/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22634/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "BG Pathum United vs Lion City Sailors",
         "sport": "Football",
         "sub_category": "Football",
@@ -161,6 +197,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/35607/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/WAWAWAAAA.m3u8",
@@ -173,7 +219,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Tai Po vs Adelaide United",
@@ -201,6 +247,16 @@
         "logo": "https://img.sofascore.com/api/v1/team/40662/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel6.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.41/hls/WAWAWAAAAQQ.m3u8",
@@ -209,6 +265,44 @@
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
               "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "preah-khan-reach-svay-rieng-fc-vs-machida-zelvia",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/26 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Preah Khan Reach Svay Rieng FC",
+            "flag": "https://img.sofascore.com/api/v1/team/153474/image"
+          },
+          "team_b": {
+            "name": "Machida Zelvia",
+            "flag": "https://img.sofascore.com/api/v1/team/44409/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/153474/image",
+        "channels": [
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel15.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel15.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
             },
             "drm_key": null
           }
@@ -2348,8 +2442,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2538/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "SKY TOP EVENT - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "HNK Hajduk Split vs Sint-Truidense VV",
@@ -2404,42 +2509,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/37946/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "New Zealand U17 vs Belgium U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-zealand-u17-vs-belgium-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 26, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/26 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Zealand U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22634/image"
-          },
-          "team_b": {
-            "name": "Belgium U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22583/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22634/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Vietnam U17 vs Mali U17",
@@ -2736,33 +2805,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/56035/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "preah-khan-reach-svay-rieng-fc-vs-machida-zelvia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/26 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Preah Khan Reach Svay Rieng FC",
-            "flag": "https://img.sofascore.com/api/v1/team/153474/image"
-          },
-          "team_b": {
-            "name": "Machida Zelvia",
-            "flag": "https://img.sofascore.com/api/v1/team/44409/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/153474/image",
         "channels": [],
         "total_channels": 0
       },
