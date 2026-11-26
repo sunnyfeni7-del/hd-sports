@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T19:32:26.200162+00:00",
-  "event_count": 78,
+  "last_updated": "2026-11-26T19:47:31.464986+00:00",
+  "event_count": 62,
   "events": {
     "events": [
       {
@@ -56,46 +56,30 @@
         "total_channels": 3
       },
       {
-        "title": "Celta Vigo vs Bournemouth",
+        "title": "Crystal Palace vs Real Sociedad",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "celta-vigo-vs-bournemouth",
+        "slug": "crystal-palace-vs-real-sociedad",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Celta Vigo",
-            "flag": "https://img.sofascore.com/api/v1/team/2821/image"
+            "name": "Crystal Palace",
+            "flag": "https://img.sofascore.com/api/v1/team/7/image"
           },
           "team_b": {
-            "name": "Bournemouth",
-            "flag": "https://img.sofascore.com/api/v1/team/60/image"
+            "name": "Real Sociedad",
+            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2821/image",
+        "logo": "https://img.sofascore.com/api/v1/team/7/image",
         "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsungy1bkk/out/v1/8ecc213717ee4e69bc5db0a3faddf750/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsungy1bkk/out/v1/8ecc213717ee4e69bc5db0a3faddf750/cenc.mpd",
-            "headers": {},
-            "drm_key": "792800ec8390ba20ea105242b6143e04:6bb0935a5200ea6fd5fd9b4b0d34e208"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r7hpdszryi/out/v1/c3ba8911e82e403fb11c697d7ab7dd82/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r7hpdszryi/out/v1/c3ba8911e82e403fb11c697d7ab7dd82/cenc.mpd",
-            "headers": {},
-            "drm_key": "e36b4f43fe3f829f6dfe0ed0c58417e3:884741f5b9a98811a230b3a666edf623"
-          },
           {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
@@ -107,181 +91,41 @@
             "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
           },
           {
-            "channel_name": "VIX SPANISH - AQ",
+            "channel_name": "SPORT 2 CZ - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ywgihgaxsl/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ywgihgaxsl/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
             "headers": {},
-            "drm_key": "7612cc85dd8bf1d7487825c3bbdddbcd:0f02b76f2674548dc98773331ffc03aa"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61071/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61071/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
           }
         ],
-        "total_channels": 5
+        "total_channels": 2
       },
       {
-        "title": "GNK Dinamo Zagreb vs Bayer 04 Leverkusen",
+        "title": "Juventus vs Omonia Nicosia",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "gnk-dinamo-zagreb-vs-bayer-04-leverkusen",
+        "slug": "juventus-vs-omonia-nicosia",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "GNK Dinamo Zagreb",
-            "flag": "https://img.sofascore.com/api/v1/team/2032/image"
+            "name": "Juventus",
+            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
           },
           "team_b": {
-            "name": "Bayer 04 Leverkusen",
-            "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+            "name": "Omonia Nicosia",
+            "flag": "https://img.sofascore.com/api/v1/team/3395/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2032/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2687/image",
         "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mstewy9lwt/out/v1/642a7f5445624074b16b1cf29cfd4ae5/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mstewy9lwt/out/v1/642a7f5445624074b16b1cf29cfd4ae5/cenc.mpd",
-            "headers": {},
-            "drm_key": "75af11b4bf657490b351ee42f9d93918:623951781a8c78cbfd8e16d594122927"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0fwkjiiel/out/v1/d865d50ba8a744d0b399ebaf97ca4ec3/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0fwkjiiel/out/v1/d865d50ba8a744d0b399ebaf97ca4ec3/cenc.mpd",
-            "headers": {},
-            "drm_key": "758c3eba3711c6a0600fc24f4aa039f7:f3c12947110b4b3c33e8e272a88a901b"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6pm7ilcsao/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6pm7ilcsao/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
-            "headers": {},
-            "drm_key": "a72d49a731cd807bab10d856f62e4585:bbb8deb9b5222a0035dbda1c750ae292"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61079/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61079/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "Olympique de Marseille vs Levski Sofia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "olympique-de-marseille-vs-levski-sofia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Olympique de Marseille",
-            "flag": "https://img.sofascore.com/api/v1/team/1641/image"
-          },
-          "team_b": {
-            "name": "Levski Sofia",
-            "flag": "https://img.sofascore.com/api/v1/team/3273/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1641/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yiwzmgrzda/out/v1/d3d853014ac141c089619db5cf273760/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yiwzmgrzda/out/v1/d3d853014ac141c089619db5cf273760/cenc.mpd",
-            "headers": {},
-            "drm_key": "28520e80027415f8ecd362d277c610cc:7f1fd3cc8ea5e77b69fc1bc36bdfb862"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vf01n9e6ic/out/v1/c8437f4ea7204ea5b49cb70f9833292f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vf01n9e6ic/out/v1/c8437f4ea7204ea5b49cb70f9833292f/cenc.mpd",
-            "headers": {},
-            "drm_key": "c2d330cf5b6ba71b8262cabbe31cdbf4:a1ddee66807bed11723f69e83a55b2d1"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jknhbwks4q/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jknhbwks4q/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
-            "headers": {},
-            "drm_key": "8202c517fe7618979c1c85605cc50c0b:8aa9fd9c3fc239df4f89b8791b7471bf"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Olympiacos FC vs AC Milan",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "olympiacos-fc-vs-ac-milan",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Olympiacos FC",
-            "flag": "https://img.sofascore.com/api/v1/team/3245/image"
-          },
-          "team_b": {
-            "name": "AC Milan",
-            "flag": "https://img.sofascore.com/api/v1/team/2692/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3245/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nizdxseied/out/v1/bf9914ce52a849f2adb5a5aeba1f4aff/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nizdxseied/out/v1/bf9914ce52a849f2adb5a5aeba1f4aff/cenc.mpd",
-            "headers": {},
-            "drm_key": "5a9e946b91ea11f835c2d37390aa35b7:06c5d3f120dc0267f388e1fee8356b36"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7trjjhz4cw/out/v1/5ed589ba1a254e7ca2afbbd3c2918276/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7trjjhz4cw/out/v1/5ed589ba1a254e7ca2afbbd3c2918276/cenc.mpd",
-            "headers": {},
-            "drm_key": "f6dc5990f9707bccc5b7d7fc44387ee1:0b0724f8d461d0198a93d95291f75b4d"
-          },
           {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
@@ -291,499 +135,71 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "AC Sparta Praha vs AZ Alkmaar",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ac-sparta-praha-vs-az-alkmaar",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "AC Sparta Praha",
+            "flag": "https://img.sofascore.com/api/v1/team/2218/image"
           },
+          "team_b": {
+            "name": "AZ Alkmaar",
+            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2218/image",
+        "channels": [
           {
-            "channel_name": "VIX SPANISH - AQ",
+            "channel_name": "SPORT 1 CZ - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lt0xidl0eu/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lt0xidl0eu/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
-            "headers": {},
-            "drm_key": "88ebccad6922acf0f9a73b6b1faf9bed:23aeec5df56b60bfe3b9ffe6a029e4ac"
-          },
-          {
-            "channel_name": "SPORT 2 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
             "headers": {},
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61080/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61080/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
           }
         ],
-        "total_channels": 6
+        "total_channels": 1
       },
       {
-        "title": "Red Bull Salzburg vs FC Ararat-Armenia",
+        "title": "Torreense vs Celtic",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "red-bull-salzburg-vs-fc-ararat-armenia",
+        "slug": "torreense-vs-celtic",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Red Bull Salzburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2046/image"
+            "name": "Torreense",
+            "flag": "https://img.sofascore.com/api/v1/team/25787/image"
           },
           "team_b": {
-            "name": "FC Ararat-Armenia",
-            "flag": "https://img.sofascore.com/api/v1/team/262229/image"
+            "name": "Celtic",
+            "flag": "https://img.sofascore.com/api/v1/team/2352/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2046/image",
+        "logo": "https://img.sofascore.com/api/v1/team/25787/image",
         "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4v9zavrrq/out/v1/b9eadbd704274095b943c5f08e333fd7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4v9zavrrq/out/v1/b9eadbd704274095b943c5f08e333fd7/cenc.mpd",
-            "headers": {},
-            "drm_key": "56db58581457bc29323829704e03eb9c:8492ac31e4cc01715f635d9046cae882"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/13hqlthfmd/out/v1/65d8465b7d1a40f0a8af95a31cf378b5/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/13hqlthfmd/out/v1/65d8465b7d1a40f0a8af95a31cf378b5/cenc.mpd",
-            "headers": {},
-            "drm_key": "76e08eb32ba270c6aa4e434d9b2c8d09:dcdff2b6cdb8f09824a5fea6d680dddd"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jpl4tlqhoi/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jpl4tlqhoi/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
-            "headers": {},
-            "drm_key": "bb08ace238c57af73556d628f2d05034:3e839c0fe2db5bb79b3c8f741a2d44f0"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Royale Union Saint-Gilloise vs Lech Poznan",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "royale-union-saint-gilloise-vs-lech-poznan",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Royale Union Saint-Gilloise",
-            "flag": "https://img.sofascore.com/api/v1/team/4860/image"
-          },
-          "team_b": {
-            "name": "Lech Poznań",
-            "flag": "https://img.sofascore.com/api/v1/team/3121/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4860/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/doyaxpiwbe/out/v1/ddd22fa28ba242968746d12bb8c158e3/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/doyaxpiwbe/out/v1/ddd22fa28ba242968746d12bb8c158e3/cenc.mpd",
-            "headers": {},
-            "drm_key": "0cb0c9c77a3bb7e09dd153a0637a5473:dd1a85d4abd117a18a75288a1ab1d224"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knxo6yhcvy/out/v1/7a660a86a3e643598e8e95698765d19a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knxo6yhcvy/out/v1/7a660a86a3e643598e8e95698765d19a/cenc.mpd",
-            "headers": {},
-            "drm_key": "bb09da9cfc2798f340ef93a20deac929:b8e770a0695d75e80a09771979e7e5e0"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gzvgx35kul/out/v1/5d42e59ea86d400e93409185d674194c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gzvgx35kul/out/v1/5d42e59ea86d400e93409185d674194c/cenc.mpd",
-            "headers": {},
-            "drm_key": "fdba5901272d2303c80e4b59168e3153:a5cd0cb0154113e57f3171c08aaa652f"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "FC Viktoria Plzen vs Benfica",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fc-viktoria-plzen-vs-benfica",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Viktoria Plzeň",
-            "flag": "https://img.sofascore.com/api/v1/team/4502/image"
-          },
-          "team_b": {
-            "name": "Benfica",
-            "flag": "https://img.sofascore.com/api/v1/team/3006/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4502/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ey3gbdcbkm/out/v1/af69013f1318441ba995f620e39bfddb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ey3gbdcbkm/out/v1/af69013f1318441ba995f620e39bfddb/cenc.mpd",
-            "headers": {},
-            "drm_key": "48eb36d8c4dcd2595c373c1898c7ec00:cf34598c5ff9fcf365100bdcad50dc75"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzht6ofixj/out/v1/43c9ed6bc1734cae8de703e86e965561/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzht6ofixj/out/v1/43c9ed6bc1734cae8de703e86e965561/cenc.mpd",
-            "headers": {},
-            "drm_key": "a9a9c367f230f52c8672bd967f6ff55f:62fad5d40618e35416328f8e81527d90"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcqxxnyvxx/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcqxxnyvxx/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
-            "headers": {},
-            "drm_key": "0a247b643241ff5ecaddf3b1c62e6033:75201ababa80fdb9a6458f0ebb673ae7"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61077/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61077/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
-      },
-      {
-        "title": "AFC Ajax vs FC Thun",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "afc-ajax-vs-fc-thun",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AFC Ajax",
-            "flag": "https://img.sofascore.com/api/v1/team/2953/image"
-          },
-          "team_b": {
-            "name": "FC Thun",
-            "flag": "https://img.sofascore.com/api/v1/team/2454/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2953/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yghxvsuppm/out/v1/8a02db478d9c494cbc40b7c32d73eca6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yghxvsuppm/out/v1/8a02db478d9c494cbc40b7c32d73eca6/cenc.mpd",
-            "headers": {},
-            "drm_key": "623d596898e5f4169e62539e5c4f447e:1a01316502ded7f382a5551fdf691f5e"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cu3g5mmgfb/out/v1/744395bebce54fe88b0a7e962d95ba04/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cu3g5mmgfb/out/v1/744395bebce54fe88b0a7e962d95ba04/cenc.mpd",
-            "headers": {},
-            "drm_key": "fcd9693294de795b8bfe4ce2d4470cdd:74cf66c23b5edc446ea0b02335156d7a"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q73ordrnjk/out/v1/ef78b780f5b04dbaa3301bc9be53b8c1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q73ordrnjk/out/v1/ef78b780f5b04dbaa3301bc9be53b8c1/cenc.mpd",
-            "headers": {},
-            "drm_key": "cb612825c51be475e4ef40491ef7da74:8311dfb49fbf99f94ec39fcc526302ca"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "SK Brann vs AGF",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "sk-brann-vs-agf",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SK Brann",
-            "flag": "https://img.sofascore.com/api/v1/team/1159/image"
-          },
-          "team_b": {
-            "name": "AGF",
-            "flag": "https://img.sofascore.com/api/v1/team/1291/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1159/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
-            "headers": {},
-            "drm_key": "4b28f616e925e9978a13e3feb08e57c8:4f9c5372dcef094324f67e0fab2c2817"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vdivyuprtt/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vdivyuprtt/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd",
-            "headers": {},
-            "drm_key": "515d1e79ac40d29d322aaff7d72a38e3:eff3f71e227fd37ce120500794ac09cf"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Brighton Hove Albion vs Universitatea Craiova",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "brighton-hove-albion-vs-universitatea-craiova",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Brighton & Hove Albion",
-            "flag": "https://img.sofascore.com/api/v1/team/30/image"
-          },
-          "team_b": {
-            "name": "Universitatea Craiova",
-            "flag": "https://img.sofascore.com/api/v1/team/116223/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/30/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qycrirlalb/out/v1/db7ad08f01264e2f950df87e016a98ce/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qycrirlalb/out/v1/db7ad08f01264e2f950df87e016a98ce/cenc.mpd",
-            "headers": {},
-            "drm_key": "2b7d9db97af06830013ca2f6cdceff65:4d5bb464c3f2306b52f620ce89b854b4"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/df2fcpxsh6/out/v1/89d38bf488cb449483ffdeb27fc7cb9c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/df2fcpxsh6/out/v1/89d38bf488cb449483ffdeb27fc7cb9c/cenc.mpd",
-            "headers": {},
-            "drm_key": "9aa0ec2310e086cbb8d9366778754d9b:7671f4366e1830f5cf813b3743487235"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zdwmdb6lxx/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zdwmdb6lxx/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
-            "headers": {},
-            "drm_key": "5660dbb05d107ec88dcb4a39c881b072:01e8fad169fe68a2ea4986befb802396"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61078/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61078/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 5
-      },
-      {
-        "title": "KF Egnatia vs Lincoln Red Imps",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "kf-egnatia-vs-lincoln-red-imps",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "KF Egnatia",
-            "flag": "https://img.sofascore.com/api/v1/team/264619/image"
-          },
-          "team_b": {
-            "name": "Lincoln Red Imps",
-            "flag": "https://img.sofascore.com/api/v1/team/126304/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/264619/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0keycyqndv/out/v1/d02098fcd05a4cb493d1ddfb43a7f740/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0keycyqndv/out/v1/d02098fcd05a4cb493d1ddfb43a7f740/cenc.mpd",
-            "headers": {},
-            "drm_key": "814438d5703e3091ccaff67e2bdf9728:a6c682d526cbbf31cbbc337486502fb5"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2qwwvg28xe/out/v1/35bf817a846f4b2ea8f985703c913924/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2qwwvg28xe/out/v1/35bf817a846f4b2ea8f985703c913924/cenc.mpd",
-            "headers": {},
-            "drm_key": "80857a9b5d637b797ba996406f8ac9b4:4c93e401414832bb8233892e1ec7c3bb"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "FK Kauno Zalgiris vs Riga FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fk-kauno-zalgiris-vs-riga-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Kauno Žalgiris",
-            "flag": "https://img.sofascore.com/api/v1/team/80741/image"
-          },
-          "team_b": {
-            "name": "Riga FC",
-            "flag": "https://img.sofascore.com/api/v1/team/162368/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/80741/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k1bwdg5kfu/out/v1/b7ac206b2fd246639d3217c94d0eed3e/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k1bwdg5kfu/out/v1/b7ac206b2fd246639d3217c94d0eed3e/cenc.mpd",
-            "headers": {},
-            "drm_key": "ebae2f293e2e9fb2eb9ff014776597c2:148156a6fbb6fa0aa0b8c722938e27e5"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r9greagtqv/out/v1/22c3f3c1e99c4c38b8e543d375d80046/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r9greagtqv/out/v1/22c3f3c1e99c4c38b8e543d375d80046/cenc.mpd",
-            "headers": {},
-            "drm_key": "e3894c672fc23a43a2f3cdddf023b04f:7ea6c24615585e4fa5591e87e5c2a79d"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Heart of Midlothian vs AS Monaco",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "heart-of-midlothian-vs-as-monaco",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Heart of Midlothian",
-            "flag": "https://img.sofascore.com/api/v1/team/2353/image"
-          },
-          "team_b": {
-            "name": "AS Monaco",
-            "flag": "https://img.sofascore.com/api/v1/team/1653/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2353/image",
-        "channels": [
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/raqupag2xn/out/v1/c82abc750fd94081a80ec6f336beb942/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/raqupag2xn/out/v1/c82abc750fd94081a80ec6f336beb942/cenc.mpd",
-            "headers": {},
-            "drm_key": "72719a409bea60fb496719e66663f9eb:d93a1b6b75eca45ed0bf53ee394d1610"
-          },
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sufpagg0uu/out/v1/5cfa9f5aed4f471f9e9b8589a8b93196/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sufpagg0uu/out/v1/5cfa9f5aed4f471f9e9b8589a8b93196/cenc.mpd",
-            "headers": {},
-            "drm_key": "461105240d6a2df4477712a1dcbf28e4:f709771c09623dfe8cf09cfed3331037"
-          },
           {
             "channel_name": "TNT SPORTS - AQ",
             "stream_type": "DASH",
@@ -793,175 +209,83 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mpiqpar5mq/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mpiqpar5mq/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
-            "headers": {},
-            "drm_key": "3d346573a7f8c45874f504316bc2ed7d:b80c34a49416b64e24e7929a8ce8e704"
           }
         ],
-        "total_channels": 4
+        "total_channels": 1
       },
       {
-        "title": "FC Iberia 1999 vs Getafe",
+        "title": "Sporting Braga vs Kuopion Palloseura",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "fc-iberia-1999-vs-getafe",
+        "slug": "sporting-braga-vs-kuopion-palloseura",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "FC Iberia 1999",
-            "flag": "https://img.sofascore.com/api/v1/team/116312/image"
+            "name": "Sporting Braga",
+            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
           },
           "team_b": {
-            "name": "Getafe",
-            "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+            "name": "Kuopion Palloseura",
+            "flag": "https://img.sofascore.com/api/v1/team/2244/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/116312/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2999/image",
         "channels": [
           {
             "channel_name": "PARAMOUNT+ - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gcb5rbslm8/out/v1/70ac129125a04d14af8b1aec0e50f6af/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gcb5rbslm8/out/v1/70ac129125a04d14af8b1aec0e50f6af/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
             "headers": {},
-            "drm_key": "7269ae64ddfc36229be992d244b4b3bc:9d61ba9d2b7042608c09e744632ef62d"
+            "drm_key": "4b28f616e925e9978a13e3feb08e57c8:4f9c5372dcef094324f67e0fab2c2817"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "SC Freiburg vs FC Twente",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sc-freiburg-vs-fc-twente",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
+          "raw_start_utc": "2026/11/26 20:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "SC Freiburg",
+            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
           },
+          "team_b": {
+            "name": "FC Twente",
+            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2538/image",
+        "channels": [
           {
-            "channel_name": "VIX SPANISH - AQ",
+            "channel_name": "SKY TOP EVENT - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qct42syoex/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qct42syoex/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd",
-            "headers": {},
-            "drm_key": "5aa0c86d77284f235e97c5d7e801f492:50cc7b4c45c75abc80d92753c44d2741"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61081/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61081/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "headers": {
-              "Referer": "https://gooz.aapmains.net"
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
-            "drm_key": null
+            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
           }
         ],
-        "total_channels": 3
-      },
-      {
-        "title": "FK Jablonec vs FC Lugano",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "fk-jablonec-vs-fc-lugano",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FK Jablonec",
-            "flag": "https://img.sofascore.com/api/v1/team/2205/image"
-          },
-          "team_b": {
-            "name": "FC Lugano",
-            "flag": "https://img.sofascore.com/api/v1/team/2443/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2205/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tyokwdrj7a/out/v1/9488b7a0b29f403bafff86c870565607/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tyokwdrj7a/out/v1/9488b7a0b29f403bafff86c870565607/cenc.mpd",
-            "headers": {},
-            "drm_key": "d806c65296e8623f6fe26be9894b9a0a:fa30d6cd539ae5de6f3b2060e6bc6d84"
-          },
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u3wnlyctnn/out/v1/e97fce33fc064131b6dec095e0a0ab71/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u3wnlyctnn/out/v1/e97fce33fc064131b6dec095e0a0ab71/cenc.mpd",
-            "headers": {},
-            "drm_key": "e45d4841675035e24df02030b935a95c:17acede99bade461a89630bb86a084a6"
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Pafos FC vs FC Midtjylland",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "pafos-fc-vs-fc-midtjylland",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 11:45:00 PM",
-          "end_time_bst": "Nov 27, 2026, 02:05:00 AM",
-          "raw_start_utc": "2026/11/26 17:45:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Pafos FC",
-            "flag": "https://img.sofascore.com/api/v1/team/171626/image"
-          },
-          "team_b": {
-            "name": "FC Midtjylland",
-            "flag": "https://img.sofascore.com/api/v1/team/1289/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/171626/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyfcv7ruof/out/v1/a6ea7f29aa204b159e9c517ae78762e7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyfcv7ruof/out/v1/a6ea7f29aa204b159e9c517ae78762e7/cenc.mpd",
-            "headers": {},
-            "drm_key": "2a68df24ec78920e6aece0d131aeaf75:b91bf889803ea4ed78ae40286e9c34e8"
-          },
-          {
-            "channel_name": "DAZN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sml41rrgvv/out/v1/c1b7524c122d453985a73c7bb9b8f420/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sml41rrgvv/out/v1/c1b7524c122d453985a73c7bb9b8f420/cenc.mpd",
-            "headers": {},
-            "drm_key": "d122f0e2658e24fa3deb4012780c9efb:c9bbe113dff17a5f5da35ab2d3aa28c2"
-          },
-          {
-            "channel_name": "VIX SPANISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6oluktaljg/out/v1/beb2768ac7d0435bab70ce5cd6231ad7/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6oluktaljg/out/v1/beb2768ac7d0435bab70ce5cd6231ad7/cenc.mpd",
-            "headers": {},
-            "drm_key": "0bdc839e16c9cbf909b51b1c29c5ab68:4137e8a7e828b78935b6393df845f2ba"
-          }
-        ],
-        "total_channels": 3
+        "total_channels": 1
       },
       {
         "title": "Detroit Lions vs Chicago Bears",
@@ -2185,52 +1509,6 @@
         "total_channels": 0
       },
       {
-        "title": "Crystal Palace vs Real Sociedad",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "crystal-palace-vs-real-sociedad",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Crystal Palace",
-            "flag": "https://img.sofascore.com/api/v1/team/7/image"
-          },
-          "team_b": {
-            "name": "Real Sociedad",
-            "flag": "https://img.sofascore.com/api/v1/team/2824/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/7/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "SPORT 2 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
         "title": "TSG Hoffenheim vs SK Sturm Graz",
         "sport": "Football",
         "sub_category": "Football",
@@ -2256,44 +1534,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2569/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Juventus vs Omonia Nicosia",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "juventus-vs-omonia-nicosia",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Juventus",
-            "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-          },
-          "team_b": {
-            "name": "Omonia Nicosia",
-            "flag": "https://img.sofascore.com/api/v1/team/3395/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2687/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Olympique Lyonnais vs Lillestrm SK",
@@ -2377,42 +1617,6 @@
         "total_channels": 0
       },
       {
-        "title": "AC Sparta Praha vs AZ Alkmaar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ac-sparta-praha-vs-az-alkmaar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "AC Sparta Praha",
-            "flag": "https://img.sofascore.com/api/v1/team/2218/image"
-          },
-          "team_b": {
-            "name": "AZ Alkmaar",
-            "flag": "https://img.sofascore.com/api/v1/team/2950/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2218/image",
-        "channels": [
-          {
-            "channel_name": "SPORT 1 CZ - AQ",
-            "stream_type": "DASH",
-            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-            "headers": {},
-            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Sunderland vs Jagiellonia Biaystok",
         "sport": "Football",
         "sub_category": "Football",
@@ -2440,44 +1644,6 @@
         "total_channels": 0
       },
       {
-        "title": "Torreense vs Celtic",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "torreense-vs-celtic",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Torreense",
-            "flag": "https://img.sofascore.com/api/v1/team/25787/image"
-          },
-          "team_b": {
-            "name": "Celtic",
-            "flag": "https://img.sofascore.com/api/v1/team/2352/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/25787/image",
-        "channels": [
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "FK Borac Banja Luka vs Atalanta",
         "sport": "Football",
         "sub_category": "Football",
@@ -2503,42 +1669,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/5235/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Sporting Braga vs Kuopion Palloseura",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sporting-braga-vs-kuopion-palloseura",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Sporting Braga",
-            "flag": "https://img.sofascore.com/api/v1/team/2999/image"
-          },
-          "team_b": {
-            "name": "Kuopion Palloseura",
-            "flag": "https://img.sofascore.com/api/v1/team/2244/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2999/image",
-        "channels": [
-          {
-            "channel_name": "PARAMOUNT+ - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
-            "headers": {},
-            "drm_key": "4b28f616e925e9978a13e3feb08e57c8:4f9c5372dcef094324f67e0fab2c2817"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "CSKA Sofia vs Trabzonspor",
@@ -2620,44 +1750,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/2903/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "SC Freiburg vs FC Twente",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sc-freiburg-vs-fc-twente",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 02:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 04:20:00 AM",
-          "raw_start_utc": "2026/11/26 20:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SC Freiburg",
-            "flag": "https://img.sofascore.com/api/v1/team/2538/image"
-          },
-          "team_b": {
-            "name": "FC Twente",
-            "flag": "https://img.sofascore.com/api/v1/team/2955/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2538/image",
-        "channels": [
-          {
-            "channel_name": "SKY TOP EVENT - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "HNK Hajduk Split vs Sint-Truidense VV",
