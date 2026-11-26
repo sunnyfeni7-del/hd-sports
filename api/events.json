@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T11:45:00.790931+00:00",
+  "last_updated": "2026-11-26T12:05:07.577032+00:00",
   "event_count": 71,
   "events": {
     "events": [
@@ -278,6 +278,86 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "BG Pathum United vs Lion City Sailors",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "bg-pathum-united-vs-lion-city-sailors",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/26 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "BG Pathum United",
+            "flag": "https://img.sofascore.com/api/v1/team/35607/image"
+          },
+          "team_b": {
+            "name": "Lion City Sailors",
+            "flag": "https://img.sofascore.com/api/v1/team/3041/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/35607/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/WAWAWAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/WAWAWAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Tai Po vs Adelaide United",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "tai-po-vs-adelaide-united",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
+          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
+          "raw_start_utc": "2026/11/26 12:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Tai Po",
+            "flag": "https://img.sofascore.com/api/v1/team/40662/image"
+          },
+          "team_b": {
+            "name": "Adelaide United",
+            "flag": "https://img.sofascore.com/api/v1/team/2946/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/40662/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/WAWAWAAAAQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/WAWAWAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -1418,8 +1498,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2821/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "GNK Dinamo Zagreb vs Bayer 04 Leverkusen",
@@ -1499,8 +1590,27 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3245/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "SPORT 2 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Red Bull Salzburg vs FC Ararat-Armenia",
@@ -1877,8 +1987,27 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/5172/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "SPORT 2 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "AFC Ajax vs FC Thun",
@@ -1958,8 +2087,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/30/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "KF Egnatia vs Lincoln Red Imps",
@@ -2039,8 +2179,19 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2353/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "FC Iberia 1999 vs Getafe",
@@ -2093,8 +2244,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2205/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "SPORT 1 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Pafos FC vs FC Midtjylland",
@@ -2363,8 +2523,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/22634/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Vietnam U17 vs Mali U17",
@@ -2444,8 +2613,17 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/22662/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "D SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+            "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+            "headers": {},
+            "drm_key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "China U17 vs Fiji U17",
@@ -2498,8 +2676,27 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/48862/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Croatia U17 vs Cuba U17",
@@ -2635,86 +2832,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/56035/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "BG Pathum United vs Lion City Sailors",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "bg-pathum-united-vs-lion-city-sailors",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/26 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "BG Pathum United",
-            "flag": "https://img.sofascore.com/api/v1/team/35607/image"
-          },
-          "team_b": {
-            "name": "Lion City Sailors",
-            "flag": "https://img.sofascore.com/api/v1/team/3041/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/35607/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/WAWAWAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/WAWAWAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Tai Po vs Adelaide United",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "tai-po-vs-adelaide-united",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 06:15:00 PM",
-          "end_time_bst": "Nov 26, 2026, 08:35:00 PM",
-          "raw_start_utc": "2026/11/26 12:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tai Po",
-            "flag": "https://img.sofascore.com/api/v1/team/40662/image"
-          },
-          "team_b": {
-            "name": "Adelaide United",
-            "flag": "https://img.sofascore.com/api/v1/team/2946/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/40662/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/WAWAWAAAAQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/WAWAWAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
