@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T14:25:52.154766+00:00",
+  "last_updated": "2026-11-26T14:46:00.332404+00:00",
   "event_count": 65,
   "events": {
     "events": [
@@ -396,6 +396,52 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "Morocco U17 vs Spain U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "morocco-u17-vs-spain-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 09:00:00 PM",
+          "end_time_bst": "Nov 26, 2026, 11:20:00 PM",
+          "raw_start_utc": "2026/11/26 15:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Morocco U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48862/image"
+          },
+          "team_b": {
+            "name": "Spain U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22479/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/48862/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "TSN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Formula 1",
@@ -2509,52 +2555,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/468402/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Morocco U17 vs Spain U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "morocco-u17-vs-spain-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 26, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/26 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Morocco U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48862/image"
-          },
-          "team_b": {
-            "name": "Spain U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22479/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/48862/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          },
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Croatia U17 vs Cuba U17",
