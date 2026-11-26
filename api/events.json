@@ -1,56 +1,8 @@
 {
-  "last_updated": "2026-11-26T02:52:16.877738+00:00",
-  "event_count": 68,
+  "last_updated": "2026-11-26T04:22:48.378191+00:00",
+  "event_count": 67,
   "events": {
     "events": [
-      {
-        "title": "Los Angeles Rams vs Green Bay Packers",
-        "sport": "American football",
-        "sub_category": "American football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "los-angeles-rams-vs-green-bay-packers",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 26, 2026, 10:00:00 AM",
-          "raw_start_utc": "2026/11/26 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Los Angeles Rams",
-            "flag": "https://img.sofascore.com/api/v1/team/4387/image"
-          },
-          "team_b": {
-            "name": "Green Bay Packers",
-            "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/4387/image",
-        "channels": [
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-            "headers": {},
-            "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          {
-            "channel_name": "CRICFy LIVE ",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61029/load-playlist?&.m3u8",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61029/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/61029?ad=111&Origin=https://gooz.aapmains.net",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "https://gooz.aapmains.net/new-stream-embed/61029?ad=111",
-              "Origin": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
       {
         "title": "Formula 1",
         "sport": "Motorsport",
