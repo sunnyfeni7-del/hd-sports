@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T22:08:19.165954+00:00",
+  "last_updated": "2026-11-26T22:48:20.675369+00:00",
   "event_count": 42,
   "events": {
     "events": [
@@ -114,6 +114,42 @@
           }
         ],
         "total_channels": 10
+      },
+      {
+        "title": "Sao Paulo vs Remo",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "sao-paulo-vs-remo",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 05:00:00 AM",
+          "end_time_bst": "Nov 27, 2026, 07:20:00 AM",
+          "raw_start_utc": "2026/11/26 23:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "São Paulo",
+            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
+          },
+          "team_b": {
+            "name": "Remo",
+            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/1981/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+            "headers": {},
+            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Dallas Cowboys vs Philadelphia Eagles",
@@ -1128,42 +1164,6 @@
           }
         ],
         "total_channels": 2
-      },
-      {
-        "title": "Sao Paulo vs Remo",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "sao-paulo-vs-remo",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 05:00:00 AM",
-          "end_time_bst": "Nov 27, 2026, 07:20:00 AM",
-          "raw_start_utc": "2026/11/26 23:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "São Paulo",
-            "flag": "https://img.sofascore.com/api/v1/team/1981/image"
-          },
-          "team_b": {
-            "name": "Remo",
-            "flag": "https://img.sofascore.com/api/v1/team/2012/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/1981/image",
-        "channels": [
-          {
-            "channel_name": "CRICFy LIVE",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-            "headers": {},
-            "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Buffalo Bills vs Kansas City Chiefs",
