@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T16:36:32.014626+00:00",
-  "event_count": 60,
+  "last_updated": "2026-11-26T17:06:38.390685+00:00",
+  "event_count": 57,
   "events": {
     "events": [
       {
@@ -259,68 +259,137 @@
         "logo": "https://img.sofascore.com/api/v1/team/5172/image",
         "channels": [
           {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
             "channel_name": "SPORT 2 CZ - AQ",
             "stream_type": "DASH",
             "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
             "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
             "headers": {},
             "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "SonyLiv ",
+            "stream_type": "HLS",
+            "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/Footlive2611/ENG/master.m3u8",
+            "raw_link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/Footlive2611/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=177b0d7830800592dab17091b930ea5d-1795709662737",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
+              "Referer": "https://www.sonyliv.com/",
+              "Origin": "https://www.sonyliv.com",
+              "x-playback-session-id": "177b0d7830800592dab17091b930ea5d-1795709662737"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/73e628ab-44f6-40dd-be0b-91f5b7be2299.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/73e628ab-44f6-40dd-be0b-91f5b7be2299.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 3
+      },
+      {
+        "title": "Croatia U17 vs Cuba U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "croatia-u17-vs-cuba-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 26, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/26 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Croatia U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22594/image"
+          },
+          "team_b": {
+            "name": "Cuba U17",
+            "flag": "https://img.sofascore.com/api/v1/team/190704/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/22594/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel20.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel20.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/GTGTGTA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/GTGTGTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
         "total_channels": 2
       },
       {
-        "title": "Morocco U17 vs Spain U17",
+        "title": "Tajikistan U17 vs Senegal U17",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "morocco-u17-vs-spain-u17",
+        "slug": "tajikistan-u17-vs-senegal-u17",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 26, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/26 15:00:00 +0000"
+          "start_time_bst": "Nov 26, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 27, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/26 16:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Morocco U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48862/image"
+            "name": "Tajikistan U17",
+            "flag": "https://img.sofascore.com/api/v1/team/229664/image"
           },
           "team_b": {
-            "name": "Spain U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22479/image"
+            "name": "Senegal U17",
+            "flag": "https://img.sofascore.com/api/v1/team/323076/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/48862/image",
+        "logo": "https://img.sofascore.com/api/v1/team/229664/image",
         "channels": [
           {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "https://live3979.zundrixmediapipeline.com/live/channel7.m3u8?",
+            "raw_link": "https://live3979.zundrixmediapipeline.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
+            "headers": {
+              "Referer": "https://xlz.domainkqt.cc/"
+            },
+            "drm_key": null
           },
           {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/GTGTGTAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/GTGTGTAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
             },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+            "drm_key": null
           }
         ],
         "total_channels": 2
@@ -2383,114 +2452,6 @@
         "total_channels": 0
       },
       {
-        "title": "China U17 vs Fiji U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "china-u17-vs-fiji-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 26, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/26 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "China U17",
-            "flag": "https://img.sofascore.com/api/v1/team/468402/image"
-          },
-          "team_b": {
-            "name": "Fiji U17",
-            "flag": "https://img.sofascore.com/api/v1/team/1096685/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/468402/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Croatia U17 vs Cuba U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "croatia-u17-vs-cuba-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/26 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Croatia U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22594/image"
-          },
-          "team_b": {
-            "name": "Cuba U17",
-            "flag": "https://img.sofascore.com/api/v1/team/190704/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22594/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Tajikistan U17 vs Senegal U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "tajikistan-u17-vs-senegal-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/26 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Tajikistan U17",
-            "flag": "https://img.sofascore.com/api/v1/team/229664/image"
-          },
-          "team_b": {
-            "name": "Senegal U17",
-            "flag": "https://img.sofascore.com/api/v1/team/323076/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/229664/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Abha vs Al-Shabab",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "abha-vs-al-shabab",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 26, 2026, 09:05:00 PM",
-          "end_time_bst": "Nov 26, 2026, 11:25:00 PM",
-          "raw_start_utc": "2026/11/26 15:05:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Abha",
-            "flag": "https://img.sofascore.com/api/v1/team/168090/image"
-          },
-          "team_b": {
-            "name": "Al-Shabab",
-            "flag": "https://img.sofascore.com/api/v1/team/34313/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/168090/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Al Faisaly vs Diriyah",
         "sport": "Football",
         "sub_category": "Football",
@@ -2514,8 +2475,21 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/56035/image",
-        "channels": [],
-        "total_channels": 0
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/HJJJAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/HJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Sao Paulo vs Remo",
