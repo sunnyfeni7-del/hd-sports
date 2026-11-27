@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T13:47:19.799611+00:00",
+  "last_updated": "2026-11-27T14:07:22.571638+00:00",
   "event_count": 38,
   "events": {
     "events": [
@@ -325,6 +325,54 @@
             "stream_type": "HLS",
             "url": "http://193.47.62.55/hls/DEDEDEAAAAQQ.m3u8",
             "raw_link": "http://193.47.62.55/hls/DEDEDEAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Al-Qadsiah vs Al-Fayha",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-qadsiah-vs-al-fayha",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 08:20:00 PM",
+          "end_time_bst": "Nov 27, 2026, 10:40:00 PM",
+          "raw_start_utc": "2026/11/27 14:20:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Qadsiah",
+            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+          },
+          "team_b": {
+            "name": "Al-Fayha",
+            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
+        "channels": [
+          {
+            "channel_name": "FOX DEPORTES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "headers": {},
+            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/TDDDAAAA.m3u8",
+            "raw_link": "http://193.47.62.44/hls/TDDDAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -1213,10 +1261,10 @@
           {
             "channel_name": "WILLOW - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yimioogby9/out/v1/d0ea3fc4ad374f3dab4a653400702f17/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yimioogby9/out/v1/d0ea3fc4ad374f3dab4a653400702f17/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/syx49vqdrr/out/v1/909eab72dfa945a08debe81846c5b78f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/syx49vqdrr/out/v1/909eab72dfa945a08debe81846c5b78f/cenc.mpd",
             "headers": {},
-            "drm_key": "d36396587a3e395dd49822bfb8876a30:85bfdc16276e3c741b94203dc14cf744"
+            "drm_key": "76c58ac4712177bfd921342e3ff02a5e:343e96a54fc9a8649ab4448993ebad54"
           },
           {
             "channel_name": "FANCODE - AQ",
@@ -1241,10 +1289,10 @@
           {
             "channel_name": "WILLOW - ALT",
             "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yimioogby9/out/v1/d0ea3fc4ad374f3dab4a653400702f17/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yimioogby9/out/v1/d0ea3fc4ad374f3dab4a653400702f17/cenc.mpd",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/syx49vqdrr/out/v1/909eab72dfa945a08debe81846c5b78f/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/syx49vqdrr/out/v1/909eab72dfa945a08debe81846c5b78f/cenc.mpd",
             "headers": {},
-            "drm_key": "d36396587a3e395dd49822bfb8876a30:85bfdc16276e3c741b94203dc14cf744"
+            "drm_key": "76c58ac4712177bfd921342e3ff02a5e:343e96a54fc9a8649ab4448993ebad54"
           },
           {
             "channel_name": "UNITE8 HIN HD",
@@ -1327,54 +1375,6 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Al-Qadsiah vs Al-Fayha",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-qadsiah-vs-al-fayha",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 08:20:00 PM",
-          "end_time_bst": "Nov 27, 2026, 10:40:00 PM",
-          "raw_start_utc": "2026/11/27 14:20:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
-          },
-          "team_b": {
-            "name": "Al-Fayha",
-            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
-        "channels": [
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "headers": {},
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/TDDDAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/TDDDAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 2
