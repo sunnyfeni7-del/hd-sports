@@ -1,8 +1,132 @@
 {
-  "last_updated": "2026-11-27T20:03:52.688588+00:00",
+  "last_updated": "2026-11-27T21:49:19.987140+00:00",
   "event_count": 23,
   "events": {
     "events": [
+      {
+        "title": "New Zealand vs India",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "new-zealand-vs-india",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 04:00:57 AM",
+          "end_time_bst": "Nov 28, 2026, 12:00:04 PM",
+          "raw_start_utc": "2026/11/27 22:00:57 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand",
+            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
+          },
+          "team_b": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
+            "headers": {},
+            "drm_key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
+            "headers": {},
+            "drm_key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+            "raw_link": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TEN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2611/ENG/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2611/ENG/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2611/HIN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2611/HIN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2611/TEL/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2611/TEL/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2611/TAM/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2611/TAM/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2611/KAN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2611/KAN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/viii.m3u8",
+            "raw_link": "http://193.47.62.41/hls/viii.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 11
+      },
       {
         "title": "Pittsburgh Steelers vs Denver Broncos",
         "sport": "American football",
@@ -1425,130 +1549,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "New Zealand vs India",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "new-zealand-vs-india",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 04:00:57 AM",
-          "end_time_bst": "Nov 28, 2026, 12:00:04 PM",
-          "raw_start_utc": "2026/11/27 22:00:57 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Zealand",
-            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
-          },
-          "team_b": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
-            "headers": {},
-            "drm_key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rmg4c4thvp/out/v1/5bd93b9533004a2fab3f1825ce4c41e6/cenc.mpd",
-            "headers": {},
-            "drm_key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-            "raw_link": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "TEN SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - ENG",
-            "stream_type": "HLS",
-            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2611/ENG/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2611/ENG/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - HIN",
-            "stream_type": "HLS",
-            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2611/HIN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2611/HIN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TEL",
-            "stream_type": "HLS",
-            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2611/TEL/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2611/TEL/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TAM",
-            "stream_type": "HLS",
-            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2611/TAM/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2611/TAM/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - KAN",
-            "stream_type": "HLS",
-            "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2611/KAN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "raw_link": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2611/KAN/master.m3u8?hdnea=exp=1795785789~acl=/*~id=5f64b06668646d476c3662188de28876-1795742588679~hmac=ea4f8fd4cb4a9c6bf8b8c61c2e7bc7e645b7156340f0a605481b8cc9f4cec75a",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/viii.m3u8",
-            "raw_link": "http://193.47.62.41/hls/viii.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 11
       },
       {
         "title": "Asia Cup 2",
