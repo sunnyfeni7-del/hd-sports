@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T14:57:33.281324+00:00",
+  "last_updated": "2026-11-27T15:47:46.770920+00:00",
   "event_count": 35,
   "events": {
     "events": [
@@ -585,6 +585,42 @@
               "Origin": "http://www.fawanews.sc"
             },
             "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Venezuela U17 vs Mexico U17",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "venezuela-u17-vs-mexico-u17",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 27, 2026, 10:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 12:20:00 AM",
+          "raw_start_utc": "2026/11/27 16:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Venezuela U17",
+            "flag": "https://img.sofascore.com/api/v1/team/48841/image"
+          },
+          "team_b": {
+            "name": "Mexico U17",
+            "flag": "https://img.sofascore.com/api/v1/team/22629/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/48841/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "headers": {},
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
           }
         ],
         "total_channels": 1
@@ -1481,42 +1517,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/22645/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Venezuela U17 vs Mexico U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "venezuela-u17-vs-mexico-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/27 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Venezuela U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48841/image"
-          },
-          "team_b": {
-            "name": "Mexico U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22629/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/48841/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "SV Werder Bremen vs Borussia Mgladbach",
