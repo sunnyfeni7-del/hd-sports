@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-27T16:48:01.210939+00:00",
-  "event_count": 35,
+  "last_updated": "2026-11-27T17:08:06.819044+00:00",
+  "event_count": 29,
   "events": {
     "events": [
       {
@@ -364,141 +364,35 @@
         "total_channels": 6
       },
       {
-        "title": "Al-Qadsiah vs Al-Fayha",
+        "title": "Alanyaspor vs Konyaspor",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "al-qadsiah-vs-al-fayha",
+        "slug": "alanyaspor-vs-konyaspor",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 08:20:00 PM",
-          "end_time_bst": "Nov 27, 2026, 10:40:00 PM",
-          "raw_start_utc": "2026/11/27 14:20:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/27 17:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Al-Qadsiah",
-            "flag": "https://img.sofascore.com/api/v1/team/56027/image"
+            "name": "Alanyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
           },
           "team_b": {
-            "name": "Al-Fayha",
-            "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+            "name": "Konyaspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/56027/image",
-        "channels": [
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "headers": {},
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/TDDDAAAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/TDDDAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Costa Rica U17 vs Brazil U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "costa-rica-u17-vs-brazil-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/27 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Costa Rica U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22593/image"
-          },
-          "team_b": {
-            "name": "Brazil U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22586/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22593/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "headers": {},
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          },
-          {
-            "channel_name": "TSN SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/TDDDA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/TDDDA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Ireland U17 vs Tanzania U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "ireland-u17-vs-tanzania-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/27 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ireland U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22476/image"
-          },
-          "team_b": {
-            "name": "Tanzania U17",
-            "flag": "https://img.sofascore.com/api/v1/team/1231931/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22476/image",
+        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
         "channels": [
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/TDDDAA.m3u8",
-            "raw_link": "http://193.47.62.44/hls/TDDDAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/8KKK.m3u8",
+            "raw_link": "http://193.47.62.41/hls/8KKK.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -510,75 +404,35 @@
         "total_channels": 1
       },
       {
-        "title": "Algeria U17 vs Dominican Republic U17",
+        "title": "Caykur Rizespor vs Kasmpasa",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "algeria-u17-vs-dominican-republic-u17",
+        "slug": "caykur-rizespor-vs-kasmpasa",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/27 15:00:00 +0000"
+          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
+          "raw_start_utc": "2026/11/27 17:00:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Algeria U17",
-            "flag": "https://img.sofascore.com/api/v1/team/37321/image"
+            "name": "Çaykur Rizespor",
+            "flag": "https://img.sofascore.com/api/v1/team/3064/image"
           },
           "team_b": {
-            "name": "Dominican Republic U17",
-            "flag": "https://img.sofascore.com/api/v1/team/316489/image"
+            "name": "Kasımpaşa",
+            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/37321/image",
+        "logo": "https://img.sofascore.com/api/v1/team/3064/image",
         "channels": [
           {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/XAXAXAQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/XAXAXAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Montenegro U17 vs Chile U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "montenegro-u17-vs-chile-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 09:00:00 PM",
-          "end_time_bst": "Nov 27, 2026, 11:20:00 PM",
-          "raw_start_utc": "2026/11/27 15:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Montenegro U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22631/image"
-          },
-          "team_b": {
-            "name": "Chile U17",
-            "flag": "https://img.sofascore.com/api/v1/team/48830/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22631/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/XAXAXAQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/XAXAXAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.41/hls/8KKKA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/8KKKA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -621,9 +475,21 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
             "headers": {},
             "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/JRRRA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/JRRRA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Smack Down",
@@ -1436,87 +1302,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Alanyaspor vs Konyaspor",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "alanyaspor-vs-konyaspor",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/11/27 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Alanyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/6362/image"
-          },
-          "team_b": {
-            "name": "Konyaspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3085/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6362/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Caykur Rizespor vs Kasmpasa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "caykur-rizespor-vs-kasmpasa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 11:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 01:20:00 AM",
-          "raw_start_utc": "2026/11/27 17:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Çaykur Rizespor",
-            "flag": "https://img.sofascore.com/api/v1/team/3064/image"
-          },
-          "team_b": {
-            "name": "Kasımpaşa",
-            "flag": "https://img.sofascore.com/api/v1/team/6063/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3064/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Romania U17 vs Cameroon U17",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "romania-u17-vs-cameroon-u17",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 27, 2026, 10:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 12:20:00 AM",
-          "raw_start_utc": "2026/11/27 16:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Romania U17",
-            "flag": "https://img.sofascore.com/api/v1/team/22645/image"
-          },
-          "team_b": {
-            "name": "Cameroon U17",
-            "flag": "https://img.sofascore.com/api/v1/team/313112/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/22645/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "SV Werder Bremen vs Borussia Mgladbach",
