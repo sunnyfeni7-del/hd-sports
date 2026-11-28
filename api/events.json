@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T12:18:12.834926+00:00",
+  "last_updated": "2026-11-28T12:48:21.199449+00:00",
   "event_count": 64,
   "events": {
     "events": [
@@ -281,6 +281,18 @@
         "logo": "https://img.sofascore.com/api/v1/team/46/image",
         "channels": [
           {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/c6aaf932-9ba9-4f5a-b154-a9de997c9be4.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/c6aaf932-9ba9-4f5a-b154-a9de997c9be4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
             "channel_name": "LOW SERVER",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/D777AAAAQQQ.m3u8",
@@ -293,7 +305,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Lincoln City vs Wolverhampton",
@@ -321,6 +333,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/92/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x6ginyunf7/out/v1/ed32e46a405247b7a8f07c9f8d4391fb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x6ginyunf7/out/v1/ed32e46a405247b7a8f07c9f8d4391fb/cenc.mpd",
+            "headers": {},
+            "drm_key": "64fcc9ada4b24f5f671f04b0599ac141:2207c97243479b71f98ff8a2eb778de8"
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.44/hls/D777AAAAQQQQ.m3u8",
@@ -333,7 +353,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Preston North End vs Norwich City",
@@ -361,6 +381,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/21/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fudvyeqmc6/out/v1/ab94f757749245cda20281f9cd25f53b/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fudvyeqmc6/out/v1/ab94f757749245cda20281f9cd25f53b/cenc.mpd",
+            "headers": {},
+            "drm_key": "1d4a37687e5b0547c937b4d1318cc9c4:7a99702738b3651a5984c7ea704fa487"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
@@ -369,9 +397,29 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "HD SERVER",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/ec1c7f7d-19f7-40ae-9ad1-fa16be470780.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/ec1c7f7d-19f7-40ae-9ad1-fa16be470780.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/AGGG.m3u8",
+            "raw_link": "http://193.47.62.44/hls/AGGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 4
       },
       {
         "title": "SG Dynamo Dresden vs FC St. Pauli",
@@ -526,6 +574,82 @@
           }
         ],
         "total_channels": 2
+      },
+      {
+        "title": "UD Las Palmas vs FC Andorra",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ud-las-palmas-vs-fc-andorra",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/28 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "UD Las Palmas",
+            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+          },
+          "team_b": {
+            "name": "FC Andorra",
+            "flag": "https://img.sofascore.com/api/v1/team/324871/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+            "headers": {},
+            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Samsunspor vs Genclerbirligi",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "samsunspor-vs-genclerbirligi",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/28 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Samsunspor",
+            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
+          },
+          "team_b": {
+            "name": "Gençlerbirliği",
+            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/SASASAAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/SASASAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Formula 1",
@@ -2507,42 +2631,6 @@
         "total_channels": 0
       },
       {
-        "title": "UD Las Palmas vs FC Andorra",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ud-las-palmas-vs-fc-andorra",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-          },
-          "team_b": {
-            "name": "FC Andorra",
-            "flag": "https://img.sofascore.com/api/v1/team/324871/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
         "title": "Albacete Balompie vs CD Tenerife",
         "sport": "Football",
         "sub_category": "Football",
@@ -2676,33 +2764,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "Samsunspor vs Genclerbirligi",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "samsunspor-vs-genclerbirligi",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Samsunspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
-          },
-          "team_b": {
-            "name": "Gençlerbirliği",
-            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
-        "channels": [],
-        "total_channels": 0
       },
       {
         "title": "Gaziantep FK vs Amedspor",
