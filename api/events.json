@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-28T14:49:00.494140+00:00",
-  "event_count": 57,
+  "last_updated": "2026-11-28T15:04:01.752846+00:00",
+  "event_count": 54,
   "events": {
     "events": [
       {
@@ -587,6 +587,14 @@
             "drm_key": "78f7863d9908f8e036a0e19515e8e848:30e4471a447f134df0caf05559cb6fe3"
           },
           {
+            "channel_name": "SKY SPORT PL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd",
+            "headers": {},
+            "drm_key": "09d34ac8d64803c1f8b1bddada99d638:752ab3efc7eb3601c8d3c6b5a89ffa39"
+          },
+          {
             "channel_name": "USA NETWORK HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/61253/load-playlist-multi?",
@@ -594,6 +602,14 @@
             "headers": {
               "Referer": "https://gooz.aapmains.net"
             },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/57e47c7e-e2ba-4901-b8ed-4c1d1203415f.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/57e47c7e-e2ba-4901-b8ed-4c1d1203415f.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -609,7 +625,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 5
       },
       {
         "title": "Manchester United vs Brentford",
@@ -637,6 +653,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/35/image",
         "channels": [
           {
+            "channel_name": "PEACOCK ENG - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ulwuyu4ai4/out/v1/05f1ef0f4a9b4bfc89ec0685d33786a6/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ulwuyu4ai4/out/v1/05f1ef0f4a9b4bfc89ec0685d33786a6/cenc.mpd",
+            "headers": {},
+            "drm_key": "6e88d1e31d904955f910a082d1aff122:32aeb26c720d15a8d16ae8b488c2734a"
+          },
+          {
             "channel_name": "FUBO SPORTS - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
@@ -645,13 +669,29 @@
             "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
           },
           {
-            "channel_name": "CRICFy LIVE ",
+            "channel_name": "SKY SPORT PL - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnj8aqoogh/out/v1/b427d030aa6c40b1ab5acccc70497a2f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnj8aqoogh/out/v1/b427d030aa6c40b1ab5acccc70497a2f/cenc.mpd",
+            "headers": {},
+            "drm_key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+          },
+          {
+            "channel_name": "PEACOCK HD",
             "stream_type": "HLS",
             "url": "https://chatgpt.hereisman.net/playlist/61242/load-playlist-multi?",
             "raw_link": "https://chatgpt.hereisman.net/playlist/61242/load-playlist-multi?|Referer=https://gooz.aapmains.net ",
             "headers": {
               "Referer": "https://gooz.aapmains.net"
             },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/47c7fc17-4c1f-45ed-baba-1060957c0c84.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/47c7fc17-4c1f-45ed-baba-1060957c0c84.m3u8",
+            "headers": {},
             "drm_key": null
           },
           {
@@ -667,7 +707,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 3
+        "total_channels": 6
       },
       {
         "title": "Frosinone vs Parma",
@@ -760,82 +800,40 @@
         "total_channels": 7
       },
       {
-        "title": "Real Betis vs Rayo Vallecano",
+        "title": "Malaga CF vs Athletic Club",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "real-betis-vs-rayo-vallecano",
+        "slug": "malaga-cf-vs-athletic-club",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
+          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/28 15:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+            "name": "Málaga CF",
+            "flag": "https://img.sofascore.com/api/v1/team/2830/image"
           },
           "team_b": {
-            "name": "Rayo Vallecano",
-            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+            "name": "Athletic Club",
+            "flag": "https://img.sofascore.com/api/v1/team/2825/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2830/image",
         "channels": [
           {
             "channel_name": "DAZN SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qonkionqjw/out/v1/727a5f2dc7a7459c9fb8b00034af429c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qonkionqjw/out/v1/727a5f2dc7a7459c9fb8b00034af429c/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/um0kkq6pea/out/v1/49c2ad5a13d14c4a895fb77f23f93fcb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/um0kkq6pea/out/v1/49c2ad5a13d14c4a895fb77f23f93fcb/cenc.mpd",
             "headers": {},
-            "drm_key": "f102116527f7ec46e25ad94124830f60:0fd3e0c6005ae205264678ef348c7587"
-          },
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-            "headers": {},
-            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          {
-            "channel_name": "FOX DEPORTES HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61241/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61241/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "HD SERVER ",
-            "stream_type": "HLS",
-            "url": "https://www.rtmpcdn.com/live/eada5324-7862-4fa0-990f-3d1d1e2392c7.m3u8",
-            "raw_link": "https://www.rtmpcdn.com/live/eada5324-7862-4fa0-990f-3d1d1e2392c7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/R777AAAAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/R777AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
+            "drm_key": "c977d5dc5dd558690680f51ed66d948d:b8f0d19112c33479b9cfc6382beba457"
           }
         ],
-        "total_channels": 5
+        "total_channels": 1
       },
       {
         "title": "Al-Ettifaq vs Al-Hilal",
@@ -1011,6 +1009,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/25/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rp8gcqp8be/out/v1/bdc695265ccb4501864db5201222722e/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rp8gcqp8be/out/v1/bdc695265ccb4501864db5201222722e/cenc.mpd",
+            "headers": {},
+            "drm_key": "6ac8624440d04b134ce3ac611989b0ab:5087fd8bbd4ed32a8f79c88ed33502eb"
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/KCCCQQQQQ.m3u8",
@@ -1023,7 +1029,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Queens Park Rangers vs Sheffield United",
@@ -1091,6 +1097,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/8/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ojootnuojq/out/v1/795dff312b84444cb05ba724a893063d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ojootnuojq/out/v1/795dff312b84444cb05ba724a893063d/cenc.mpd",
+            "headers": {},
+            "drm_key": "523c7fa4fb0ba094262f6815b42d475a:644911dfc8f939c8f34cf8f8716991b4"
+          },
+          {
             "channel_name": "beIN ENGLISH - AQ",
             "stream_type": "DASH",
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
@@ -1113,7 +1127,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 3
       },
       {
         "title": "West Ham United vs Stoke City",
@@ -1141,6 +1155,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/37/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lvfql4t30e/out/v1/0e7cd57db7a346bdb57f1b84809f5ef7/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lvfql4t30e/out/v1/0e7cd57db7a346bdb57f1b84809f5ef7/cenc.mpd",
+            "headers": {},
+            "drm_key": "dd564ce6ea42136e413d8d18ba4eda5e:f49a28f4ac60bf390c4a89f96554f9ff"
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.59/hls/DOOOAAAAAQ.m3u8",
@@ -1153,7 +1175,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Wrexham vs Portsmouth",
@@ -1181,6 +1203,14 @@
         "logo": "https://img.sofascore.com/api/v1/team/64/image",
         "channels": [
           {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/00yfltkazn/out/v1/2b25a20b39c240959f90e6a09abe980c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/00yfltkazn/out/v1/2b25a20b39c240959f90e6a09abe980c/cenc.mpd",
+            "headers": {},
+            "drm_key": "5aed837655fb76359bf334dd41a4cb53:45ffea1919db680a77ca36b6347e123b"
+          },
+          {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
             "url": "http://193.47.62.50/hls/KCCCQQQQQA.m3u8",
@@ -1193,32 +1223,32 @@
             "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
-        "title": "UD Las Palmas vs FC Andorra",
+        "title": "Albacete Balompie vs CD Tenerife",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "ud-las-palmas-vs-fc-andorra",
+        "slug": "albacete-balompie-vs-cd-tenerife",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
+          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/28 15:15:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "UD Las Palmas",
-            "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+            "name": "Albacete Balompié",
+            "flag": "https://img.sofascore.com/api/v1/team/2848/image"
           },
           "team_b": {
-            "name": "FC Andorra",
-            "flag": "https://img.sofascore.com/api/v1/team/324871/image"
+            "name": "CD Tenerife",
+            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/6577/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2848/image",
         "channels": [
           {
             "channel_name": "LaLiga Hypermotion ",
@@ -1227,46 +1257,6 @@
             "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
             "headers": {},
             "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Samsunspor vs Genclerbirligi",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "samsunspor-vs-genclerbirligi",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Samsunspor",
-            "flag": "https://img.sofascore.com/api/v1/team/3053/image"
-          },
-          "team_b": {
-            "name": "Gençlerbirliği",
-            "flag": "https://img.sofascore.com/api/v1/team/7802/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3053/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/SASASAAQQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/SASASAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
           }
         ],
         "total_channels": 1
@@ -2147,33 +2137,6 @@
         "total_channels": 3
       },
       {
-        "title": "Malaga CF vs Athletic Club",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "malaga-cf-vs-athletic-club",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Málaga CF",
-            "flag": "https://img.sofascore.com/api/v1/team/2830/image"
-          },
-          "team_b": {
-            "name": "Athletic Club",
-            "flag": "https://img.sofascore.com/api/v1/team/2825/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2830/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Elche vs Atletico Madrid",
         "sport": "Football",
         "sub_category": "Football",
@@ -2646,42 +2609,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/3009/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Albacete Balompie vs CD Tenerife",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "albacete-balompie-vs-cd-tenerife",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Albacete Balompié",
-            "flag": "https://img.sofascore.com/api/v1/team/2848/image"
-          },
-          "team_b": {
-            "name": "CD Tenerife",
-            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2848/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "CD Eldense vs Girona FC",
