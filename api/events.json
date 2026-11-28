@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T23:49:41.681694+00:00",
+  "last_updated": "2026-11-28T00:49:58.324669+00:00",
   "event_count": 15,
   "events": {
     "events": [
@@ -277,6 +277,50 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
             "headers": {},
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Columbus Crew vs Inter Miami CF",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "columbus-crew-vs-inter-miami-cf",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 07:00:00 AM",
+          "end_time_bst": "Nov 28, 2026, 09:20:00 AM",
+          "raw_start_utc": "2026/11/28 01:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Columbus Crew",
+            "flag": "https://img.sofascore.com/api/v1/team/2504/image"
+          },
+          "team_b": {
+            "name": "Inter Miami CF",
+            "flag": "https://img.sofascore.com/api/v1/team/337602/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2504/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+            "headers": {},
+            "drm_key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
+          },
+          {
+            "channel_name": "FOX DEPORTES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+            "headers": {},
+            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
           }
         ],
         "total_channels": 2
@@ -1130,50 +1174,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "Columbus Crew vs Inter Miami CF",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "columbus-crew-vs-inter-miami-cf",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 AM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 AM",
-          "raw_start_utc": "2026/11/28 01:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Columbus Crew",
-            "flag": "https://img.sofascore.com/api/v1/team/2504/image"
-          },
-          "team_b": {
-            "name": "Inter Miami CF",
-            "flag": "https://img.sofascore.com/api/v1/team/337602/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2504/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-            "headers": {},
-            "drm_key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
-          },
-          {
-            "channel_name": "FOX DEPORTES - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-            "headers": {},
-            "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-          }
-        ],
-        "total_channels": 2
       }
     ]
   }
