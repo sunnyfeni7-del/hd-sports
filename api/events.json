@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T12:03:10.656037+00:00",
+  "last_updated": "2026-11-28T12:18:12.834926+00:00",
   "event_count": 64,
   "events": {
     "events": [
@@ -254,6 +254,124 @@
           }
         ],
         "total_channels": 5
+      },
+      {
+        "title": "Blackburn Rovers vs Charlton Athletic",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "blackburn-rovers-vs-charlton-athletic",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/11/28 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Blackburn Rovers",
+            "flag": "https://img.sofascore.com/api/v1/team/46/image"
+          },
+          "team_b": {
+            "name": "Charlton Athletic",
+            "flag": "https://img.sofascore.com/api/v1/team/47/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/46/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/D777AAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/D777AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Lincoln City vs Wolverhampton",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "lincoln-city-vs-wolverhampton",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/11/28 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Lincoln City",
+            "flag": "https://img.sofascore.com/api/v1/team/92/image"
+          },
+          "team_b": {
+            "name": "Wolverhampton",
+            "flag": "https://img.sofascore.com/api/v1/team/3/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/92/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.44/hls/D777AAAAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.44/hls/D777AAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Preston North End vs Norwich City",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "preston-north-end-vs-norwich-city",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
+          "raw_start_utc": "2026/11/28 12:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Preston North End",
+            "flag": "https://img.sofascore.com/api/v1/team/21/image"
+          },
+          "team_b": {
+            "name": "Norwich City",
+            "flag": "https://img.sofascore.com/api/v1/team/263/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/21/image",
+        "channels": [
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "SG Dynamo Dresden vs FC St. Pauli",
@@ -1960,124 +2078,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/34469/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Blackburn Rovers vs Charlton Athletic",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "blackburn-rovers-vs-charlton-athletic",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/28 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Blackburn Rovers",
-            "flag": "https://img.sofascore.com/api/v1/team/46/image"
-          },
-          "team_b": {
-            "name": "Charlton Athletic",
-            "flag": "https://img.sofascore.com/api/v1/team/47/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/46/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/D777AAAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/D777AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Lincoln City vs Wolverhampton",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "lincoln-city-vs-wolverhampton",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/28 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Lincoln City",
-            "flag": "https://img.sofascore.com/api/v1/team/92/image"
-          },
-          "team_b": {
-            "name": "Wolverhampton",
-            "flag": "https://img.sofascore.com/api/v1/team/3/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/92/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.44/hls/D777AAAAQQQQ.m3u8",
-            "raw_link": "http://193.47.62.44/hls/D777AAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Preston North End vs Norwich City",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "preston-north-end-vs-norwich-city",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:50:00 PM",
-          "raw_start_utc": "2026/11/28 12:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Preston North End",
-            "flag": "https://img.sofascore.com/api/v1/team/21/image"
-          },
-          "team_b": {
-            "name": "Norwich City",
-            "flag": "https://img.sofascore.com/api/v1/team/263/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/21/image",
-        "channels": [
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Birmingham City vs Bolton Wanderers",
