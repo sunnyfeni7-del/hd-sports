@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-28T17:04:38.011443+00:00",
-  "event_count": 39,
+  "last_updated": "2026-11-28T17:19:39.334283+00:00",
+  "event_count": 36,
   "events": {
     "events": [
       {
@@ -80,6 +80,106 @@
           }
         ],
         "total_channels": 6
+      },
+      {
+        "title": "VfB Stuttgart vs Eintracht Frankfurt",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "vfb-stuttgart-vs-eintracht-frankfurt",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/28 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "VfB Stuttgart",
+            "flag": "https://img.sofascore.com/api/v1/team/2677/image"
+          },
+          "team_b": {
+            "name": "Eintracht Frankfurt",
+            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2677/image",
+        "channels": [
+          {
+            "channel_name": "CRICFy LIVE ",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/61270/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/61270/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/FVFVFVAAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/FVFVFVAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
+      },
+      {
+        "title": "Ipswich Town vs Aston Villa",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "ipswich-town-vs-aston-villa",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/28 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Ipswich Town",
+            "flag": "https://img.sofascore.com/api/v1/team/32/image"
+          },
+          "team_b": {
+            "name": "Aston Villa",
+            "flag": "https://img.sofascore.com/api/v1/team/40/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/32/image",
+        "channels": [
+          {
+            "channel_name": "USA NETWORK HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/61269/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/61269/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.59/hls/D3333.m3u8",
+            "raw_link": "http://193.47.62.59/hls/D3333.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Torino vs Lazio",
@@ -172,43 +272,61 @@
         "total_channels": 7
       },
       {
-        "title": "Malaga CF vs Athletic Club",
+        "title": "Elche vs Atletico Madrid",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "malaga-cf-vs-athletic-club",
+        "slug": "elche-vs-atletico-madrid",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
+          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/28 17:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Málaga CF",
-            "flag": "https://img.sofascore.com/api/v1/team/2830/image"
+            "name": "Elche",
+            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
           },
           "team_b": {
-            "name": "Athletic Club",
-            "flag": "https://img.sofascore.com/api/v1/team/2825/image"
+            "name": "Atlético Madrid",
+            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2830/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2846/image",
         "channels": [
           {
-            "channel_name": "DAZN SPORTS - AQ",
+            "channel_name": "PREMIER SPORTS - AQ",
             "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/um0kkq6pea/out/v1/49c2ad5a13d14c4a895fb77f23f93fcb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/um0kkq6pea/out/v1/49c2ad5a13d14c4a895fb77f23f93fcb/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
             "headers": {},
-            "drm_key": "c977d5dc5dd558690680f51ed66d948d:b8f0d19112c33479b9cfc6382beba457"
+            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+          },
+          {
+            "channel_name": "beIN ENGLISH - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+            "headers": {},
+            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+          },
+          {
+            "channel_name": "ESPN DEPORTES HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/61271/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/61271/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
           },
           {
             "channel_name": "LOW SERVER ",
             "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KKKKAA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KKKKAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "url": "http://193.47.62.50/hls/FVFVFVAAAAQQQQ.m3u8",
+            "raw_link": "http://193.47.62.50/hls/FVFVFVAAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
             "headers": {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
               "Referer": "http://www.fawanews.sc/",
@@ -217,7 +335,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 2
+        "total_channels": 4
       },
       {
         "title": "Angers vs RC Lens",
@@ -286,6 +404,46 @@
           }
         ],
         "total_channels": 4
+      },
+      {
+        "title": "Al-Ahli vs Al-Taawoun",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-ahli-vs-al-taawoun",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/28 17:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ahli",
+            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
+          },
+          "team_b": {
+            "name": "Al-Taawoun",
+            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34469/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.50/hls/FVFVFVAAAA.m3u8",
+            "raw_link": "http://193.47.62.50/hls/FVFVFVAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
       },
       {
         "title": "Excelsior vs SC Telstar",
@@ -408,29 +566,29 @@
         "total_channels": 1
       },
       {
-        "title": "Albacete Balompie vs CD Tenerife",
+        "title": "Eibar vs Burgos Club de Futbol",
         "sport": "Football",
         "sub_category": "Football",
         "status": "Live",
         "is_hot": false,
-        "slug": "albacete-balompie-vs-cd-tenerife",
+        "slug": "eibar-vs-burgos-club-de-futbol",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
+          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
+          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
+          "raw_start_utc": "2026/11/28 17:30:00 +0000"
         },
         "teams": {
           "team_a": {
-            "name": "Albacete Balompié",
-            "flag": "https://img.sofascore.com/api/v1/team/2848/image"
+            "name": "Eibar",
+            "flag": "https://img.sofascore.com/api/v1/team/2839/image"
           },
           "team_b": {
-            "name": "CD Tenerife",
-            "flag": "https://img.sofascore.com/api/v1/team/2822/image"
+            "name": "Burgos Club de Fútbol",
+            "flag": "https://img.sofascore.com/api/v1/team/2854/image"
           }
         },
-        "logo": "https://img.sofascore.com/api/v1/team/2848/image",
+        "logo": "https://img.sofascore.com/api/v1/team/2839/image",
         "channels": [
           {
             "channel_name": "LaLiga Hypermotion ",
@@ -442,54 +600,6 @@
           }
         ],
         "total_channels": 1
-      },
-      {
-        "title": "CD Eldense vs Girona FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "cd-eldense-vs-girona-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Eldense",
-            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
-          },
-          "team_b": {
-            "name": "Girona FC",
-            "flag": "https://img.sofascore.com/api/v1/team/24264/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47321/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
-            "headers": {},
-            "drm_key": "5fc8da8b94c447468ffe392157f8c75e:333b934fdde4c1ee87e7f1c5dac4cb8f"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KKKKA.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KKKKA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Gaziantep FK vs Amedspor",
@@ -1436,73 +1546,6 @@
         "total_channels": 4
       },
       {
-        "title": "VfB Stuttgart vs Eintracht Frankfurt",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "vfb-stuttgart-vs-eintracht-frankfurt",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "VfB Stuttgart",
-            "flag": "https://img.sofascore.com/api/v1/team/2677/image"
-          },
-          "team_b": {
-            "name": "Eintracht Frankfurt",
-            "flag": "https://img.sofascore.com/api/v1/team/2674/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2677/image",
-        "channels": [
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/FVFVFVAAAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.50/hls/FVFVFVAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 1
-      },
-      {
-        "title": "Ipswich Town vs Aston Villa",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "ipswich-town-vs-aston-villa",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Ipswich Town",
-            "flag": "https://img.sofascore.com/api/v1/team/32/image"
-          },
-          "team_b": {
-            "name": "Aston Villa",
-            "flag": "https://img.sofascore.com/api/v1/team/40/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/32/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Botafogo vs Bahia",
         "sport": "Football",
         "sub_category": "Football",
@@ -1595,72 +1638,6 @@
           }
         ],
         "total_channels": 3
-      },
-      {
-        "title": "Elche vs Atletico Madrid",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "elche-vs-atletico-madrid",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Elche",
-            "flag": "https://img.sofascore.com/api/v1/team/2846/image"
-          },
-          "team_b": {
-            "name": "Atlético Madrid",
-            "flag": "https://img.sofascore.com/api/v1/team/2836/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2846/image",
-        "channels": [
-          {
-            "channel_name": "PREMIER SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-            "headers": {},
-            "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-            "headers": {},
-            "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-          },
-          {
-            "channel_name": "ESPN DEPORTES HD",
-            "stream_type": "HLS",
-            "url": "https://chatgpt.hereisman.net/playlist/61271/load-playlist-multi?",
-            "raw_link": "https://chatgpt.hereisman.net/playlist/61271/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-            "headers": {
-              "Referer": "https://gooz.aapmains.net"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.50/hls/FVFVFVAAAAQQQQ.m3u8",
-            "raw_link": "http://193.47.62.50/hls/FVFVFVAAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 4
       },
       {
         "title": "Real Madrid vs Deportivo Alaves",
@@ -1840,33 +1817,6 @@
         "total_channels": 1
       },
       {
-        "title": "Al-Ahli vs Al-Taawoun",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-ahli-vs-al-taawoun",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Ahli",
-            "flag": "https://img.sofascore.com/api/v1/team/34469/image"
-          },
-          "team_b": {
-            "name": "Al-Taawoun",
-            "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34469/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "VfL Osnabruck vs Hannover 96",
         "sport": "Football",
         "sub_category": "Football",
@@ -1927,9 +1877,21 @@
               "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/HTTTTA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/HTTTTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "SC Cambuur vs Sparta Rotterdam",
@@ -2011,42 +1973,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/3009/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Eibar vs Burgos Club de Futbol",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "eibar-vs-burgos-club-de-futbol",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 11:30:00 PM",
-          "end_time_bst": "Nov 29, 2026, 01:50:00 AM",
-          "raw_start_utc": "2026/11/28 17:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Eibar",
-            "flag": "https://img.sofascore.com/api/v1/team/2839/image"
-          },
-          "team_b": {
-            "name": "Burgos Club de Fútbol",
-            "flag": "https://img.sofascore.com/api/v1/team/2854/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2839/image",
-        "channels": [
-          {
-            "channel_name": "LaLiga Hypermotion ",
-            "stream_type": "DASH",
-            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-            "headers": {},
-            "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-          }
-        ],
-        "total_channels": 1
       },
       {
         "title": "Real Valladolid vs Real Sociedad B",
