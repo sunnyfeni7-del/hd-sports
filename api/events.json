@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T04:25:52.835254+00:00",
+  "last_updated": "2026-11-28T06:26:28.358411+00:00",
   "event_count": 63,
   "events": {
     "events": [
@@ -84,118 +84,6 @@
           }
         ],
         "total_channels": 6
-      },
-      {
-        "title": "New Zealand vs India",
-        "sport": "Cricket",
-        "sub_category": "Cricket",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "new-zealand-vs-india",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 04:00:57 AM",
-          "end_time_bst": "Nov 28, 2026, 12:00:04 PM",
-          "raw_start_utc": "2026/11/27 22:00:57 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "New Zealand",
-            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
-          },
-          "team_b": {
-            "name": "India",
-            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
-        "channels": [
-          {
-            "channel_name": "WILLOW - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
-            "headers": {},
-            "drm_key": "3a03ae3c3066640296a041f319d528b8:b757a6777c811bd3744a7cb4a722116b"
-          },
-          {
-            "channel_name": "TNT SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-          },
-          {
-            "channel_name": "WILLOW - ALT",
-            "stream_type": "DASH",
-            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
-            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
-            "headers": {},
-            "drm_key": "3a03ae3c3066640296a041f319d528b8:b757a6777c811bd3744a7cb4a722116b"
-          },
-          {
-            "channel_name": "TAPMAD - AQ",
-            "stream_type": "HLS",
-            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8|referer=https://tapmad.com/",
-            "headers": {
-              "referer": "https://tapmad.com/"
-            },
-            "drm_key": null
-          },
-          {
-            "channel_name": "TEN SPORTS HD",
-            "stream_type": "HLS",
-            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - ENG",
-            "stream_type": "HLS",
-            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - HIN",
-            "stream_type": "HLS",
-            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_2711/HIN/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_2711/HIN/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TEL",
-            "stream_type": "HLS",
-            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - TAM",
-            "stream_type": "HLS",
-            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "headers": {},
-            "drm_key": null
-          },
-          {
-            "channel_name": "SonyLiv - KAN",
-            "stream_type": "HLS",
-            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
-            "headers": {},
-            "drm_key": null
-          }
-        ],
-        "total_channels": 10
       },
       {
         "title": "Formula 1",
@@ -334,9 +222,9 @@
         "slug": "motogp",
         "schedule": {
           "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 03:00:19 PM",
-          "end_time_bst": "Nov 28, 2026, 11:55:13 PM",
-          "raw_start_utc": "2026/11/28 09:00:19 +0000"
+          "start_time_bst": "Nov 28, 2026, 03:00:32 PM",
+          "end_time_bst": "Nov 28, 2026, 11:55:35 PM",
+          "raw_start_utc": "2026/11/28 09:00:32 +0000"
         },
         "teams": {
           "team_a": {
@@ -864,6 +752,118 @@
           }
         ],
         "total_channels": 7
+      },
+      {
+        "title": "New Zealand vs India",
+        "sport": "Cricket",
+        "sub_category": "Cricket",
+        "status": "Upcoming",
+        "is_hot": false,
+        "slug": "new-zealand-vs-india",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 29, 2026, 04:00:47 AM",
+          "end_time_bst": "Nov 29, 2026, 12:00:52 PM",
+          "raw_start_utc": "2026/11/28 22:00:47 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "New Zealand",
+            "flag": "https://img.sofascore.com/api/v1/team/187755/image"
+          },
+          "team_b": {
+            "name": "India",
+            "flag": "https://img.sofascore.com/api/v1/team/187765/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/187755/image",
+        "channels": [
+          {
+            "channel_name": "WILLOW - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
+            "headers": {},
+            "drm_key": "3a03ae3c3066640296a041f319d528b8:b757a6777c811bd3744a7cb4a722116b"
+          },
+          {
+            "channel_name": "TNT SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+          },
+          {
+            "channel_name": "WILLOW - ALT",
+            "stream_type": "DASH",
+            "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
+            "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ceu0ha7wnn/out/v1/b7d8b57a595e4f35be5e0134316be2b1/cenc.mpd",
+            "headers": {},
+            "drm_key": "3a03ae3c3066640296a041f319d528b8:b757a6777c811bd3744a7cb4a722116b"
+          },
+          {
+            "channel_name": "TAPMAD - AQ",
+            "stream_type": "HLS",
+            "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+            "raw_link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8|referer=https://tapmad.com/",
+            "headers": {
+              "referer": "https://tapmad.com/"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "TEN SPORTS HD",
+            "stream_type": "HLS",
+            "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+            "raw_link": "https://live.msnetworks.net/ten-sports/master.m3u8",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - ENG",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - HIN",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_2711/HIN/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_2711/HIN/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TEL",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - TAM",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "headers": {},
+            "drm_key": null
+          },
+          {
+            "channel_name": "SonyLiv - KAN",
+            "stream_type": "HLS",
+            "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "raw_link": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2711/ENG/master.m3u8?hdnea=exp=1795821348~acl=/*~id=47799873983428665203814461211307~hmac=102bbf6cc737b34f26f6bf26db2993fb9126fc6ec1a49e18735eb06d457f57d3",
+            "headers": {},
+            "drm_key": null
+          }
+        ],
+        "total_channels": 10
       },
       {
         "title": "Asia Cup 2",
