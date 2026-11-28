@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T12:48:21.199449+00:00",
+  "last_updated": "2026-11-28T13:48:41.775132+00:00",
   "event_count": 64,
   "events": {
     "events": [
@@ -176,6 +176,84 @@
         "total_channels": 6
       },
       {
+        "title": "Real Betis vs Rayo Vallecano",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "real-betis-vs-rayo-vallecano",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
+          "raw_start_utc": "2026/11/28 13:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Real Betis",
+            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+          },
+          "team_b": {
+            "name": "Rayo Vallecano",
+            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
+        "channels": [
+          {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qonkionqjw/out/v1/727a5f2dc7a7459c9fb8b00034af429c/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qonkionqjw/out/v1/727a5f2dc7a7459c9fb8b00034af429c/cenc.mpd",
+            "headers": {},
+            "drm_key": "f102116527f7ec46e25ad94124830f60:0fd3e0c6005ae205264678ef348c7587"
+          },
+          {
+            "channel_name": "PREMIER SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+            "headers": {},
+            "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+          },
+          {
+            "channel_name": "FOX DEPORTES HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/61241/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/61241/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "HD SERVER ",
+            "stream_type": "HLS",
+            "url": "https://www.rtmpcdn.com/live/eada5324-7862-4fa0-990f-3d1d1e2392c7.m3u8",
+            "raw_link": "https://www.rtmpcdn.com/live/eada5324-7862-4fa0-990f-3d1d1e2392c7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/R777AAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/R777AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 5
+      },
+      {
         "title": "Al-Hazem vs Al-Nassr",
         "sport": "Football",
         "sub_category": "Football",
@@ -200,6 +278,14 @@
         },
         "logo": "https://img.sofascore.com/api/v1/team/168086/image",
         "channels": [
+          {
+            "channel_name": "DAZN SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nl4af87nh0/out/v1/38c9a4cb3b9b47f3a69a59cfd6c682b5/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nl4af87nh0/out/v1/38c9a4cb3b9b47f3a69a59cfd6c682b5/cenc.mpd",
+            "headers": {},
+            "drm_key": "57fdc1ef51c7a5329b0b2527eadbb098:34f62cf41f6b5559093471e2d3672335"
+          },
           {
             "channel_name": "FOX SPORTS - AQ",
             "stream_type": "DASH",
@@ -253,7 +339,7 @@
             "drm_key": null
           }
         ],
-        "total_channels": 5
+        "total_channels": 6
       },
       {
         "title": "Blackburn Rovers vs Charlton Athletic",
@@ -1878,33 +1964,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/2830/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Real Betis vs Rayo Vallecano",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "real-betis-vs-rayo-vallecano",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 09:20:00 PM",
-          "raw_start_utc": "2026/11/28 13:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Real Betis",
-            "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-          },
-          "team_b": {
-            "name": "Rayo Vallecano",
-            "flag": "https://img.sofascore.com/api/v1/team/2818/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2816/image",
         "channels": [],
         "total_channels": 0
       },
