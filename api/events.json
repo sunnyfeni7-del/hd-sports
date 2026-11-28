@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T15:19:03.949915+00:00",
+  "last_updated": "2026-11-28T15:49:14.760960+00:00",
   "event_count": 54,
   "events": {
     "events": [
@@ -831,9 +831,21 @@
             "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/um0kkq6pea/out/v1/49c2ad5a13d14c4a895fb77f23f93fcb/cenc.mpd",
             "headers": {},
             "drm_key": "c977d5dc5dd558690680f51ed66d948d:b8f0d19112c33479b9cfc6382beba457"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KKKKAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KKKKAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
           }
         ],
-        "total_channels": 1
+        "total_channels": 2
       },
       {
         "title": "Al-Ettifaq vs Al-Hilal",
@@ -1226,6 +1238,126 @@
         "total_channels": 2
       },
       {
+        "title": "Excelsior vs SC Telstar",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "excelsior-vs-sc-telstar",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/28 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Excelsior",
+            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
+          },
+          "team_b": {
+            "name": "SC Telstar",
+            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2967/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KKKKAAAAQQQ.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KKKKAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "FC Arouca vs Rio Ave",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "fc-arouca-vs-rio-ave",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/28 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "FC Arouca",
+            "flag": "https://img.sofascore.com/api/v1/team/25777/image"
+          },
+          "team_b": {
+            "name": "Rio Ave",
+            "flag": "https://img.sofascore.com/api/v1/team/3036/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/25777/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KKKKAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KKKKAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
+        "title": "Moreirense vs Santa Clara",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "moreirense-vs-santa-clara",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
+          "raw_start_utc": "2026/11/28 15:30:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Moreirense",
+            "flag": "https://img.sofascore.com/api/v1/team/3014/image"
+          },
+          "team_b": {
+            "name": "Santa Clara",
+            "flag": "https://img.sofascore.com/api/v1/team/3011/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/3014/image",
+        "channels": [
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KKKKAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KKKKAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 1
+      },
+      {
         "title": "Albacete Balompie vs CD Tenerife",
         "sport": "Football",
         "sub_category": "Football",
@@ -1260,6 +1392,54 @@
           }
         ],
         "total_channels": 1
+      },
+      {
+        "title": "CD Eldense vs Girona FC",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "cd-eldense-vs-girona-fc",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
+          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
+          "raw_start_utc": "2026/11/28 15:15:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "CD Eldense",
+            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
+          },
+          "team_b": {
+            "name": "Girona FC",
+            "flag": "https://img.sofascore.com/api/v1/team/24264/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/47321/image",
+        "channels": [
+          {
+            "channel_name": "LaLiga Hypermotion ",
+            "stream_type": "DASH",
+            "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
+            "raw_link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd",
+            "headers": {},
+            "drm_key": "5fc8da8b94c447468ffe392157f8c75e:333b934fdde4c1ee87e7f1c5dac4cb8f"
+          },
+          {
+            "channel_name": "LOW SERVER ",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/KKKKA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/KKKKA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 2
       },
       {
         "title": "Smack Down",
@@ -2411,33 +2591,6 @@
         "total_channels": 0
       },
       {
-        "title": "Excelsior vs SC Telstar",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "excelsior-vs-sc-telstar",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/28 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Excelsior",
-            "flag": "https://img.sofascore.com/api/v1/team/2967/image"
-          },
-          "team_b": {
-            "name": "SC Telstar",
-            "flag": "https://img.sofascore.com/api/v1/team/2972/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2967/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "PSV Eindhoven vs Go Ahead Eagles",
         "sport": "Football",
         "sub_category": "Football",
@@ -2503,60 +2656,6 @@
         "total_channels": 0
       },
       {
-        "title": "FC Arouca vs Rio Ave",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "fc-arouca-vs-rio-ave",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/28 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "FC Arouca",
-            "flag": "https://img.sofascore.com/api/v1/team/25777/image"
-          },
-          "team_b": {
-            "name": "Rio Ave",
-            "flag": "https://img.sofascore.com/api/v1/team/3036/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/25777/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "Moreirense vs Santa Clara",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "moreirense-vs-santa-clara",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:30:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:50:00 PM",
-          "raw_start_utc": "2026/11/28 15:30:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Moreirense",
-            "flag": "https://img.sofascore.com/api/v1/team/3014/image"
-          },
-          "team_b": {
-            "name": "Santa Clara",
-            "flag": "https://img.sofascore.com/api/v1/team/3011/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/3014/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Academico Viseu FC vs FC Alverca",
         "sport": "Football",
         "sub_category": "Football",
@@ -2607,33 +2706,6 @@
           }
         },
         "logo": "https://img.sofascore.com/api/v1/team/3009/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
-        "title": "CD Eldense vs Girona FC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "cd-eldense-vs-girona-fc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 09:15:00 PM",
-          "end_time_bst": "Nov 28, 2026, 11:35:00 PM",
-          "raw_start_utc": "2026/11/28 15:15:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "CD Eldense",
-            "flag": "https://img.sofascore.com/api/v1/team/47321/image"
-          },
-          "team_b": {
-            "name": "Girona FC",
-            "flag": "https://img.sofascore.com/api/v1/team/24264/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/47321/image",
         "channels": [],
         "total_channels": 0
       },
