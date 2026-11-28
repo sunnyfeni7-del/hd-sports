@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-28T13:48:41.775132+00:00",
-  "event_count": 64,
+  "last_updated": "2026-11-28T14:08:43.782077+00:00",
+  "event_count": 61,
   "events": {
     "events": [
       {
@@ -176,6 +176,96 @@
         "total_channels": 6
       },
       {
+        "title": "Frosinone vs Parma",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "frosinone-vs-parma",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 08:00:00 PM",
+          "end_time_bst": "Nov 28, 2026, 10:20:00 PM",
+          "raw_start_utc": "2026/11/28 14:00:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Frosinone",
+            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
+          },
+          "team_b": {
+            "name": "Parma",
+            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/2801/image",
+        "channels": [
+          {
+            "channel_name": "PARAMOUNT+ - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/deut0uoays/out/v1/dc0b396f73ed4c8db8bfc70c985798d5/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/deut0uoays/out/v1/dc0b396f73ed4c8db8bfc70c985798d5/cenc.mpd",
+            "headers": {},
+            "drm_key": "c74afb61c9ed0eb91595e1afbe43d7f1:aa1acd988dee6106039eac115c49f79d"
+          },
+          {
+            "channel_name": "FUBO SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd",
+            "headers": {},
+            "drm_key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+          },
+          {
+            "channel_name": "PEACOCK ES - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4h5arkei92/out/v1/f1e56c2655f64637be6ad3209290d54f/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4h5arkei92/out/v1/f1e56c2655f64637be6ad3209290d54f/cenc.mpd",
+            "headers": {},
+            "drm_key": "77440ce239415e0e8e3461f119fb4063:7e0b69a20840524ab29caf3bec0d5eee"
+          },
+          {
+            "channel_name": "DAZN ITALIA - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fxdzg12g3i/out/v1/4165e1e7162c4c81b3a64b1f45094210/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fxdzg12g3i/out/v1/4165e1e7162c4c81b3a64b1f45094210/cenc.mpd",
+            "headers": {},
+            "drm_key": "d03a51b92c10882ddc7fc23f1c1c182e:1729453ea2188cc9fea59a572dc440ba"
+          },
+          {
+            "channel_name": "SPORT 2 CZ - AQ",
+            "stream_type": "DASH",
+            "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "raw_link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+            "headers": {},
+            "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+          },
+          {
+            "channel_name": "PARAMOUNT+ HD",
+            "stream_type": "HLS",
+            "url": "https://chatgpt.hereisman.net/playlist/61251/load-playlist-multi?",
+            "raw_link": "https://chatgpt.hereisman.net/playlist/61251/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+            "headers": {
+              "Referer": "https://gooz.aapmains.net"
+            },
+            "drm_key": null
+          },
+          {
+            "channel_name": "LOW SERVER",
+            "stream_type": "HLS",
+            "url": "http://193.47.62.41/hls/TTTTAAAA.m3u8",
+            "raw_link": "http://193.47.62.41/hls/TTTTAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "Referer": "http://www.fawanews.sc/",
+              "Origin": "http://www.fawanews.sc"
+            },
+            "drm_key": null
+          }
+        ],
+        "total_channels": 7
+      },
+      {
         "title": "Real Betis vs Rayo Vallecano",
         "sport": "Football",
         "sub_category": "Football",
@@ -342,6 +432,54 @@
         "total_channels": 6
       },
       {
+        "title": "Al-Ettifaq vs Al-Hilal",
+        "sport": "Football",
+        "sub_category": "Football",
+        "status": "Live",
+        "is_hot": false,
+        "slug": "al-ettifaq-vs-al-hilal",
+        "schedule": {
+          "timezone": "BST (UTC+6)",
+          "start_time_bst": "Nov 28, 2026, 08:20:00 PM",
+          "end_time_bst": "Nov 28, 2026, 10:40:00 PM",
+          "raw_start_utc": "2026/11/28 14:20:00 +0000"
+        },
+        "teams": {
+          "team_a": {
+            "name": "Al-Ettifaq",
+            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
+          },
+          "team_b": {
+            "name": "Al-Hilal",
+            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
+          }
+        },
+        "logo": "https://img.sofascore.com/api/v1/team/34318/image",
+        "channels": [
+          {
+            "channel_name": "FOX SPORTS - AQ",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+          },
+          {
+            "channel_name": "SportDigital Fussball",
+            "stream_type": "DASH",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+            "headers": {
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+          }
+        ],
+        "total_channels": 2
+      },
+      {
         "title": "Blackburn Rovers vs Charlton Athletic",
         "sport": "Football",
         "sub_category": "Football",
@@ -506,160 +644,6 @@
           }
         ],
         "total_channels": 4
-      },
-      {
-        "title": "SG Dynamo Dresden vs FC St. Pauli",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "sg-dynamo-dresden-vs-fc-st-pauli",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:20:00 PM",
-          "raw_start_utc": "2026/11/28 12:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "SG Dynamo Dresden",
-            "flag": "https://img.sofascore.com/api/v1/team/2595/image"
-          },
-          "team_b": {
-            "name": "FC St. Pauli",
-            "flag": "https://img.sofascore.com/api/v1/team/2526/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2595/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubiowncrej/out/v1/def874d66d3b4dfa99c354ee7d0855c0/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubiowncrej/out/v1/def874d66d3b4dfa99c354ee7d0855c0/cenc.mpd",
-            "headers": {},
-            "drm_key": "f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f"
-          },
-          {
-            "channel_name": "beIN ENGLISH - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-          },
-          {
-            "channel_name": "LOW SERVER ",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/DEEE.m3u8",
-            "raw_link": "http://193.47.62.41/hls/DEEE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 3
-      },
-      {
-        "title": "Hertha BSC vs Karlsruher SC",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "hertha-bsc-vs-karlsruher-sc",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:20:00 PM",
-          "raw_start_utc": "2026/11/28 12:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Hertha BSC",
-            "flag": "https://img.sofascore.com/api/v1/team/2528/image"
-          },
-          "team_b": {
-            "name": "Karlsruher SC",
-            "flag": "https://img.sofascore.com/api/v1/team/2553/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2528/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oi4rnidcwc/out/v1/0e3c984eb7284664919152f18e7915b1/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oi4rnidcwc/out/v1/0e3c984eb7284664919152f18e7915b1/cenc.mpd",
-            "headers": {},
-            "drm_key": "42650c79c7a241e79d18488fef3d75da:42c319fd698c3914b7bfbaa38d08e41e"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KBBBAAQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KBBBAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
-      },
-      {
-        "title": "Holstein Kiel vs 1. FC Kaiserslautern",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Live",
-        "is_hot": false,
-        "slug": "holstein-kiel-vs-1-fc-kaiserslautern",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 06:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 08:20:00 PM",
-          "raw_start_utc": "2026/11/28 12:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Holstein Kiel",
-            "flag": "https://img.sofascore.com/api/v1/team/2573/image"
-          },
-          "team_b": {
-            "name": "1. FC Kaiserslautern",
-            "flag": "https://img.sofascore.com/api/v1/team/2675/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2573/image",
-        "channels": [
-          {
-            "channel_name": "SKY BUNDESLIGA - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uvs2xhdiej/out/v1/433bf6d117f7498bbec46459d95e4856/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uvs2xhdiej/out/v1/433bf6d117f7498bbec46459d95e4856/cenc.mpd",
-            "headers": {},
-            "drm_key": "eb5d2d0b9a495fd6d6e3564017b4114c:e6c14d3d9c6b4f3933991cb90324f1da"
-          },
-          {
-            "channel_name": "LOW SERVER",
-            "stream_type": "HLS",
-            "url": "http://193.47.62.41/hls/KBBBAAQQQ.m3u8",
-            "raw_link": "http://193.47.62.41/hls/KBBBAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-            "headers": {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-              "Referer": "http://www.fawanews.sc/",
-              "Origin": "http://www.fawanews.sc"
-            },
-            "drm_key": null
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "UD Las Palmas vs FC Andorra",
@@ -1831,33 +1815,6 @@
         "total_channels": 1
       },
       {
-        "title": "Frosinone vs Parma",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "frosinone-vs-parma",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 08:00:00 PM",
-          "end_time_bst": "Nov 28, 2026, 10:20:00 PM",
-          "raw_start_utc": "2026/11/28 14:00:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Frosinone",
-            "flag": "https://img.sofascore.com/api/v1/team/2801/image"
-          },
-          "team_b": {
-            "name": "Parma",
-            "flag": "https://img.sofascore.com/api/v1/team/2690/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/2801/image",
-        "channels": [],
-        "total_channels": 0
-      },
-      {
         "title": "Torino vs Lazio",
         "sport": "Football",
         "sub_category": "Football",
@@ -2186,54 +2143,6 @@
         "logo": "https://img.sofascore.com/api/v1/team/1644/image",
         "channels": [],
         "total_channels": 0
-      },
-      {
-        "title": "Al-Ettifaq vs Al-Hilal",
-        "sport": "Football",
-        "sub_category": "Football",
-        "status": "Upcoming",
-        "is_hot": false,
-        "slug": "al-ettifaq-vs-al-hilal",
-        "schedule": {
-          "timezone": "BST (UTC+6)",
-          "start_time_bst": "Nov 28, 2026, 08:20:00 PM",
-          "end_time_bst": "Nov 28, 2026, 10:40:00 PM",
-          "raw_start_utc": "2026/11/28 14:20:00 +0000"
-        },
-        "teams": {
-          "team_a": {
-            "name": "Al-Ettifaq",
-            "flag": "https://img.sofascore.com/api/v1/team/34318/image"
-          },
-          "team_b": {
-            "name": "Al-Hilal",
-            "flag": "https://img.sofascore.com/api/v1/team/21895/image"
-          }
-        },
-        "logo": "https://img.sofascore.com/api/v1/team/34318/image",
-        "channels": [
-          {
-            "channel_name": "FOX SPORTS - AQ",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-          },
-          {
-            "channel_name": "SportDigital Fussball",
-            "stream_type": "DASH",
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-            "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "headers": {
-              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-          }
-        ],
-        "total_channels": 2
       },
       {
         "title": "Al-Ahli vs Al-Taawoun",
